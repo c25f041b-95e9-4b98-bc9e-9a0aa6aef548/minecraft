@@ -1,0 +1,55 @@
+fetch https://mirrors.tuna.tsinghua.edu.cn/alpine/v3.15/main/x86_64/APKINDEX.tar.gz
+fetch https://mirrors.tuna.tsinghua.edu.cn/alpine/v3.15/community/x86_64/APKINDEX.tar.gz
+(1/24) Installing ca-certificates (20191127-r7)
+(2/24) Installing c-ares (1.18.1-r0)
+(3/24) Installing expat (2.4.1-r0)
+(4/24) Installing libgcc (10.3.1_git20211027-r0)
+(5/24) Installing gmp (6.2.1-r0)
+(6/24) Installing nettle (3.7.3-r0)
+(7/24) Installing libffi (3.4.2-r1)
+(8/24) Installing p11-kit (0.24.0-r1)
+(9/24) Installing libtasn1 (4.18.0-r0)
+(10/24) Installing libunistring (0.9.10-r1)
+(11/24) Installing gnutls (3.7.1-r0)
+(12/24) Installing sqlite-libs (3.36.0-r0)
+(13/24) Installing libstdc++ (10.3.1_git20211027-r0)
+(14/24) Installing aria2 (1.36.0-r0)
+(15/24) Installing ncurses-terminfo-base (6.3_p20211120-r0)
+(16/24) Installing ncurses-libs (6.3_p20211120-r0)
+(17/24) Installing readline (8.1.1-r0)
+(18/24) Installing bash (5.1.8-r0)
+Executing bash-5.1.8-r0.post-install
+(19/24) Installing brotli-libs (1.0.9-r5)
+(20/24) Installing nghttp2-libs (1.46.0-r0)
+(21/24) Installing libcurl (7.80.0-r0)
+(22/24) Installing curl (7.80.0-r0)
+(23/24) Installing libidn2 (2.3.2-r0)
+(24/24) Installing wget (1.21.2-r2)
+Executing busybox-1.34.1-r3.trigger
+Executing ca-certificates-20191127-r7.trigger
+OK: 21 MiB in 38 packages
+基础工具安装成功
+选择的包是 
+
+12/27 12:35:18 [[1;32mNOTICE[0m] Downloading 1 item(s)
+[#8a6a43 0B/0B CN:1 DL:0B]
+[#8a6a43 0B/0B CN:1 DL:0B]
+[#8a6a43 0B/0B CN:1 DL:0B]
+
+12/27 12:35:21 [[1;31mERROR[0m] CUID#7 - Download aborted. URI=https://res.gameworldmc.cn/packs/.tar.gz
+Exception: [AbstractCommand.cc:351] errorCode=3 URI=https://res.gameworldmc.cn/packs/.tar.gz
+  -> [HttpSkipResponseCommand.cc:218] errorCode=3 Resource not found
+
+12/27 12:35:21 [[1;32mNOTICE[0m] Download GID#8a6a430618aa2e66 not complete: //mnt/server/server.tar.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+8a6a43|ERR |       0B/s|//mnt/server/server.tar.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+下载失败,但是仍然要以 0 退出脚本
