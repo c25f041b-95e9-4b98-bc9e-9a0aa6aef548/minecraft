@@ -1,39 +1,1004 @@
-[11:02:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:03:04] [Worker-Main-3/INFO]: Loaded 7 recipes
-[11:03:06] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[11:03:06] [Server thread/INFO]: Loading properties
-[11:03:07] [Server thread/INFO]: This server is running Paper version git-Paper-386 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: 072f54c on ver/1.18.2)
-[11:03:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:03:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:03:07] [Server thread/INFO]: Default game type: SPECTATOR
-[11:03:07] [Server thread/INFO]: Generating keypair
-[11:03:07] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20309
-[11:03:07] [Server thread/INFO]: Using epoll channel type
-[11:03:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:03:07] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:03:09] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.1
-[11:03:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:03:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:03:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:03:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:03:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:03:09] [Server thread/INFO]: Preparing level "world"
-[11:03:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.1
-[11:03:12] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_18_R2[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
-[11:03:12] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[11:03:12] [Server thread/INFO]: Starting GS4 status listener
-[11:03:12] [Server thread/INFO]: Thread Query Listener started
-[11:03:12] [Query Listener #1/INFO]: Query running on 0.0.0.0:20309
-[11:03:12] [Server thread/INFO]: Running delayed init tasks
-[11:03:12] [Server thread/INFO]: Done (6.005s)! For help, type "help"
-[11:03:12] [Server thread/INFO]: Timings Reset
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[32;1m |[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.1[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:26:40] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:26:45] [Worker-Main-6/INFO]: Loaded 7 recipes
+[15:26:48] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[15:26:48] [Server thread/INFO]: Loading properties
+[15:26:48] [Server thread/INFO]: This server is running Paper version git-Paper-386 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: 072f54c on ver/1.18.2)
+[15:26:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:26:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:26:48] [Server thread/INFO]: Default game type: SPECTATOR
+[15:26:48] [Server thread/INFO]: Generating keypair
+[15:26:49] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20309
+[15:26:49] [Server thread/INFO]: Using epoll channel type
+[15:26:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:26:49] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:26:50] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.1
+[15:26:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:26:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:26:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:26:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:26:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:26:50] [Server thread/INFO]: Preparing level "world"
+[15:26:52] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.1
+[15:26:53] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_18_R2[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
+[15:26:53] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:26:54] [Server thread/INFO]: Starting GS4 status listener
+[15:26:54] [Server thread/INFO]: Thread Query Listener started
+[15:26:54] [Query Listener #1/INFO]: Query running on 0.0.0.0:20309
+[15:26:54] [Server thread/INFO]: Running delayed init tasks
+[15:26:54] [Server thread/INFO]: Done (6.103s)! For help, type "help"
+[15:26:54] [Server thread/INFO]: Timings Reset
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[32;1m |[0;39m
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.1[0;39m
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[15:26:55] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:27:35] [User Authenticator #1/INFO]: UUID of player DRD is c27ac807-7234-3deb-8154-0c3c6ff1cd3c
+[15:27:37] [Server thread/INFO]: DRD joined the game
+[15:27:37] [Server thread/INFO]: DRD[/125.82.8.26:14528] logged in with entity id 1 at ([world]5621.565356248108, 21.0, -12683.59522634536)
+[15:27:55] [Server thread/INFO]: DRD lost connection: Disconnected
+[15:27:55] [Server thread/INFO]: DRD left the game
+[20:07:57] [User Authenticator #2/INFO]: UUID of player DRD is c27ac807-7234-3deb-8154-0c3c6ff1cd3c
+[20:07:58] [Server thread/INFO]: DRD joined the game
+[20:07:58] [Server thread/INFO]: DRD[/125.82.8.26:14545] logged in with entity id 193 at ([world]5621.321038586953, 21.0, -12682.375168747014)
+[20:08:42] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:42] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:42] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:47] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:48] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:50] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:50] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:50] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:08:50] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:50] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:51] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:51] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:51] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:51] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:51] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:08:51] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:51] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:51] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:08:51] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:09:38] [Server thread/INFO]: DRD issued server command: /effect clear
+[20:09:38] [Server thread/INFO]: [DRD: Removed every effect from DRD]
+[20:13:01] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:01] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:01] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:13:01] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:01] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:28] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:13:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:13:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:14:01] [Server thread/INFO]: DRD issued server command: /fill 5633 19 -12668 5633 19 -12668 minecraft:redstone_block
+[20:14:01] [Server thread/INFO]: [DRD: Successfully filled 1 blocks]
+[20:14:01] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:14:21] [Server thread/INFO]: DRD issued server command: /tp 5633 19 -12668
+[20:14:21] [Server thread/INFO]: [DRD: Teleported DRD to 5633.500000, 19.000000, -12667.500000]
+[20:14:36] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:14:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:14:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:14:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:14:51] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:16:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:35] [Server thread/INFO]: [@] 系统关机！操作面板离线
+[20:16:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:35] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:16:35] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:16:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:38] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:16:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:39] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:39] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:39] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:16:39] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:16:44] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:44] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:44] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:16:44] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:44] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:44] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:44] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:16:44] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:16:44] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:17:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:17:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:17:28] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:17:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:17:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:17:34] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:19:40] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:19:40] [Server thread/INFO]: [@: Changed title display times for DRD]
+[20:19:41] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:19:44] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:19:46] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:19:48] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:19:51] [Server thread/INFO]: [@] 系统：【生命科学部】发起【乙类紧急广播】
+[20:19:53] [Server thread/INFO]: [@] 生命科学部：全真模拟系统即将开机运行
+[20:19:56] [Server thread/INFO]: [@] 生命科学部：一切人员无论身份立刻脱离接触试验区域
+[20:19:58] [Server thread/INFO]: [@] 生命科学部：无关人员有序离开试验区
+[20:20:00] [Server thread/INFO]: [@] 系统：【生命科学部】结束【乙类紧急广播】
+[20:20:03] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:04] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:04] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:04] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:20:05] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:20:06] [Server thread/INFO]: [@] 正在添加克隆体，请稍后……
+[20:20:06] [Server thread/INFO]: [@: Changed title display times for DRD]
+[20:20:08] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:08] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:08] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:08] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:09] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:09] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:09] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:09] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:09] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:12] [Server thread/INFO]: [@: Gamerule doDaylightCycle is now set to: false]
+[20:20:12] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:12] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:20:12] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:12] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:20:12] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:12] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:20:12] [Server thread/INFO]: [@: Set the time to 1000]
+[20:20:12] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:12] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:20:12] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:12] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:20:12] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:12] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:20:13] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:13] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:20:13] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:13] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:20:13] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:13] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:20:13] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:13] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:20:13] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:13] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:20:13] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:13] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:20:13] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:13] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:20:13] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:13] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:20:13] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:13] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:20:14] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:14] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:20:14] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:14] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:20:14] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:14] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:20:14] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:14] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:20:14] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:14] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:20:14] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:20:14] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:20:14] [Server thread/INFO]: [@: Changed title display times for DRD]
+[20:20:16] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:17] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:19] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:20:52] [Server thread/INFO]: DRD issued server command: /fill 5626 15 -12681 5628 15 -12679 glass
+[20:20:52] [Server thread/INFO]: [DRD: Successfully filled 8 blocks]
+[20:21:02] [Server thread/INFO]: DRD issued server command: /fill 5626 15 -12681 5633 15 -12663 glass
+[20:21:02] [Server thread/INFO]: [DRD: Successfully filled 143 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:22:22] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:22:25] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:25] [Server thread/INFO]: [@: Changed title display times for DRD]
+[20:22:26] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:29] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:32] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:36] [Server thread/INFO]: [@] 系统：【生命科学部】发起【乙类紧急广播】
+[20:22:38] [Server thread/INFO]: [@] 生命科学部：全真模拟系统即将开机运行
+[20:22:40] [Server thread/INFO]: [@] 生命科学部：一切人员无论身份立刻脱离接触试验区域
+[20:22:43] [Server thread/INFO]: [@] 生命科学部：无关人员有序离开试验区
+[20:22:45] [Server thread/INFO]: [@] 系统：【生命科学部】结束【乙类紧急广播】
+[20:22:48] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:48] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:49] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:49] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:49] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:22:50] [Server thread/INFO]: [@] 正在添加克隆体，请稍后……
+[20:22:50] [Server thread/INFO]: [@: Changed title display times for DRD]
+[20:22:53] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:53] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:53] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:53] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:53] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:53] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:53] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:54] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:54] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:22:56] [Server thread/INFO]: [@: Gamerule doDaylightCycle is now set to: false]
+[20:22:56] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:56] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:22:56] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:56] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:22:57] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:57] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:22:57] [Server thread/INFO]: [@: Set the time to 1000]
+[20:22:57] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:57] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:22:57] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:57] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:22:57] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:57] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:22:57] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:57] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:22:57] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:57] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:22:57] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:57] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:22:58] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:58] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:22:58] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:58] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:22:58] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:58] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:22:58] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:58] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:22:58] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:58] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:22:58] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:58] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:22:58] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:58] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:22:58] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:58] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:22:58] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:58] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:22:59] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:59] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:22:59] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:59] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:22:59] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:22:59] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:22:59] [Server thread/INFO]: [@: Changed title display times for DRD]
+[20:23:00] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:23:02] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:23:04] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:23:12] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:23:12] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:23:12] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:23:12] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:23:12] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:23:12] [Server thread/INFO]: [@] 系统关机！操作面板离线
+[20:23:12] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:23:12] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:23:12] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:23:13] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:23:13] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:23:13] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:23:13] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:24:16] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:25:26] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:25:26] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:25:27] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:25:27] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:25:27] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:25:27] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:25:27] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:01] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:01] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:01] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:26:01] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:01] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:02] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:26:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:02] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:26:02] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:26:04] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:04] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:11] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:26:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:11] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:26:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:12] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:14] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:26:14] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:11] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:27:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:11] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:11] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:11] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:27:11] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:27:17] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:27:21] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:21] [Server thread/INFO]: [@: Changed title display times for DRD]
+[20:27:21] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:21] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:21] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:21] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:21] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:25] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:26] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:28] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:31] [Server thread/INFO]: [@] 系统：【生命科学部】发起【乙类紧急广播】
+[20:27:33] [Server thread/INFO]: [@] 生命科学部：全真模拟系统即将开机运行
+[20:27:36] [Server thread/INFO]: [@] 生命科学部：一切人员无论身份立刻脱离接触试验区域
+[20:27:38] [Server thread/INFO]: [@] 生命科学部：无关人员有序离开试验区
+[20:27:41] [Server thread/INFO]: [@] 系统：【生命科学部】结束【乙类紧急广播】
+[20:27:43] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:44] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:45] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:45] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:45] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:27:46] [Server thread/INFO]: [@] 正在添加克隆体，请稍后……
+[20:27:46] [Server thread/INFO]: [@: Changed title display times for DRD]
+[20:27:48] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:48] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:49] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:49] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:49] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:49] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:49] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:49] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:49] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:52] [Server thread/INFO]: [@: Gamerule doDaylightCycle is now set to: false]
+[20:27:52] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:52] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:27:52] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:52] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:27:52] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:52] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:27:52] [Server thread/INFO]: [@: Set the time to 1000]
+[20:27:52] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:52] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:27:52] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:52] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:27:52] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:52] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:27:53] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:53] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:27:53] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:53] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:27:53] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:53] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:27:53] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:53] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:27:53] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:53] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:27:53] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:53] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:27:54] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:54] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:27:54] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:54] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:27:54] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:54] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:27:54] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:54] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:27:54] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:54] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:27:54] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:54] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:27:54] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:54] [Server thread/INFO]: [@: Summoned new Fisherman]
+[20:27:54] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:54] [Server thread/INFO]: [@: Summoned new Fletcher]
+[20:27:54] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[20:27:54] [Server thread/INFO]: [@: Summoned new Butcher]
+[20:27:54] [Server thread/INFO]: [@: Changed title display times for DRD]
+[20:27:56] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:58] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:27:59] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:28:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:02] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:28:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:03] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:28:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:10] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:10] [Server thread/INFO]: [@] 系统关机！操作面板离线
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:10] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:28:10] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:34:31] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[20:34:31] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[20:34:31] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[20:34:31] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:34:51] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[20:34:51] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[20:34:51] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[20:34:51] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:35:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:35:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:35:29] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:35:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:35:29] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:35:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:09] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:36:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:09] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:36:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:36:22] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:39:25] [Server thread/INFO]: DRD issued server command: /fill 5636 16 -12661 5626 16 -12650 glass
+[20:39:25] [Server thread/INFO]: [DRD: Successfully filled 130 blocks]
+[20:42:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:17] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:42:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:17] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:42:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:17] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:42:17] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:42:19] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:42:25] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:25] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:25] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:42:25] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:25] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:25] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:25] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:42:25] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:42:25] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:42:25] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:42:43] [Server thread/INFO]: DRD issued server command: /fill 5626 16 -12650 5636 16 -12661 air
+[20:42:43] [Server thread/INFO]: [DRD: Successfully filled 131 blocks]
+[20:44:00] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:45:15] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:15] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:15] [Server thread/INFO]: [@] 面板离线，请先开机
+[20:45:18] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:18] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:18] [Server thread/INFO]: [@] 面板离线，请先开机
+[20:45:20] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[20:45:20] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[20:45:20] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[20:45:20] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:45:23] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:23] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:23] [Server thread/INFO]: [@] 面板离线，请先开机
+[20:45:25] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:25] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:26] [Server thread/INFO]: [@] 面板离线，请先开机
+[20:45:30] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:30] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:30] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:45:30] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:30] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:45:30] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Reset title options for DRD]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:45:32] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:45:34] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:34] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:34] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:34] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:34] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[20:45:35] [Server thread/INFO]: [@] 当前允许玩家干涉
+[20:45:35] [Server thread/INFO]: [@] 当前允许昼夜循环
+[20:45:37] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:37] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:38] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:45:39] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:39] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:40] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:40] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:40] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:45:41] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:41] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:42] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:42] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:42] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:45:45] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:45] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:45] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:45:45] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:45] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:45] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:45] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:45:45] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:45:45] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:45:45] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[20:47:16] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:47:17] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:47:19] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:47:23] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:47:26] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:48:34] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[20:48:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:49:32] [Server thread/INFO]: DRD issued server command: /fill 5626 22 -12646 5636 14 -12649 minecraft:netherite_block
+[20:49:32] [Server thread/INFO]: [DRD: Successfully filled 298 blocks]
+[20:49:56] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[20:49:56] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:49:56] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:50:09] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:50:10] [Server thread/INFO]: [@] 当前允许昼夜循环
+[20:50:10] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:50:34] [Server thread/INFO]: [@] 当前允许昼夜循环
+[20:50:34] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:50:37] [Server thread/INFO]: [@] 当前允许昼夜循环
+[20:50:37] [Server thread/INFO]: [@] 当前允许玩家干涉
+[20:50:37] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:53:00] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:53:01] [Server thread/INFO]: [@] 当前允许玩家干涉
+[20:53:33] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:53:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:54:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:55:56] [Server thread/INFO]: DRD issued server command: /fill 5626 16 -12650 5636 16 -12661 glass
+[20:55:56] [Server thread/INFO]: [DRD: Successfully filled 130 blocks]
+[20:56:18] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[20:56:18] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[20:56:18] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[20:56:19] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[20:56:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:56:22] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:56:22] [Server thread/INFO]: [@] 面板离线，请先开机
+[20:56:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:56:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:56:29] [Server thread/INFO]: [@] 面板离线，请先开机
+[20:56:31] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:56:31] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:56:31] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[20:56:31] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:56:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[20:56:31] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:00:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:00:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:00:02] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:00:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:00:04] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:00:04] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:00:05] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:00:06] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:00:06] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:33] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:33] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:33] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:33] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:34] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:35] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:36] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[21:01:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:37] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:38] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:38] [Server thread/INFO]: [@] 当前允许玩家干涉
+[21:01:39] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:42] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:43] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:43] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:43] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:01:43] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[21:01:44] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:03:24] [Server thread/INFO]: DRD issued server command: /gamemode spectator
+[21:03:24] [Server thread/INFO]: [DRD: Set own game mode to Spectator Mode]
+[21:04:08] [Server thread/INFO]: DRD issued server command: /gamemode creative
+[21:04:08] [Server thread/INFO]: [DRD: Set own game mode to Creative Mode]
+[21:05:08] [Server thread/INFO]: DRD lost connection: Disconnected
+[21:05:08] [Server thread/INFO]: DRD left the game
+[21:05:55] [User Authenticator #3/INFO]: UUID of player DRD is c27ac807-7234-3deb-8154-0c3c6ff1cd3c
+[21:05:56] [Server thread/INFO]: DRD joined the game
+[21:05:56] [Server thread/INFO]: DRD[/125.82.8.26:14001] logged in with entity id 3652 at ([world]5635.477594715282, 19.0, -12689.469965400054)
+[21:07:23] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:23] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:24] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:24] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:24] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:24] [Server thread/INFO]: [@] 当前允许玩家干涉
+[21:07:24] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:28] [Server thread/INFO]: [@: Reset title options for DRD]
+[21:07:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:28] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:29] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[21:07:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:29] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:29] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[21:07:29] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[21:07:30] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:30] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:30] [Server thread/INFO]: [@: Reset title options for DRD]
+[21:07:30] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:31] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:31] [Server thread/INFO]: [@] 系统关机！操作面板离线
+[21:07:31] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:31] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:31] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:07:31] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:31] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[21:07:31] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[21:07:33] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:33] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:34] [Server thread/INFO]: [@] 面板离线，请先开机
+[21:07:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:36] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:37] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[21:07:37] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:38] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[21:07:38] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[21:07:38] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[21:07:39] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[21:07:57] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:57] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:59] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:59] [Server thread/INFO]: [@] 重构程序启动
+[21:07:59] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:07:59] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:00] [Server thread/INFO]: [@: Successfully cloned 30000 blocks]
+[21:08:00] [Server thread/INFO]: [@] 重构进度：12.5%
+[21:08:01] [Server thread/INFO]: [@: Successfully cloned 30000 blocks]
+[21:08:01] [Server thread/INFO]: [@] 重构进度：25.0%
+[21:08:01] [Server thread/INFO]: [@: Successfully cloned 30000 blocks]
+[21:08:01] [Server thread/INFO]: [@] 重构进度：37.5%
+[21:08:02] [Server thread/INFO]: [@: Successfully cloned 30000 blocks]
+[21:08:02] [Server thread/INFO]: [@] 重构进度：50.0%
+[21:08:02] [Server thread/INFO]: [@: Successfully cloned 30000 blocks]
+[21:08:02] [Server thread/INFO]: [@] 重构进度：62.5%
+[21:08:02] [Server thread/INFO]: [@: Successfully cloned 30000 blocks]
+[21:08:02] [Server thread/INFO]: [@] 重构进度：75.0%
+[21:08:03] [Server thread/INFO]: [@: Successfully cloned 30000 blocks]
+[21:08:03] [Server thread/INFO]: [@] 重构进度：87.5%
+[21:08:03] [Server thread/INFO]: [@: Successfully cloned 30000 blocks]
+[21:08:03] [Server thread/INFO]: [@] 重构进度：100.0%
+[21:08:03] [Server thread/INFO]: [@] 重构程序运行结束！
+[21:08:03] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:03] [Server thread/INFO]: [@: Changed title display times for DRD]
+[21:08:04] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:04] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:04] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:07] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:09] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:10] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:13] [Server thread/INFO]: [@] 系统：【生命科学部】发起【乙类紧急广播】
+[21:08:16] [Server thread/INFO]: [@] 生命科学部：全真模拟系统即将开机运行
+[21:08:18] [Server thread/INFO]: [@] 生命科学部：一切人员无论身份立刻脱离接触试验区域
+[21:08:21] [Server thread/INFO]: [@] 生命科学部：无关人员有序离开试验区
+[21:08:23] [Server thread/INFO]: [@] 系统：【生命科学部】结束【乙类紧急广播】
+[21:08:25] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:26] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:27] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:27] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:27] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:28] [Server thread/INFO]: [@] 正在添加克隆体，请稍后……
+[21:08:28] [Server thread/INFO]: [@: Changed title display times for DRD]
+[21:08:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:31] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:32] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:34] [Server thread/INFO]: [@: Gamerule doDaylightCycle is now set to: false]
+[21:08:34] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:34] [Server thread/INFO]: [@: Summoned new Fisherman]
+[21:08:34] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:34] [Server thread/INFO]: [@: Summoned new Fletcher]
+[21:08:34] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:34] [Server thread/INFO]: [@: Summoned new Butcher]
+[21:08:35] [Server thread/INFO]: [@: Set the time to 1000]
+[21:08:35] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:35] [Server thread/INFO]: [@: Summoned new Fisherman]
+[21:08:35] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:35] [Server thread/INFO]: [@: Summoned new Fletcher]
+[21:08:35] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:35] [Server thread/INFO]: [@: Summoned new Butcher]
+[21:08:35] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:35] [Server thread/INFO]: [@: Summoned new Fisherman]
+[21:08:35] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:35] [Server thread/INFO]: [@: Summoned new Fletcher]
+[21:08:35] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:35] [Server thread/INFO]: [@: Summoned new Butcher]
+[21:08:36] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:36] [Server thread/INFO]: [@: Summoned new Fisherman]
+[21:08:36] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:36] [Server thread/INFO]: [@: Summoned new Fletcher]
+[21:08:36] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:36] [Server thread/INFO]: [@: Summoned new Butcher]
+[21:08:36] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:36] [Server thread/INFO]: [@: Summoned new Fisherman]
+[21:08:36] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:36] [Server thread/INFO]: [@: Summoned new Fletcher]
+[21:08:36] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:36] [Server thread/INFO]: [@: Summoned new Butcher]
+[21:08:36] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:36] [Server thread/INFO]: [@: Summoned new Fisherman]
+[21:08:36] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:36] [Server thread/INFO]: [@: Summoned new Fletcher]
+[21:08:36] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:36] [Server thread/INFO]: [@: Summoned new Butcher]
+[21:08:37] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:37] [Server thread/INFO]: [@: Summoned new Fisherman]
+[21:08:37] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:37] [Server thread/INFO]: [@: Summoned new Fletcher]
+[21:08:37] [Server thread/ERROR]: No key value in MapLike[{dimension:"minecraft:overworld",pos:[I;0,0,0]}]
+[21:08:37] [Server thread/INFO]: [@: Summoned new Butcher]
+[21:08:37] [Server thread/INFO]: [@: Changed title display times for DRD]
+[21:08:38] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:40] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:42] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:08:46] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:46] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:46] [Server thread/INFO]: [@: Reset title options for DRD]
+[21:08:46] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:46] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:46] [Server thread/INFO]: [@] 系统开机！操作面板已上线
+[21:08:46] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:46] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:46] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:47] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:47] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[21:08:47] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[21:08:49] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:49] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:49] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:49] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:49] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:50] [Server thread/INFO]: [@] 当前允许玩家干涉
+[21:08:50] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:52] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:52] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:55] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:55] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:08:57] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[21:08:57] [Server thread/INFO]: [@: Successfully filled 2 blocks]
+[21:08:57] [Server thread/INFO]: [@] 当前禁止玩家干涉
+[21:08:57] [Server thread/INFO]: [@] 当前禁止昼夜循环
+[21:09:24] [Server thread/INFO]: DRD issued server command: /time set midnight
+[21:09:24] [Server thread/INFO]: [DRD: Set the time to 18000]
+[21:09:28] [Server thread/INFO]: DRD issued server command: /difficulty hard
+[21:09:28] [Server thread/INFO]: [DRD: The difficulty has been set to Hard]
+[21:09:43] [Server thread/INFO]: DRD issued server command: /gamemode spectator
+[21:09:43] [Server thread/INFO]: [DRD: Set own game mode to Spectator Mode]
+[21:10:37] [Server thread/INFO]: DRD issued server command: /gamemode creative
+[21:10:37] [Server thread/INFO]: [DRD: Set own game mode to Creative Mode]
+[21:10:45] [Server thread/INFO]: Villager EntityVillager['Villager'/3837, uuid='86f89ebb-9e9a-4084-a1ff-02c714702d29', l='ServerLevel[world]', x=5536.79, y=2.00, z=-12550.70, cpos=[346, -785], tl=57439, v=true] died, message: 'Villager was slain by Zombie'
+[21:10:53] [Server thread/INFO]: DRD issued server command: /gamemode spectator
+[21:10:53] [Server thread/INFO]: [DRD: Set own game mode to Spectator Mode]
+[21:11:15] [Server thread/INFO]: DRD issued server command: /gamemode creative
+[21:11:15] [Server thread/INFO]: [DRD: Set own game mode to Creative Mode]
+[21:11:39] [Server thread/INFO]: Villager EntityVillager['Villager'/3847, uuid='4ac02e9b-8934-47be-8a17-f653219f9837', l='ServerLevel[world]', x=5521.13, y=1.00, z=-12503.03, cpos=[345, -782], tl=49313, v=true] died, message: 'Villager was slain by Zombie'
+[21:11:48] [Server thread/INFO]: Villager EntityVillager['Villager'/3811, uuid='c214292c-672c-4114-97af-d54db8b4a940', l='ServerLevel[world]', x=5524.30, y=2.00, z=-12521.57, cpos=[345, -783], tl=51728, v=true] died, message: 'Villager was slain by Zombie'
+[21:11:49] [Server thread/INFO]: Villager EntityVillager['Villager'/3802, uuid='3d0c3457-4b8c-4cc4-91be-ea5d460756ac', l='ServerLevel[world]', x=5524.39, y=1.77, z=-12521.48, cpos=[345, -783], tl=56471, v=true] died, message: 'Villager was slain by Zombie'
+[21:11:51] [Server thread/INFO]: Villager EntityVillager['Villager'/3826, uuid='504fb6a9-8522-456d-8ffd-73bc2ccc135f', l='ServerLevel[world]', x=5535.43, y=2.00, z=-12549.52, cpos=[345, -785], tl=60984, v=true] died, message: 'Villager was slain by Zombie'
+[21:11:54] [Server thread/INFO]: Villager EntityVillager['Villager'/3815, uuid='0f2cdf87-3804-49ed-8c46-42c3e91e651d', l='ServerLevel[world]', x=5522.19, y=5.00, z=-12526.70, cpos=[345, -783], tl=51825, v=true] died, message: 'Villager was slain by Zombie'
+[21:11:59] [Server thread/INFO]: Villager EntityVillager['Villager'/3829, uuid='1d9c4309-21a2-4806-88ce-a69b4894d779', l='ServerLevel[world]', x=5528.30, y=1.00, z=-12529.19, cpos=[345, -784], tl=60171, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:03] [Server thread/INFO]: Villager EntityVillager['Villager'/3808, uuid='ea7e5ab3-1aa9-49e8-9a1d-b9f692da74f5', l='ServerLevel[world]', x=5521.38, y=5.00, z=-12533.94, cpos=[345, -784], tl=52006, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:07] [Server thread/INFO]: Villager EntityVillager['Villager'/3799, uuid='4bc4d81d-8ecf-41cf-9966-b91fb35e5aac', l='ServerLevel[world]', x=5525.60, y=1.00, z=-12515.25, cpos=[345, -783], tl=60326, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:08] [Server thread/INFO]: Villager EntityVillager['Villager'/3782, uuid='8c79a01b-58fb-4d30-85ec-ef85351ec651', l='ServerLevel[world]', x=5588.30, y=1.00, z=-12582.09, cpos=[349, -787], tl=58026, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:11] [Server thread/INFO]: Villager EntityVillager['Villager'/3836, uuid='5b9e675e-7d4f-4b46-b2a5-0faf5d8e69fd', l='ServerLevel[world]', x=5524.37, y=1.00, z=-12522.70, cpos=[345, -783], tl=59156, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:12] [Server thread/INFO]: Villager EntityVillager['Villager'/3813, uuid='d0e0641e-7834-47d8-bdef-3a2d20510383', l='ServerLevel[world]', x=5546.21, y=1.00, z=-12545.31, cpos=[346, -785], tl=58083, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:14] [Server thread/INFO]: Villager EntityVillager['Villager'/3796, uuid='1bd0e650-f500-4968-ba4e-780148402878', l='ServerLevel[world]', x=5545.11, y=1.00, z=-12542.33, cpos=[346, -784], tl=58148, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:15] [Server thread/INFO]: Villager EntityVillager['Villager'/3820, uuid='abb1b90c-eabd-48a1-8874-26a9d1b738b4', l='ServerLevel[world]', x=5535.41, y=2.00, z=-12546.90, cpos=[345, -785], tl=61459, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:17] [Server thread/INFO]: Villager EntityVillager['Villager'/3803, uuid='1edc5f36-0550-4b44-9027-c22f5dea31c3', l='ServerLevel[world]', x=5527.97, y=2.00, z=-12524.75, cpos=[345, -783], tl=60497, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:23] [Server thread/INFO]: Villager EntityVillager['Villager'/3835, uuid='7d5b6f2b-7faa-4c90-9e36-8cf316dd8f0c', l='ServerLevel[world]', x=5551.25, y=1.00, z=-12557.59, cpos=[346, -785], tl=56068, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:26] [Server thread/INFO]: Villager EntityVillager['Villager'/4005, uuid='faf63dea-eeab-4971-bc31-31d6b1625451', l='ServerLevel[world]', x=5522.55, y=5.00, z=-12534.06, cpos=[345, -784], tl=4627, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:28] [Server thread/INFO]: Villager EntityVillager['Villager'/3841, uuid='e2e73a0e-f9f8-43d6-a40e-e33de4538211', l='ServerLevel[world]', x=5523.68, y=5.00, z=-12535.00, cpos=[345, -784], tl=57042, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:30] [Server thread/INFO]: Villager EntityVillager['Villager'/3832, uuid='ced94b13-570d-4e74-aebf-3ac760561ad2', l='ServerLevel[world]', x=5518.65, y=5.00, z=-12532.01, cpos=[344, -784], tl=60757, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:30] [Server thread/INFO]: Villager EntityVillager['Villager'/3779, uuid='a9a4319a-d41b-4f08-9e2e-c4a9a5ffc8a2', l='ServerLevel[world]', x=5518.69, y=5.00, z=-12533.85, cpos=[344, -784], tl=52580, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:31] [Server thread/INFO]: Villager EntityVillager['Villager'/3806, uuid='8e6a4de0-0eae-4d2a-8800-a43e9ae75330', l='ServerLevel[world]', x=5567.46, y=1.00, z=-12520.81, cpos=[347, -783], tl=52576, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:34] [Server thread/INFO]: Villager EntityVillager['Villager'/4012, uuid='18ae8716-b030-49ea-833b-6db9795c6fb9', l='ServerLevel[world]', x=5530.42, y=1.00, z=-12570.65, cpos=[345, -786], tl=4773, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:34] [Server thread/INFO]: Villager EntityVillager['Villager'/3784, uuid='b803d0d2-1046-43a3-8dcc-f2febfe05f40', l='ServerLevel[world]', x=5576.69, y=3.02, z=-12520.83, cpos=[348, -783], tl=58578, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:37] [Server thread/INFO]: Villager EntityVillager['Villager'/4022, uuid='b8c765fa-1edd-410e-ad1a-02dca6a36e83', l='ServerLevel[world]', x=5577.30, y=1.00, z=-12519.70, cpos=[348, -783], tl=4816, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:38] [Server thread/INFO]: Villager EntityVillager['Villager'/3790, uuid='9351279a-0078-4dc4-bc48-7475e904cc74', l='ServerLevel[world]', x=5520.52, y=6.75, z=-12532.52, cpos=[345, -784], tl=61952, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:46] [Server thread/INFO]: Villager EntityVillager['Villager'/4014, uuid='2c8a83e5-c948-4fa9-ac58-37c3f287c1b4', l='ServerLevel[world]', x=5563.39, y=1.00, z=-12505.42, cpos=[347, -782], tl=5015, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:48] [Server thread/INFO]: Villager EntityVillager['Villager'/3823, uuid='b0dde150-a614-4951-b0f1-dc38eb76dbd7', l='ServerLevel[world]', x=5522.20, y=5.00, z=-12536.49, cpos=[345, -784], tl=51943, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:48] [Server thread/INFO]: Villager EntityVillager['Villager'/3786, uuid='8c7133e2-b069-4cb3-8321-fd445bfb396f', l='ServerLevel[world]', x=5534.62, y=6.00, z=-12544.37, cpos=[345, -785], tl=58805, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:48] [Server thread/INFO]: Villager EntityVillager['Villager'/3825, uuid='e38531dd-e2af-415d-a3ed-0b40d9aaf4e7', l='ServerLevel[world]', x=5563.58, y=1.00, z=-12501.72, cpos=[347, -782], tl=61156, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:49] [Server thread/INFO]: Villager EntityVillager['Villager'/4024, uuid='555663fb-eaa1-48f5-a937-cd5d25e66fa5', l='ServerLevel[world]', x=5533.74, y=4.92, z=-12547.01, cpos=[345, -785], tl=5040, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:49] [Server thread/INFO]: Villager EntityVillager['Villager'/3792, uuid='14667f97-f687-4934-90fb-48323448af6d', l='ServerLevel[world]', x=5520.30, y=6.05, z=-12532.64, cpos=[345, -784], tl=58844, v=true] died, message: 'Villager was slain by Zombie Villager'
+[21:12:53] [Server thread/INFO]: Villager EntityVillager['Villager'/3795, uuid='6eee1c05-00c4-4556-bff8-042e1c2e0044', l='ServerLevel[world]', x=5521.70, y=7.04, z=-12531.85, cpos=[345, -784], tl=52379, v=true] died, message: 'Villager was slain by Zombie'
+[21:12:56] [Server thread/INFO]: Villager EntityVillager['Villager'/3818, uuid='35c25308-471e-441a-831d-9ddd99e9b688', l='ServerLevel[world]', x=5523.76, y=3.92, z=-12540.97, cpos=[345, -784], tl=62292, v=true] died, message: 'Villager was slain by Vindicator'
+[21:12:57] [Server thread/INFO]: [@: Successfully filled 10000 blocks]
+[21:12:57] [Server thread/INFO]: Villager EntityVillager['Villager'/4008, uuid='9e3bf198-f94c-4879-9571-abc18ad96f88', l='ServerLevel[world]', x=5521.70, y=8.50, z=-12530.11, cpos=[345, -784], tl=5239, v=true] died, message: 'Villager was slain by Vindicator'
+[21:13:01] [Server thread/INFO]: Villager EntityVillager['Villager'/3801, uuid='10f89ba0-1b35-4282-9a3d-114460a453b2', l='ServerLevel[world]', x=5520.75, y=9.56, z=-12534.70, cpos=[345, -784], tl=58104, v=true] died, message: 'Villager was slain by Vindicator'
+[21:13:03] [Server thread/INFO]: [@: Successfully filled 10000 blocks]
+[21:13:04] [Server thread/INFO]: Villager EntityVillager['Villager'/4025, uuid='bff4d9df-a8b3-403e-a704-918b1b277268', l='ServerLevel[world]', x=5548.63, y=1.00, z=-12553.44, cpos=[346, -785], tl=5312, v=true] died, message: 'Villager was slain by Vindicator'
+[21:13:04] [Server thread/INFO]: Villager EntityVillager['Villager'/3848, uuid='bcc0ae86-9cbf-49cb-b74f-59f71890c744', l='ServerLevel[world]', x=5615.12, y=1.00, z=-12584.69, cpos=[350, -787], tl=50999, v=true] died, message: 'Villager was slain by Vindicator'
+[21:13:04] [Server thread/INFO]: Villager EntityVillager['Villager'/4013, uuid='ba6e4f35-8b4d-4095-ba72-267e52d55088', l='ServerLevel[world]', x=5523.50, y=4.50, z=-12540.66, cpos=[345, -784], tl=5355, v=true] died, message: 'Villager was slain by Zombie Villager'
+[21:13:05] [Server thread/INFO]: Villager EntityVillager['Villager'/4021, uuid='d4ecd4a8-859f-4354-bbd7-627245a9b559', l='ServerLevel[world]', x=5522.44, y=5.00, z=-12538.56, cpos=[345, -784], tl=5350, v=true] died, message: 'Villager was slain by Zombie Villager'
+[21:13:07] [Server thread/INFO]: Villager EntityVillager['Villager'/3846, uuid='bb6f268b-9c91-443d-8935-cc4b963d4bfb', l='ServerLevel[world]', x=5540.51, y=1.00, z=-12551.04, cpos=[346, -785], tl=51033, v=true] died, message: 'Villager was slain by Zombie'
+[21:13:07] [Server thread/INFO]: Villager EntityVillager['Villager'/4020, uuid='c0f8566b-9564-4051-a344-6b7a80b3f39b', l='ServerLevel[world]', x=5520.31, y=9.56, z=-12534.58, cpos=[345, -784], tl=5408, v=true] died, message: 'Villager was slain by Vindicator'
+[21:13:08] [Server thread/INFO]: Villager EntityVillager['Villager'/3822, uuid='e8f58075-9fbb-4f24-8b04-def320672b11', l='ServerLevel[world]', x=5521.79, y=9.56, z=-12534.20, cpos=[345, -784], tl=52297, v=true] died, message: 'Villager was slain by Vindicator'
+[21:13:11] [Server thread/INFO]: Villager EntityVillager['Villager'/3780, uuid='8a694462-32ab-4c90-955c-0a728e244a1a', l='ServerLevel[world]', x=5610.99, y=1.00, z=-12580.99, cpos=[350, -787], tl=59291, v=true] died, message: 'Villager was slain by Vindicator'
+[21:13:14] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:13:14] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:13:14] [Server thread/INFO]: [@] 系统手动关机！状态重置
+[21:13:14] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:13:14] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:13:14] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:13:14] [Server thread/INFO]: [@: Showing new title for DRD]
+[21:13:14] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[21:13:14] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[21:13:14] [Server thread/INFO]: [@: Successfully filled 7 blocks]
+[21:13:19] [Server thread/INFO]: DRD lost connection: Disconnected
+[21:13:19] [Server thread/INFO]: DRD left the game
+[21:14:22] [User Authenticator #4/INFO]: UUID of player DRD is c27ac807-7234-3deb-8154-0c3c6ff1cd3c
+[21:14:22] [Server thread/INFO]: DRD joined the game
+[21:14:22] [Server thread/INFO]: DRD[/125.82.8.26:15287] logged in with entity id 5284 at ([world]5628.959095340759, 19.0, -12682.957511395502)
+[21:14:29] [Server thread/INFO]: Villager EntityVillager['Villager'/5493, uuid='36041f20-a4e6-4676-a85f-d84496cbe930', l='ServerLevel[world]', x=5557.57, y=1.00, z=-12576.78, cpos=[347, -787], tl=59531, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:29] [Server thread/INFO]: Villager EntityVillager['Villager'/5503, uuid='deb8595b-6687-442b-a705-c241c441abcb', l='ServerLevel[world]', x=5569.74, y=1.19, z=-12557.44, cpos=[348, -785], tl=58537, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5541, uuid='c5ef86ab-36c3-49d2-80a3-bc5888df98b6', l='ServerLevel[world]', x=5528.30, y=2.58, z=-12529.26, cpos=[345, -784], tl=62520, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5544, uuid='3af32b5e-8121-4cd3-b28a-4cd11cadeea6', l='ServerLevel[world]', x=5527.54, y=2.93, z=-12529.93, cpos=[345, -784], tl=59538, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5533, uuid='0d41918a-c6cf-4428-a4c6-aafedc15ec69', l='ServerLevel[world]', x=5527.43, y=3.94, z=-12528.46, cpos=[345, -784], tl=53595, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5525, uuid='9f412003-e532-4ad1-bc14-503cac9e85c7', l='ServerLevel[world]', x=5534.20, y=1.82, z=-12552.50, cpos=[345, -785], tl=62802, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5483, uuid='2d6d6e1b-a6bb-4ab8-bc0c-82b242328057', l='ServerLevel[world]', x=5598.66, y=1.68, z=-12549.49, cpos=[349, -785], tl=5783, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5524, uuid='522f8be2-8d3c-40be-8a61-d1c2d91fc2b0', l='ServerLevel[world]', x=5533.55, y=2.31, z=-12552.51, cpos=[345, -785], tl=57307, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5543, uuid='6462c8ae-f829-4668-9227-86b0205515fb', l='ServerLevel[world]', x=5530.47, y=1.38, z=-12529.18, cpos=[345, -784], tl=51652, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5501, uuid='742de478-9d18-47f0-871a-b8d950c70c86', l='ServerLevel[world]', x=5559.74, y=1.97, z=-12570.20, cpos=[347, -786], tl=59557, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5506, uuid='ecf08052-6259-4dd8-8730-2869e8b2d642', l='ServerLevel[world]', x=5530.73, y=1.52, z=-12584.51, cpos=[345, -787], tl=51421, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5515, uuid='83b8e029-d1a4-4b91-aa1e-059dc60ed706', l='ServerLevel[world]', x=5575.19, y=1.97, z=-12541.41, cpos=[348, -784], tl=5774, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:30] [Server thread/INFO]: Villager EntityVillager['Villager'/5521, uuid='d178e1bb-ee66-4027-b93e-2becea6e348d', l='ServerLevel[world]', x=5554.79, y=1.82, z=-12533.23, cpos=[347, -784], tl=52643, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5473, uuid='a89f03a2-6b5e-43be-a7f0-bfa42b9b3da9', l='ServerLevel[world]', x=5615.04, y=1.89, z=-12551.50, cpos=[350, -785], tl=62876, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5494, uuid='83d664e3-75c1-43d6-953d-466a769f16dd', l='ServerLevel[world]', x=5583.18, y=1.93, z=-12551.23, cpos=[348, -785], tl=5817, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5495, uuid='9c83db02-f19a-4423-a6ff-a7d344f73bb9', l='ServerLevel[world]', x=5585.75, y=1.82, z=-12548.18, cpos=[349, -785], tl=5825, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5498, uuid='98e92911-1373-4ce2-93e7-7d807871b85f', l='ServerLevel[world]', x=5556.02, y=1.94, z=-12569.82, cpos=[347, -786], tl=5773, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5499, uuid='56637b7f-5bfa-4238-8b2d-1ea6e5bfdf0f', l='ServerLevel[world]', x=5556.80, y=1.73, z=-12569.53, cpos=[347, -786], tl=59604, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5500, uuid='6b66ab2b-696f-4d4a-b7c1-70520f2e062a', l='ServerLevel[world]', x=5550.12, y=1.99, z=-12567.12, cpos=[346, -786], tl=61882, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5502, uuid='5deec92d-be80-482e-ab0e-89ca12a6ebda', l='ServerLevel[world]', x=5572.03, y=1.93, z=-12550.74, cpos=[348, -785], tl=5813, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5508, uuid='7139a3d0-87ee-40a1-93bb-98c8c879e506', l='ServerLevel[world]', x=5537.29, y=1.89, z=-12566.78, cpos=[346, -786], tl=5784, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5509, uuid='5a3bc92a-f636-410c-9dd6-d2903ede4701', l='ServerLevel[world]', x=5566.75, y=2.02, z=-12558.06, cpos=[347, -785], tl=5816, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5510, uuid='e17bd1ea-e052-427c-8aba-1686cb30f143', l='ServerLevel[world]', x=5559.28, y=1.98, z=-12558.45, cpos=[347, -785], tl=5784, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5511, uuid='9a698547-d635-4689-9ee1-bb72847624e5', l='ServerLevel[world]', x=5561.79, y=1.36, z=-12554.47, cpos=[347, -785], tl=59546, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5512, uuid='d0fe29c7-0f6d-4474-b297-0f4fd79e3c39', l='ServerLevel[world]', x=5562.26, y=1.58, z=-12546.21, cpos=[347, -785], tl=60627, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5513, uuid='4e388a8a-fcaf-4632-9db4-224442c7e94e', l='ServerLevel[world]', x=5541.84, y=1.82, z=-12552.50, cpos=[346, -785], tl=59579, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5514, uuid='4ea0d200-dec8-436c-a930-87fc45cd5f8f', l='ServerLevel[world]', x=5567.89, y=2.05, z=-12530.49, cpos=[347, -784], tl=53676, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5516, uuid='55371be3-441f-47ec-a63f-1f382d4a547c', l='ServerLevel[world]', x=5541.47, y=1.93, z=-12550.76, cpos=[346, -785], tl=53638, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5518, uuid='86467550-5f6a-4c22-823c-60b3928d0d93', l='ServerLevel[world]', x=5538.30, y=1.65, z=-12553.13, cpos=[346, -785], tl=62879, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5522, uuid='c89d3906-e5ce-4bed-83d1-4a4084532200', l='ServerLevel[world]', x=5517.47, y=1.56, z=-12565.24, cpos=[344, -786], tl=58585, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5527, uuid='9ad50aee-1cb9-4de8-99ad-a92b95969f73', l='ServerLevel[world]', x=5540.50, y=1.77, z=-12548.37, cpos=[346, -785], tl=53631, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5542, uuid='f5a7dd31-01b9-4b4e-820a-7e9e34905e78', l='ServerLevel[world]', x=5534.35, y=1.56, z=-12526.73, cpos=[345, -783], tl=62838, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5526, uuid='1cc43f6e-13b4-4343-bf5c-636ebbe737eb', l='ServerLevel[world]', x=5540.64, y=2.07, z=-12536.54, cpos=[346, -784], tl=52649, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:31] [Server thread/INFO]: Villager EntityVillager['Villager'/5529, uuid='310db390-4a05-4b4c-a0e5-d271c781a51f', l='ServerLevel[world]', x=5564.79, y=1.75, z=-12527.19, cpos=[347, -783], tl=58055, v=true] died, message: 'Villager tried to swim in lava'
+[21:14:59] [Server thread/INFO]: DRD lost connection: Disconnected
+[21:14:59] [Server thread/INFO]: DRD left the game
