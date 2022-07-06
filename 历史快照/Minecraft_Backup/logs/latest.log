@@ -1,39 +1,226 @@
-[11:02:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:03:04] [Worker-Main-3/INFO]: Loaded 7 recipes
-[11:03:06] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[11:03:06] [Server thread/INFO]: Loading properties
-[11:03:07] [Server thread/INFO]: This server is running Paper version git-Paper-386 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: 072f54c on ver/1.18.2)
-[11:03:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:03:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:03:07] [Server thread/INFO]: Default game type: SPECTATOR
-[11:03:07] [Server thread/INFO]: Generating keypair
-[11:03:07] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20309
-[11:03:07] [Server thread/INFO]: Using epoll channel type
-[11:03:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:03:07] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:03:09] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.1
-[11:03:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:03:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:03:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:03:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:03:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:03:09] [Server thread/INFO]: Preparing level "world"
-[11:03:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.1
-[11:03:12] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_18_R2[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
-[11:03:12] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[11:03:12] [Server thread/INFO]: Starting GS4 status listener
-[11:03:12] [Server thread/INFO]: Thread Query Listener started
-[11:03:12] [Query Listener #1/INFO]: Query running on 0.0.0.0:20309
-[11:03:12] [Server thread/INFO]: Running delayed init tasks
-[11:03:12] [Server thread/INFO]: Done (6.005s)! For help, type "help"
-[11:03:12] [Server thread/INFO]: Timings Reset
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[32;1m |[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.1[0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[11:03:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[06Jul2022 22:23:54.258] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.1.52, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[06Jul2022 22:23:54.274] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.2 by Azul Systems, Inc.
+[06Jul2022 22:23:54.840] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/container/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[06Jul2022 22:24:01.651] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[06Jul2022 22:24:35.893] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.52, for MC 1.18.2 with MCP 20220404.173914
+[06Jul2022 22:24:35.920] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.52 Initialized
+[06Jul2022 22:24:39.428] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod tconstruct.
+[06Jul2022 22:24:39.430] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
+[06Jul2022 22:24:39.431] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
+[06Jul2022 22:24:39.432] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod curios.
+[06Jul2022 22:24:42.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Jul2022 22:24:43.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.52 Target: 40.1.54
+[06Jul2022 22:24:43.794] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.17.x/update.json
+[06Jul2022 22:24:51.425] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Jul2022 22:24:55.700] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2340!/assets/.mcassetsroot' uses unexpected schema
+[06Jul2022 22:24:55.702] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2340!/data/.mcassetsroot' uses unexpected schema
+[06Jul2022 22:24:58.800] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpTimeoutException: request timed out
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:571) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:131) ~[fmlcore-1.18.2-40.1.52.jar%2341!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:169) ~[fmlcore-1.18.2-40.1.52.jar%2341!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.18.2-40.1.52.jar%2341!/:?]
+[06Jul2022 22:25:02.172] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Jul2022 22:25:02.175] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Jul2022 22:25:02.185] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Jul2022 22:25:02.188] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Jul2022 22:25:02.190] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Jul2022 22:25:09.290] [Worker-Main-54/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[06Jul2022 22:25:12.223] [Worker-Main-54/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1623 advancements
+[06Jul2022 22:25:15.698] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
+[06Jul2022 22:25:15.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Jul2022 22:25:15.700] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Jul2022 22:25:15.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Jul2022 22:25:15.921] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 0.0.0.0:20309
+[06Jul2022 22:25:15.996] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[06Jul2022 22:25:16.310] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Jul2022 22:25:16.311] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Jul2022 22:25:16.311] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Jul2022 22:25:16.311] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Jul2022 22:25:16.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Jul2022 22:25:16.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Jul2022 22:25:19.859] [Worker-Main-51/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:19.886] [Worker-Main-51/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:19.912] [Worker-Main-63/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:19.944] [Worker-Main-85/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:19.963] [Worker-Main-70/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:19.992] [Worker-Main-85/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:20.016] [Worker-Main-72/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:20.349] [Worker-Main-51/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:20.846] [Worker-Main-63/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:21.352] [Worker-Main-67/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:21.846] [Worker-Main-86/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:22.343] [Worker-Main-63/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:22.842] [Worker-Main-85/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:23.342] [Worker-Main-67/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:23.845] [Worker-Main-67/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2022 22:25:24.342] [Worker-Main-92/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[06Jul2022 22:25:24.842] [Worker-Main-62/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[06Jul2022 22:25:25.342] [Worker-Main-62/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[06Jul2022 22:25:25.842] [Worker-Main-70/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[06Jul2022 22:25:26.342] [Worker-Main-72/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[06Jul2022 22:25:26.844] [Worker-Main-62/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[06Jul2022 22:25:27.342] [Worker-Main-62/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[06Jul2022 22:25:27.846] [Worker-Main-72/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[06Jul2022 22:25:28.345] [Worker-Main-73/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[06Jul2022 22:25:28.846] [Worker-Main-73/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[06Jul2022 22:25:29.342] [Worker-Main-70/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[06Jul2022 22:25:29.842] [Worker-Main-73/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[06Jul2022 22:25:30.342] [Worker-Main-70/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[06Jul2022 22:25:32.803] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15962 ms
+[06Jul2022 22:25:32.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.447s)! For help, type "help"
+[06Jul2022 22:25:32.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
+[06Jul2022 22:25:32.849] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener started
+[06Jul2022 22:25:32.853] [Query Listener #1/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4/]: Query running on 0.0.0.0:20309
+[06Jul2022 22:25:32.888] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Jul2022 22:25:37.327] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[06Jul2022 22:25:39.535] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4baf5125
+[06Jul2022 22:25:39.580] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/125.82.14.1:11995] logged in with entity id 181 at (-114.5, 6.0, -203.5)
+[06Jul2022 22:25:39.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[06Jul2022 22:25:56.932] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@299888b0
+[06Jul2022 22:25:56.955] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: __B1ank___[/125.85.205.17:3819] logged in with entity id 481 at (-100.67908634254984, -1.9755759117863196, -217.44580767382405)
+[06Jul2022 22:25:56.968] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: __B1ank___ joined the game
+[06Jul2022 22:26:06.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD was slain by Kobold
+[06Jul2022 22:26:08.920] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[06Jul2022 22:26:39.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: __B1ank___ was slain by Zombie
+[06Jul2022 22:26:49.192] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[06Jul2022 22:27:07.089] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2900ms or 58 ticks behind
+[06Jul2022 22:27:08.853] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[06Jul2022 22:27:08.854] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[06Jul2022 22:27:13.461] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2b588768
+[06Jul2022 22:27:13.482] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/125.82.14.1:12115] logged in with entity id 923 at (-97.12234613589445, -6.0, -214.119393983518)
+[06Jul2022 22:27:13.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[06Jul2022 22:27:29.544] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported __B1ank___ to DRD
+[06Jul2022 22:27:33.431] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[06Jul2022 22:27:33.432] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[06Jul2022 22:27:41.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Gamerule mobGriefing is now set to: false
+[06Jul2022 22:27:43.718] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Incorrect argument for command
+[06Jul2022 22:27:43.719] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamerule KeepInventory true<--[HERE]
+[06Jul2022 22:28:26.216] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: The difficulty has been set to Normal
+[06Jul2022 22:29:00.668] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Incorrect argument for command
+[06Jul2022 22:29:00.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamerule KeepInventory true<--[HERE]
+[06Jul2022 22:29:08.120] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Incorrect argument for command
+[06Jul2022 22:29:08.121] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamerule KeepInventory true<--[HERE]
+[06Jul2022 22:29:13.728] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made DRD a server operator
+[06Jul2022 22:29:20.185] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@29473207
+[06Jul2022 22:29:20.194] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/125.82.14.1:12280] logged in with entity id 1555 at (-99.26963095346167, -5.0, -213.30000001192093)
+[06Jul2022 22:29:20.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[06Jul2022 22:29:38.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Gamerule keepInventory is now set to: true]
+[06Jul2022 22:29:43.968] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Made DRD no longer a server operator]
+[06Jul2022 22:29:58.479] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD was slain by __B1ank___
+[06Jul2022 22:34:46.932] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD was slain by Zombie
+[06Jul2022 22:35:30.361] [Netty Epoll Server IO #13/ERROR] [net.minecraftforge.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[06Jul2022 22:35:30.404] [Netty Epoll Server IO #13/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [twilightforest:channel] rejected their client side version number
+[06Jul2022 22:35:30.406] [Netty Epoll Server IO #13/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[06Jul2022 22:35:30.450] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6eb70a31[id=<null>,name=White_cat,properties={},legacy=false] (/183.202.41.75:31275) lost connection: Connection closed - mismatched mod channel list
+[06Jul2022 22:38:28.373] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: __B1ank___ has made the advancement [Not Today, Thank You]
+[06Jul2022 22:38:33.195] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD was shot by Skeleton
+[06Jul2022 22:39:56.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD was slain by Kobold
+[06Jul2022 22:40:07.525] [Netty Epoll Server IO #15/ERROR] [net.minecraftforge.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[06Jul2022 22:40:09.140] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@cd894b6
+[06Jul2022 22:40:09.148] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: White_cat[/183.202.41.75:31622] logged in with entity id 3026 at (-17.5, 100.0, -70.5)
+[06Jul2022 22:40:09.157] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat joined the game
+[06Jul2022 22:40:40.096] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD has made the advancement [Not Today, Thank You]
+[06Jul2022 22:42:15.345] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[06Jul2022 22:42:33.090] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2750ms or 55 ticks behind
+[06Jul2022 22:42:52.158] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4068ms or 81 ticks behind
+[06Jul2022 22:43:38.442] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat has made the advancement [Stone Age]
+[06Jul2022 22:43:54.346] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[06Jul2022 22:43:55.677] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: White_cat moved too quickly! -3.4773508802632023,0.8322033533667508,-9.535977866328466
+[06Jul2022 22:44:08.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: __B1ank___ was slain by Enderman
+[06Jul2022 22:44:17.692] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[06Jul2022 22:44:18.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 2.3945028368495542,-99.67647087614428,0.04901638286241905
+[06Jul2022 22:44:18.936] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: __B1ank___ moved too quickly! -0.16627059495466767,100.32352912385574,-1.246499154287875
+[06Jul2022 22:45:05.368] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! -10.066932116897434,1.249187078744681,-1.1747996266965686
+[06Jul2022 22:45:09.295] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD was kicked for floating too long!
+[06Jul2022 22:45:09.297] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Flying is not enabled on this server
+[06Jul2022 22:45:09.298] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[06Jul2022 22:45:09.348] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[06Jul2022 22:45:21.861] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4471ms or 89 ticks behind
+[06Jul2022 22:45:24.010] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: __B1ank___ moved too quickly! 4.084264461589356,0.0,9.343162513937301
+[06Jul2022 22:45:24.857] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@526a90ae
+[06Jul2022 22:45:24.867] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/125.82.14.1:11299] logged in with entity id 5809 at (-122.18794032976514, 7.166109260938214, -190.2534133573776)
+[06Jul2022 22:45:24.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[06Jul2022 22:46:01.238] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat has made the advancement [Sweet Dreams]
+[06Jul2022 22:46:14.775] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat has made the advancement [Monster Hunter]
+[06Jul2022 22:46:23.259] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[06Jul2022 22:46:35.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat fell from a high place
+[06Jul2022 22:46:44.333] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
+[06Jul2022 22:46:56.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat has made the advancement [The Silence of the Forest]
+[06Jul2022 22:47:07.947] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[06Jul2022 22:47:27.418] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4478ms or 89 ticks behind
+[06Jul2022 22:47:47.364] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4975ms or 99 ticks behind
+[06Jul2022 22:48:09.333] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6993ms or 139 ticks behind
+[06Jul2022 22:48:29.545] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5255ms or 105 ticks behind
+[06Jul2022 22:48:44.161] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: __B1ank___ moved too quickly! -0.8019608071846562,100.32352912385574,-1.613789571103581
+[06Jul2022 22:48:51.570] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7030ms or 140 ticks behind
+[06Jul2022 22:49:17.203] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10664ms or 213 ticks behind
+[06Jul2022 22:49:43.915] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11725ms or 234 ticks behind
+[06Jul2022 22:49:46.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! -0.6829882425173963,100.32352912385574,-1.213423346083573
+[06Jul2022 22:50:04.115] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5225ms or 104 ticks behind
+[06Jul2022 22:50:21.650] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2560ms or 51 ticks behind
+[06Jul2022 22:50:43.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! -0.1622787574725777,100.32352912385574,-1.6865929374361315
+[06Jul2022 22:50:43.953] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! -0.1622787574725777,100.32352912385574,-1.6865929374361315
+[06Jul2022 22:50:45.482] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8842ms or 176 ticks behind
+[06Jul2022 22:51:04.589] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4149ms or 82 ticks behind
+[06Jul2022 22:51:23.949] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4410ms or 88 ticks behind
+[06Jul2022 22:51:42.028] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3088ms or 61 ticks behind
+[06Jul2022 22:52:00.673] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3683ms or 73 ticks behind
+[06Jul2022 22:52:19.256] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3616ms or 72 ticks behind
+[06Jul2022 22:52:44.497] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10257ms or 205 ticks behind
+[06Jul2022 22:53:11.013] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11523ms or 230 ticks behind
+[06Jul2022 22:53:37.186] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11196ms or 223 ticks behind
+[06Jul2022 22:53:38.849] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=276, y=3, z=-1037} BlockPos{x=276, y=1, z=-1037}
+[06Jul2022 22:53:39.387] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=280, y=3, z=-1037} BlockPos{x=279, y=1, z=-1037}
+[06Jul2022 22:53:58.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: __B1ank___ moved too quickly! 2.826973358167706,-99.92159999847412,0.06978343288335509
+[06Jul2022 22:54:02.009] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9869ms or 197 ticks behind
+[06Jul2022 22:54:07.477] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: __B1ank___ has made the advancement [Suit Up]
+[06Jul2022 22:54:25.027] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8037ms or 160 ticks behind
+[06Jul2022 22:54:45.598] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5608ms or 112 ticks behind
+[06Jul2022 22:55:07.322] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6733ms or 134 ticks behind
+[06Jul2022 22:55:32.944] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10654ms or 213 ticks behind
+[06Jul2022 22:55:55.543] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7604ms or 152 ticks behind
+[06Jul2022 22:56:04.389] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD was shot by Skeleton
+[06Jul2022 22:56:15.789] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5249ms or 104 ticks behind
+[06Jul2022 22:56:38.078] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7338ms or 146 ticks behind
+[06Jul2022 22:57:03.605] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10566ms or 211 ticks behind
+[06Jul2022 22:57:15.760] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD blew up
+[06Jul2022 22:57:20.667] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: __B1ank___ was slain by Kobold
+[06Jul2022 22:57:28.426] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9837ms or 196 ticks behind
+[06Jul2022 22:57:49.625] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6235ms or 124 ticks behind
+[06Jul2022 22:58:12.848] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8258ms or 165 ticks behind
+[06Jul2022 22:58:35.804] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7964ms or 159 ticks behind
+[06Jul2022 22:58:55.230] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4440ms or 88 ticks behind
+[06Jul2022 22:59:04.741] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat's brain was turned into leaves by Skeleton Druid
+[06Jul2022 22:59:12.848] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2658ms or 53 ticks behind
+[06Jul2022 22:59:14.685] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat has made the advancement [Acquire Hardware]
+[06Jul2022 23:00:09.985] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat has made the advancement [Isn't It Iron Pick]
+[06Jul2022 23:00:31.233] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat has made the advancement [Getting an Upgrade]
+[06Jul2022 23:00:47.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <White_cat> go
+[06Jul2022 23:01:58.593] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-151, y=7, z=-92} BlockPos{x=-151, y=5, z=-90}
+[06Jul2022 23:04:15.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat was slain by Naga
+[06Jul2022 23:04:17.076] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: __B1ank___ has reached the goal [Time To Even The Scales]
+[06Jul2022 23:04:17.079] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat has reached the goal [Time To Even The Scales]
+[06Jul2022 23:04:17.080] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD has reached the goal [Time To Even The Scales]
+[06Jul2022 23:04:32.943] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-245, y=3, z=4} BlockPos{x=-245, y=1, z=3}
+[06Jul2022 23:05:35.592] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-174, y=6, z=-51} BlockPos{x=-175, y=4, z=-53}
+[06Jul2022 23:09:43.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD was shot by Skeleton
+[06Jul2022 23:10:29.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat succumbed to the Lich's explosive magic
+[06Jul2022 23:10:46.664] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-33, y=7, z=-233} BlockPos{x=-33, y=5, z=-232}
+[06Jul2022 23:11:09.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: The Lich's aim was better than __B1ank___
+[06Jul2022 23:12:15.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat hit the ground too hard
+[06Jul2022 23:12:59.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD succumbed to the Lich's explosive magic while escaping Lich Minion
+[06Jul2022 23:13:22.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat has reached the goal [Bring Out Your Dead]
+[06Jul2022 23:13:22.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD has reached the goal [Bring Out Your Dead]
+[06Jul2022 23:13:22.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: __B1ank___ has reached the goal [Bring Out Your Dead]
+[06Jul2022 23:16:45.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat fell from a high place
+[06Jul2022 23:16:51.560] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD fell from a high place
+[06Jul2022 23:18:49.075] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: __B1ank___ lost connection: Disconnected
+[06Jul2022 23:18:49.077] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: __B1ank___ left the game
+[06Jul2022 23:19:09.132] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[06Jul2022 23:19:09.134] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[06Jul2022 23:19:15.581] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: White_cat lost connection: Disconnected
+[06Jul2022 23:19:15.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: White_cat left the game
+[06Jul2022 23:20:02.995] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: There are 0 of a max of 20 players online: 
