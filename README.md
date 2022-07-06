@@ -8,4 +8,4 @@
 
 1. main：主分支；玩法：纯净、少量管理插件；核心：Paper-1.18.2
 
-2. mod_1：定制1；玩法：插件按需+一个mod；核心：mohist-1.18.2 && forge-40.1.51-61
+2. mod_1：定制1；玩法：mod若干；核心：twilightforest-1.18.2-4.1.1102-universal
