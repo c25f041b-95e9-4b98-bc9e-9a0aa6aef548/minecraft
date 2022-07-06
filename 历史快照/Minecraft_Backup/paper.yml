@@ -229,7 +229,7 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-thunder: false
     disable-ice-and-snow: false
-    keep-spawn-loaded-range: 10
+    keep-spawn-loaded-range: 18
     fix-items-merging-through-walls: false
     piglins-guard-chests: true
     should-remove-dragon: false
