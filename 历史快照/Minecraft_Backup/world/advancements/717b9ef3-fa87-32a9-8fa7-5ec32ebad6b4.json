@@ -89,6 +89,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2022-07-06 21:44:47 +0800"
@@ -191,9 +203,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2022-07-06 21:31:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
     },
     "done": true
   },
@@ -269,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2022-07-07 12:56:48 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2022-07-06 22:59:55 +0800"
@@ -296,6 +326,18 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2022-07-06 22:13:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/goblins": {
+    "criteria": {
+      "has_redcap": "2022-07-07 12:36:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2022-07-07 12:30:44 +0800"
     },
     "done": true
   },
@@ -355,6 +397,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/redcap": {
+    "criteria": {
+      "hurt": "2022-07-07 12:36:04 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2022-07-06 21:42:03 +0800"
@@ -379,21 +427,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_slab": {
-    "criteria": {
-      "has_planks": "2022-07-06 23:14:36 +0800"
-    },
-    "done": true
-  },
   "twilightforest:alt/treasures/twilight_scepter": {
     "criteria": {
       "has_item": "2022-07-06 23:13:36 +0800"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2022-07-06 23:14:36 +0800"
+    },
+    "done": true
+  },
   "twilightforest:alt/entities/naga": {
     "criteria": {
       "hurt": "2022-07-06 23:03:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
     },
     "done": true
   },
@@ -415,6 +469,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2022-07-07 12:42:10 +0800"
+    },
+    "done": true
+  },
   "twilightforest:arborist": {
     "criteria": {
       "twilight_oak_planks": "2022-07-06 21:31:08 +0800",
@@ -423,6 +483,12 @@
       "canopy_sapling": "2022-07-06 21:31:41 +0800"
     },
     "done": false
+  },
+  "twilightforest:alt/entities/swarm_spider": {
+    "criteria": {
+      "hurt_by_indirect": "2022-07-07 12:37:40 +0800"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
@@ -433,6 +499,24 @@
   "twilightforest:alt/biomes/dense_twilight_forest": {
     "criteria": {
       "in_biome": "2022-07-06 22:57:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/maps": {
+    "criteria": {
+      "has_magic": "2022-07-07 12:28:07 +0800"
     },
     "done": true
   },
@@ -478,15 +562,15 @@
     },
     "done": true
   },
-  "twilightforest:alt/treasures/scepters": {
-    "criteria": {
-      "has_twilight": "2022-07-06 23:13:36 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2022-07-06 22:37:28 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/scepters": {
+    "criteria": {
+      "has_twilight": "2022-07-06 23:13:36 +0800"
     },
     "done": true
   },
@@ -496,9 +580,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2022-07-07 12:56:48 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2022-07-06 23:15:43 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/magic_map": {
+    "criteria": {
+      "has_focus": "2022-07-07 12:28:07 +0800"
     },
     "done": true
   },
@@ -550,6 +646,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2022-07-07 12:42:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2022-07-06 21:39:09 +0800"
@@ -559,6 +661,18 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2022-07-06 21:42:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/twilightforest/magic_map": {
+    "criteria": {
+      "has_item": "2022-07-07 12:28:07 +0800"
     },
     "done": true
   },
@@ -628,6 +742,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2022-07-06 21:37:20 +0800"
@@ -637,6 +757,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2022-07-06 23:10:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2022-07-07 12:42:10 +0800"
     },
     "done": true
   },
@@ -652,6 +778,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2022-07-06 21:42:03 +0800"
@@ -661,6 +793,12 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2022-07-06 21:46:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2022-07-07 12:33:37 +0800"
     },
     "done": true
   },
@@ -712,6 +850,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2022-07-07 12:42:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2022-07-06 21:26:27 +0800"
@@ -730,6 +874,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2022-07-07 12:24:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2022-07-06 21:26:27 +0800"
@@ -740,6 +890,7 @@
     "criteria": {
       "minecraft:skeleton": "2022-07-06 21:38:39 +0800",
       "minecraft:spider": "2022-07-06 21:44:37 +0800",
+      "minecraft:creeper": "2022-07-07 12:25:08 +0800",
       "minecraft:zombie": "2022-07-06 21:56:59 +0800",
       "minecraft:zombie_villager": "2022-07-06 22:14:50 +0800"
     },
@@ -748,6 +899,30 @@
   "twilightforest:alt/biomes/spooky_forest": {
     "criteria": {
       "in_biome": "2022-07-06 23:05:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2022-07-07 12:42:10 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/small_hollow_hill": {
+    "criteria": {
+      "found_structure": "2022-07-07 12:33:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
     },
     "done": true
   },
@@ -763,15 +938,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stone_brick_wall": {
-    "criteria": {
-      "has_stone_bricks": "2022-07-06 23:10:23 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2022-07-06 22:26:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2022-07-06 23:10:23 +0800"
     },
     "done": true
   },
@@ -802,6 +977,12 @@
   "twilightforest:alt/treasures/naga_armor_set": {
     "criteria": {
       "has_scale": "2022-07-06 23:04:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
     },
     "done": true
   },
@@ -931,6 +1112,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2022-07-07 12:33:37 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-07-06 21:31:16 +0800"
@@ -961,6 +1148,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2022-07-07 12:30:44 +0800"
+    },
+    "done": true
+  },
   "twilightforest:alt/treasures/uncrafting_table": {
     "criteria": {
       "has_item": "2022-07-06 23:06:55 +0800"
@@ -976,6 +1169,12 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2022-07-06 21:44:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
     },
     "done": true
   },
@@ -1129,6 +1328,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2022-07-07 12:24:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2022-07-06 21:44:38 +0800"
@@ -1150,6 +1355,18 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2022-07-06 22:06:45 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:magic_map": {
+    "criteria": {
+      "magic_map": "2022-07-07 12:29:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
     },
     "done": true
   },
@@ -1213,6 +1430,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2022-07-07 12:42:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2022-07-06 21:44:47 +0800"
@@ -1249,6 +1478,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
   "twilightforest:alt/entities/kobold": {
     "criteria": {
       "hurt_by_indirect": "2022-07-06 22:01:50 +0800"
@@ -1273,6 +1508,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2022-07-07 12:42:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:skeleton": "2022-07-06 21:38:39 +0800"
@@ -1294,6 +1535,12 @@
   "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
     "criteria": {
       "has_blue_dye": "2022-07-06 21:55:49 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/arthopods": {
+    "criteria": {
+      "has_swarm": "2022-07-07 12:37:40 +0800"
     },
     "done": true
   },
@@ -1327,15 +1574,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
     "criteria": {
-      "has_mossy_stone_bricks": "2022-07-06 23:10:24 +0800"
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
     },
     "done": true
   },
   "twilightforest:alt/treasures/armors": {
     "criteria": {
       "has_naga": "2022-07-06 23:04:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2022-07-06 23:10:24 +0800"
     },
     "done": true
   },
@@ -1361,6 +1614,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2022-07-06 23:14:39 +0800"
@@ -1376,6 +1635,12 @@
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2022-07-06 23:14:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2022-07-07 12:33:37 +0800"
     },
     "done": true
   },
@@ -1442,6 +1707,12 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2022-07-06 21:36:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
     },
     "done": true
   },
@@ -1517,6 +1788,12 @@
     },
     "done": true
   },
+  "twilightforest:magic_map_focus": {
+    "criteria": {
+      "focus": "2022-07-07 12:28:07 +0800"
+    },
+    "done": true
+  },
   "twilightforest:recipes/twilightforest/wood/twilight_oak_plate": {
     "criteria": {
       "has_item": "2022-07-06 21:31:08 +0800"
@@ -1526,6 +1803,12 @@
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2022-07-06 23:14:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2022-07-07 12:42:10 +0800"
     },
     "done": true
   },
@@ -1559,6 +1842,12 @@
     },
     "done": true
   },
+  "twilightforest:hill1": {
+    "criteria": {
+      "redcap": "2022-07-07 12:36:07 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2022-07-06 21:26:27 +0800"
@@ -1569,6 +1858,12 @@
     "criteria": {
       "was_in_fight": "2022-07-06 23:13:22 +0800",
       "kill_naga": "2022-07-06 23:04:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2022-07-07 12:23:53 +0800"
     },
     "done": true
   },

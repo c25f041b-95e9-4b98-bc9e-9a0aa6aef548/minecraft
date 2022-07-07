@@ -53,9 +53,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "twilightforest:recipes/twilightforest/wood/twilight_oak_trapdoor": {
     "criteria": {
       "has_item": "2022-07-06 21:34:16 +0800"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/structurize/shapetool": {
+    "criteria": {
+      "has_stick": "2022-07-07 13:28:41 +0800"
     },
     "done": true
   },
@@ -68,6 +80,12 @@
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_sand": "2022-07-06 21:44:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
     },
     "done": true
   },
@@ -125,6 +143,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_the_recipe": "2022-07-06 21:31:07 +0800"
@@ -164,6 +188,12 @@
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2022-07-06 22:14:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
     },
     "done": true
   },
@@ -209,6 +239,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "twilightforest:alt/biomes/general_biomes": {
     "criteria": {
       "has_firefly": "2022-07-06 21:27:06 +0800"
@@ -243,15 +279,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2022-07-06 21:35:46 +0800"
     },
     "done": true
   },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2022-07-06 21:35:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
     },
     "done": true
   },
@@ -301,6 +355,18 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/maps": {
+    "criteria": {
+      "has_magic": "2022-07-07 12:46:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2022-07-07 12:50:47 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2022-07-06 21:45:04 +0800"
@@ -325,6 +391,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/minecolonies/supplychestdeployer": {
+    "criteria": {
+      "has_boat": "2022-07-07 13:39:15 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_sand": "2022-07-06 21:44:26 +0800"
@@ -337,9 +415,21 @@
     },
     "done": true
   },
+  "minecolonies:recipes/combat/chainmailboots": {
+    "criteria": {
+      "has_iron": "2022-07-07 13:28:41 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2022-07-06 21:30:51 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/magic_map": {
+    "criteria": {
+      "has_filled": "2022-07-07 12:46:49 +0800"
     },
     "done": true
   },
@@ -355,6 +445,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_rose_bush": "2022-07-06 21:39:45 +0800"
@@ -364,6 +460,12 @@
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-07-06 21:56:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2022-07-07 12:47:03 +0800"
     },
     "done": true
   },
@@ -394,6 +496,12 @@
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2022-07-06 21:35:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
     },
     "done": true
   },
@@ -445,6 +553,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-07-06 21:35:46 +0800"
@@ -463,6 +577,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2022-07-07 12:50:47 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2022-07-06 21:30:51 +0800"
@@ -478,6 +598,30 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2022-07-06 21:42:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2022-07-07 12:46:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/combat/chainmailleggings": {
+    "criteria": {
+      "has_iron": "2022-07-07 13:28:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
     },
     "done": true
   },
@@ -559,6 +703,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2022-07-07 12:47:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2022-07-06 21:26:51 +0800"
@@ -568,6 +718,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2022-07-06 22:13:10 +0800",
+      "minecraft:spider": "2022-07-07 12:55:19 +0800",
       "minecraft:zombie": "2022-07-06 21:57:06 +0800"
     },
     "done": false
@@ -602,6 +753,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/major_landmarks/small_hollow_hill": {
+    "criteria": {
+      "found_structure": "2022-07-07 12:46:34 +0800"
+    },
+    "done": true
+  },
   "twilightforest:alt/entities/death_tome": {
     "criteria": {
       "hurt_by_indirect": "2022-07-06 23:10:50 +0800"
@@ -626,6 +783,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_boots": "2022-07-07 12:47:03 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2022-07-06 22:06:04 +0800"
@@ -641,6 +804,12 @@
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2022-07-06 22:03:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
     },
     "done": true
   },
@@ -734,6 +903,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2022-07-07 12:46:34 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-07-06 21:30:57 +0800"
@@ -764,6 +939,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2022-07-07 12:46:35 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2022-07-06 21:26:51 +0800"
@@ -779,6 +960,12 @@
   "twilightforest:recipes/twilightforest/wood/twilight_oak_chest": {
     "criteria": {
       "has_item": "2022-07-06 21:34:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
     },
     "done": true
   },
@@ -866,6 +1053,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2022-07-07 12:47:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2022-07-06 22:22:33 +0800"
@@ -878,9 +1077,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2022-07-07 12:50:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2022-07-06 22:13:15 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:magic_map": {
+    "criteria": {
+      "magic_map": "2022-07-07 12:46:49 +0800"
     },
     "done": true
   },
@@ -905,6 +1122,12 @@
   "twilightforest:recipes/twilightforest/wood/twilight_oak_gate": {
     "criteria": {
       "has_item": "2022-07-06 21:34:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2022-07-07 12:49:44 +0800"
     },
     "done": true
   },
@@ -938,6 +1161,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2022-07-06 21:30:51 +0800"
@@ -965,6 +1194,12 @@
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-07-06 21:56:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_boots": "2022-07-07 12:47:03 +0800"
     },
     "done": true
   },
@@ -1049,11 +1284,24 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2022-07-06 21:25:57 +0800",
+      "minecraft:stony_shore": "2022-07-07 13:39:37 +0800",
       "minecraft:jagged_peaks": "2022-07-06 21:26:01 +0800",
       "minecraft:flower_forest": "2022-07-06 21:25:43 +0800",
       "minecraft:plains": "2022-07-06 21:26:05 +0800"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/combat/chainmailchestplate": {
+    "criteria": {
+      "has_iron": "2022-07-07 13:28:41 +0800"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
@@ -1072,6 +1320,12 @@
       "kill_lich": "2022-07-06 23:13:22 +0800"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2022-07-07 12:46:34 +0800"
+    },
+    "done": true
   },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
@@ -1097,9 +1351,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2022-07-07 12:46:35 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2022-07-06 21:35:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
     },
     "done": true
   },
@@ -1151,6 +1417,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2022-07-06 21:42:02 +0800"
@@ -1174,6 +1446,12 @@
       "previous_progression": "2022-07-06 23:13:22 +0800"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
   },
   "twilightforest:alt/entities/boar": {
     "criteria": {
@@ -1218,6 +1496,12 @@
     },
     "done": true
   },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2022-07-07 12:46:58 +0800"
+    },
+    "done": true
+  },
   "twilightforest:recipes/twilightforest/wood/canopy_wood": {
     "criteria": {
       "has_item": "2022-07-06 22:45:52 +0800"
@@ -1242,9 +1526,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2022-07-07 12:46:35 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
     "criteria": {
       "has_lily_of_the_valley": "2022-07-06 21:39:21 +0800"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/combat/chainmailhelmet": {
+    "criteria": {
+      "has_iron": "2022-07-07 13:28:41 +0800"
     },
     "done": true
   },
