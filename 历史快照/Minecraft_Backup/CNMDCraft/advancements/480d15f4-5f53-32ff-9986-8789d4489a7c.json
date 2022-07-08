@@ -1,0 +1,197 @@
+{
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2022-07-08 20:22:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2022-07-08 20:24:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-07-08 19:04:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2022-07-08 19:28:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2022-07-08 20:23:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:pillager": "2022-07-08 19:36:43 +0800",
+      "minecraft:skeleton": "2022-07-08 19:28:54 +0800",
+      "minecraft:ravager": "2022-07-08 19:36:52 +0800",
+      "minecraft:creeper": "2022-07-08 19:44:05 +0800",
+      "minecraft:zombified_piglin": "2022-07-08 19:51:02 +0800",
+      "minecraft:wither_skeleton": "2022-07-08 19:36:06 +0800",
+      "minecraft:zombie": "2022-07-08 19:28:49 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2022-07-08 20:26:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2022-07-08 20:23:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2022-07-08 20:23:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2022-07-08 20:23:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2022-07-08 19:05:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2022-07-08 19:03:14 +0800",
+      "minecraft:river": "2022-07-08 19:33:38 +0800",
+      "minecraft:stony_shore": "2022-07-08 19:28:43 +0800",
+      "minecraft:grove": "2022-07-08 20:41:15 +0800",
+      "minecraft:jagged_peaks": "2022-07-08 19:03:39 +0800",
+      "minecraft:forest": "2022-07-08 19:32:43 +0800",
+      "minecraft:ocean": "2022-07-08 19:42:52 +0800",
+      "minecraft:flower_forest": "2022-07-08 19:02:32 +0800",
+      "minecraft:plains": "2022-07-08 19:03:08 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2022-07-08 20:26:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2022-07-08 20:22:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2022-07-08 20:26:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-07-08 19:04:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-07-08 19:30:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2022-07-08 20:23:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-07-08 20:23:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2022-07-08 20:22:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-07-08 19:04:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-07-08 19:04:59 +0800"
+    },
+    "done": true
+  },
+  "craftingdead:recipes/craftingdead.combat/sticky_c4_explosive": {
+    "criteria": {
+      "has_c4": "2022-07-08 20:04:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-07-08 19:28:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-07-08 19:04:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2022-07-08 19:05:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2022-07-08 20:22:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-07-08 19:04:59 +0800"
+    },
+    "done": true
+  },
+  "craftingdead:recipes/misc/iron_ingot_from_magazine": {
+    "criteria": {
+      "has_magazine": "2022-07-08 19:28:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2022-07-08 20:24:19 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}

@@ -1,0 +1,163 @@
+
+#Some guns allow 'burstfire', where it can fire multiple shots at the same time
+#Here you can tweak all settings related to burstfire
+[burstfire]
+	#Enable (some) guns to fire a burst of shots
+	enable = true
+	#The amount of shots per fired burst
+	#Range: > 1
+	shotsPerBurst = 3
+
+#Tweak multiple behaviours on how guns should be reloaded as well it's ammo
+[reload]
+	#Defines whenever a gun should come with am empty magazine when crafted
+	gunComeEmptyMag = true
+	#Additional reload time applied to the standard gun reload time (Ticks)
+	#Range: 0 ~ 200
+	duration = 0
+	#When empty, magazines will be destroyed instead of being given back to the player when reloading
+	destroyMagWhenEmpty = false
+
+#Tweak multiple scope and attachment behaviors
+[scope]
+	#Defines if attachments can be added by the player
+	#Guns with pre existing attachments or that where added before this option was toggled will remain unchanged
+	attachmentsAllowed = true
+	#Additional zoom given to the base scope zoom (Multiplier)
+	#Range: 0.1 ~ 3.0
+	zoomMultiplier = 1.0
+	#Additional accuracy given when scoping (Multiplier)
+	#Range: 0.1 ~ 3.0
+	zoomAccuracyMultiplier = 1.0
+
+#Tweak and toggle headshots and it's properties
+[headshot]
+	#Enables the ability to headshot
+	enabled = true
+	#Additional bonus damage when a headshot is hit (Multiplier)
+	#Range: 1.0 ~ 10.0
+	bonusDamage = 4.0
+
+#Tweak and toggle backstab and it's properties
+[backstab]
+	#Enables the ability to backstab with melee weapons
+	enabled = false
+	#Additional bonus damage multiplier when backstabbing (Multiplier)
+	#Range: 1.0 ~ 10.0
+	bonusDamage = 1.2
+
+#Tweak and toggle critical hits and it's properties
+[criticalHit]
+	#Enables critical hits
+	enabled = false
+	#Additional bonus damage multiplier when a critical hit (Multiplier)
+	#Range: 1.0 ~ 10.0
+	bonusDamage = 0.5
+	#How likely the player is to hit a critical hit (Percentage)
+	#Range: 0.0 ~ 1.0
+	chance = 0.005
+
+#Distance based damage reduction applied to gun shots
+[damageDropOff]
+	#Enables damage dropoff
+	enable = false
+	#How much damage is lost per block (Percentage)
+	#Range: 0.01 ~ 100.0
+	loss = 0.1
+	#The absolute minimum damage after all the loss is applied
+	#Range: 0.0 ~ 20.0
+	minimumDamage = 2.0
+
+#Change every aspect of how grenades interact with the world
+[explosives]
+	#Enables the usage of Remote Detonator
+	#It wont prevent the ability to get Remote Detonators, only the ability to use it
+	remoteDetonatorEnabled = true
+	#Enables the usage of C4 Explosive
+	#It wont prevent the ability to get C4 Explosives, only the ability to use it
+	C4Enabled = true
+	#Enables the usage of Decoy Grenade
+	#It wont prevent the ability to get Decoy Grenades, only the ability to use it
+	decoyGrenadeEnabled = true
+	#Enables the usage of Fire Grenade
+	#It wont prevent the ability to get Fire Grenades, only the ability to use it
+	fireGrenadeEnabled = true
+	#Enables the usage of Flash Grenade
+	#It wont prevent the ability to get Flash Grenades, only the ability to use it
+	flashGrenadeEnabled = true
+	#Enables the usage of Frag Grenade
+	#It wont prevent the ability to get Frag Grenades, only the ability to use it
+	fragGrenadeEnabled = true
+	#Enables the usage of Smoke Grenade
+	#It wont prevent the ability to get Smoke Grenade, only the ability to use it
+	smokeGrenadeEnabled = true
+	#Defines how the explosion should interact with blocks
+	#NONE: No block interaction, blocks will remain unchanged
+	#BREAK: Blocks are broken, they will be dropped when exploded
+	#DESTROY: Blocks are destroyed, nothing will be dropped and only a crater will be left
+	#Allowed Values: NONE, BREAK, DESTROY
+	c4ExplosionMode = "NONE"
+	#Defines how the explosion should interact with blocks
+	#NONE: No block interaction, blocks will remain unchanged
+	#BREAK: Blocks are broken, they will be dropped when exploded
+	#DESTROY: Blocks are destroyed, nothing will be dropped and only a crater will be left
+	#Allowed Values: NONE, BREAK, DESTROY
+	fireGrenadeExplosionMode = "NONE"
+	#Defines how the explosion should interact with blocks
+	#NONE: No block interaction, blocks will remain unchanged
+	#BREAK: Blocks are broken, they will be dropped when exploded
+	#DESTROY: Blocks are destroyed, nothing will be dropped and only a crater will be left
+	#Allowed Values: NONE, BREAK, DESTROY
+	fragGrenadeExplosionMode = "NONE"
+	#Activation range (in blocks) of the Remote Detonator
+	#Range: 1.0 ~ 500.0
+	remoteDetonatorRange = 50.0
+	#The explosion radius (in blocks), it tells how big the explosion should be
+	#Range: 0.1 ~ 50.0
+	c4Radius = 4.0
+	#The explosion radius (in blocks), it tells how big the explosion should be
+	#Range: 0.1 ~ 50.0
+	fireGrenadeRadius = 2.0
+	#The flash radius (in blocks), it tells how big the flash should be
+	#Range: 0.1 ~ 200.0
+	flashGrenadeRadius = 50.0
+	#The explosion radius (in blocks), it tells how big the explosion should be
+	#Range: 0.1 ~ 50.0
+	fragGrenadeRadius = 4.0
+	#The smoke cloud radius (in blocks), it tells how big the smoke cloud should be
+	#Range: 0.1 ~ 5.0
+	smokeGrenadeRadius = 1.0
+	#Defines how strong the explosion knockback should be (Multiplier)
+	#Range: 0.0 ~ 30.0
+	c4KnockbackMultiplier = 1.0
+	#Defines how strong the explosion knockback should be (Multiplier)
+	#Range: 0.0 ~ 30.0
+	fireGrenadeKnockbackMultiplier = 1.0
+	#Defines how strong the explosion knockback should be (Multiplier)
+	#Range: 0.0 ~ 30.0
+	fragGrenadeKnockbackMultiplier = 1.0
+	#Multiplies the base damage given by the explosion (Multiplier)
+	#Range: 0.0 ~ 30.0
+	c4DamageMultiplier = 1.0
+	#Multiplies the base damage given by the explosion (Multiplier)
+	#Range: 0.0 ~ 30.0
+	fireGrenadeDamageMultiplier = 1.0
+	#Multiplies the base damage given by the explosion (Multiplier)
+	#Range: 0.0 ~ 30.0
+	fragGrenadeDamageMultiplier = 1.0
+	#How long before the grenade activates automatically (Ticks)
+	#Range: 0 ~ 18000
+	flashGrenadeTicksBeforeActivation = 30
+	#How long before the grenade activates automatically (Ticks)
+	#Range: 0 ~ 18000
+	fragGrenadeTicksBeforeActivation = 35
+	#How long before the grenade deactivates automatically (Ticks)
+	#Range: 0 ~ 18000
+	decoyGrenadeTicksBeforeDeactivation = 400
+	#How long before the grenade deactivates automatically (Ticks)
+	#Range: 0 ~ 18000
+	flashGrenadeTicksBeforeDeactivation = 5
+	#How long before the grenade deactivates automatically (Ticks)
+	#Range: 0 ~ 18000
+	smokeGrenadeTicksBeforeDeactivation = 500
+
