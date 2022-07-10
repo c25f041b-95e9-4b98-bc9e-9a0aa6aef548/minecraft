@@ -18,8 +18,8 @@
 
 2. 模拟殖民地-1.18.2-1.0.869-ALPHA
 
-2A. 模拟殖民地-1.18.2-1.0.869-ALPHA依赖于：multi-piston-1.18.2-1.2.13-ALPHA；blockui-1.18.2-0.0.53-ALPHA；structurize-1.18.2-1.0.411-ALPHA；domum_ornamentum-1.18.2-1.0.54-ALPHA-universal
+3. 模拟殖民地-1.18.2-1.0.869-ALPHA依赖于：multi-piston-1.18.2-1.2.13-ALPHA；blockui-1.18.2-0.0.53-ALPHA；structurize-1.18.2-1.0.411-ALPHA；domum_ornamentum-1.18.2-1.0.54-ALPHA-universal
 
-3. 行尸走肉-1.18.2-1.7.6-alpha
+4. 行尸走肉-1.18.2-1.7.6-alpha
 
-3A. 行尸走肉生存1.18.2-1.1.9-alpha
+5. 行尸走肉生存1.18.2-1.1.9-alpha
