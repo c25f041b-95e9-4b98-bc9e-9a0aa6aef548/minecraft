@@ -1,96 +1,16 @@
-[08Jul2022 20:55:38.781] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.1.52, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[08Jul2022 20:55:38.795] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.2 by Azul Systems, Inc.
-[08Jul2022 20:55:39.229] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/container/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
-[08Jul2022 20:55:44.995] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Jul2022 20:55:44.996] [main/ERROR] [mixin/]: Mixin config craftingdead.mixins.json does not specify "minVersion" property
-[08Jul2022 20:55:45.042] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[08Jul2022 20:56:19.408] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.52, for MC 1.18.2 with MCP 20220404.173914
-[08Jul2022 20:56:19.409] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.52 Initialized
-[08Jul2022 20:56:25.497] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `domum_ornamentum` for name `architects_cutter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
-[08Jul2022 20:56:26.259] [modloading-worker-0/INFO] [com.craftingdead.core.CraftingDead/]: Starting Crafting Dead, version 1.7.6-alpha
-[08Jul2022 20:56:26.702] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Jul2022 20:56:27.034] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
-[08Jul2022 20:56:28.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.52 Target: 40.1.54
-[08Jul2022 20:56:30.055] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Jul2022 20:56:31.731] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2345!/assets/.mcassetsroot' uses unexpected schema
-[08Jul2022 20:56:31.733] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2345!/data/.mcassetsroot' uses unexpected schema
-[08Jul2022 20:56:36.262] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08Jul2022 20:56:36.264] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08Jul2022 20:56:36.272] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08Jul2022 20:56:36.276] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08Jul2022 20:56:36.279] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08Jul2022 20:56:36.286] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [structurize, scan, pos1, pos2, anchor_pos] and [structurize, scan, pos1, pos2, player] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
-[08Jul2022 20:56:40.783] [Worker-Main-88/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[08Jul2022 20:56:43.580] [Worker-Main-88/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1362 advancements
-[08Jul2022 20:56:43.586] [Worker-Main-88/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
-[08Jul2022 20:56:43.612] [Worker-Main-88/INFO] [minecolonies/]: Loaded 131 recipes for 15 crafters
-[08Jul2022 20:56:43.614] [Worker-Main-88/INFO] [minecolonies/]: Beginning load of research for University.
-[08Jul2022 20:56:43.657] [Worker-Main-88/INFO] [minecolonies/]: Loaded 190 recipes for 4 research branches
-[08Jul2022 20:56:45.178] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
-[08Jul2022 20:56:45.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Jul2022 20:56:45.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Jul2022 20:56:45.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Jul2022 20:56:45.286] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 0.0.0.0:20309
-[08Jul2022 20:56:45.357] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[08Jul2022 20:56:45.981] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08Jul2022 20:56:45.982] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08Jul2022 20:56:45.983] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08Jul2022 20:56:45.984] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08Jul2022 20:56:46.234] [Thread-0/WARN] [minecolonies.requestsystem/]: Updated logging config. RS Debug logging enabled: false
-[08Jul2022 20:56:46.240] [Thread-0/WARN] [minecolonies.requestsystem/]: Updated logging config. RS Debug logging enabled: false
-[08Jul2022 20:56:46.347] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "CNMDCraft"
-[08Jul2022 20:56:47.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Jul2022 20:56:50.302] [Worker-Main-93/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:50.358] [Worker-Main-67/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:50.397] [Worker-Main-78/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:50.441] [Worker-Main-67/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:50.462] [Worker-Main-64/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:50.481] [Worker-Main-74/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:50.824] [Worker-Main-74/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:51.373] [Worker-Main-64/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:51.825] [Worker-Main-67/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:52.317] [Worker-Main-81/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:52.819] [Worker-Main-48/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:53.317] [Worker-Main-64/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:53.822] [Worker-Main-48/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:54.316] [Worker-Main-74/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:54.815] [Worker-Main-74/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:55.318] [Worker-Main-66/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2022 20:56:55.816] [Worker-Main-48/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[08Jul2022 20:56:56.317] [Worker-Main-81/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[08Jul2022 20:56:56.815] [Worker-Main-93/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[08Jul2022 20:56:57.318] [Worker-Main-66/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[08Jul2022 20:56:57.815] [Worker-Main-91/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[08Jul2022 20:56:58.315] [Worker-Main-69/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[08Jul2022 20:56:58.815] [Worker-Main-74/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[08Jul2022 20:56:59.315] [Worker-Main-77/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[08Jul2022 20:56:59.815] [Worker-Main-93/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[08Jul2022 20:57:00.315] [Worker-Main-64/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
-[08Jul2022 20:57:00.815] [Worker-Main-61/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[08Jul2022 20:57:02.581] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14767 ms
-[08Jul2022 20:57:02.583] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.492s)! For help, type "help"
-[08Jul2022 20:57:02.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
-[08Jul2022 20:57:02.608] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener started
-[08Jul2022 20:57:02.610] [Query Listener #1/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4/]: Query running on 0.0.0.0:20309
-[08Jul2022 20:57:02.642] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Jul2022 20:57:02.645] [Server thread/INFO] [structurize/]: Trying jar discover: assets/structurize
-[08Jul2022 20:57:02.651] [Server thread/INFO] [structurize/]: Trying jar discover: assets/minecolonies
-[08Jul2022 20:57:04.755] [Server thread/INFO] [structurize/]: Load additional huts or decorations from ./structurize/schematics
-[08Jul2022 20:57:04.757] [Server thread/INFO] [structurize/]: Load cached schematic from ./structurize/cache
-[08Jul2022 20:57:04.758] [Server thread/INFO] [structurize/]: Load cached schematic from ./structurize/cache
-[08Jul2022 20:57:04.931] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 8
-[08Jul2022 20:57:04.935] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 19 22
-[08Jul2022 20:57:04.936] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
-[08Jul2022 20:57:04.948] [Server thread/INFO] [minecolonies/]: Finished discovering food 35 47
-[08Jul2022 20:57:04.957] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 180
-[08Jul2022 20:57:04.964] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 127
-[08Jul2022 20:57:04.966] [Server thread/INFO] [minecolonies/]: Finished discovering lucky oreBlocks 175
-[08Jul2022 20:57:04.966] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
-[08Jul2022 20:57:04.969] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
-[08Jul2022 20:58:07.116] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@594a8fd3
-[08Jul2022 20:58:07.158] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/125.82.14.1:12411] logged in with entity id 92 at (28.222085366700824, 74.5, -273.23080143624054)
-[08Jul2022 20:58:07.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
-[08Jul2022 20:58:07.652] [Server thread/INFO] [structurize/]: New Server UUID e9202e53-9851-40dd-93bf-4b0dbd4b0227
-[08Jul2022 20:58:13.751] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[08Jul2022 20:58:16.714] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
-[08Jul2022 20:58:16.716] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[17Jul2022 16:08:49.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[17Jul2022 16:08:49.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[17Jul2022 16:08:49.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[17Jul2022 16:08:49.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[17Jul2022 16:08:52.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/minecraft:overworld
+[17Jul2022 16:08:53.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/minecraft:the_end
+[17Jul2022 16:08:53.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/minecraft:the_nether
+[17Jul2022 16:08:53.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/lostcities:lostcity
+[17Jul2022 16:08:53.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/twilightforest:twilight_forest
+[17Jul2022 16:08:53.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (CraftingDead): All chunks are saved
+[17Jul2022 16:08:53.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17Jul2022 16:08:53.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17Jul2022 16:08:53.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[17Jul2022 16:08:53.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[17Jul2022 16:08:53.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17Jul2022 16:08:53.930] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener stopped
