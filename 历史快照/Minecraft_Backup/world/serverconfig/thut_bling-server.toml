@@ -1,0 +1,5 @@
+
+[bag]
+	# The number of pages the Ender Bag has. [Default: 2]
+	enderBagPages = 2
+

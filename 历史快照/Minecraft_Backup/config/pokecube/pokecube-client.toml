@@ -1,0 +1,104 @@
+
+[moves]
+	# Volume scale of the cry sound. [Default: 0.0625]
+	moveVolumeCry = 0.0625
+	# Volume scale of the effect sound. [Default: 0.25]
+	moveVolumeEffect = 0.25
+
+[client]
+	# Volume scale of the capture sound. [Default: 0.2]
+	captureVolume = 0.2
+	# Positioning of the teleport pokemob GUI. [Default: "top_right"]
+	teleRef = "top_right"
+	# Allows the GUI to automatically scale according to screen size. [Default: false]
+	guiAutoScale = false
+	# Offset of the teleport pokemob GUI based on the position of teleRef. [Default: [89, 17]]
+	telePos = [89, 17]
+	# The moves on the pokemob gui is positioned below the health bar. [Default: true]
+	guiDown = true
+	# Padding of the pokemob message GUI based on the position of messageRef. [Default: [0, 0]]
+	messagePadding = [0, 0]
+	# Allows pokemobs to auto select moves. [Default: false]
+	autoSelectMoves = false
+	# Preloads pokemob models during load. [Default: false]
+	preloadModels = false
+	# Scale of the telport pokemob GUI. [Default: 1.0]
+	teleSize = 1.0
+	# Auto recall distance of Pokemobs. [Default: 32]
+	autoRecallDistance = 32
+	# Moves the battle log from the pokemob message gui to the chat. [Default: false]
+	battleLogInChat = false
+	# Scale of the pokemob message GUI. [Default: 1.0]
+	messageSize = 1.0
+	# Width of the pokemob message GUI. [Default: 150]
+	messageWidth = 150
+	# Offset of the target pokemob GUI based on the position of targetRef. [Default: [147, -42]]
+	targetPos = [147, -42]
+	# Positioning of the target pokemob GUI. [Default: "top_right"]
+	targetRef = "top_right"
+	# Pokemobs will turn in the direction the rider is facing. [Default: true]
+	riddenMobsTurnWithLook = true
+	# Scale of the GUI. [Default: 1.0]
+	guiSize = 1.0
+	# Pokemobs will be to auto recalled. [Default: false]
+	autoRecallPokemobs = false
+	# Music from the Pokecenter if powered. [Default: true]
+	pokeCenterMusic = true
+	extraberries = false
+	# Scale of the target pokemob GUI. [Default: 1.0]
+	targetSize = 1.0
+	# Offset of the pokemob message GUI based on the position of messageRef. [Default: [-150, -100]]
+	messagePos = [-150, -100]
+	# Positioning of the pokemob message GUI. [Default: "right_middle"]
+	messageRef = "right_middle"
+	# Positioning of the tamed pokemob GUI. [Default: "top_left"]
+	guiRef = "top_left"
+	# Offset of the tamed pokemob GUI based on the position of guiRef. [Default: [0, 0]]
+	guiPos = [0, 0]
+
+[dynamax]
+	# Dynamax cooldown in ticks. [Default: 6000]
+	dynamax_cooldown = 6000
+
+[healthbars]
+	# Name color on the health bar of an other owned pokemob. [Default: 16733525]
+	otherOwnedNameColour = 16733525
+	# Name color on the health bar of an owned pokemob. [Default: 5635925]
+	ownedNameColour = 5635925
+	# Name color on the health bar of a scanned pokemob. [Default: 8978431]
+	scannedNameColour = 8978431
+	# Do health bars render when F1 is pressed. [Default: false]
+	renderInF1 = false
+	# Overall size of the health bar. [Default: 25]
+	plateSize = 25
+	# Name color on the health bar of an unknown pokemob. [Default: 8947848]
+	unknownNameColour = 8947848
+	# Are health bars bright. [Default: true]
+	brightbars = true
+	# Should the health bar display the armor of the pokemob. [Default: true]
+	showArmor = true
+	# Max distance to view health bars. [Default: 24]
+	maxDistance = 24
+	# Name color on the health bar of a caught pokemob. [Default: 5592575]
+	caughtNamedColour = 5592575
+	# Should debug info display on the health bar when the F3 debug screen displays. [Default: true]
+	enableDebugInfo = true
+	# Should the health bar display only when looking at the pokemob. [Default: false]
+	showOnlyFocused = false
+	# Background width around the health bar. [Default: 2]
+	backgroundPadding = 2
+	# Height of the health bar. [Default: 4]
+	barHeight = 4
+	# Should the health bar display the held item of the pokemob. [Default: true]
+	showHeldItem = true
+	# Height of the health text on the health bar. [Default: 14]
+	hpTextHeight = 14
+	# Display health bars above pokemobs. [Default: true]
+	doHealthBars = true
+	# Background height around the health bar. [Default: 6]
+	backgroundHeight = 6
+	# Health bars have a background. [Default: true]
+	drawBackground = true
+	# The height the health bar displays above the pokemob. [Default: 0.6]
+	heightAbove = 0.6
+

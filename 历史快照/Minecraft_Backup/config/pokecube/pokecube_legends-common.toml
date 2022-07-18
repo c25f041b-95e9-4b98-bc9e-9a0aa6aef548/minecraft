@@ -1,0 +1,72 @@
+
+[general]
+	enabledcondition = true
+	# If legends can only spawn once. [Default: false]
+	singleUseLegendSpawns = false
+	# Delay in ticks for legends to respawn. [Default: 36000]
+	respawnLegendDelay = 36000
+	# Temples cannot be defiled by players. [Default: true]
+	protectTemples = true
+	# Should ores generate. [Default: true]
+	generateOres = true
+
+[distortic]
+	# Cooldown for the mirror in ticks. [Default: 800]
+	mirrorCooldown = 800
+
+[mirage]
+	# Portals will reset randomly based on this value, higher values result in longer times between use. [Default: 24000]
+	ticksPerPortalReset = 24000
+	# The time you need to wait for Hoopa to generate a new portal. [Default: 8400]
+	ticksPerPortalSpawn = 8400
+	# Minimum level for Hoopa to generate the portal. Numbers below the minimum will be reset to the default. [Min: 40, Max: 100] [Default: 50]
+	levelCreatePortal = 50
+	# The time for the portal to disappear in ticks. 1 Tick = 20 seconds. [Default: 1200]
+	ticksPortalDespawn = 1200
+
+[meteors]
+	# Size and power of meteors. Anything above 100 is not recommended. [Default: 20]
+	meteorPowerThreshold = 20.0
+	# Chance for meteors to spawn. [Default: 0.15]
+	meteorChanceForAny = 0.15
+	# Chance for meteors to spawn with Cosmic Dust Ores. [Default: 0.25]
+	meteorChanceForDust = 0.25
+
+[wormholes]
+	# Minimum between two random wormhole spawns. [Default: 128]
+	randomWormholeSpacing = 128.0
+	# Wormholes gain this much energy every tick. [Default: 1000]
+	wormholeEnergyPerTick = 1000
+	# Maximum distance from a player of a random wormhole spawn. [Default: 64]
+	randomWormholeDistance = 64.0
+	# Wormholes gain this much energy for each mob that passed through. [Default: 100000]
+	wormholeEntityPerTP = 10000
+	# Chance per tick of a wormhole spawning randomly near a player. [Default: 0.00001]
+	randomWormholeChance = 1.0E-5
+	# Probability that a wormhole spawns where any entity teleports from. [Default: 0.01]
+	teleWormholeChanceNormal = 0.01
+	# Wormholes will not link to these worlds.
+	wormhole_destination_weights = ["pokecube_legends:ultraspace->90", "pokecube_world:overworld->5", "minecraft:overworld->5", "pokecube_legends:distorted_world->5"]
+	# Similar to teleWormholeChanceNormal, but for entities tagged with pokecube_legends:space_worm. [Default: 64]
+	teleWormholeChanceWorms = 0.75
+	# Minimum number of ticks before you can use a wormhole after using one. [Default: 100]
+	wormholeReUseDelay = 100
+	# Wormholes will not link to these worlds.
+	wormhole_destination_blacklist = ["pokecube:secret_base", "compactmachines:compact_world", "minecraft:the_end", "minecraft:the_nether"]
+	# Wormholes break when they exceed this much energy. [Default: 1000000]
+	maxWormholeEnergy = 1000000
+
+[ultraspace]
+	# Allows the Ultra key to consume fuel. [Default: true]
+	enableUltraKeyConsume = true
+	# Amount of fuel for the Ultra Key to consume. [Default: 5]
+	ultraKeyConsumeAmount = 5
+
+[raids]
+	# Duration of raids in ticks. [Default: 3000]
+	raidDuration = 3000
+	# Chance for a raid to reset. [Default: 0.1]
+	raidResetChance = 0.1
+	# Chance for a reset raid to be rare. [Default: 0.1]
+	rareRaidChance = 0.1
+

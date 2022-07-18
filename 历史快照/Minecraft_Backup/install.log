@@ -1,55 +1,1042 @@
-fetch https://mirrors.tuna.tsinghua.edu.cn/alpine/v3.15/main/x86_64/APKINDEX.tar.gz
-fetch https://mirrors.tuna.tsinghua.edu.cn/alpine/v3.15/community/x86_64/APKINDEX.tar.gz
-(1/24) Installing ca-certificates (20191127-r7)
-(2/24) Installing c-ares (1.18.1-r0)
-(3/24) Installing expat (2.4.1-r0)
-(4/24) Installing libgcc (10.3.1_git20211027-r0)
-(5/24) Installing gmp (6.2.1-r0)
-(6/24) Installing nettle (3.7.3-r0)
-(7/24) Installing libffi (3.4.2-r1)
-(8/24) Installing p11-kit (0.24.0-r1)
-(9/24) Installing libtasn1 (4.18.0-r0)
-(10/24) Installing libunistring (0.9.10-r1)
-(11/24) Installing gnutls (3.7.1-r0)
-(12/24) Installing sqlite-libs (3.36.0-r0)
-(13/24) Installing libstdc++ (10.3.1_git20211027-r0)
-(14/24) Installing aria2 (1.36.0-r0)
-(15/24) Installing ncurses-terminfo-base (6.3_p20211120-r0)
-(16/24) Installing ncurses-libs (6.3_p20211120-r0)
-(17/24) Installing readline (8.1.1-r0)
-(18/24) Installing bash (5.1.8-r0)
-Executing bash-5.1.8-r0.post-install
-(19/24) Installing brotli-libs (1.0.9-r5)
-(20/24) Installing nghttp2-libs (1.46.0-r0)
-(21/24) Installing libcurl (7.80.0-r0)
-(22/24) Installing curl (7.80.0-r0)
-(23/24) Installing libidn2 (2.3.2-r0)
-(24/24) Installing wget (1.21.2-r2)
-Executing busybox-1.34.1-r3.trigger
-Executing ca-certificates-20191127-r7.trigger
-OK: 21 MiB in 38 packages
-基础工具安装成功
-选择的包是 
+GameWorld/AutoInstaller$: 成功选择安装部署包、整合包 [部署包]Forge1.17.1-不支持插件-支持模组[使用Java16]
 
-12/27 12:35:18 [[1;32mNOTICE[0m] Downloading 1 item(s)
-[#8a6a43 0B/0B CN:1 DL:0B]
-[#8a6a43 0B/0B CN:1 DL:0B]
-[#8a6a43 0B/0B CN:1 DL:0B]
+07/17 14:57:05 [[1;32mNOTICE[0m] Downloading 1 item(s)
+[#f1fb48 0B/0B CN:1 DL:0B]
 
-12/27 12:35:21 [[1;31mERROR[0m] CUID#7 - Download aborted. URI=https://res.gameworldmc.cn/packs/.tar.gz
-Exception: [AbstractCommand.cc:351] errorCode=3 URI=https://res.gameworldmc.cn/packs/.tar.gz
-  -> [HttpSkipResponseCommand.cc:218] errorCode=3 Resource not found
+07/17 14:57:07 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://qye-my.sharepoint.cn/personal/yyc_qye_partner_onmschina_cn/_layouts/15/download.aspx?UniqueId=bd5fe5fc-956f-4365-9ccb-e15410c08d8b&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvcXllLW15LnNoYXJlcG9pbnQuY25AMDMxNWEyNGYtZjMyMS00ZDNiLWFiYWItOTBiZWIwYzg0YWM1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTY1ODA2OTgyOCIsImV4cCI6IjE2NTgwNzM0MjgiLCJlbmRwb2ludHVybCI6InFXTTlhclN0SlNKa2JFOXJBdWFsU1Z4VE1sOUQ3RWVUcGZKVytnOW96bE09IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxNTQiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik1qWTBNV0ZpTXpndE5HUmxOUzAwWWpjeUxXSTRNamt0WVRabFpEUmpPVEk0T0dNeSIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJaV0kwTldSaE1XUXROR1ZtWWkwME5UQTJMVGhtTm1ZdE9HVXdaREE1WVdFd01EVmwiLCJhcHBfZGlzcGxheW5hbWUiOiJPbmVpbmRleCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJhcHBpZCI6IjE3ZDIxMWI0LWY5ZDktNDVlZC04YzVmLTQzOWEwMjIyN2I4YyIsInRpZCI6IjAzMTVhMjRmLWYzMjEtNGQzYi1hYmFiLTkwYmViMGM4NGFjNSIsInVwbiI6Inl5Y0BxeWUucGFydG5lci5vbm1zY2hpbmEuY24iLCJwdWlkIjoiMTAwMzMyMzBDNjFENjcwRiIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMzMjMwYzYxZDY3MGZAbGl2ZS5jb20iLCJzY3AiOiJteWZpbGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWQiLCJ0dCI6IjIiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsLCJpcGFkZHIiOiI1Mi4xMzAuMTAuMTYxIn0.SmwzNjgyMEloelBKd1ZBL2gybzdFdVRVL3pBamZWUmhJRlIyMjFGN2FoZz0&ApiVersion=2.0
+[#f1fb48 0B/0B CN:1 DL:0B]
+[#f1fb48 6.0MiB/117MiB(5%) CN:4 DL:9.7MiB ETA:11s]
 
-12/27 12:35:21 [[1;32mNOTICE[0m] Download GID#8a6a430618aa2e66 not complete: //mnt/server/server.tar.gz
+07/17 14:57:09 [[1;32mNOTICE[0m] CUID#10 - Redirecting to https://qye-my.sharepoint.cn/personal/yyc_qye_partner_onmschina_cn/_layouts/15/download.aspx?UniqueId=bd5fe5fc-956f-4365-9ccb-e15410c08d8b&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvcXllLW15LnNoYXJlcG9pbnQuY25AMDMxNWEyNGYtZjMyMS00ZDNiLWFiYWItOTBiZWIwYzg0YWM1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTY1ODA2OTgzMSIsImV4cCI6IjE2NTgwNzM0MzEiLCJlbmRwb2ludHVybCI6InFXTTlhclN0SlNKa2JFOXJBdWFsU1Z4VE1sOUQ3RWVUcGZKVytnOW96bE09IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxNTQiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik1URXlNamN4WmpVdE9EazBNeTAwWlRZNUxXSmhNRGd0WVdNell6WmhOMk00WVRNMiIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJaV0kwTldSaE1XUXROR1ZtWWkwME5UQTJMVGhtTm1ZdE9HVXdaREE1WVdFd01EVmwiLCJhcHBfZGlzcGxheW5hbWUiOiJPbmVpbmRleCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJhcHBpZCI6IjE3ZDIxMWI0LWY5ZDktNDVlZC04YzVmLTQzOWEwMjIyN2I4YyIsInRpZCI6IjAzMTVhMjRmLWYzMjEtNGQzYi1hYmFiLTkwYmViMGM4NGFjNSIsInVwbiI6Inl5Y0BxeWUucGFydG5lci5vbm1zY2hpbmEuY24iLCJwdWlkIjoiMTAwMzMyMzBDNjFENjcwRiIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMzMjMwYzYxZDY3MGZAbGl2ZS5jb20iLCJzY3AiOiJteWZpbGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWQiLCJ0dCI6IjIiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsLCJpcGFkZHIiOiI1Mi4xMzAuMTAuMTYxIn0.U29zTUVibUdYS2pUYW1GZHVDSUU0SnhZbDVNMlFhZUZYNmQyY05XTXNOWT0&ApiVersion=2.0
+
+07/17 14:57:09 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://qye-my.sharepoint.cn/personal/yyc_qye_partner_onmschina_cn/_layouts/15/download.aspx?UniqueId=bd5fe5fc-956f-4365-9ccb-e15410c08d8b&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvcXllLW15LnNoYXJlcG9pbnQuY25AMDMxNWEyNGYtZjMyMS00ZDNiLWFiYWItOTBiZWIwYzg0YWM1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTY1ODA2OTgzMCIsImV4cCI6IjE2NTgwNzM0MzAiLCJlbmRwb2ludHVybCI6InFXTTlhclN0SlNKa2JFOXJBdWFsU1Z4VE1sOUQ3RWVUcGZKVytnOW96bE09IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxNTQiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6IlpXUXpNMlprTnpndE1HRmlNaTAwWlRVeUxUbG1PVGN0TURZM05qQXhNelUyT1dGbSIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJaV0kwTldSaE1XUXROR1ZtWWkwME5UQTJMVGhtTm1ZdE9HVXdaREE1WVdFd01EVmwiLCJhcHBfZGlzcGxheW5hbWUiOiJPbmVpbmRleCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJhcHBpZCI6IjE3ZDIxMWI0LWY5ZDktNDVlZC04YzVmLTQzOWEwMjIyN2I4YyIsInRpZCI6IjAzMTVhMjRmLWYzMjEtNGQzYi1hYmFiLTkwYmViMGM4NGFjNSIsInVwbiI6Inl5Y0BxeWUucGFydG5lci5vbm1zY2hpbmEuY24iLCJwdWlkIjoiMTAwMzMyMzBDNjFENjcwRiIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMzMjMwYzYxZDY3MGZAbGl2ZS5jb20iLCJzY3AiOiJteWZpbGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWQiLCJ0dCI6IjIiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsLCJpcGFkZHIiOiI1Mi4xMzAuMTAuMTYxIn0.d0JqcFBDT29qUVBLOVNXMVhxVTc0OGJqSE9kUFFVdTgwQzU4RENLRnZtST0&ApiVersion=2.0
+[#f1fb48 32MiB/117MiB(27%) CN:3 DL:20MiB ETA:4s]
+
+07/17 14:57:10 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://qye-my.sharepoint.cn/personal/yyc_qye_partner_onmschina_cn/_layouts/15/download.aspx?UniqueId=bd5fe5fc-956f-4365-9ccb-e15410c08d8b&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvcXllLW15LnNoYXJlcG9pbnQuY25AMDMxNWEyNGYtZjMyMS00ZDNiLWFiYWItOTBiZWIwYzg0YWM1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTY1ODA2OTgzMyIsImV4cCI6IjE2NTgwNzM0MzMiLCJlbmRwb2ludHVybCI6InFXTTlhclN0SlNKa2JFOXJBdWFsU1Z4VE1sOUQ3RWVUcGZKVytnOW96bE09IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxNTQiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik1URTVZakl4TkRBdFpqTXlaUzAwTldReExXSTRZelF0WVRrd05qUXdPRGc1TXpJMSIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJaV0kwTldSaE1XUXROR1ZtWWkwME5UQTJMVGhtTm1ZdE9HVXdaREE1WVdFd01EVmwiLCJhcHBfZGlzcGxheW5hbWUiOiJPbmVpbmRleCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJhcHBpZCI6IjE3ZDIxMWI0LWY5ZDktNDVlZC04YzVmLTQzOWEwMjIyN2I4YyIsInRpZCI6IjAzMTVhMjRmLWYzMjEtNGQzYi1hYmFiLTkwYmViMGM4NGFjNSIsInVwbiI6Inl5Y0BxeWUucGFydG5lci5vbm1zY2hpbmEuY24iLCJwdWlkIjoiMTAwMzMyMzBDNjFENjcwRiIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMzMjMwYzYxZDY3MGZAbGl2ZS5jb20iLCJzY3AiOiJteWZpbGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWQiLCJ0dCI6IjIiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsLCJpcGFkZHIiOiI1Mi4xMzAuMTAuMTYxIn0.ZFg1WFMwdkhSTW9Vd0haazlHdDRUbGJBL0ZBOWZndXpqb0RuT2cxRXNNST0&ApiVersion=2.0
+[#f1fb48 62MiB/117MiB(53%) CN:3 DL:24MiB ETA:2s]
+[#f1fb48 90MiB/117MiB(76%) CN:3 DL:25MiB ETA:1s]
+[#f1fb48 98MiB/117MiB(83%) CN:1 DL:21MiB]
+[#f1fb48 106MiB/117MiB(90%) CN:1 DL:19MiB]
+
+07/17 14:57:14 [[1;32mNOTICE[0m] Download complete: //mnt/server/server.tar.gz
 
 Download Results:
 gid   |stat|avg speed  |path/URI
 ======+====+===========+=======================================================
-8a6a43|ERR |       0B/s|//mnt/server/server.tar.gz
+f1fb48|OK  |    18MiB/s|//mnt/server/server.tar.gz
 
 Status Legend:
-(ERR):error occurred.
-
-aria2 will resume download if the transfer is restarted.
-If there are any errors, then see the log file. See '-l' option in help/man page for details.
-下载失败,但是仍然要以 0 退出脚本
+(OK):download completed.
+GameWorld/AutoInstaller$: [部署包]Forge1.17.1-不支持插件-支持模组[使用Java16] 下载成功。
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/commons-logging/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/commons-collections/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/trove/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/commons-io/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/cpw/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/de/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/commons-beanutils/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/com/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/com/electronwill/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/com/google/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/com/opencsv/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/com/github/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/com/nothome/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/nothome/javaxdelta/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/nothome/javaxdelta/2.0.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/github/jponge/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/github/jponge/lzma-java/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/github/jponge/lzma-java/1.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/opencsv/opencsv/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/opencsv/opencsv/4.4/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/errorprone/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/jimfs/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/j2objc/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/j2objc/j2objc-annotations/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/j2objc/j2objc-annotations/1.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/j2objc/j2objc-annotations/1.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/jimfs/jimfs/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/jimfs/jimfs/1.2/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/jimfs/jimfs/1.2/jimfs-1.2.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/errorprone/error_prone_annotations/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/errorprone/error_prone_annotations/2.1.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/errorprone/error_prone_annotations/2.3.4/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/gson/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/findbugs/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/findbugs/jsr305/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/findbugs/jsr305/3.0.2/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/gson/gson/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/gson/gson/2.8.7/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/gson/gson/2.8.0/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/guava/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/failureaccess/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/listenablefuture/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/failureaccess/1.0.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/guava/21.0/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/guava/30.1-android/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/guava/20.0/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/guava/25.1-jre/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/guava/20.0/guava-20.0.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/guava/30.1-android/guava-30.1-android.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/google/guava/guava/21.0/guava-21.0.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/electronwill/night-config/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/electronwill/night-config/toml/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/electronwill/night-config/core/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/electronwill/night-config/core/3.6.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/electronwill/night-config/toml/3.6.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/commons-beanutils/commons-beanutils/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/commons-beanutils/commons-beanutils/1.9.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/de/siegmar/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/de/oceanlabs/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/de/oceanlabs/mcp/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/de/oceanlabs/mcp/mcp_config/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/de/oceanlabs/mcp/mcp_config/1.17.1-20210706.113038/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/de/oceanlabs/mcp/mcp_config/1.17.1-20210706.113038/mcp_config-1.17.1-20210706.113038-mappings.txt
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/de/oceanlabs/mcp/mcp_config/1.17.1-20210706.113038/mcp_config-1.17.1-20210706.113038-mappings-merged.txt
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/de/oceanlabs/mcp/mcp_config/1.17.1-20210706.113038/mcp_config-1.17.1-20210706.113038.zip
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/de/siegmar/fastcsv/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/de/siegmar/fastcsv/2.0.0/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/cpw/mods/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/cpw/mods/securejarhandler/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/cpw/mods/bootstraplauncher/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/cpw/mods/modlauncher/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/cpw/mods/modlauncher/9.0.7/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/cpw/mods/modlauncher/9.0.7/modlauncher-9.0.7.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/cpw/mods/bootstraplauncher/0.1.17/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/cpw/mods/bootstraplauncher/0.1.17/bootstraplauncher-0.1.17.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/cpw/mods/securejarhandler/0.9.54/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/cpw/mods/securejarhandler/0.9.54/securejarhandler-0.9.54.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/commons-io/commons-io/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/commons-io/commons-io/2.4/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/commons-io/commons-io/2.4/commons-io-2.4.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/trove/trove/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/trove/trove/1.0.2/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/trove/trove/1.0.2/trove-1.0.2.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/spongepowered/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/checkerframework/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/antlr/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/ow2/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/openjdk/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/jline/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/codehaus/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/apache/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/org/cadixdev/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/bombe-asm/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/bombe/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/lorenz-asm/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/atlas/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/lorenz/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/lorenz/0.5.7/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/lorenz/0.5.7/lorenz-0.5.7.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/atlas/0.2.2/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/atlas/0.2.2/atlas-0.2.2.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/lorenz-asm/0.5.7/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/lorenz-asm/0.5.7/lorenz-asm-0.5.7.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/bombe/0.3.5/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/bombe/0.3.5/bombe-0.3.5.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/bombe-asm/0.3.5/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/cadixdev/bombe-asm/0.3.5/bombe-asm-0.3.5.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/maven/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/logging/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/logging/log4j/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/logging/log4j/log4j-api/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/logging/log4j/log4j-core/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/logging/log4j/log4j-core/2.14.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/logging/log4j/log4j-api/2.14.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/maven/maven-artifact/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/maven/maven-artifact/3.6.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/commons-text/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/commons-lang3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/commons-collections4/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/commons-collections4/4.2/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/commons-lang3/3.8.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/commons-text/1.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/codehaus/mojo/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/codehaus/mojo/animal-sniffer-annotations/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/jline/jline-terminal/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/jline/jline-reader/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/jline/jline-reader/3.12.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/jline/jline-terminal/3.12.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/openjdk/nashorn/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/openjdk/nashorn/nashorn-core/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/openjdk/nashorn/nashorn-core/15.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-util/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-tree/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-analysis/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-commons/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-commons/9.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-analysis/9.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-tree/9.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-util/9.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm/9.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/ow2/asm/asm/9.1/asm-9.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/antlr/antlr4-runtime/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/antlr/antlr4-runtime/4.9.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/checkerframework/checker-qual/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/checkerframework/checker-compat-qual/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/checkerframework/checker-compat-qual/2.5.5/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/checkerframework/checker-qual/2.0.0/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/spongepowered/mixin/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/spongepowered/mixin/0.8.4/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/commons-collections/commons-collections/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/commons-collections/commons-collections/3.2.2/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/commons-logging/commons-logging/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/commons-logging/commons-logging/1.2/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecrell/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/jodah/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/sf/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraft/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/md-5/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/md-5/SpecialSource/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/md-5/SpecialSource/1.10.0/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/md-5/SpecialSource/1.10.0/SpecialSource-1.10.0.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraft/server/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraft/server/1.17.1-20210706.113038/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraft/server/1.17.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraft/server/1.17.1/server-1.17.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-slim.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-extra.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-mappings.txt
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-slim.jar.cache
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-extra.jar.cache
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/sf/jopt-simple/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/sf/jopt-simple/jopt-simple/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/sf/jopt-simple/jopt-simple/5.0.4/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/jodah/typetools/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/jodah/typetools/0.8.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/jodah/typetools/0.8.3/typetools-0.8.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecrell/terminalconsoleappender/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecrell/terminalconsoleappender/1.2.0/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/fmlloader/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/coremods/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/mclanguage/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/eventbus/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/srgutils/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/lex/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/binarypatcher/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/jarsplitter/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/fmlcore/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/installertools/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/forge/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/unsafe/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/javafmllanguage/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/accesstransformers/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.metadata:_kMDItemUserTags'
+libraries/net/minecraftforge/forgespi/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/forgespi/4.0.10/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/forgespi/4.0.10/forgespi-4.0.10.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/accesstransformers/8.0.4/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/javafmllanguage/1.17.1-37.0.103/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/javafmllanguage/1.17.1-37.0.103/javafmllanguage-1.17.1-37.0.103.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/unsafe/0.2.0/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/forge/1.17.1-37.0.103/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/forge/1.17.1-37.0.103/forge-1.17.1-37.0.103-universal.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/forge/1.17.1-37.0.103/unix_args.txt
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/forge/1.17.1-37.0.103/forge-1.17.1-37.0.103-server.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/forge/1.17.1-37.0.103/win_args.txt
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/installertools/1.2.7/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/installertools/1.2.7/installertools-1.2.7.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/fmlcore/1.17.1-37.0.103/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/fmlcore/1.17.1-37.0.103/fmlcore-1.17.1-37.0.103.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/jarsplitter/1.1.4/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/binarypatcher/1.0.12/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/binarypatcher/1.0.12/binarypatcher-1.0.12.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/lex/vignette/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/lex/vignette/0.2.0.16/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/lex/vignette/0.2.0.16/vignette-0.2.0.16.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/srgutils/0.4.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/eventbus/5.0.3/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/mclanguage/1.17.1-37.0.103/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/mclanguage/1.17.1-37.0.103/mclanguage-1.17.1-37.0.103.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/coremods/5.0.1/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin.crc32'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.user.net.nutstore.dir.origin'
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/fmlloader/1.17.1-37.0.103/
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+libraries/net/minecraftforge/fmlloader/1.17.1-37.0.103/fmlloader-1.17.1-37.0.103.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+run.bat
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+run.sh
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+server.jar
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.selinux'
+user_jvm_args.txt
+GameWorld/AutoInstaller$: server.tar.gz 解压成功。
+GameWorld/AutoInstaller$: 安装完成。

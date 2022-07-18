@@ -1,0 +1,53 @@
+
+[advanced]
+	# Vanilla mobs are treated as pokemobs as well. [Default: false]
+	vanilla_pokemobs = false
+	# Pokemobs larger than this are treated a bit differently to try to reduce lag when they move around. [Default: 2]
+	largeMobForSplit = 2.0
+	# Mobs added by other mods are treated as pokemobs as well. [Default: false]
+	non_vanilla_pokemobs = false
+	# Time in ticks it takes for a pokemob to evolve, note that recalling during this time will cancel the evolution! [Default: 50]
+	evolutionTicks = 50
+	# Number of ender pearls required to teleport to a Pokecenter in your current dimension, using the attack teleport. [Default: 0]
+	telePearlsCostSameDim = 0
+	# A spacing around a player which prevents them from riding something too fast off the edge of the loaded area. This effectively limits the speed at which they can generate terrain. [Default: 32]
+	movementPauseThreshold = 32.0
+	# Number of ender pearls required to teleport to a Pokecenter in a different dimension, using the attack teleport. [Default: 16]
+	telePearlsCostOtherDim = 16
+	# Distance that secret base radar works within. [Default: 64]
+	baseRadarRange = 64
+
+[ai]
+	# Scaling factor of the riding speed while flying. [Default: 1.0]
+	flySpeedFactor = 1.0
+	# Scaling factor of the riding speed while in water. [Default: 1.0]
+	surfSpeedFactor = 1.0
+	# Dead wild pokemobs will vanish like normal mobs do on death. [Default: true]
+	wildDeadDespawn = true
+	# The time in ticks it takes for the dead mobs to vanish if allowed. [Default: 20]
+	deadDespawnTimer = 20
+	# If they did not vanish by this time, they will revive instead, wild ones at full hp, tame ones at 1 hp. [Default: 600]
+	deadReviveTimer = 600
+	# Flying will not be allowed in these dimensions.
+	blackListedFlyDims = ["the_end", "the_nether"]
+	# Scaling factor of the riding speed while on the ground. [Default: 1.0]
+	groundSpeedFactor = 1.0
+	# If true, dead tamed pokemobs will vanish like normal mobs do on death, but they will return to their pokecubes when they vanish. [Default: true]
+	tameDeadDespawn = true
+	# Approximate cooldown for attacks in ticks, larger values will slow down combat. [Default: 20]
+	attackCooldown = 20
+
+[misc]
+	# Global size scaling factor for pokemobs. [Default: 1.0]
+	scalefactor = 1.0
+	# Number of pages in the PC. [Default: 32]
+	pcPageCount = 32
+	# If true, NPCs will display their name tags, this is server config for syncing to clients for balance purposes. [Default: true]
+	npcNameTags = true
+
+[spawning]
+	# Pokemobs will not spawn further than this distance from a player. [Default: 32]
+	maxSpawnRadius = 32
+	# Pokemobs will not spawn closer than this distance from a player. [Default: 16]
+	minSpawnRadius = 16
+
