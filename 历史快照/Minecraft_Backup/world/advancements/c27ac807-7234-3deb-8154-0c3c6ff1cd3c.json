@@ -1,1579 +1,1814 @@
 {
   "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
-      "has_string": "2022-07-18 14:37:46 +0800"
+      "has_string": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_furnace": "2022-07-18 13:34:30 +0800"
+      "has_furnace": "2022-07-19 10:17:25 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+  "pokecube_mobs:kill/kill_scraggy": {
     "criteria": {
-      "has_bricks": "2022-07-18 14:10:09 +0800"
+      "kill_scraggy": "2022-07-19 00:12:01 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
     "criteria": {
-      "has_cooked_rabbit": "2022-07-18 13:42:06 +0800"
+      "has_cooked_rabbit": "2022-07-19 10:12:58 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_yungoos": {
+    "criteria": {
+      "kill_yungoos": "2022-07-19 00:09:33 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brick_wall": {
-    "criteria": {
-      "has_bricks": "2022-07-18 14:10:09 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_bidoof": {
     "criteria": {
-      "kill_bidoof": "2022-07-18 14:34:52 +0800"
+      "kill_bidoof": "2022-07-18 23:57:02 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_numel": {
-    "criteria": {
-      "kill_numel": "2022-07-18 16:58:26 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_makuhita": {
-    "criteria": {
-      "kill_makuhita": "2022-07-18 16:18:51 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_sneasel": {
     "criteria": {
-      "kill_sneasel": "2022-07-18 14:32:01 +0800"
+      "kill_sneasel": "2022-07-19 10:12:08 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
-      "has_leather": "2022-07-18 16:31:46 +0800"
+      "has_leather": "2022-07-19 10:34:05 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
-      "has_cooked_rabbit": "2022-07-18 13:42:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone": {
-    "criteria": {
-      "has_redstone_block": "2022-07-18 13:39:00 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2022-07-18 13:56:06 +0800"
+      "has_cooked_rabbit": "2022-07-19 10:12:58 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
-      "has_string": "2022-07-18 14:37:46 +0800"
+      "has_string": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magenta_wool": {
+  "minecraft:recipes/decorations/campfire": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_stick": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_wool": {
+    "criteria": {
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:35 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_zigzagoon": {
     "criteria": {
-      "kill_zigzagoon": "2022-07-18 14:36:18 +0800"
+      "kill_zigzagoon": "2022-07-19 00:19:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-07-19 10:31:32 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_electrode": {
+  "pokecube_mobs:kill/kill_weedle": {
     "criteria": {
-      "kill_electrode": "2022-07-18 16:33:37 +0800"
+      "kill_weedle": "2022-07-19 00:20:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "has_stick": "2022-07-18 13:56:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/map": {
-    "criteria": {
-      "has_compass": "2022-07-18 16:07:26 +0800"
+      "has_stick": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2022-07-18 13:33:07 +0800"
+      "has_lots_of_items": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:35 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_sentret": {
-    "criteria": {
-      "kill_sentret": "2022-07-18 16:06:28 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
-      "has_stick": "2022-07-18 13:56:06 +0800"
+      "has_stick": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:capture/catch_pachirisu": {
+  "minecraft:recipes/decorations/torch": {
     "criteria": {
-      "catch_pachirisu": "2022-07-18 14:40:56 +0800"
+      "has_the_recipe": "2022-07-19 10:21:30 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_magikarp": {
+    "criteria": {
+      "kill_magikarp": "2022-07-19 11:09:07 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cyan_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/shears": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/stick": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2022-07-19 11:08:31 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "in_water": "2022-07-18 14:34:09 +0800"
+      "in_water": "2022-07-18 22:38:12 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
-      "has_gunpowder": "2022-07-18 14:37:45 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_wobbuffet": {
-    "criteria": {
-      "kill_wobbuffet": "2022-07-18 14:55:12 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_brown_mushroom": "2022-07-18 14:21:44 +0800"
+      "has_gunpowder": "2022-07-19 00:03:28 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
-      "has_emerald": "2022-07-18 14:24:52 +0800"
+      "has_emerald": "2022-07-18 23:57:08 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_rabbit_from_smoking": {
     "criteria": {
-      "has_rabbit": "2022-07-18 13:29:31 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/detector_rail": {
-    "criteria": {
-      "has_rail": "2022-07-18 14:07:51 +0800"
+      "has_rabbit": "2022-07-19 00:18:04 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-07-19 10:28:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:36 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:capture/catch_nickit": {
+    "criteria": {
+      "catch_nickit": "2022-07-19 11:13:59 +0800"
     },
     "done": true
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "sweet_berries": "2022-07-18 14:42:25 +0800",
-      "baked_potato": "2022-07-18 14:20:12 +0800",
-      "apple": "2022-07-18 13:52:27 +0800",
-      "bread": "2022-07-18 14:47:46 +0800",
-      "cooked_rabbit": "2022-07-18 13:49:35 +0800",
-      "cooked_chicken": "2022-07-18 13:49:32 +0800",
-      "cooked_salmon": "2022-07-18 16:30:15 +0800"
+      "chicken": "2022-07-19 10:12:32 +0800",
+      "apple": "2022-07-19 00:04:03 +0800",
+      "cooked_rabbit": "2022-07-19 10:19:28 +0800",
+      "cod": "2022-07-19 11:11:06 +0800"
     },
     "done": false
   },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
-      "has_gold_nugget": "2022-07-18 13:48:40 +0800"
+      "has_gold_nugget": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
-      "has_stick": "2022-07-18 13:56:06 +0800"
+      "has_stick": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/shield": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2022-07-19 11:09:11 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_fletchling": {
+    "criteria": {
+      "kill_fletchling": "2022-07-19 11:03:23 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_caterpie": {
+  "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
-      "kill_caterpie": "2022-07-18 14:21:28 +0800"
+      "has_diorite": "2022-07-19 10:31:32 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
+  "pokecube_mobs:kill/kill_castform": {
     "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "kill_castform": "2022-07-19 00:09:38 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_trubbish": {
+    "criteria": {
+      "kill_trubbish": "2022-07-19 00:27:50 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_machop": {
+    "criteria": {
+      "kill_machop": "2022-07-19 00:11:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2022-07-19 10:28:00 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
-      "has_redstone": "2022-07-18 14:37:42 +0800"
+      "has_redstone": "2022-07-19 10:10:48 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:capture/catch_fennekin": {
+    "criteria": {
+      "catch_fennekin": "2022-07-19 10:08:46 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "pokecube_mobs:capture/get_first_pokemob": {
     "criteria": {
-      "get_first_pokemob": "2022-07-18 13:29:14 +0800"
+      "get_first_pokemob": "2022-07-18 23:57:17 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_tropius": {
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
     "criteria": {
-      "kill_tropius": "2022-07-18 16:31:31 +0800"
+      "has_diorite": "2022-07-19 10:31:32 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_absol": {
+  "pokecube_mobs:kill/kill_skuntank": {
     "criteria": {
-      "kill_absol": "2022-07-18 15:00:31 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_hoothoot": {
-    "criteria": {
-      "kill_hoothoot": "2022-07-18 14:32:08 +0800"
+      "kill_skuntank": "2022-07-19 00:02:24 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
-      "has_leather": "2022-07-18 16:31:46 +0800"
+      "has_leather": "2022-07-19 10:34:05 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_rattata_alola": {
+    "criteria": {
+      "kill_rattata_alola": "2022-07-19 11:08:56 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
-      "has_leather": "2022-07-18 16:31:46 +0800"
+      "has_leather": "2022-07-19 10:34:05 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:35 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/bow": {
     "criteria": {
-      "has_string": "2022-07-18 14:37:46 +0800"
+      "has_string": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
-      "has_chicken": "2022-07-18 13:47:39 +0800"
+      "has_chicken": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
-      "has_gunpowder": "2022-07-18 14:37:45 +0800"
+      "has_gunpowder": "2022-07-19 00:03:28 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_cottonee": {
+  "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
-      "kill_cottonee": "2022-07-18 14:40:35 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_roselia": {
-    "criteria": {
-      "kill_roselia": "2022-07-18 14:41:29 +0800"
+      "has_planks": "2022-07-19 10:41:25 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
+  "pokecube_mobs:kill/kill_roselia": {
     "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "kill_roselia": "2022-07-19 00:19:21 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_indeedee": {
+  "pokecube_mobs:capture/catch_pidgey": {
     "criteria": {
-      "kill_indeedee": "2022-07-18 13:45:28 +0800"
+      "catch_pidgey": "2022-07-19 11:03:22 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+  "pokecube_mobs:kill/kill_indeedee": {
     "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "kill_indeedee": "2022-07-19 00:30:40 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_stairs": {
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
-      "has_bricks": "2022-07-18 14:10:09 +0800"
+      "has_diorite": "2022-07-19 10:31:32 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_meowth_galar": {
+    "criteria": {
+      "kill_meowth_galar": "2022-07-19 00:29:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:36 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_ekans": {
+    "criteria": {
+      "kill_ekans": "2022-07-19 10:14:01 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:story/obtain_armor": {
     "criteria": {
-      "iron_boots": "2022-07-18 15:03:21 +0800"
+      "iron_boots": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_geodude": {
     "criteria": {
-      "kill_geodude": "2022-07-18 16:52:48 +0800"
+      "kill_geodude": "2022-07-19 00:01:17 +0800"
     },
     "done": true
   },
   "minecraft:story/mine_stone": {
     "criteria": {
-      "get_stone": "2022-07-18 16:39:42 +0800"
+      "get_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/target": {
     "criteria": {
-      "has_redstone": "2022-07-18 14:37:42 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/minecart": {
-    "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_redstone": "2022-07-19 10:10:48 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
+  "minecraft:recipes/transportation/minecart": {
     "criteria": {
-      "has_water_bucket": "2022-07-18 14:14:20 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_deerling": {
+    "criteria": {
+      "kill_deerling": "2022-07-19 11:07:15 +0800"
     },
     "done": true
   },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
-      "slept_in_bed": "2022-07-18 13:43:35 +0800"
+      "slept_in_bed": "2022-07-18 23:59:56 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
-      "has_log": "2022-07-18 14:06:12 +0800"
+      "has_log": "2022-07-19 10:38:18 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_pidgey": {
+    "criteria": {
+      "kill_pidgey": "2022-07-19 00:16:57 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
-      "has_logs": "2022-07-18 14:06:12 +0800"
+      "has_logs": "2022-07-19 10:38:18 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_pidove": {
     "criteria": {
-      "kill_pidove": "2022-07-18 14:34:22 +0800"
+      "kill_pidove": "2022-07-19 00:04:18 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/orange_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
-    "criteria": {
-      "has_rabbit": "2022-07-18 13:29:31 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
-      "has_stick": "2022-07-18 13:56:06 +0800"
+      "has_stick": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2022-07-19 00:18:04 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:husbandry/root": {
     "criteria": {
-      "consumed_item": "2022-07-18 13:49:32 +0800"
+      "consumed_item": "2022-07-19 00:04:03 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
-      "has_redstone": "2022-07-18 14:37:42 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_grubbin": {
-    "criteria": {
-      "kill_grubbin": "2022-07-18 14:39:21 +0800"
+      "has_redstone": "2022-07-19 10:10:48 +0800"
     },
     "done": true
   },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "in_water": "2022-07-18 14:34:09 +0800"
+      "in_water": "2022-07-18 22:38:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:35 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_spinda": {
     "criteria": {
-      "kill_spinda": "2022-07-18 16:59:35 +0800"
+      "kill_spinda": "2022-07-19 00:15:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2022-07-19 10:41:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-07-19 10:28:00 +0800"
     },
     "done": true
   },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "in_water": "2022-07-18 14:34:09 +0800"
+      "in_water": "2022-07-18 22:38:12 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2022-07-19 10:18:15 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
-      "killed_something": "2022-07-18 13:29:30 +0800"
+      "killed_something": "2022-07-18 23:56:51 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/misc/bowl": {
+  "pokecube_mobs:kill/kill_litleo": {
     "criteria": {
-      "has_brown_mushroom": "2022-07-18 14:21:44 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "kill_litleo": "2022-07-19 00:15:14 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
-      "has_leather": "2022-07-18 16:31:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "has_leather": "2022-07-19 10:34:05 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2022-07-18 14:37:42 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
-      "has_string": "2022-07-18 14:37:46 +0800"
+      "has_string": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2022-07-19 10:10:48 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
-      "has_potato": "2022-07-18 13:32:59 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_wooloo": {
-    "criteria": {
-      "kill_wooloo": "2022-07-18 14:31:26 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/activator_rail": {
-    "criteria": {
-      "has_rail": "2022-07-18 14:07:51 +0800"
+      "has_glowstone_dust": "2022-07-19 11:08:18 +0800"
     },
     "done": true
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2022-07-18 14:49:19 +0800",
-      "minecraft:spider": "2022-07-18 14:43:59 +0800",
-      "minecraft:zombie": "2022-07-18 13:47:54 +0800"
+      "minecraft:skeleton": "2022-07-19 11:07:25 +0800",
+      "minecraft:spider": "2022-07-19 11:04:20 +0800",
+      "minecraft:creeper": "2022-07-19 00:03:05 +0800",
+      "minecraft:drowned": "2022-07-18 23:59:39 +0800"
     },
     "done": false
   },
-  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+  "pokecube_mobs:kill/kill_grimer": {
     "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "kill_grimer": "2022-07-19 00:01:33 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
-      "has_redstone": "2022-07-18 14:37:42 +0800"
+      "has_redstone": "2022-07-19 10:10:48 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato": {
+  "minecraft:adventure/trade": {
     "criteria": {
-      "has_potato": "2022-07-18 13:32:59 +0800"
+      "traded": "2022-07-19 00:09:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2022-07-19 10:28:00 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
-      "has_beef": "2022-07-18 16:31:52 +0800"
+      "has_beef": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_ditto": {
+  "pokecube_mobs:kill/kill_rhyperior": {
     "criteria": {
-      "kill_ditto": "2022-07-18 13:44:13 +0800"
+      "kill_rhyperior": "2022-07-19 00:01:13 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_kricketot": {
+    "criteria": {
+      "kill_kricketot": "2022-07-19 11:15:52 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
-      "has_chicken": "2022-07-18 13:47:39 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_unown": {
-    "criteria": {
-      "kill_unown": "2022-07-18 16:33:29 +0800"
+      "has_chicken": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
-      "has_iron_boots": "2022-07-18 15:03:21 +0800"
+      "has_iron_boots": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
-      "has_bricks": "2022-07-18 14:10:09 +0800"
+      "has_mutton": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_yamper": {
+  "pokecube_mobs:kill/kill_pikachu": {
     "criteria": {
-      "kill_yamper": "2022-07-18 13:29:30 +0800"
+      "kill_pikachu": "2022-07-18 23:56:51 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chain": {
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
-      "has_iron_nugget": "2022-07-18 13:33:08 +0800"
+      "has_granite": "2022-07-19 10:28:00 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
-      "has_gold_nugget": "2022-07-18 13:48:40 +0800"
+      "has_gold_nugget": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_applin": {
+  "minecraft:recipes/decorations/chain": {
     "criteria": {
-      "kill_applin": "2022-07-18 13:52:22 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_yamper": {
+    "criteria": {
+      "kill_yamper": "2022-07-19 00:18:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-07-19 10:43:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-07-19 10:28:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2022-07-19 10:41:25 +0800"
     },
     "done": true
   },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "in_water": "2022-07-18 14:34:09 +0800"
+      "in_water": "2022-07-18 22:38:12 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
+  "pokecube_mobs:kill/kill_applin": {
     "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "kill_applin": "2022-07-19 00:05:05 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+  "pokecube_mobs:kill/kill_tauros": {
     "criteria": {
-      "has_potato": "2022-07-18 13:32:59 +0800"
+      "kill_tauros": "2022-07-19 00:01:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2022-07-19 11:09:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2022-07-19 00:37:38 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
-      "has_porkchop": "2022-07-18 14:48:16 +0800"
+      "has_porkchop": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "pokecube_legends:trials": {
+    "criteria": {
+      "kill_wishiwashi": "2022-07-19 10:35:10 +0800"
+    },
+    "done": false
+  },
+  "pokecube_mobs:kill/kill_slakoth": {
+    "criteria": {
+      "kill_slakoth": "2022-07-19 11:15:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2022-07-19 10:41:25 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_emolga": {
+    "criteria": {
+      "kill_emolga": "2022-07-19 00:19:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:35 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
-      "has_porkchop": "2022-07-18 14:48:16 +0800"
+      "has_porkchop": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_teddiursa": {
+  "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
-      "kill_teddiursa": "2022-07-18 16:27:23 +0800"
+      "has_raw_copper": "2022-07-19 10:18:15 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "has_stick": "2022-07-18 13:56:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lime_wool": {
-    "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_stick": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
+  "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
-      "has_blaze_rod": "2022-07-18 13:38:23 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2022-07-19 10:28:00 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_meowth": {
+    "criteria": {
+      "kill_meowth": "2022-07-18 23:57:07 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_gastly": {
+    "criteria": {
+      "kill_gastly": "2022-07-19 11:17:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-07-19 10:31:32 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:35 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_buneary": {
     "criteria": {
-      "kill_buneary": "2022-07-18 14:36:03 +0800"
+      "kill_buneary": "2022-07-19 11:13:32 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
-      "has_string": "2022-07-18 14:37:46 +0800"
+      "has_string": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2022-07-19 10:43:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/green_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/slime_block": {
+  "pokecube_mobs:kill/kill_eevee": {
     "criteria": {
-      "has_slime_ball": "2022-07-18 13:44:16 +0800"
+      "kill_eevee": "2022-07-19 00:14:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-07-19 10:31:32 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_drifloon": {
-    "criteria": {
-      "kill_drifloon": "2022-07-18 14:53:53 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_graveler": {
     "criteria": {
-      "kill_graveler": "2022-07-18 16:33:57 +0800"
+      "kill_graveler": "2022-07-19 00:01:47 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/leather": {
     "criteria": {
-      "has_rabbit_hide": "2022-07-18 14:19:04 +0800"
+      "has_rabbit_hide": "2022-07-19 00:17:34 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/root": {
     "criteria": {
-      "get_first_pokemob": "2022-07-18 13:29:15 +0800"
+      "get_first_pokemob": "2022-07-18 23:57:17 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_nickit": {
     "criteria": {
-      "kill_nickit": "2022-07-18 14:32:27 +0800"
+      "kill_nickit": "2022-07-19 11:10:32 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
-      "has_wool": "2022-07-18 14:41:10 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_gossifleur": {
-    "criteria": {
-      "kill_gossifleur": "2022-07-18 16:06:49 +0800"
+      "has_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
-      "has_poppy": "2022-07-18 14:21:49 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/arrow": {
-    "criteria": {
-      "has_feather": "2022-07-18 13:47:39 +0800"
+      "has_poppy": "2022-07-19 00:00:12 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2022-07-19 10:20:04 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
-      "has_log": "2022-07-18 14:06:12 +0800"
+      "has_log": "2022-07-19 10:38:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:35 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
-      "has_stick": "2022-07-18 13:56:06 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_tentacool": {
-    "criteria": {
-      "kill_tentacool": "2022-07-18 16:19:04 +0800"
+      "has_stick": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "minecraft:husbandry/obtain_netherite_hoe": {
+  "pokecube_mobs:kill/kill_dedenne": {
     "criteria": {
-      "netherite_hoe": "2022-07-18 14:15:18 +0800"
+      "kill_dedenne": "2022-07-19 10:57:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2022-07-19 10:40:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2022-07-19 10:31:32 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-07-19 10:28:00 +0800"
     },
     "done": true
   },
   "pokecube_adventures:trainers/root": {
     "criteria": {
-      "beat_trainer": "2022-07-18 14:52:17 +0800"
+      "beat_trainer": "2022-07-18 23:57:07 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_pinsir": {
+  "minecraft:recipes/tools/golden_axe": {
     "criteria": {
-      "kill_pinsir": "2022-07-18 14:51:34 +0800"
+      "has_gold_ingot": "2022-07-19 10:09:36 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_rattata": {
     "criteria": {
-      "kill_rattata": "2022-07-18 14:38:07 +0800"
+      "kill_rattata": "2022-07-19 00:14:59 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
+  "minecraft:recipes/misc/raw_copper": {
     "criteria": {
-      "has_slime_ball": "2022-07-18 13:44:16 +0800"
+      "has_raw_copper_block": "2022-07-19 10:34:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2022-07-19 10:31:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2022-07-19 11:08:18 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_taillow": {
+    "criteria": {
+      "kill_taillow": "2022-07-19 11:15:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2022-07-19 10:09:36 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_patrat": {
+    "criteria": {
+      "kill_patrat": "2022-07-19 11:03:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
-      "has_string": "2022-07-18 14:37:46 +0800"
+      "has_string": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:capture/catch_scorbunny": {
+  "pokecube_mobs:kill/kill_pikipek": {
     "criteria": {
-      "catch_scorbunny": "2022-07-18 13:29:15 +0800"
+      "kill_pikipek": "2022-07-19 11:12:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-07-19 10:41:25 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
-      "has_bone": "2022-07-18 14:19:22 +0800"
+      "has_bone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+  "pokecube_mobs:kill/kill_jynx": {
     "criteria": {
-      "has_bricks": "2022-07-18 14:10:09 +0800"
+      "kill_jynx": "2022-07-19 11:13:24 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_seedot": {
+  "minecraft:story/iron_tools": {
     "criteria": {
-      "kill_seedot": "2022-07-18 14:36:26 +0800"
+      "iron_pickaxe": "2022-07-19 10:16:14 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_mareep": {
+    "criteria": {
+      "kill_mareep": "2022-07-19 11:03:44 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_stantler": {
+    "criteria": {
+      "kill_stantler": "2022-07-19 00:14:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2022-07-19 10:40:45 +0800"
     },
     "done": true
   },
   "minecraft:story/root": {
     "criteria": {
-      "crafting_table": "2022-07-18 16:05:04 +0800"
-    },
-    "done": true
-  },
-  "pokecube_legends:root": {
-    "criteria": {
-      "get_first_pokemob": "2022-07-18 13:29:15 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_spearow": {
-    "criteria": {
-      "kill_spearow": "2022-07-18 13:47:38 +0800"
+      "crafting_table": "2022-07-19 10:51:20 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "pokecube_legends:root": {
+    "criteria": {
+      "get_first_pokemob": "2022-07-18 23:57:17 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
-      "has_stick": "2022-07-18 13:56:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dropper": {
-    "criteria": {
-      "has_redstone": "2022-07-18 14:37:42 +0800"
+      "has_stick": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2022-07-19 10:10:48 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
-      "has_porkchop": "2022-07-18 14:48:16 +0800"
+      "has_porkchop": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2022-07-19 10:41:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-07-19 10:41:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-07-19 10:28:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-07-19 10:31:32 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
-      "has_rabbit": "2022-07-18 13:29:31 +0800"
+      "has_rabbit": "2022-07-19 00:18:04 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/brewing_stand": {
+  "pokecube_mobs:kill/kill_starly": {
     "criteria": {
-      "has_blaze_rod": "2022-07-18 13:38:23 +0800"
+      "kill_starly": "2022-07-19 00:18:46 +0800"
     },
     "done": true
   },
   "pokecube_mobs:hatch/root": {
     "criteria": {
-      "get_first_pokemob": "2022-07-18 13:29:15 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_burmy": {
-    "criteria": {
-      "kill_burmy": "2022-07-18 14:52:17 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "get_first_pokemob": "2022-07-18 23:57:17 +0800"
     },
     "done": true
   },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
-      "has_iron_boots": "2022-07-18 15:03:21 +0800"
+      "has_iron_boots": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
-      "has_leather": "2022-07-18 16:31:46 +0800"
+      "has_leather": "2022-07-19 10:34:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2022-07-19 00:11:35 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/compass": {
     "criteria": {
-      "has_redstone": "2022-07-18 14:37:42 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_volbeat": {
-    "criteria": {
-      "kill_volbeat": "2022-07-18 14:38:10 +0800"
+      "has_redstone": "2022-07-19 10:10:48 +0800"
     },
     "done": true
   },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "minecraft:zombie": "2022-07-18 13:47:54 +0800"
+      "minecraft:drowned": "2022-07-18 23:59:39 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:recipes/redstone/oak_button": {
     "criteria": {
-      "has_slime_ball": "2022-07-18 13:44:16 +0800"
+      "has_planks": "2022-07-19 10:41:25 +0800"
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
+  "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
-      "blaze_rod": "2022-07-18 13:38:23 +0800"
+      "has_gold_ingot": "2022-07-19 10:09:35 +0800"
     },
     "done": true
   },
-  "minecraft:adventure/ol_betsy": {
+  "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
-      "shot_crossbow": "2022-07-18 13:55:54 +0800"
+      "has_diorite": "2022-07-19 10:31:32 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_munna": {
+  "pokecube_mobs:kill/kill_poliwag": {
     "criteria": {
-      "kill_munna": "2022-07-18 16:31:13 +0800"
+      "kill_poliwag": "2022-07-18 23:56:59 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_jangmo-o": {
+  "pokecube_mobs:kill/kill_pachirisu": {
     "criteria": {
-      "kill_jangmo-o": "2022-07-18 14:48:04 +0800"
+      "kill_pachirisu": "2022-07-18 23:56:54 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_roggenrola": {
-    "criteria": {
-      "kill_roggenrola": "2022-07-18 16:51:32 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
-      "has_beef": "2022-07-18 16:31:52 +0800"
+      "has_beef": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2022-07-18 14:34:07 +0800",
-      "minecraft:mountains": "2022-07-18 14:43:34 +0800",
-      "minecraft:taiga": "2022-07-18 13:28:52 +0800",
-      "minecraft:giant_tree_taiga": "2022-07-18 13:28:26 +0800",
-      "minecraft:taiga_hills": "2022-07-18 16:29:15 +0800",
-      "minecraft:birch_forest": "2022-07-18 16:16:49 +0800",
-      "minecraft:deep_lukewarm_ocean": "2022-07-18 16:16:23 +0800",
-      "minecraft:beach": "2022-07-18 16:16:48 +0800",
-      "minecraft:river": "2022-07-18 14:34:44 +0800",
-      "minecraft:lukewarm_ocean": "2022-07-18 16:25:54 +0800",
-      "minecraft:wooded_mountains": "2022-07-18 16:17:06 +0800",
-      "minecraft:wooded_hills": "2022-07-18 14:36:58 +0800",
-      "minecraft:giant_tree_taiga_hills": "2022-07-18 13:30:46 +0800",
-      "minecraft:swamp": "2022-07-18 16:15:04 +0800",
-      "minecraft:plains": "2022-07-18 16:01:56 +0800"
+      "minecraft:taiga": "2022-07-18 22:37:34 +0800",
+      "minecraft:birch_forest": "2022-07-19 11:02:13 +0800",
+      "minecraft:river": "2022-07-18 22:37:59 +0800",
+      "minecraft:forest": "2022-07-18 23:29:13 +0800",
+      "minecraft:old_growth_birch_forest": "2022-07-18 23:27:13 +0800",
+      "minecraft:plains": "2022-07-18 23:28:17 +0800"
     },
     "done": false
   },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "pokecube_mobs:kill/kill_meowth_alola": {
     "criteria": {
-      "kill_meowth_alola": "2022-07-18 13:48:38 +0800"
+      "kill_meowth_alola": "2022-07-19 00:28:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2022-07-19 10:18:15 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_poochyena": {
+    "criteria": {
+      "kill_poochyena": "2022-07-19 00:08:04 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "pokecube_mobs:capture/root": {
     "criteria": {
-      "get_first_pokemob": "2022-07-18 13:29:15 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/powered_rail": {
-    "criteria": {
-      "has_rail": "2022-07-18 14:07:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "get_first_pokemob": "2022-07-18 23:57:17 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
+  "pokecube_mobs:kill/kill_klefki": {
     "criteria": {
-      "has_spider_eye": "2022-07-18 14:38:13 +0800"
+      "kill_klefki": "2022-07-19 11:16:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2022-07-19 10:38:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2022-07-19 10:43:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
-    "criteria": {
-      "has_iron_nugget": "2022-07-18 13:33:08 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_zigzagoon_galar": {
-    "criteria": {
-      "kill_zigzagoon_galar": "2022-07-18 14:38:22 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_zigzagoon_galar": {
+    "criteria": {
+      "kill_zigzagoon_galar": "2022-07-19 00:18:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2022-07-19 10:41:25 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_wishiwashi": {
+    "criteria": {
+      "kill_wishiwashi": "2022-07-19 10:35:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
-      "has_leather": "2022-07-18 16:31:46 +0800"
+      "has_leather": "2022-07-19 10:34:05 +0800"
     },
     "done": true
   },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "in_water": "2022-07-18 14:34:09 +0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2022-07-18 13:55:54 +0800"
+      "in_water": "2022-07-18 22:38:12 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2022-07-19 00:37:38 +0800"
     },
     "done": true
   },
   "pokecube_mobs:capture/catch_raboot": {
     "criteria": {
-      "catch_raboot": "2022-07-18 16:29:53 +0800"
+      "catch_raboot": "2022-07-18 23:57:18 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
-      "has_iron_ingot": "2022-07-18 14:50:05 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_rockruff": {
+    "criteria": {
+      "kill_rockruff": "2022-07-19 00:17:11 +0800"
     },
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "in_water": "2022-07-18 14:34:09 +0800"
+      "in_water": "2022-07-18 22:38:12 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_passimian": {
+  "pokecube_mobs:kill/kill_girafarig": {
     "criteria": {
-      "kill_passimian": "2022-07-18 16:18:45 +0800"
+      "kill_girafarig": "2022-07-19 11:03:21 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_zubat": {
+  "pokecube_mobs:kill/kill_skitty": {
     "criteria": {
-      "kill_zubat": "2022-07-18 15:01:20 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "kill_skitty": "2022-07-19 10:19:50 +0800"
     },
     "done": true
   },
   "pokecube_adventures:trainers/defeat_trainer": {
     "criteria": {
-      "beat_trainer": "2022-07-18 14:52:17 +0800"
+      "beat_trainer": "2022-07-18 23:57:07 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_binacle": {
+  "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
-      "kill_binacle": "2022-07-18 16:28:36 +0800"
+      "has_granite": "2022-07-19 10:28:00 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_slab": {
+  "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
-      "has_bricks": "2022-07-18 14:10:09 +0800"
+      "has_gold_ingot": "2022-07-19 10:09:35 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
-      "has_redstone": "2022-07-18 14:37:42 +0800"
+      "has_redstone": "2022-07-19 10:10:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2022-07-19 11:09:11 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
-      "has_iron_nugget": "2022-07-18 13:33:08 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_indeedee_female": {
-    "criteria": {
-      "kill_indeedee_female": "2022-07-18 16:18:07 +0800"
+      "has_iron_ingot": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
-      "has_stone": "2022-07-18 16:59:27 +0800"
+      "has_stone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
-      "has_planks": "2022-07-18 15:59:36 +0800"
+      "has_planks": "2022-07-19 10:38:31 +0800"
     },
     "done": true
   },
-  "pokecube_mobs:kill/kill_illumise": {
+  "pokecube_mobs:kill/kill_cutiefly": {
     "criteria": {
-      "kill_illumise": "2022-07-18 14:43:05 +0800"
-    },
-    "done": true
-  },
-  "pokecube_mobs:kill/kill_ralts": {
-    "criteria": {
-      "kill_ralts": "2022-07-18 13:29:48 +0800"
+      "kill_cutiefly": "2022-07-19 00:28:41 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
-      "has_beef": "2022-07-18 16:31:52 +0800"
+      "has_beef": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_ralts": {
+    "criteria": {
+      "kill_ralts": "2022-07-19 00:04:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2022-07-19 10:31:32 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:capture/catch_deerling": {
+    "criteria": {
+      "catch_deerling": "2022-07-19 11:07:04 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
-      "has_chicken": "2022-07-18 13:47:39 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "has_chicken": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
-      "has_white_wool": "2022-07-18 14:41:10 +0800"
+      "has_white_wool": "2022-07-19 10:33:51 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
-      "has_stick": "2022-07-18 13:56:06 +0800"
+      "has_stick": "2022-07-18 23:27:10 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_blipbug": {
+    "criteria": {
+      "kill_blipbug": "2022-07-19 00:20:09 +0800"
     },
     "done": true
   },
   "minecraft:story/smelt_iron": {
     "criteria": {
-      "iron": "2022-07-18 14:50:05 +0800"
+      "iron": "2022-07-18 23:59:49 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
-      "has_cobblestone": "2022-07-18 16:39:42 +0800"
+      "has_cobblestone": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
+  "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
-      "has_bed": "2022-07-18 16:05:13 +0800"
+      "has_mutton": "2022-07-18 23:27:10 +0800"
     },
     "done": true
   },
-  "DataVersion": 2730
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2022-07-19 10:43:10 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2865
 }

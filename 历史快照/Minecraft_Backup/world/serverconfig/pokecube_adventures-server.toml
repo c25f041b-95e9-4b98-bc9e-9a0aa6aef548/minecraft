@@ -1,9 +1,9 @@
 
 [bag]
-	# The bag can hold filled pokecubes. [Default: false]
-	bagsHoldFilledCubes = false
 	# The number of pages the bag has. [Default: 32]
 	bagPages = 32
 	# The bag can hold any item. [Default: false]
 	bagsHoldEverything = false
+	# The bag can hold filled pokecubes. [Default: false]
+	bagsHoldFilledCubes = false
 

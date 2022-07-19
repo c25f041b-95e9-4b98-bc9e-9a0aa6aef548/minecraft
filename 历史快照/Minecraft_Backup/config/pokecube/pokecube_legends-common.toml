@@ -1,5 +1,6 @@
 
 [general]
+	# sets enabledcondition
 	enabledcondition = true
 	# If legends can only spawn once. [Default: false]
 	singleUseLegendSpawns = false
@@ -25,12 +26,10 @@
 	ticksPortalDespawn = 1200
 
 [meteors]
-	# Size and power of meteors. Anything above 100 is not recommended. [Default: 20]
+	# Threshold for meteor explosions to leave lava. [Default: 50]
 	meteorPowerThreshold = 20.0
 	# Chance for meteors to spawn. [Default: 0.15]
 	meteorChanceForAny = 0.15
-	# Chance for meteors to spawn with Cosmic Dust Ores. [Default: 0.25]
-	meteorChanceForDust = 0.25
 
 [wormholes]
 	# Minimum between two random wormhole spawns. [Default: 128]

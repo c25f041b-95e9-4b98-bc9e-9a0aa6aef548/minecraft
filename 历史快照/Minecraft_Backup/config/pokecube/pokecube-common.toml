@@ -16,8 +16,6 @@
 	generateFossils = true
 	# Allows the generic berry item to be added to pokemob drop pools if no other berries are added. [Default: false]
 	autoAddNullBerries = false
-	# Does a blanket "plant material" check for cuttable and edible plants, rather than relying entirely on the block tags. [Default: true]
-	autoPopulateLists = true
 	# Scaling factor on blast yield of explosive meteors. [Default: 1.0]
 	meteorScale = 1.0
 	# Structures to remove from worldgen.
@@ -52,12 +50,12 @@
 	disableVanillaAnimals = false
 	# If true, vanilla monsters are removed entirely, similar to peaceful mode. [Default: false]
 	disableVanillaMonsters = false
-	# If false, pokemobs will not spawn naturally. [Default: true]
-	pokemonSpawn = true
 	# If false, levelCap is ignored. [Default: true]
 	shouldCap = true
 	# see mobSpawnNumber's description. [Default: 1]
 	mobDensityMultiplier = 1.0
+	# If false, specific pokemob spawn rates are not affected by location is ignored. [Default: true]
+	applySpawnRateMask = true
 	# Pokemobs will not spawn in these biomes unless explicitly allowed to.
 	softSpawnBiomeBlacklist = ["the_bumblezone:sugar_water_floor", "the_bumblezone:hive_wall", "the_bumblezone:hive_pillar"]
 	# Vanilla monsters will not spawn via normal spawning, this does not prevent mob spawners or special spawns. [Default: false]
@@ -160,6 +158,8 @@
 [nests]
 	# The number of ant pokemobs that work at one nest. [Default: 10]
 	antNestMobNumber = 10
+	# Minimum distance between burrows made by wild pokemobs. [Default: 64]
+	nestSpacing = 64
 	# Wild pokemobs make nests, these result in effective mob spawners where they made them, and will prevent other mobs spawning in the area, unless the nests are cleared out. [Default: true]
 	pokemobsMakeNests = true
 	# Probability per second of a nest spawning an egg, if it has less than 3 eggs. [Default: 0.25]
@@ -168,20 +168,35 @@
 	nestMobNumber = 3
 
 [permissions]
+	# sets permsMoveAction
 	permsMoveAction = false
+	# sets permsFly
 	permsFly = false
+	# sets permsSurfSpecific
 	permsSurfSpecific = false
+	# sets permsCaptureSpecific
 	permsCaptureSpecific = false
+	# sets permsDiveSpecific
 	permsDiveSpecific = false
+	# sets permsHatch
 	permsHatch = false
+	# sets permsSendOut
 	permsSendOut = false
+	# sets permsSurf
 	permsSurf = false
+	# sets permsFlySpecific
 	permsFlySpecific = false
+	# sets permsRide
 	permsRide = false
+	# sets permsDive
 	permsDive = false
+	# sets permsRideSpecific
 	permsRideSpecific = false
+	# sets permsCapture
 	permsCapture = false
+	# sets permsSendOutSpecific
 	permsSendOutSpecific = false
+	# sets permsHatchSpecific
 	permsHatchSpecific = false
 
 [ai]
@@ -195,8 +210,6 @@
 	guardModeEnabled = true
 	# Pokemobs will forget their target if they get more than this far away. [Default: 32]
 	chaseDistance = 32
-	# If a pokemob is more than this far from a player, it will freeze and not tick. This distance must be larger than cullDistance for cull or despawn to do anything. [Default: 32]
-	aiDisableDistance = 32
 	# Maximum distance a tamed pokemob will try to move while idle wandering. [Default: 4]
 	idleMaxPathTame = 4
 	# Wild pokemobs will check for a player to attack every approximately this many ticks, large values decrease the chance of pokemob aggression. [Default: 200]
@@ -219,8 +232,6 @@
 	idleSoundVolume = 0.25
 	# Approximate number of ticks between breeding. [Min: 600] [Default: 4000]
 	breedingDelay = 4000
-	# If cull is enabled, idle wild mobs will vanish if exceeding this distance from a player, requires aiDisableDistance to be larger. [Default: 96]
-	cullDistance = 96
 	# If true, pokemobs can hurt players. [Default: true]
 	pokemobsDamagePlayers = true
 	# Scales combat leaping speed. [Default: 1]
@@ -237,8 +248,6 @@
 	huntUpdateRate = 5
 	# Number of ms in a tick to start computing load balancing. [Default: 2]
 	loadBalanceThreshold = 2.0
-	# If true, pokemobs drop their items from their loot tables. [Default: true]
-	pokemobsDropItems = true
 	# Fish-like pokemobs will occasionally look for fishing bobbers in this range. [Default: 16]
 	fishHookBaitRange = 16
 	# Delay between guard mode ticks, lower is faster. [Default: 20]
@@ -271,8 +280,6 @@
 	interactHungerScale = 1.0
 	# If true, pokemobs will need to execute an attack after breaking out of a cube before they can go into another for capture. [Default: true]
 	captureDelayTillAttack = true
-	# If true, pokemobs may despawn if more than cullDistance from a player. [Default: true]
-	despawn = true
 	# Scaling factor on pokemob swim speed while pathing normally. [Default: 1.25]
 	swimPathingSpeedFactor = 1.25
 	# If true, player's in the same team can still battle each other. [Default: true]
@@ -281,10 +288,6 @@
 	outOfCombatHealing = true
 	# How long the exit cube animation effects last for. [Default: 40]
 	exitCubeDuration = 40
-	# If true, pokemobs will vanish if they are more than cullDistance from a player. [Default: false]
-	cull = false
-	# If true, explosion type moves make large physical explosions. [Default: true]
-	explosions = true
 	# Scaling factor on pokemob flight speed while pathing normally. [Default: 1.25]
 	flyPathingSpeedFactor = 1.25
 	# This number multiplied by mobSpawnNumber is how many mobs can be in an area before pokemobs stop breeding, this is for tamed pokemobs. [Default: 4]
@@ -305,8 +308,6 @@
 	interactDelayScale = 1.0
 	# Shift-right-clicking a valid pokemob with a stick will place it on your shoulder. [Default: true]
 	pokemobsOnShoulder = true
-	# If true, pokemob attacks can remove or destroy blocks in the world. [Default: false]
-	pokemobsDamageBlocks = false
 	# If true, hungry herbivores will eat random plants. [Default: true]
 	pokemobsEatPlants = true
 	# Scaling rate for load balancing. [Default: 1.0]
@@ -315,8 +316,8 @@
 	eggHatchTime = 10000
 	# This is a cooldown between the pokemob deciding to attack a player, and the pokemob actually doing so, this gives some warning when you are about to be attacked. [Default: 100]
 	pokemobagressticks = 100
-	# If true, idle AI for pokemobs will slow down as server load increases. [Default: true]
-	doLoadBalancing = true
+	# If true, idle AI for pokemobs will slow down as server load increases. [Default: false]
+	doLoadBalancing = false
 	# If true, hungry lithovores will eat rocks to cobble/gravel. [Default: true]
 	pokemobsEatRocks = true
 
@@ -359,6 +360,6 @@
 	snag_cube_blacklist = ["ender_dragon", "wither"]
 	# You will be prompted to choose a pokemob when creating a world, without having to look for a professor. [Default: false]
 	guiOnLogin = false
-	# You will be prompted to look for a professor if you have not recieved a starter. [Default: true]
+	# You will be prompted to look for a professor if you have not recieved a starter. [Default: false]
 	msgAboutProfessor = false
 

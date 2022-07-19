@@ -28,6 +28,8 @@
 	autoRecallDistance = 32
 	# Moves the battle log from the pokemob message gui to the chat. [Default: false]
 	battleLogInChat = false
+	# Pokemobs may try to automatically path while ridden. [Default: true]
+	riddenMobsTryPathing = false
 	# Scale of the pokemob message GUI. [Default: 1.0]
 	messageSize = 1.0
 	# Width of the pokemob message GUI. [Default: 150]
@@ -44,6 +46,7 @@
 	autoRecallPokemobs = false
 	# Music from the Pokecenter if powered. [Default: true]
 	pokeCenterMusic = true
+	# sets extraberries
 	extraberries = false
 	# Scale of the target pokemob GUI. [Default: 1.0]
 	targetSize = 1.0
