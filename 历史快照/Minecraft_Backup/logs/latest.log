@@ -1,288 +1,245 @@
-[10:25:12] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 39.1.2, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407]
-[10:25:12] [main/INFO]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.2 by Azul Systems, Inc.
-[10:25:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/container/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2319!/ Service=ModLauncher Env=SERVER
-[10:25:12] [main/INFO]: Found mod file pokecube-aio-1.18.1-3.16.1.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[10:25:13] [main/INFO]: Found mod file fmlcore-1.18.1-39.1.2.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a891c97
-[10:25:13] [main/INFO]: Found mod file javafmllanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a891c97
-[10:25:13] [main/INFO]: Found mod file mclanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a891c97
-[10:25:13] [main/INFO]: Found mod file server-1.18.1-20211210.034407-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a891c97
-[10:25:13] [main/INFO]: Found mod file forge-1.18.1-39.1.2-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a891c97
-[10:25:17] [main/INFO]: Compatibility level set to JAVA_17
-[10:25:17] [main/INFO]: Launching target 'forgeserver' with arguments []
-[10:25:39] [modloading-worker-0/INFO]: Forge mod loading, version 39.1.2, for MC 1.18.1 with MCP 20211210.034407
-[10:25:39] [modloading-worker-0/INFO]: MinecraftForge v39.1.2 Initialized
-[10:25:56] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[10:25:56] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[10:25:56] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[10:25:56] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[10:25:56] [main/INFO]: Found 1 classes in package pokecube.core.moves.implementations
-[10:25:56] [main/INFO]: Found 28 classes in package pokecube.legends.init
-[10:25:56] [main/INFO]: Found 71 classes in package pokecube.mobs.moves
-[10:25:57] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[10:25:57] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[10:25:57] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[10:25:57] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[10:25:57] [main/INFO]: Found 10 classes in package pokecube.core.moves.animations
-[10:26:02] [main/INFO]: Found 246 classes in package pokecube.mobs.abilities
-[10:26:02] [main/INFO]: Found 2 classes in package pokecube.core.database.abilities
-[10:26:03] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_baile
-[10:26:03] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pau
-[10:26:03] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pom-pom
-[10:26:03] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_sensu
-[10:26:03] [main/INFO]: Loaded 906 by number, and 1153 by formes from databases.
-[10:26:04] [main/ERROR]: Trying to replace calyrex with glastrier as base for calyrex_ice_rider
-[10:26:04] [main/ERROR]: Trying to replace calyrex with spectrier as base for calyrex_shadow_rider
-[10:26:05] [main/INFO]: Found Worldgen Databases: [pokecube_mobs:structures/berry_trees.json, pokecube_legends:structures/decoration_distortic.json, pokecube_legends:structures/decoration_overworld.json, pokecube_legends:structures/decoration_ultraspace.json, pokecube_legends:structures/raid_spots.json, pokecube:structures/ruins.json, pokecube_legends:structures/temples_regi.json, pokecube_legends:structures/temples_unown.json, pokecube:structures/village_badlands.json, pokecube:structures/village_beach.json, pokecube:structures/village_cave.json, pokecube:structures/village_common.json, pokecube:structures/village_dark_forest.json, pokecube:structures/village_deep.json, pokecube:structures/village_desert.json, pokecube:structures/village_end.json, pokecube:structures/village_high_sky.json, pokecube:structures/village_hills.json, pokecube:structures/village_jungle.json, pokecube:structures/village_nether.json, pokecube_legends:structures/village_ocean.json, pokecube:structures/village_plains.json, pokecube:structures/village_savanna.json, pokecube:structures/village_sky.json, pokecube:structures/village_snowy.json, pokecube:structures/village_swamp.json, pokecube:structures/village_taiga.json, pokecube_legends:structures/village_ultraspace.json, pokecube_legends:structures/villian_lairs.json, pokecube_legends:structures/worldgen.json]
-[10:26:05] [main/INFO]: Found 1 jigsaws and 2 pools in pokecube_mobs:structures/berry_trees.json
-[10:26:05] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/decoration_distortic.json
-[10:26:05] [main/INFO]: Found 1 jigsaws and 1 pools in pokecube_legends:structures/decoration_overworld.json
-[10:26:05] [main/INFO]: Found 17 jigsaws and 17 pools in pokecube_legends:structures/decoration_ultraspace.json
-[10:26:05] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/raid_spots.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 3 pools in pokecube:structures/ruins.json
-[10:26:05] [main/INFO]: Found 6 jigsaws and 6 pools in pokecube_legends:structures/temples_regi.json
-[10:26:05] [main/INFO]: Found 3 jigsaws and 2 pools in pokecube_legends:structures/temples_unown.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 13 pools in pokecube:structures/village_badlands.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_beach.json
-[10:26:05] [main/INFO]: Found 1 jigsaws and 10 pools in pokecube:structures/village_cave.json
-[10:26:05] [main/INFO]: Found 0 jigsaws and 1 pools in pokecube:structures/village_common.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_dark_forest.json
-[10:26:05] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_deep.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_desert.json
-[10:26:05] [main/INFO]: Found 1 jigsaws and 4 pools in pokecube:structures/village_end.json
-[10:26:05] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_high_sky.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_hills.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_jungle.json
-[10:26:05] [main/INFO]: Found 1 jigsaws and 7 pools in pokecube:structures/village_nether.json
-[10:26:05] [main/INFO]: Found 1 jigsaws and 12 pools in pokecube_legends:structures/village_ocean.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_plains.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_savanna.json
-[10:26:05] [main/INFO]: Found 1 jigsaws and 11 pools in pokecube:structures/village_sky.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_snowy.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_swamp.json
-[10:26:05] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_taiga.json
-[10:26:05] [main/INFO]: Found 1 jigsaws and 6 pools in pokecube_legends:structures/village_ultraspace.json
-[10:26:05] [main/INFO]: Found 3 jigsaws and 9 pools in pokecube_legends:structures/villian_lairs.json
-[10:26:05] [main/INFO]: Found 21 jigsaws and 43 pools in pokecube_legends:structures/worldgen.json
-[10:26:05] [main/INFO]: Loaded 240 pools and 90 jigsaws for pokecube
-[10:26:05] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/grow]' to registry
-[10:26:05] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/trees]' to registry
-[10:26:05] [main/WARN]: No Berry tree database found for pokecube
-[10:26:05] [main/INFO]: Loaded thut_wearables config file thut_wearables/thut_wearables-common.toml
-[10:26:05] [main/INFO]: Reading thut_wearables/thut_wearables-common.toml
-[10:26:05] [main/INFO]: Loaded pokecube_legends config file pokecube/pokecube_legends-common.toml
-[10:26:05] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
-[10:26:05] [main/INFO]: Reading pokecube/pokecube_legends-common.toml
-[10:26:05] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
-[10:26:05] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
-[10:26:05] [main/INFO]: Loaded thutcore config file thutcore/thutcore-common.toml
-[10:26:05] [main/INFO]: Reading thutcore/thutcore-common.toml
-[10:26:05] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
-[10:26:05] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
-[10:26:05] [main/INFO]: Loaded pokecube config file pokecube/pokecube-common.toml
-[10:26:05] [main/INFO]: Reading pokecube/pokecube-common.toml
-[10:26:05] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
-[10:26:05] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
-[10:26:05] [main/INFO]: Loaded pokecube_adventures config file pokecube/pokecube_adventures-common.toml
-[10:26:05] [main/INFO]: Reading pokecube/pokecube_adventures-common.toml
-[10:26:05] [Thread-0/INFO]: Reading pokecube/pokecube_adventures-common.toml
-[10:26:05] [modloading-worker-0/INFO]: Hello from Common Proxy setup!
-[10:26:05] [modloading-worker-0/INFO]: Setup
-[10:26:05] [Thread-0/INFO]: Reading pokecube/pokecube_adventures-common.toml
-[10:26:05] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/configured_structure_feature / pokecube_mobs:berry_trees/grow]' to registry
-[10:26:05] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[10:26:07] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 39.1.2 Target: null
-[10:26:08] [main/WARN]: Mod 'pokecube' took 2.185 s to run a deferred task.
-[10:26:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10:26:11] [main/INFO]: Injecting existing registry data into this CLIENT instance
-[10:26:16] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2340!/assets/.mcassetsroot' uses unexpected schema
-[10:26:16] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2340!/data/.mcassetsroot' uses unexpected schema
-[10:26:16] [main/INFO]: Registering Commands
-[10:26:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:26:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:26:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:26:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:26:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:26:16] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, confirm] with inputs: [words_with_underscores, word]
-[10:26:16] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, target] with inputs: [word]
-[10:26:16] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, clean] with inputs: [words_with_underscores, word]
-[10:26:16] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, exit] with inputs: [words_with_underscores, word]
-[10:26:16] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, target] with inputs: [word]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, clean] with inputs: [words_with_underscores, word]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, exit] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, confirm] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, clean] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, exit] with inputs: [words_with_underscores, word]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, confirm] with inputs: [words_with_underscores, word]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, target] with inputs: [word]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokemake, mob, player] and [pokemake, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokemake, mob, args] and [pokemake, mob, player] with inputs: [words with spaces, "and symbols", word]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, player] and [pokemakerand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, args] and [pokemakerand, mode, player] with inputs: [words with spaces, "and symbols", word]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokerecall, all] and [pokerecall, name] with inputs: [all]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokerecall, sitting] and [pokerecall, name] with inputs: [sitting]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokerecall, staying] and [pokerecall, name] with inputs: [staying]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokeegg, mob, player] and [pokeegg, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokeegg, mob, args] and [pokeegg, mob, player] with inputs: [words with spaces, "and symbols", word]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, player] and [pokeeggrand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, args] and [pokeeggrand, mode, player] with inputs: [words with spaces, "and symbols", word]
-[10:26:17] [main/WARN]: Ambiguity between arguments [pcedit, pos] and [pcedit, target] with inputs: [0 0 0]
-[10:26:17] [main/INFO]: Reloading ResourceManager: Default, pokecube-aio-1.18.1-3.16.1.jar, forge-1.18.1-39.1.2-universal.jar
-[10:26:20] [Worker-Main-64/INFO]: Loaded 10 recipes
-[10:26:22] [Worker-Main-64/INFO]: Loaded 4305 advancements
-[10:26:25] [Worker-Main-64/ERROR]: Unfilled value baseXP for MissingNo!
-[10:26:25] [Worker-Main-64/ERROR]: Unfilled value catchRate for MissingNo!
-[10:26:25] [Worker-Main-64/ERROR]: Unfilled value baseHappiness for MissingNo!
-[10:26:25] [Worker-Main-64/ERROR]: Unfilled value evolutionMode for MissingNo!
-[10:26:25] [Worker-Main-64/ERROR]: Unfilled value sexeRatio for MissingNo!
-[10:26:25] [Worker-Main-64/ERROR]: Unfilled value mass for MissingNo!
-[10:26:33] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[10:26:33] [Server thread/INFO]: Loading properties
-[10:26:33] [Server thread/INFO]: Default game type: SPECTATOR
-[10:26:33] [Server thread/INFO]: Generating keypair
-[10:26:34] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20309
-[10:26:34] [Server thread/INFO]: Using epoll channel type
-[10:26:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:26:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:26:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:26:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:26:34] [Server thread/INFO]: Loaded thut_bling config file thut_bling-server.toml
-[10:26:34] [Server thread/INFO]: Reading thut_bling-server.toml
-[10:26:34] [Server thread/INFO]: Loaded thutcrafts config file thutcrafts-server.toml
-[10:26:34] [Server thread/INFO]: Reading thutcrafts-server.toml
-[10:26:34] [Thread-0/INFO]: Reading thutcrafts-server.toml
-[10:26:34] [Thread-0/INFO]: Reading thutcrafts-server.toml
-[10:26:34] [Server thread/INFO]: Loaded pokecube config file pokecube-server.toml
-[10:26:34] [Server thread/INFO]: Reading pokecube-server.toml
-[10:26:34] [Thread-0/INFO]: Reading pokecube-server.toml
-[10:26:34] [Server thread/INFO]: Loaded pokecube_adventures config file pokecube_adventures-server.toml
-[10:26:34] [Server thread/INFO]: Reading pokecube_adventures-server.toml
-[10:26:34] [Thread-0/INFO]: Reading pokecube-server.toml
-[10:26:34] [Thread-0/INFO]: Reading pokecube_adventures-server.toml
-[10:26:34] [Server thread/INFO]: Found 9 classes in package pokecube.adventures.utils.trade_presets
-[10:26:34] [Server thread/ERROR]: No preset found for all_not_caves
-[10:26:34] [Server thread/ERROR]: No preset found for all_not_caves
-[10:26:34] [Server thread/INFO]: Preparing level "world"
-[10:26:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:26:36] [Worker-Main-55/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-55/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-55/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-55/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-55/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-55/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-50/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-54/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-50/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-68/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-50/INFO]: Preparing spawn area: 0%
-[10:26:40] [Worker-Main-50/INFO]: Preparing spawn area: 0%
-[10:26:41] [Worker-Main-55/INFO]: Preparing spawn area: 0%
-[10:26:41] [Worker-Main-67/INFO]: Preparing spawn area: 0%
-[10:26:42] [Worker-Main-69/INFO]: Preparing spawn area: 0%
-[10:26:42] [Worker-Main-50/INFO]: Preparing spawn area: 4%
-[10:26:43] [Worker-Main-76/INFO]: Preparing spawn area: 6%
-[10:26:44] [Worker-Main-62/INFO]: Preparing spawn area: 12%
-[10:26:44] [Worker-Main-62/INFO]: Preparing spawn area: 12%
-[10:26:44] [Worker-Main-64/INFO]: Preparing spawn area: 17%
-[10:26:45] [Worker-Main-62/INFO]: Preparing spawn area: 24%
-[10:26:45] [Worker-Main-75/INFO]: Preparing spawn area: 27%
-[10:26:46] [Worker-Main-75/INFO]: Preparing spawn area: 40%
-[10:26:46] [Worker-Main-84/INFO]: Preparing spawn area: 49%
-[10:26:47] [Worker-Main-70/INFO]: Preparing spawn area: 60%
-[10:26:47] [Worker-Main-82/INFO]: Preparing spawn area: 68%
-[10:26:48] [Worker-Main-84/INFO]: Preparing spawn area: 72%
-[10:26:48] [Worker-Main-67/INFO]: Preparing spawn area: 72%
-[10:26:49] [Worker-Main-76/INFO]: Preparing spawn area: 76%
-[10:26:50] [Worker-Main-67/INFO]: Preparing spawn area: 80%
-[10:26:50] [Worker-Main-98/INFO]: Preparing spawn area: 80%
-[10:26:50] [Worker-Main-92/INFO]: Preparing spawn area: 83%
-[10:26:51] [Worker-Main-88/INFO]: Preparing spawn area: 83%
-[10:26:51] [Worker-Main-96/INFO]: Preparing spawn area: 85%
-[10:26:52] [Worker-Main-86/INFO]: Preparing spawn area: 86%
-[10:26:52] [Worker-Main-61/INFO]: Preparing spawn area: 92%
-[10:26:53] [Worker-Main-86/INFO]: Preparing spawn area: 95%
-[10:26:53] [Worker-Main-52/INFO]: Preparing spawn area: 98%
-[10:26:53] [Server thread/INFO]: Time elapsed: 18641 ms
-[10:26:53] [Server thread/INFO]: Done (19.301s)! For help, type "help"
-[10:26:53] [Server thread/INFO]: Starting GS4 status listener
-[10:26:53] [Server thread/INFO]: Thread Query Listener started
-[10:26:53] [Query Listener #1/INFO]: Query running on 0.0.0.0:20309
-[10:26:53] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
-[10:26:53] [Server thread/INFO]: Found 10 classes in package pokecube.legends.conditions.custom
-[10:26:53] [Server thread/INFO]: Registered 9 Legendary Conditions.
-[10:26:53] [Server thread/INFO]: Server Starting
-[10:26:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4460ms or 89 ticks behind
-[10:27:56] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@504a3885
-[10:27:56] [Server thread/INFO]: DRD[/125.82.12.37:14053] logged in with entity id 212 at (-302.81564503743755, 60.0, 575.7747414577841)
-[10:27:57] [Server thread/INFO]: DRD joined the game
-[10:29:02] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2dca4264
-[10:35:10] [Server thread/INFO]: DRD has made the advancement [Defeat a Wishiwashi]
-[10:40:02] [Server thread/INFO]: <DRD> s
-[10:43:59] [Server thread/INFO]: DRD has made the advancement [Getting an Upgrade]
-[10:57:54] [Server thread/INFO]: DRD has made the advancement [Defeat a Dedenne]
-[11:01:59] [Worker-Main-73/INFO]: 6 iterations of build for: pokecube:village/taiga_small
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 8.250165612963002,-8.320414778495433E-6,-6.118739900646688
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 8.570735766424178,-8.380955875963991E-6,-6.3564909326814245
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 8.891377197414045,-8.42660751487756E-6,-6.594294827734814
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 9.21208277817803,-8.457346282852996E-6,-6.832146299503734
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 9.532846093737191,-8.474378240919123E-6,-7.0700405903155
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 9.853661370610638,-8.479732599653289E-6,-7.307973418264851
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 10.174523412665707,-8.475889430314965E-6,-7.545940929637084
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 10.49542754338313,-8.465463444906618E-6,-7.783939656089046
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 10.81636955389564,-8.450955817806971E-6,-8.021966476112084
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 11.137345656222863,-8.434577331684068E-6,-8.260018580348344
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 11.458352441182484,-8.418139572086147E-6,-8.498093440375953
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 11.77938684051054,-8.403006098944843E-6,-8.736188780615237
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 12.10044609276953,-8.390092560262019E-6,-8.974302553044538
-[11:02:00] [Server thread/WARN]: Boat (vehicle of DRD) moved too quickly! 12.421527712665778,-8.379903540856048E-6,-9.212432914444378
-[11:02:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2139ms or 42 ticks behind
-[11:03:21] [Server thread/INFO]: DRD has made the advancement [Defeat a Girafarig]
-[11:03:22] [Server thread/INFO]: DRD has made the advancement [Catch a Pidgey]
-[11:03:23] [Server thread/INFO]: DRD has made the advancement [Defeat a Fletchling]
-[11:03:44] [Server thread/INFO]: DRD has made the advancement [Defeat a Mareep]
-[11:03:51] [Server thread/INFO]: DRD has made the advancement [Defeat a Patrat]
-[11:05:19] [Server thread/INFO]: DRD didn't want to live in the same world as Litleo
-[11:05:20] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/212, l='ServerLevel[新的世界]', x=-77.94, y=70.00, z=-34.74, removed=KILLED]'
-[11:07:04] [Server thread/INFO]: DRD has made the advancement [Catch a Deerling]
-[11:07:15] [Server thread/INFO]: DRD has made the advancement [Defeat a Deerling]
-[11:08:56] [Server thread/INFO]: DRD has made the advancement [Defeat a Rattata]
-[11:09:08] [Server thread/INFO]: DRD has made the advancement [Defeat a Magikarp]
-[11:10:24] [Worker-Main-48/INFO]: 6 iterations of build for: pokecube:village/taiga_small
-[11:10:28] [Worker-Main-87/INFO]: 6 iterations of build for: pokecube:scattered/ruins_rigid
-[11:10:32] [Server thread/INFO]: DRD has made the advancement [Defeat a Nickit]
-[11:12:05] [Worker-Main-82/INFO]: Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=-319, y=-6, z=1012}
-[11:12:19] [Server thread/INFO]: DRD has made the advancement [Defeat a Pikipek]
-[11:13:24] [Server thread/INFO]: DRD has made the advancement [Defeat a Jynx]
-[11:13:32] [Server thread/INFO]: DRD has made the advancement [Defeat a Buneary]
-[11:13:51] [Worker-Main-68/INFO]: Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=-275, y=69, z=1094}
-[11:13:59] [Server thread/INFO]: DRD has made the advancement [Catch a Nickit]
-[11:15:09] [Server thread/INFO]: DRD has made the advancement [Defeat a Slakoth]
-[11:15:30] [Server thread/INFO]: DRD has made the advancement [Defeat a Taillow]
-[11:15:52] [Server thread/INFO]: DRD has made the advancement [Defeat a Kricketot]
-[11:16:47] [Server thread/INFO]: DRD has made the advancement [Defeat a Klefki]
-[11:17:10] [Worker-Main-60/INFO]: Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=-438, y=66, z=1108}
-[11:17:13] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4103c1de
-[11:17:26] [Server thread/INFO]: DRD has made the advancement [Defeat a Gastly]
-[11:21:52] [Server thread/INFO]: DRD fell out of the world
-[11:22:08] [Server thread/INFO]: DRD lost connection: Disconnected
-[11:22:08] [Server thread/INFO]: DRD left the game
-[11:22:33] [Server thread/INFO]: Stopping the server
-[11:22:33] [Server thread/INFO]: Stopping server
-[11:22:33] [Server thread/INFO]: Saving players
-[11:22:33] [Server thread/INFO]: Saving worlds
-[11:22:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[11:22:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[11:22:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[11:22:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[11:22:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[11:22:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[11:22:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[11:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (secret_base): All chunks are saved
-[11:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
-[11:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (distorted_world): All chunks are saved
-[11:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (ultraspace): All chunks are saved
-[11:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:22:35] [Thread-0/INFO]: Reading thut_bling-server.toml
-[11:22:35] [Server thread/INFO]: Thread Query Listener stopped
+[15:20:34] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 39.1.2, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407]
+[15:20:34] [main/INFO]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.2 by Azul Systems, Inc.
+[15:20:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/container/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2319!/ Service=ModLauncher Env=SERVER
+[15:20:34] [main/INFO]: Found mod file pokecube-aio-1.18.1-3.16.1.jar of type MOD with locator {mods folder locator at /home/container/mods}
+[15:20:35] [main/INFO]: Found mod file fmlcore-1.18.1-39.1.2.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@6eeade6c
+[15:20:35] [main/INFO]: Found mod file javafmllanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@6eeade6c
+[15:20:35] [main/INFO]: Found mod file mclanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@6eeade6c
+[15:20:35] [main/INFO]: Found mod file server-1.18.1-20211210.034407-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@6eeade6c
+[15:20:35] [main/INFO]: Found mod file forge-1.18.1-39.1.2-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@6eeade6c
+[15:20:39] [main/INFO]: Compatibility level set to JAVA_17
+[15:20:39] [main/INFO]: Launching target 'forgeserver' with arguments []
+[15:21:00] [modloading-worker-0/INFO]: Forge mod loading, version 39.1.2, for MC 1.18.1 with MCP 20211210.034407
+[15:21:00] [modloading-worker-0/INFO]: MinecraftForge v39.1.2 Initialized
+[15:21:17] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[15:21:17] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[15:21:17] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[15:21:17] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[15:21:17] [main/INFO]: Found 1 classes in package pokecube.core.moves.implementations
+[15:21:17] [main/INFO]: Found 28 classes in package pokecube.legends.init
+[15:21:17] [main/INFO]: Found 71 classes in package pokecube.mobs.moves
+[15:21:18] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[15:21:18] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[15:21:18] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[15:21:18] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[15:21:18] [main/INFO]: Found 10 classes in package pokecube.core.moves.animations
+[15:21:23] [main/INFO]: Found 246 classes in package pokecube.mobs.abilities
+[15:21:23] [main/INFO]: Found 2 classes in package pokecube.core.database.abilities
+[15:21:24] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_baile
+[15:21:24] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pau
+[15:21:24] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pom-pom
+[15:21:24] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_sensu
+[15:21:24] [main/INFO]: Loaded 906 by number, and 1153 by formes from databases.
+[15:21:25] [main/ERROR]: Trying to replace calyrex with glastrier as base for calyrex_ice_rider
+[15:21:25] [main/ERROR]: Trying to replace calyrex with spectrier as base for calyrex_shadow_rider
+[15:21:26] [main/INFO]: Found Worldgen Databases: [pokecube_mobs:structures/berry_trees.json, pokecube_legends:structures/decoration_distortic.json, pokecube_legends:structures/decoration_overworld.json, pokecube_legends:structures/decoration_ultraspace.json, pokecube_legends:structures/raid_spots.json, pokecube:structures/ruins.json, pokecube_legends:structures/temples_regi.json, pokecube_legends:structures/temples_unown.json, pokecube:structures/village_badlands.json, pokecube:structures/village_beach.json, pokecube:structures/village_cave.json, pokecube:structures/village_common.json, pokecube:structures/village_dark_forest.json, pokecube:structures/village_deep.json, pokecube:structures/village_desert.json, pokecube:structures/village_end.json, pokecube:structures/village_high_sky.json, pokecube:structures/village_hills.json, pokecube:structures/village_jungle.json, pokecube:structures/village_nether.json, pokecube_legends:structures/village_ocean.json, pokecube:structures/village_plains.json, pokecube:structures/village_savanna.json, pokecube:structures/village_sky.json, pokecube:structures/village_snowy.json, pokecube:structures/village_swamp.json, pokecube:structures/village_taiga.json, pokecube_legends:structures/village_ultraspace.json, pokecube_legends:structures/villian_lairs.json, pokecube_legends:structures/worldgen.json]
+[15:21:26] [main/INFO]: Found 1 jigsaws and 2 pools in pokecube_mobs:structures/berry_trees.json
+[15:21:26] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/decoration_distortic.json
+[15:21:26] [main/INFO]: Found 1 jigsaws and 1 pools in pokecube_legends:structures/decoration_overworld.json
+[15:21:26] [main/INFO]: Found 17 jigsaws and 17 pools in pokecube_legends:structures/decoration_ultraspace.json
+[15:21:26] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/raid_spots.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 3 pools in pokecube:structures/ruins.json
+[15:21:26] [main/INFO]: Found 6 jigsaws and 6 pools in pokecube_legends:structures/temples_regi.json
+[15:21:26] [main/INFO]: Found 3 jigsaws and 2 pools in pokecube_legends:structures/temples_unown.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 13 pools in pokecube:structures/village_badlands.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_beach.json
+[15:21:26] [main/INFO]: Found 1 jigsaws and 10 pools in pokecube:structures/village_cave.json
+[15:21:26] [main/INFO]: Found 0 jigsaws and 1 pools in pokecube:structures/village_common.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_dark_forest.json
+[15:21:26] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_deep.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_desert.json
+[15:21:26] [main/INFO]: Found 1 jigsaws and 4 pools in pokecube:structures/village_end.json
+[15:21:26] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_high_sky.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_hills.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_jungle.json
+[15:21:26] [main/INFO]: Found 1 jigsaws and 7 pools in pokecube:structures/village_nether.json
+[15:21:26] [main/INFO]: Found 1 jigsaws and 12 pools in pokecube_legends:structures/village_ocean.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_plains.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_savanna.json
+[15:21:26] [main/INFO]: Found 1 jigsaws and 11 pools in pokecube:structures/village_sky.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_snowy.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_swamp.json
+[15:21:26] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_taiga.json
+[15:21:26] [main/INFO]: Found 1 jigsaws and 6 pools in pokecube_legends:structures/village_ultraspace.json
+[15:21:26] [main/INFO]: Found 3 jigsaws and 9 pools in pokecube_legends:structures/villian_lairs.json
+[15:21:26] [main/INFO]: Found 21 jigsaws and 43 pools in pokecube_legends:structures/worldgen.json
+[15:21:26] [main/INFO]: Loaded 240 pools and 90 jigsaws for pokecube
+[15:21:26] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/grow]' to registry
+[15:21:26] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/trees]' to registry
+[15:21:26] [main/WARN]: No Berry tree database found for pokecube
+[15:21:26] [main/INFO]: Loaded thut_wearables config file thut_wearables/thut_wearables-common.toml
+[15:21:26] [main/INFO]: Reading thut_wearables/thut_wearables-common.toml
+[15:21:26] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
+[15:21:26] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
+[15:21:26] [main/INFO]: Loaded pokecube_legends config file pokecube/pokecube_legends-common.toml
+[15:21:26] [main/INFO]: Reading pokecube/pokecube_legends-common.toml
+[15:21:26] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
+[15:21:26] [main/INFO]: Loaded thutcore config file thutcore/thutcore-common.toml
+[15:21:26] [main/INFO]: Reading thutcore/thutcore-common.toml
+[15:21:26] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
+[15:21:26] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
+[15:21:26] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
+[15:21:26] [main/INFO]: Loaded pokecube_adventures config file pokecube/pokecube_adventures-common.toml
+[15:21:26] [main/INFO]: Reading pokecube/pokecube_adventures-common.toml
+[15:21:26] [Thread-0/INFO]: Reading pokecube/pokecube_adventures-common.toml
+[15:21:26] [main/INFO]: Loaded pokecube config file pokecube/pokecube-common.toml
+[15:21:26] [main/INFO]: Reading pokecube/pokecube-common.toml
+[15:21:26] [Thread-0/INFO]: Reading pokecube/pokecube_adventures-common.toml
+[15:21:26] [modloading-worker-0/INFO]: Hello from Common Proxy setup!
+[15:21:26] [modloading-worker-0/INFO]: Setup
+[15:21:26] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/configured_structure_feature / pokecube_mobs:berry_trees/grow]' to registry
+[15:21:27] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15:21:28] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 39.1.2 Target: null
+[15:21:29] [main/WARN]: Mod 'pokecube' took 2.449 s to run a deferred task.
+[15:21:32] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:21:32] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[15:21:37] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2339!/assets/.mcassetsroot' uses unexpected schema
+[15:21:37] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2339!/data/.mcassetsroot' uses unexpected schema
+[15:21:37] [main/INFO]: Registering Commands
+[15:21:37] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:21:37] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:21:37] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:21:37] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:21:37] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, confirm] with inputs: [words_with_underscores, word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, target] with inputs: [word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, clean] with inputs: [words_with_underscores, word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, exit] with inputs: [words_with_underscores, word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, target] with inputs: [word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, clean] with inputs: [words_with_underscores, word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, exit] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, confirm] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, clean] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, exit] with inputs: [words_with_underscores, word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, confirm] with inputs: [words_with_underscores, word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, target] with inputs: [word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokemake, mob, player] and [pokemake, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokemake, mob, args] and [pokemake, mob, player] with inputs: [words with spaces, "and symbols", word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, player] and [pokemakerand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, args] and [pokemakerand, mode, player] with inputs: [words with spaces, "and symbols", word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokerecall, all] and [pokerecall, name] with inputs: [all]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokerecall, sitting] and [pokerecall, name] with inputs: [sitting]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokerecall, staying] and [pokerecall, name] with inputs: [staying]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokeegg, mob, player] and [pokeegg, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokeegg, mob, args] and [pokeegg, mob, player] with inputs: [words with spaces, "and symbols", word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, player] and [pokeeggrand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, args] and [pokeeggrand, mode, player] with inputs: [words with spaces, "and symbols", word]
+[15:21:37] [main/WARN]: Ambiguity between arguments [pcedit, pos] and [pcedit, target] with inputs: [0 0 0]
+[15:21:37] [main/INFO]: Reloading ResourceManager: Default, pokecube-aio-1.18.1-3.16.1.jar, forge-1.18.1-39.1.2-universal.jar
+[15:21:41] [Worker-Main-64/INFO]: Loaded 10 recipes
+[15:21:43] [Worker-Main-64/INFO]: Loaded 4305 advancements
+[15:21:46] [Worker-Main-64/ERROR]: Unfilled value baseXP for MissingNo!
+[15:21:46] [Worker-Main-64/ERROR]: Unfilled value catchRate for MissingNo!
+[15:21:46] [Worker-Main-64/ERROR]: Unfilled value baseHappiness for MissingNo!
+[15:21:46] [Worker-Main-64/ERROR]: Unfilled value evolutionMode for MissingNo!
+[15:21:46] [Worker-Main-64/ERROR]: Unfilled value sexeRatio for MissingNo!
+[15:21:46] [Worker-Main-64/ERROR]: Unfilled value mass for MissingNo!
+[15:21:56] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[15:21:56] [Server thread/INFO]: Loading properties
+[15:21:56] [Server thread/INFO]: Default game type: SPECTATOR
+[15:21:56] [Server thread/INFO]: Generating keypair
+[15:21:56] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20309
+[15:21:56] [Server thread/INFO]: Using epoll channel type
+[15:21:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:21:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:21:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:21:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:21:56] [Server thread/INFO]: Loaded thut_bling config file thut_bling-server.toml
+[15:21:56] [Server thread/INFO]: Reading thut_bling-server.toml
+[15:21:56] [Server thread/INFO]: Loaded thutcrafts config file thutcrafts-server.toml
+[15:21:56] [Server thread/INFO]: Reading thutcrafts-server.toml
+[15:21:56] [Server thread/INFO]: Loaded pokecube_adventures config file pokecube_adventures-server.toml
+[15:21:56] [Server thread/INFO]: Reading pokecube_adventures-server.toml
+[15:21:56] [Thread-0/INFO]: Reading thutcrafts-server.toml
+[15:21:56] [Thread-0/INFO]: Reading thutcrafts-server.toml
+[15:21:56] [Server thread/INFO]: Loaded pokecube config file pokecube-server.toml
+[15:21:56] [Server thread/INFO]: Reading pokecube-server.toml
+[15:21:56] [Thread-0/INFO]: Reading pokecube-server.toml
+[15:21:56] [Thread-0/INFO]: Reading pokecube-server.toml
+[15:21:56] [Server thread/INFO]: Found 9 classes in package pokecube.adventures.utils.trade_presets
+[15:21:56] [Server thread/ERROR]: No preset found for all_not_caves
+[15:21:56] [Server thread/ERROR]: No preset found for all_not_caves
+[15:21:56] [Server thread/INFO]: Preparing level "world"
+[15:21:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:21:58] [Worker-Main-69/INFO]: Preparing spawn area: 0%
+[15:21:58] [Worker-Main-67/INFO]: Preparing spawn area: 0%
+[15:21:58] [Worker-Main-87/INFO]: Preparing spawn area: 0%
+[15:21:58] [Worker-Main-67/INFO]: Preparing spawn area: 0%
+[15:21:59] [Worker-Main-67/INFO]: Preparing spawn area: 0%
+[15:21:59] [Worker-Main-87/INFO]: Preparing spawn area: 0%
+[15:22:00] [Worker-Main-86/INFO]: Preparing spawn area: 0%
+[15:22:01] [Worker-Main-75/INFO]: Preparing spawn area: 0%
+[15:22:01] [Worker-Main-69/INFO]: Preparing spawn area: 0%
+[15:22:01] [Worker-Main-75/INFO]: Preparing spawn area: 0%
+[15:22:02] [Worker-Main-88/INFO]: Preparing spawn area: 0%
+[15:22:06] [Worker-Main-93/INFO]: Preparing spawn area: 0%
+[15:22:06] [Worker-Main-93/INFO]: Preparing spawn area: 0%
+[15:22:06] [Worker-Main-93/INFO]: Preparing spawn area: 0%
+[15:22:06] [Worker-Main-93/INFO]: Preparing spawn area: 0%
+[15:22:06] [Worker-Main-93/INFO]: Preparing spawn area: 0%
+[15:22:06] [Worker-Main-93/INFO]: Preparing spawn area: 0%
+[15:22:06] [Worker-Main-93/INFO]: Preparing spawn area: 0%
+[15:22:06] [Worker-Main-63/INFO]: Preparing spawn area: 0%
+[15:22:06] [Worker-Main-52/INFO]: Preparing spawn area: 0%
+[15:22:07] [Worker-Main-75/INFO]: Preparing spawn area: 6%
+[15:22:07] [Worker-Main-79/INFO]: Preparing spawn area: 13%
+[15:22:08] [Worker-Main-78/INFO]: Preparing spawn area: 17%
+[15:22:08] [Worker-Main-88/INFO]: Preparing spawn area: 32%
+[15:22:09] [Worker-Main-92/INFO]: Preparing spawn area: 37%
+[15:22:09] [Worker-Main-74/INFO]: Preparing spawn area: 44%
+[15:22:10] [Worker-Main-63/INFO]: Preparing spawn area: 60%
+[15:22:10] [Worker-Main-75/INFO]: Preparing spawn area: 69%
+[15:22:11] [Worker-Main-78/INFO]: Preparing spawn area: 80%
+[15:22:12] [Worker-Main-88/INFO]: Preparing spawn area: 81%
+[15:22:12] [Worker-Main-88/INFO]: Preparing spawn area: 81%
+[15:22:12] [Worker-Main-88/INFO]: Preparing spawn area: 81%
+[15:22:13] [Worker-Main-88/INFO]: Preparing spawn area: 84%
+[15:22:13] [Worker-Main-79/INFO]: Preparing spawn area: 85%
+[15:22:14] [Worker-Main-89/INFO]: Preparing spawn area: 96%
+[15:22:14] [Worker-Main-74/INFO]: Preparing spawn area: 98%
+[15:22:15] [Worker-Main-84/INFO]: Preparing spawn area: 99%
+[15:22:15] [Server thread/INFO]: Time elapsed: 18175 ms
+[15:22:15] [Server thread/INFO]: Done (18.873s)! For help, type "help"
+[15:22:15] [Server thread/INFO]: Starting GS4 status listener
+[15:22:15] [Server thread/INFO]: Thread Query Listener started
+[15:22:15] [Query Listener #1/INFO]: Query running on 0.0.0.0:20309
+[15:22:15] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[15:22:15] [Server thread/INFO]: Found 10 classes in package pokecube.legends.conditions.custom
+[15:22:15] [Server thread/INFO]: Registered 9 Legendary Conditions.
+[15:22:15] [Server thread/INFO]: Server Starting
+[15:22:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3510ms or 70 ticks behind
+[16:46:53] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7d61246
+[16:46:53] [Server thread/INFO]: DRD[/125.82.12.37:14395] logged in with entity id 553 at (-317.02351207500976, 74.0, 594.7859068254337)
+[16:46:53] [Server thread/INFO]: DRD joined the game
+[16:47:42] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3bb93c99
+[16:49:53] [Server thread/INFO]: DRD has made the advancement [Defeat a Petilil]
+[16:50:41] [Server thread/INFO]: DRD has made the advancement [Defeat a Lillipup]
+[16:53:17] [Server thread/INFO]: DRD has made the advancement [Defeat a Mankey]
+[16:53:27] [Server thread/INFO]: DRD has made the advancement [Defeat a Pansear]
+[16:53:57] [Server thread/INFO]: DRD has made the advancement [Defeat a Volbeat]
+[17:00:14] [Server thread/INFO]: DRD didn't want to live in the same world as Zigzagoon
+[17:16:45] [Server thread/ERROR]: Undefined evo mode for {}, setting to "2"
+[17:18:19] [Worker-Main-179/INFO]: 6 iterations of build for: pokecube_legends:raid_spot
+[17:22:17] [Server thread/INFO]: DRD has made the advancement [Catch a Poochyena]
+[17:23:48] [Server thread/INFO]: DRD lost connection: Disconnected
+[17:23:48] [Server thread/INFO]: DRD left the game
+[17:23:57] [Server thread/INFO]: Stopping the server
+[17:23:57] [Server thread/INFO]: Stopping server
+[17:23:57] [Server thread/INFO]: Saving players
+[17:23:57] [Server thread/INFO]: Saving worlds
+[17:23:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[17:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[17:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[17:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[17:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[17:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[17:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[17:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (secret_base): All chunks are saved
+[17:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
+[17:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (distorted_world): All chunks are saved
+[17:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (ultraspace): All chunks are saved
+[17:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:23:59] [Server thread/INFO]: Thread Query Listener stopped

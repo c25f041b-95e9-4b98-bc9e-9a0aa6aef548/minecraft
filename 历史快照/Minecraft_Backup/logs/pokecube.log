@@ -58,9 +58,5 @@ No preset found for all_not_caves
 No preset found for all_not_caves
 Registered 9 Legendary Conditions.
 Server Starting
-6 iterations of build for: pokecube:village/taiga_small
-6 iterations of build for: pokecube:village/taiga_small
-6 iterations of build for: pokecube:scattered/ruins_rigid
-Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=-319, y=-6, z=1012}
-Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=-275, y=69, z=1094}
-Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=-438, y=66, z=1108}
+Undefined evo mode for {}, setting to "2"
+6 iterations of build for: pokecube_legends:raid_spot
