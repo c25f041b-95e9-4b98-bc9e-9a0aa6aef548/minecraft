@@ -39,7 +39,7 @@
 	# Scaling factor of the riding speed while on the ground. [Default: 1.0]
 	groundSpeedFactor = 1.0
 	# If true, dead tamed pokemobs will vanish like normal mobs do on death, but they will return to their pokecubes when they vanish. [Default: true]
-	tameDeadDespawn = true
+	tameDeadDespawn = false
 	# Approximate cooldown for attacks in ticks, larger values will slow down combat. [Default: 20]
 	attackCooldown = 20
 

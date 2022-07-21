@@ -19,7 +19,7 @@
 	# Padding of the pokemob message GUI based on the position of messageRef. [Default: [0, 0]]
 	messagePadding = [0, 0]
 	# Allows pokemobs to auto select moves. [Default: false]
-	autoSelectMoves = false
+	autoSelectMoves = true
 	# Preloads pokemob models during load. [Default: false]
 	preloadModels = false
 	# Scale of the telport pokemob GUI. [Default: 1.0]

@@ -209,7 +209,7 @@
 	# Pokemobs can have guard mode enabled, which makes them randomly murder things nearby. [Default: true]
 	guardModeEnabled = true
 	# Pokemobs will forget their target if they get more than this far away. [Default: 32]
-	chaseDistance = 32
+	chaseDistance = 16
 	# Maximum distance a tamed pokemob will try to move while idle wandering. [Default: 4]
 	idleMaxPathTame = 4
 	# Wild pokemobs will check for a player to attack every approximately this many ticks, large values decrease the chance of pokemob aggression. [Default: 200]

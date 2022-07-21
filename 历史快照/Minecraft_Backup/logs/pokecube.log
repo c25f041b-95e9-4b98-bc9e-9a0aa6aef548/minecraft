@@ -58,3 +58,7 @@ No preset found for all_not_caves
 No preset found for all_not_caves
 Registered 9 Legendary Conditions.
 Server Starting
+6 iterations of build for: pokecube:village/taiga_small
+Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=248, y=64, z=1068}
+Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=240, y=170, z=819}
+Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=768, y=37, z=1270}

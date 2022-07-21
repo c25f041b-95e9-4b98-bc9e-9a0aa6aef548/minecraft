@@ -39,7 +39,7 @@
 	# See trainerAIPause. [Default: 64]
 	aiPauseDistance = 64
 	# Trainers which are non-aggressive, might offer their pokemobs as trades for your pokemobs. [Default: true]
-	trainersTradeMobs = true
+	trainersTradeMobs = false
 	# This determines how sparsely trainers spawn.
 	# there will only be trainerDensity trainers spawn every this far
 	# excluding special spawns like villages. [Default: 256]
