@@ -131,7 +131,7 @@
 	# This is a scaling factor for damage dealt py pokemobs to mobs which are neither pokemobs, players or NPCs. [Default: 1.0]
 	pokemobToOtherMobDamageRatio = 1.0
 	# Enables world effects of fire type moves, such as: lighting fires, smelting, etc. [Default: true]
-	defaultFireActions = true
+	defaultFireActions = false
 	# This scales how much damage players can deal to pokemobs. [Default: 1.0]
 	playerToPokemobDamageScale = 1.0
 	# Enables world effects of water type moves. [Default: true]
@@ -209,7 +209,7 @@
 	# Pokemobs can have guard mode enabled, which makes them randomly murder things nearby. [Default: true]
 	guardModeEnabled = true
 	# Pokemobs will forget their target if they get more than this far away. [Default: 32]
-	chaseDistance = 16
+	chaseDistance = 12
 	# Maximum distance a tamed pokemob will try to move while idle wandering. [Default: 4]
 	idleMaxPathTame = 4
 	# Wild pokemobs will check for a player to attack every approximately this many ticks, large values decrease the chance of pokemob aggression. [Default: 200]
@@ -217,7 +217,7 @@
 	# If true, hungry lithovores might eat gravel to nothing. [Default: false]
 	pokemobsEatGravel = false
 	# This is how far away tamed pokemobs will look for items to collect. [Default: 16]
-	tameGatherDistance = 16
+	tameGatherDistance = 12
 	# Mobs with these entity IDs will not be valid aggression targets for pokemobs.
 	aggroBlacklistIds = ["minecraft:villager", "minecraft:armor_stand", "pokecube_adventures:trainer", "pokecube_adventures:leader"]
 	# Scales combat dodging speed. [Default: 1]
@@ -317,7 +317,7 @@
 	# This is a cooldown between the pokemob deciding to attack a player, and the pokemob actually doing so, this gives some warning when you are about to be attacked. [Default: 100]
 	pokemobagressticks = 100
 	# If true, idle AI for pokemobs will slow down as server load increases. [Default: false]
-	doLoadBalancing = false
+	doLoadBalancing = true
 	# If true, hungry lithovores will eat rocks to cobble/gravel. [Default: true]
 	pokemobsEatRocks = true
 
@@ -359,7 +359,7 @@
 	# Mob IDs which are blacklisted from going into snag cubes
 	snag_cube_blacklist = ["ender_dragon", "wither"]
 	# You will be prompted to choose a pokemob when creating a world, without having to look for a professor. [Default: false]
-	guiOnLogin = false
+	guiOnLogin = true
 	# You will be prompted to look for a professor if you have not recieved a starter. [Default: false]
-	msgAboutProfessor = false
+	msgAboutProfessor = true
 

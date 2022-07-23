@@ -1,762 +1,767 @@
-[19:40:42] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 39.1.2, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407]
-[19:40:42] [main/INFO]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.3 by Azul Systems, Inc.
-[19:40:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/container/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2319!/ Service=ModLauncher Env=SERVER
-[19:40:42] [main/INFO]: Found mod file AI-Improvements-1.18.2-0.5.0.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:40:42] [main/INFO]: Found mod file ConfigurableSpawnChunks-1.18.x-1.0.3.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:40:42] [main/INFO]: Found mod file lazydfu-1.0-1.18+.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:40:42] [main/INFO]: Found mod file Multiplayer-Server-Pause-1.18-Forge-1.1.0.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:40:42] [main/INFO]: Found mod file pokecube-aio-1.18.1-3.16.1.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:40:43] [main/INFO]: Found mod file fmlcore-1.18.1-39.1.2.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
-[19:40:43] [main/INFO]: Found mod file javafmllanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
-[19:40:43] [main/INFO]: Found mod file mclanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
-[19:40:43] [main/INFO]: Found mod file server-1.18.1-20211210.034407-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
-[19:40:43] [main/INFO]: Found mod file forge-1.18.1-39.1.2-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
-[19:40:47] [main/INFO]: Compatibility level set to JAVA_17
-[19:40:47] [main/INFO]: Launching target 'forgeserver' with arguments []
-[19:40:55] [main/INFO]: Lazy DFU
-[19:41:00] [modloading-worker-0/INFO]: Forge mod loading, version 39.1.2, for MC 1.18.1 with MCP 20211210.034407
-[19:41:00] [modloading-worker-0/INFO]: MinecraftForge v39.1.2 Initialized
-[19:41:01] [modloading-worker-0/INFO]: [ConfigurableSpawnChunks] Let us rain some doom down upon the heads of our doomed enemies.
-[19:41:15] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[19:41:15] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[19:41:15] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[19:41:15] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[19:41:16] [main/INFO]: Found 1 classes in package pokecube.core.moves.implementations
-[19:41:16] [main/INFO]: Found 28 classes in package pokecube.legends.init
-[19:41:16] [main/INFO]: Found 71 classes in package pokecube.mobs.moves
-[19:41:17] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[19:41:17] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[19:41:17] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[19:41:17] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[19:41:17] [main/INFO]: Found 10 classes in package pokecube.core.moves.animations
-[19:41:21] [main/INFO]: Found 246 classes in package pokecube.mobs.abilities
-[19:41:21] [main/INFO]: Found 2 classes in package pokecube.core.database.abilities
-[19:41:22] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_baile
-[19:41:22] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pau
-[19:41:22] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pom-pom
-[19:41:22] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_sensu
-[19:41:22] [main/INFO]: Loaded 906 by number, and 1153 by formes from databases.
-[19:41:22] [main/ERROR]: Trying to replace calyrex with glastrier as base for calyrex_ice_rider
-[19:41:22] [main/ERROR]: Trying to replace calyrex with spectrier as base for calyrex_shadow_rider
-[19:41:24] [main/INFO]: Found Worldgen Databases: [pokecube_mobs:structures/berry_trees.json, pokecube_legends:structures/decoration_distortic.json, pokecube_legends:structures/decoration_overworld.json, pokecube_legends:structures/decoration_ultraspace.json, pokecube_legends:structures/raid_spots.json, pokecube:structures/ruins.json, pokecube_legends:structures/temples_regi.json, pokecube_legends:structures/temples_unown.json, pokecube:structures/village_badlands.json, pokecube:structures/village_beach.json, pokecube:structures/village_cave.json, pokecube:structures/village_common.json, pokecube:structures/village_dark_forest.json, pokecube:structures/village_deep.json, pokecube:structures/village_desert.json, pokecube:structures/village_end.json, pokecube:structures/village_high_sky.json, pokecube:structures/village_hills.json, pokecube:structures/village_jungle.json, pokecube:structures/village_nether.json, pokecube_legends:structures/village_ocean.json, pokecube:structures/village_plains.json, pokecube:structures/village_savanna.json, pokecube:structures/village_sky.json, pokecube:structures/village_snowy.json, pokecube:structures/village_swamp.json, pokecube:structures/village_taiga.json, pokecube_legends:structures/village_ultraspace.json, pokecube_legends:structures/villian_lairs.json, pokecube_legends:structures/worldgen.json]
-[19:41:24] [main/INFO]: Found 1 jigsaws and 2 pools in pokecube_mobs:structures/berry_trees.json
-[19:41:24] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/decoration_distortic.json
-[19:41:24] [main/INFO]: Found 1 jigsaws and 1 pools in pokecube_legends:structures/decoration_overworld.json
-[19:41:24] [main/INFO]: Found 17 jigsaws and 17 pools in pokecube_legends:structures/decoration_ultraspace.json
-[19:41:24] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/raid_spots.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 3 pools in pokecube:structures/ruins.json
-[19:41:24] [main/INFO]: Found 6 jigsaws and 6 pools in pokecube_legends:structures/temples_regi.json
-[19:41:24] [main/INFO]: Found 3 jigsaws and 2 pools in pokecube_legends:structures/temples_unown.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 13 pools in pokecube:structures/village_badlands.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_beach.json
-[19:41:24] [main/INFO]: Found 1 jigsaws and 10 pools in pokecube:structures/village_cave.json
-[19:41:24] [main/INFO]: Found 0 jigsaws and 1 pools in pokecube:structures/village_common.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_dark_forest.json
-[19:41:24] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_deep.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_desert.json
-[19:41:24] [main/INFO]: Found 1 jigsaws and 4 pools in pokecube:structures/village_end.json
-[19:41:24] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_high_sky.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_hills.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_jungle.json
-[19:41:24] [main/INFO]: Found 1 jigsaws and 7 pools in pokecube:structures/village_nether.json
-[19:41:24] [main/INFO]: Found 1 jigsaws and 12 pools in pokecube_legends:structures/village_ocean.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_plains.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_savanna.json
-[19:41:24] [main/INFO]: Found 1 jigsaws and 11 pools in pokecube:structures/village_sky.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_snowy.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_swamp.json
-[19:41:24] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_taiga.json
-[19:41:24] [main/INFO]: Found 1 jigsaws and 6 pools in pokecube_legends:structures/village_ultraspace.json
-[19:41:24] [main/INFO]: Found 3 jigsaws and 9 pools in pokecube_legends:structures/villian_lairs.json
-[19:41:24] [main/INFO]: Found 21 jigsaws and 43 pools in pokecube_legends:structures/worldgen.json
-[19:41:24] [main/INFO]: Loaded 240 pools and 90 jigsaws for pokecube
-[19:41:24] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/grow]' to registry
-[19:41:24] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/trees]' to registry
-[19:41:24] [main/WARN]: No Berry tree database found for pokecube
-[19:41:24] [main/INFO]: Loaded thut_wearables config file thut_wearables/thut_wearables-common.toml
-[19:41:24] [main/INFO]: Reading thut_wearables/thut_wearables-common.toml
-[19:41:24] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
-[19:41:24] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
-[19:41:24] [main/INFO]: Loaded pokecube_legends config file pokecube/pokecube_legends-common.toml
-[19:41:24] [main/INFO]: Reading pokecube/pokecube_legends-common.toml
-[19:41:24] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
-[19:41:24] [main/INFO]: Loaded thutcore config file thutcore/thutcore-common.toml
-[19:41:24] [main/INFO]: Reading thutcore/thutcore-common.toml
-[19:41:24] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
-[19:41:24] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
-[19:41:24] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
-[19:41:24] [main/INFO]: Loaded pokecube config file pokecube/pokecube-common.toml
-[19:41:24] [main/INFO]: Reading pokecube/pokecube-common.toml
-[19:41:24] [main/INFO]: Set chaseDistance to 16
-[19:41:24] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
-[19:41:24] [main/INFO]: Loaded pokecube_adventures config file pokecube/pokecube_adventures-common.toml
-[19:41:24] [main/INFO]: Reading pokecube/pokecube_adventures-common.toml
-[19:41:24] [main/INFO]: Set trainersTradeMobs to false
-[19:41:24] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
-[19:41:24] [modloading-worker-0/INFO]: Hello from Common Proxy setup!
-[19:41:24] [modloading-worker-0/INFO]: Setup
-[19:41:24] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/configured_structure_feature / pokecube_mobs:berry_trees/grow]' to registry
-[19:41:24] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19:41:26] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 39.1.2 Target: null
-[19:41:26] [main/WARN]: Mod 'pokecube' took 2.344 s to run a deferred task.
-[19:41:29] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:41:29] [main/INFO]: Injecting existing registry data into this CLIENT instance
-[19:41:33] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2344!/assets/.mcassetsroot' uses unexpected schema
-[19:41:33] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2344!/data/.mcassetsroot' uses unexpected schema
-[19:41:33] [main/INFO]: Registering Commands
-[19:41:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:41:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:41:34] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:41:34] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:41:34] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, confirm] with inputs: [words_with_underscores, word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, target] with inputs: [word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, clean] with inputs: [words_with_underscores, word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, exit] with inputs: [words_with_underscores, word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, target] with inputs: [word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, clean] with inputs: [words_with_underscores, word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, exit] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, confirm] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, clean] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, exit] with inputs: [words_with_underscores, word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, confirm] with inputs: [words_with_underscores, word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, target] with inputs: [word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokemake, mob, player] and [pokemake, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokemake, mob, args] and [pokemake, mob, player] with inputs: [words with spaces, "and symbols", word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, player] and [pokemakerand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, args] and [pokemakerand, mode, player] with inputs: [words with spaces, "and symbols", word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokerecall, all] and [pokerecall, name] with inputs: [all]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokerecall, sitting] and [pokerecall, name] with inputs: [sitting]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokerecall, staying] and [pokerecall, name] with inputs: [staying]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokeegg, mob, player] and [pokeegg, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokeegg, mob, args] and [pokeegg, mob, player] with inputs: [words with spaces, "and symbols", word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, player] and [pokeeggrand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, args] and [pokeeggrand, mode, player] with inputs: [words with spaces, "and symbols", word]
-[19:41:34] [main/WARN]: Ambiguity between arguments [pcedit, pos] and [pcedit, target] with inputs: [0 0 0]
-[19:41:34] [main/INFO]: Reloading ResourceManager: Default, pokecube-aio-1.18.1-3.16.1.jar, forge-1.18.1-39.1.2-universal.jar, AI-Improvements-1.18.2-0.5.0.jar, lazydfu-1.0-1.18+.jar, ConfigurableSpawnChunks-1.18.x-1.0.3.jar, Multiplayer-Server-Pause-1.18-Forge-1.1.0.jar
-[19:41:37] [Worker-Main-17/INFO]: Loaded 10 recipes
-[19:41:40] [Worker-Main-17/INFO]: Loaded 4305 advancements
-[19:41:42] [Worker-Main-17/ERROR]: Unfilled value baseXP for MissingNo!
-[19:41:42] [Worker-Main-17/ERROR]: Unfilled value catchRate for MissingNo!
-[19:41:42] [Worker-Main-17/ERROR]: Unfilled value baseHappiness for MissingNo!
-[19:41:42] [Worker-Main-17/ERROR]: Unfilled value evolutionMode for MissingNo!
-[19:41:42] [Worker-Main-17/ERROR]: Unfilled value sexeRatio for MissingNo!
-[19:41:42] [Worker-Main-17/ERROR]: Unfilled value mass for MissingNo!
-[19:41:49] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[19:41:49] [Server thread/INFO]: Loading properties
-[19:41:49] [Server thread/INFO]: Default game type: SPECTATOR
-[19:41:49] [Server thread/INFO]: Generating keypair
-[19:41:49] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20309
-[19:41:50] [Server thread/INFO]: Using epoll channel type
-[19:41:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:41:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:41:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:41:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:41:50] [Server thread/INFO]: Loaded thutcrafts config file thutcrafts-server.toml
-[19:41:50] [Server thread/INFO]: Reading thutcrafts-server.toml
-[19:41:50] [Server thread/INFO]: Loaded thut_bling config file thut_bling-server.toml
-[19:41:50] [Server thread/INFO]: Reading thut_bling-server.toml
-[19:41:50] [Thread-0/INFO]: Reading thut_bling-server.toml
-[19:41:50] [Thread-0/INFO]: Reading thut_bling-server.toml
-[19:41:50] [Server thread/INFO]: Loaded pokecube config file pokecube-server.toml
-[19:41:50] [Server thread/INFO]: Reading pokecube-server.toml
-[19:41:50] [Thread-0/INFO]: Reading pokecube-server.toml
-[19:41:50] [Server thread/INFO]: Loaded pokecube_adventures config file pokecube_adventures-server.toml
-[19:41:50] [Server thread/INFO]: Reading pokecube_adventures-server.toml
-[19:41:50] [Server thread/INFO]: Set bagsHoldEverything to true
-[19:41:50] [Thread-0/INFO]: Reading pokecube-server.toml
-[19:41:50] [Server thread/INFO]: Found 9 classes in package pokecube.adventures.utils.trade_presets
-[19:41:50] [Server thread/ERROR]: No preset found for all_not_caves
-[19:41:50] [Server thread/ERROR]: No preset found for all_not_caves
-[19:41:50] [Server thread/INFO]: Preparing level "world"
-[19:41:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:41:51] [Server thread/INFO]: [ConfigurableSpawnChunks] ChunkDistance: 5
-[19:41:51] [Worker-Main-47/INFO]: Preparing spawn area: 0%
-[19:41:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[19:41:52] [Worker-Main-47/INFO]: Preparing spawn area: 0%
-[19:41:52] [Worker-Main-41/INFO]: Preparing spawn area: 0%
-[19:41:53] [Worker-Main-44/INFO]: Preparing spawn area: 0%
-[19:41:55] [Worker-Main-23/INFO]: Preparing spawn area: 0%
-[19:41:55] [Worker-Main-46/INFO]: Preparing spawn area: 0%
-[19:41:55] [Worker-Main-45/INFO]: Preparing spawn area: 0%
-[19:41:55] [Worker-Main-42/INFO]: Preparing spawn area: 0%
-[19:41:55] [Worker-Main-42/INFO]: Preparing spawn area: 0%
-[19:41:56] [Worker-Main-42/INFO]: Preparing spawn area: 0%
-[19:41:56] [Worker-Main-42/INFO]: Preparing spawn area: 0%
-[19:41:57] [Worker-Main-46/INFO]: Preparing spawn area: 0%
-[19:41:58] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[19:41:58] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[19:41:58] [Worker-Main-42/INFO]: Preparing spawn area: 0%
-[19:42:00] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[19:42:00] [Worker-Main-31/INFO]: Preparing spawn area: 0%
-[19:42:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:42:00] [Worker-Main-16/INFO]: Preparing spawn area: 1%
-[19:42:01] [Worker-Main-43/INFO]: Preparing spawn area: 21%
-[19:42:01] [Worker-Main-8/INFO]: Preparing spawn area: 73%
-[19:42:02] [Server thread/INFO]: [ConfigurableSpawnChunks] Generated: 81 Chunks
-[19:42:03] [Server thread/INFO]: Time elapsed: 12131 ms
-[19:42:03] [Server thread/INFO]: Done (12.840s)! For help, type "help"
-[19:42:03] [Server thread/INFO]: Starting GS4 status listener
-[19:42:03] [Server thread/INFO]: Thread Query Listener started
-[19:42:03] [Query Listener #1/INFO]: Query running on 0.0.0.0:20309
-[19:42:03] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
-[19:42:03] [Server thread/INFO]: Found 10 classes in package pokecube.legends.conditions.custom
-[19:42:03] [Server thread/INFO]: Registered 9 Legendary Conditions.
-[19:42:03] [Server thread/INFO]: Server Starting
-[19:42:03] [Server thread/INFO]: Saving and pausing game...
-[19:42:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[19:42:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[19:42:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[19:42:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[19:42:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[19:42:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[19:42:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[19:47:45] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3bffce13
-[19:47:45] [Server thread/INFO]: DRD[/125.82.13.163:3363] logged in with entity id 79 at (233.45655537420055, 65.0, 1065.2876099747061)
-[19:47:45] [Server thread/INFO]: DRD joined the game
-[19:47:46] [Server thread/INFO]: Server unpaused.
-[19:47:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4342ms or 86 ticks behind
-[19:49:31] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6f236688
-[19:49:46] [Server thread/INFO]: Server paused.
-[19:49:46] [Server thread/INFO]: Saving and pausing game...
-[19:49:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[19:49:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[19:49:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[19:49:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[19:49:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[19:49:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[19:49:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[19:49:51] [Server thread/INFO]: Server unpaused.
-[19:50:10] [Server thread/INFO]: DRD has made the advancement [Catch a Kirlia]
-[19:51:04] [Server thread/INFO]: Server paused.
-[19:51:04] [Server thread/INFO]: Saving and pausing game...
-[19:51:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[19:51:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[19:51:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[19:51:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[19:51:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[19:51:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[19:51:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[19:51:06] [Server thread/INFO]: Server unpaused.
-[19:52:29] [Server thread/INFO]: DRD has made the advancement [Hatch a Yamper]
-[19:52:54] [Server thread/INFO]: Server paused.
-[19:52:54] [Server thread/INFO]: Saving and pausing game...
-[19:52:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[19:52:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[19:52:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[19:52:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[19:52:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[19:52:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[19:52:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[19:52:58] [Server thread/INFO]: Server unpaused.
-[19:53:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7013ms or 140 ticks behind
-[19:54:51] [Server thread/INFO]: Server paused.
-[19:54:51] [Server thread/INFO]: Saving and pausing game...
-[19:54:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[19:54:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[19:54:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[19:54:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[19:54:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[19:54:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[19:54:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[19:55:06] [Server thread/INFO]: Server unpaused.
-[20:01:52] [Server thread/WARN]: DRD moved too quickly! -0.25570881029963743,-10.119559175409485,0.11811993635410545
-[20:01:54] [Server thread/WARN]: DRD moved too quickly! 0.0,-10.556602614620111,0.0
-[20:01:56] [Server thread/INFO]: DRD fell off a ladder
-[20:01:56] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/79, l='ServerLevel[新的世界]', x=171.46, y=22.37, z=1071.70, removed=KILLED]'
-[20:01:56] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/79, l='ServerLevel[新的世界]', x=171.46, y=22.29, z=1071.70, removed=KILLED]'
-[20:01:56] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/79, l='ServerLevel[新的世界]', x=171.46, y=22.14, z=1071.70, removed=KILLED]'
-[20:01:56] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/79, l='ServerLevel[新的世界]', x=171.46, y=21.91, z=1071.70, removed=KILLED]'
-[20:01:57] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/79, l='ServerLevel[新的世界]', x=171.46, y=21.60, z=1071.70, removed=KILLED]'
-[20:01:57] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/79, l='ServerLevel[新的世界]', x=171.46, y=21.22, z=1071.70, removed=KILLED]'
-[20:01:57] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/79, l='ServerLevel[新的世界]', x=171.46, y=21.00, z=1071.70, removed=KILLED]'
-[20:02:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2826ms or 56 ticks behind
-[20:02:11] [Server thread/INFO]: Server paused.
-[20:02:11] [Server thread/INFO]: Saving and pausing game...
-[20:02:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:02:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:02:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:02:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:02:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:02:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:02:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:02:11] [Server thread/INFO]: Server unpaused.
-[20:06:18] [Worker-Main-5/INFO]: 2 iterations of build for: pokecube_legends:barrens_rocks/loose
-[20:06:20] [Server thread/WARN]: DRD moved too quickly! -10.31920052751994,-0.10603562014750167,0.8894210329274301
-[20:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3087ms or 61 ticks behind
-[20:06:25] [Server thread/INFO]: Server paused.
-[20:06:25] [Server thread/INFO]: Saving and pausing game...
-[20:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:06:27] [Server thread/INFO]: Server unpaused.
-[20:12:57] [Server thread/INFO]: Server paused.
-[20:12:57] [Server thread/INFO]: Server unpaused.
-[20:13:10] [Server thread/INFO]: Server paused.
-[20:13:10] [Server thread/INFO]: Saving and pausing game...
-[20:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:13:12] [Server thread/INFO]: Server unpaused.
-[20:20:22] [Server thread/INFO]: DRD has made the advancement [Defeat a Bellsprout]
-[20:21:14] [Server thread/INFO]: Server paused.
-[20:21:14] [Server thread/INFO]: Saving and pausing game...
-[20:21:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:21:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:21:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:21:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:21:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:21:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:21:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:21:28] [Server thread/INFO]: Server unpaused.
-[20:21:59] [Server thread/INFO]: Server paused.
-[20:21:59] [Server thread/INFO]: Saving and pausing game...
-[20:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:22:02] [Server thread/INFO]: Server unpaused.
-[20:22:23] [Server thread/INFO]: Server paused.
-[20:22:23] [Server thread/INFO]: Saving and pausing game...
-[20:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:22:23] [Server thread/INFO]: Server unpaused.
-[20:22:28] [Server thread/INFO]: Server paused.
-[20:22:28] [Server thread/INFO]: Saving and pausing game...
-[20:22:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:22:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:22:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:22:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:22:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:22:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:22:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:22:28] [Server thread/INFO]: Server unpaused.
-[20:23:14] [Server thread/INFO]: Server paused.
-[20:23:14] [Server thread/INFO]: Saving and pausing game...
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:23:15] [Server thread/INFO]: Server unpaused.
-[20:23:44] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@62e2b3c9
-[20:24:17] [Server thread/INFO]: DRD fell out of the world
-[20:24:18] [Server thread/WARN]: DRD moved too quickly! -546.2546691012008,-49.5,-75.5941707142365
-[20:27:52] [Server thread/INFO]: DRD has made the advancement [Defeat a Golbat]
-[20:27:54] [Server thread/INFO]: DRD has made the advancement [Defeat a Eldegoss]
-[20:28:10] [Server thread/INFO]: DRD has made the advancement [Defeat a Beedrill]
-[20:28:23] [Server thread/INFO]: DRD has made the advancement [Defeat a Purugly]
-[20:30:57] [Worker-Main-59/INFO]: Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=982, y=64, z=1203}
-[20:31:05] [Worker-Main-10/INFO]: 6 iterations of build for: pokecube_legends:team_magma
-[20:31:56] [Server thread/INFO]: Server paused.
-[20:31:56] [Server thread/INFO]: Saving and pausing game...
-[20:31:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:31:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:31:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:31:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:31:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:31:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:31:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:32:12] [Server thread/INFO]: Server unpaused.
-[20:33:33] [Server thread/INFO]: Server paused.
-[20:33:33] [Server thread/INFO]: Saving and pausing game...
-[20:33:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:33:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:33:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:33:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:33:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:33:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:33:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:33:33] [Server thread/INFO]: Server unpaused.
-[20:33:58] [Server thread/INFO]: DRD has made the advancement [Defeat a Kadabra]
-[20:34:11] [Server thread/INFO]: Server paused.
-[20:34:11] [Server thread/INFO]: Saving and pausing game...
-[20:34:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:34:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:34:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:34:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:34:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:34:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:34:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:34:11] [Server thread/INFO]: Server unpaused.
-[20:34:14] [Server thread/INFO]: Server paused.
-[20:34:14] [Server thread/INFO]: Saving and pausing game...
-[20:34:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:34:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:34:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:34:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:34:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:34:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:34:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:34:17] [Server thread/INFO]: Server unpaused.
-[20:34:31] [Server thread/INFO]: DRD has made the advancement [Defeat a Kirlia]
-[20:34:32] [Server thread/INFO]: DRD has made the advancement [Defeat a Budew]
-[20:35:10] [Server thread/INFO]: DRD has completed the challenge [Defeat a Volcanion]
-[20:35:43] [Server thread/INFO]: DRD fell out of the world
-[20:36:19] [Server thread/INFO]: Server paused.
-[20:36:19] [Server thread/INFO]: Saving and pausing game...
-[20:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:36:37] [Server thread/INFO]: Server unpaused.
-[20:38:58] [Server thread/INFO]: <DRD> s
-[20:42:55] [Server thread/INFO]: Server paused.
-[20:42:55] [Server thread/INFO]: Saving and pausing game...
-[20:42:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:42:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:42:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:42:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:42:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:42:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:42:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:42:56] [Server thread/INFO]: Server unpaused.
-[20:42:57] [Server thread/INFO]: Server paused.
-[20:42:57] [Server thread/INFO]: Saving and pausing game...
-[20:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:43:11] [Server thread/INFO]: Server unpaused.
-[20:43:20] [Server thread/INFO]: Server paused.
-[20:43:20] [Server thread/INFO]: Saving and pausing game...
-[20:43:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:43:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:43:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:43:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:43:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:43:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:43:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:43:30] [Server thread/INFO]: Server unpaused.
-[20:44:12] [Server thread/INFO]: Server paused.
-[20:44:12] [Server thread/INFO]: Saving and pausing game...
-[20:44:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:44:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:44:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:44:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:44:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:44:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:44:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:44:20] [Server thread/INFO]: Server unpaused.
-[20:45:27] [Server thread/INFO]: DRD has made the advancement [Defeat a Wailmer]
-[20:45:57] [Server thread/INFO]: Server paused.
-[20:45:57] [Server thread/INFO]: Saving and pausing game...
-[20:45:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:45:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:45:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:45:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:45:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:45:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:45:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:46:06] [Server thread/INFO]: Server unpaused.
-[20:46:40] [Server thread/INFO]: DRD has made the advancement [Defeat a Persian]
-[20:46:58] [Server thread/INFO]: DRD has made the advancement [Defeat a Spritzee]
-[20:47:03] [Server thread/INFO]: Server paused.
-[20:47:03] [Server thread/INFO]: Saving and pausing game...
-[20:47:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:47:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:47:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:47:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:47:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:47:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:47:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:47:04] [Server thread/INFO]: Server unpaused.
-[20:47:49] [Server thread/INFO]: DRD has made the advancement [Defeat a Gardevoir]
-[20:48:03] [Server thread/INFO]: Server paused.
-[20:48:03] [Server thread/INFO]: Saving and pausing game...
-[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:48:03] [Server thread/INFO]: Server unpaused.
-[20:48:18] [Server thread/INFO]: Server paused.
-[20:48:18] [Server thread/INFO]: Saving and pausing game...
-[20:48:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:48:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:48:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:48:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:48:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:48:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:48:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:48:34] [Server thread/INFO]: Server unpaused.
-[20:48:59] [Server thread/INFO]: DRD has made the advancement [Defeat a Gyarados]
-[20:49:20] [Server thread/INFO]: DRD has made the advancement [Defeat a Masquerain]
-[20:50:13] [Server thread/INFO]: Server paused.
-[20:50:13] [Server thread/INFO]: Saving and pausing game...
-[20:50:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:50:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:50:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:50:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:50:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:50:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:50:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:50:22] [Server thread/INFO]: Server unpaused.
-[20:51:20] [Server thread/INFO]: DRD has made the advancement [Defeat a Linoone]
-[20:51:32] [Server thread/INFO]: DRD has made the advancement [Hatch a Spritzee]
-[20:51:35] [Server thread/INFO]: Villager Villager['Villager'/1163927, l='ServerLevel[新的世界]', x=983.75, y=62.50, z=1207.53] died, message: 'Villager burned to death'
-[20:53:20] [Server thread/INFO]: Server paused.
-[20:53:20] [Server thread/INFO]: Saving and pausing game...
-[20:53:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:53:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:53:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:53:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:53:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:53:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:53:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:53:21] [Server thread/INFO]: Server unpaused.
-[20:53:35] [Server thread/INFO]: DRD has made the advancement [Defeat a Xatu]
-[20:54:59] [Server thread/INFO]: Server paused.
-[20:54:59] [Server thread/INFO]: Saving and pausing game...
-[20:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:54:59] [Server thread/INFO]: Server unpaused.
-[20:55:59] [Worker-Main-9/INFO]: 2 iterations of build for: pokecube_legends:delta_rocks/loose
-[20:56:00] [Worker-Main-43/INFO]: 6 iterations of build for: pokecube_legends:barrens_rocks/loose
-[20:56:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2337ms or 46 ticks behind
-[20:57:16] [Server thread/WARN]: DRD moved too quickly! -10.398409086763081,-0.604424101326714,0.714862951891746
-[20:59:33] [Server thread/INFO]: Server paused.
-[20:59:33] [Server thread/INFO]: Saving and pausing game...
-[20:59:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:59:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:59:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:59:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:59:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:59:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:59:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:59:34] [Server thread/INFO]: Server unpaused.
-[21:08:25] [Server thread/INFO]: Server paused.
-[21:08:25] [Server thread/INFO]: Saving and pausing game...
-[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:08:27] [Server thread/INFO]: Server unpaused.
-[21:10:24] [Server thread/INFO]: Villager Villager['Leatherworker'/1163925, l='ServerLevel[新的世界]', x=990.70, y=64.00, z=1206.51] died, message: 'Leatherworker was slain by DRD'
-[21:10:55] [Server thread/INFO]: DRD has made the advancement [Defeat a Minccino]
-[21:12:08] [Server thread/INFO]: DRD burned to death
-[21:12:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2587ms or 51 ticks behind
-[21:12:22] [Server thread/INFO]: Server paused.
-[21:12:22] [Server thread/INFO]: Saving and pausing game...
-[21:12:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:12:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:12:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:12:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:12:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:12:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:12:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:12:24] [Server thread/INFO]: Server unpaused.
-[21:12:31] [Server thread/INFO]: Server paused.
-[21:12:31] [Server thread/INFO]: Saving and pausing game...
-[21:12:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:12:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:12:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:12:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:12:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:12:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:12:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:12:39] [Server thread/INFO]: Server unpaused.
-[21:16:59] [Server thread/INFO]: DRD fell out of the world
-[21:17:01] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/79, l='ServerLevel[新的世界]', x=242.01, y=64.00, z=1067.61, removed=KILLED]'
-[21:17:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3112ms or 62 ticks behind
-[21:23:51] [Server thread/WARN]: DRD moved too quickly! 9.072792797791976,1.1661092609382138,4.3252541123442825
-[21:30:15] [Server thread/INFO]: Server paused.
-[21:30:15] [Server thread/INFO]: Saving and pausing game...
-[21:30:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:30:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:30:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:30:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:30:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:30:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:30:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:30:15] [Server thread/INFO]: Server unpaused.
-[21:30:50] [Server thread/INFO]: DRD has made the advancement [Defeat a Clobbopus]
-[21:31:43] [Server thread/INFO]: Server paused.
-[21:31:43] [Server thread/INFO]: Saving and pausing game...
-[21:31:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:31:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:31:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:31:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:31:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:31:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:31:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:31:44] [Server thread/INFO]: Server unpaused.
-[21:34:13] [Server thread/INFO]: Server paused.
-[21:34:13] [Server thread/INFO]: Saving and pausing game...
-[21:34:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:34:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:34:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:34:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:34:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:34:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:34:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:34:16] [Server thread/INFO]: Server unpaused.
-[21:34:18] [Server thread/INFO]: Server paused.
-[21:34:18] [Server thread/INFO]: Saving and pausing game...
-[21:34:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:34:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:34:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:34:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:34:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:34:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:34:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:34:22] [Server thread/INFO]: Server unpaused.
-[21:34:29] [Server thread/INFO]: Server paused.
-[21:34:29] [Server thread/INFO]: Saving and pausing game...
-[21:34:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:34:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:34:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:34:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:34:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:34:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:34:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:34:30] [Server thread/INFO]: Server unpaused.
-[21:34:49] [Server thread/INFO]: DRD has made the advancement [Defeat a Boltund]
-[21:35:01] [Server thread/INFO]: DRD has made the advancement [Defeat a Lombre]
-[21:35:35] [Server thread/INFO]: DRD has made the advancement [Defeat a Ambipom]
-[21:36:29] [Server thread/INFO]: Server paused.
-[21:36:29] [Server thread/INFO]: Saving and pausing game...
-[21:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:36:30] [Server thread/INFO]: Server unpaused.
-[21:37:33] [Server thread/INFO]: Server paused.
-[21:37:33] [Server thread/INFO]: Saving and pausing game...
-[21:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:37:33] [Server thread/INFO]: Server unpaused.
-[21:37:52] [Server thread/INFO]: Server paused.
-[21:37:52] [Server thread/INFO]: Saving and pausing game...
-[21:37:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:37:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:37:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:37:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:37:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:37:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:37:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:37:59] [Server thread/INFO]: Server unpaused.
-[21:38:34] [Server thread/INFO]: Server paused.
-[21:38:34] [Server thread/INFO]: Saving and pausing game...
-[21:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:38:35] [Server thread/INFO]: Server unpaused.
-[21:39:33] [Server thread/INFO]: Server paused.
-[21:39:33] [Server thread/INFO]: Saving and pausing game...
-[21:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:39:33] [Server thread/INFO]: Server unpaused.
-[21:39:38] [Server thread/INFO]: DRD has made the advancement [Defeat a Crawdaunt]
-[21:39:53] [Server thread/INFO]: Server paused.
-[21:39:53] [Server thread/INFO]: Saving and pausing game...
-[21:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:39:53] [Server thread/INFO]: Server unpaused.
-[21:39:54] [Server thread/INFO]: Server paused.
-[21:39:54] [Server thread/INFO]: Saving and pausing game...
-[21:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:39:55] [Server thread/INFO]: Server unpaused.
-[21:39:56] [Server thread/INFO]: Server paused.
-[21:39:56] [Server thread/INFO]: Saving and pausing game...
-[21:39:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:39:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:39:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:39:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:39:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:39:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:39:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:39:57] [Server thread/INFO]: Server unpaused.
-[21:40:54] [Server thread/INFO]: Server paused.
-[21:40:54] [Server thread/INFO]: Saving and pausing game...
-[21:40:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:40:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:40:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:40:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:40:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:40:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:40:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:40:59] [Server thread/INFO]: DRD lost connection: Disconnected
-[21:40:59] [Server thread/INFO]: DRD left the game
-[21:41:44] [Server thread/INFO]: Stopping the server
-[21:41:45] [Server thread/INFO]: Stopping server
-[21:41:45] [Server thread/INFO]: Saving players
-[21:41:45] [Server thread/INFO]: Saving worlds
-[21:41:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[21:41:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[21:41:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[21:41:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[21:41:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[21:41:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[21:41:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[21:41:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:41:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:41:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:41:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (secret_base): All chunks are saved
-[21:41:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
-[21:41:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (distorted_world): All chunks are saved
-[21:41:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (ultraspace): All chunks are saved
-[21:41:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:41:46] [Server thread/INFO]: Thread Query Listener stopped
+[15:24:47] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 39.1.2, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407]
+[15:24:47] [main/INFO]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.3 by Azul Systems, Inc.
+[15:24:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/container/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2319!/ Service=ModLauncher Env=SERVER
+[15:24:48] [main/INFO]: Found mod file AI-Improvements-1.18.2-0.5.0.jar of type MOD with locator {mods folder locator at /home/container/mods}
+[15:24:48] [main/INFO]: Found mod file ConfigurableSpawnChunks-1.18.x-1.0.3.jar of type MOD with locator {mods folder locator at /home/container/mods}
+[15:24:48] [main/INFO]: Found mod file lazydfu-1.0-1.18+.jar of type MOD with locator {mods folder locator at /home/container/mods}
+[15:24:48] [main/INFO]: Found mod file Multiplayer-Server-Pause-1.18-Forge-1.1.0.jar of type MOD with locator {mods folder locator at /home/container/mods}
+[15:24:48] [main/INFO]: Found mod file pokecube-aio-1.18.1-3.16.1.jar of type MOD with locator {mods folder locator at /home/container/mods}
+[15:24:48] [main/INFO]: Found mod file fmlcore-1.18.1-39.1.2.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
+[15:24:48] [main/INFO]: Found mod file javafmllanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
+[15:24:48] [main/INFO]: Found mod file mclanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
+[15:24:48] [main/INFO]: Found mod file server-1.18.1-20211210.034407-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
+[15:24:48] [main/INFO]: Found mod file forge-1.18.1-39.1.2-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@16746061
+[15:24:52] [main/INFO]: Compatibility level set to JAVA_17
+[15:24:52] [main/INFO]: Launching target 'forgeserver' with arguments []
+[15:25:00] [main/INFO]: Lazy DFU
+[15:25:06] [modloading-worker-0/INFO]: Forge mod loading, version 39.1.2, for MC 1.18.1 with MCP 20211210.034407
+[15:25:06] [modloading-worker-0/INFO]: MinecraftForge v39.1.2 Initialized
+[15:25:06] [modloading-worker-0/INFO]: [ConfigurableSpawnChunks] Let us rain some doom down upon the heads of our doomed enemies.
+[15:25:19] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[15:25:19] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[15:25:19] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[15:25:19] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[15:25:20] [main/INFO]: Found 1 classes in package pokecube.core.moves.implementations
+[15:25:20] [main/INFO]: Found 28 classes in package pokecube.legends.init
+[15:25:20] [main/INFO]: Found 71 classes in package pokecube.mobs.moves
+[15:25:20] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[15:25:20] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[15:25:20] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[15:25:20] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[15:25:21] [main/INFO]: Found 10 classes in package pokecube.core.moves.animations
+[15:25:25] [main/INFO]: Found 246 classes in package pokecube.mobs.abilities
+[15:25:25] [main/INFO]: Found 2 classes in package pokecube.core.database.abilities
+[15:25:26] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_baile
+[15:25:26] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pau
+[15:25:26] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pom-pom
+[15:25:26] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_sensu
+[15:25:26] [main/INFO]: Loaded 906 by number, and 1153 by formes from databases.
+[15:25:27] [main/ERROR]: Trying to replace calyrex with glastrier as base for calyrex_ice_rider
+[15:25:27] [main/ERROR]: Trying to replace calyrex with spectrier as base for calyrex_shadow_rider
+[15:25:28] [main/INFO]: Found Worldgen Databases: [pokecube_mobs:structures/berry_trees.json, pokecube_legends:structures/decoration_distortic.json, pokecube_legends:structures/decoration_overworld.json, pokecube_legends:structures/decoration_ultraspace.json, pokecube_legends:structures/raid_spots.json, pokecube:structures/ruins.json, pokecube_legends:structures/temples_regi.json, pokecube_legends:structures/temples_unown.json, pokecube:structures/village_badlands.json, pokecube:structures/village_beach.json, pokecube:structures/village_cave.json, pokecube:structures/village_common.json, pokecube:structures/village_dark_forest.json, pokecube:structures/village_deep.json, pokecube:structures/village_desert.json, pokecube:structures/village_end.json, pokecube:structures/village_high_sky.json, pokecube:structures/village_hills.json, pokecube:structures/village_jungle.json, pokecube:structures/village_nether.json, pokecube_legends:structures/village_ocean.json, pokecube:structures/village_plains.json, pokecube:structures/village_savanna.json, pokecube:structures/village_sky.json, pokecube:structures/village_snowy.json, pokecube:structures/village_swamp.json, pokecube:structures/village_taiga.json, pokecube_legends:structures/village_ultraspace.json, pokecube_legends:structures/villian_lairs.json, pokecube_legends:structures/worldgen.json]
+[15:25:28] [main/INFO]: Found 1 jigsaws and 2 pools in pokecube_mobs:structures/berry_trees.json
+[15:25:28] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/decoration_distortic.json
+[15:25:28] [main/INFO]: Found 1 jigsaws and 1 pools in pokecube_legends:structures/decoration_overworld.json
+[15:25:28] [main/INFO]: Found 17 jigsaws and 17 pools in pokecube_legends:structures/decoration_ultraspace.json
+[15:25:28] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/raid_spots.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 3 pools in pokecube:structures/ruins.json
+[15:25:28] [main/INFO]: Found 6 jigsaws and 6 pools in pokecube_legends:structures/temples_regi.json
+[15:25:28] [main/INFO]: Found 3 jigsaws and 2 pools in pokecube_legends:structures/temples_unown.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 13 pools in pokecube:structures/village_badlands.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_beach.json
+[15:25:28] [main/INFO]: Found 1 jigsaws and 10 pools in pokecube:structures/village_cave.json
+[15:25:28] [main/INFO]: Found 0 jigsaws and 1 pools in pokecube:structures/village_common.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_dark_forest.json
+[15:25:28] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_deep.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_desert.json
+[15:25:28] [main/INFO]: Found 1 jigsaws and 4 pools in pokecube:structures/village_end.json
+[15:25:28] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_high_sky.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_hills.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_jungle.json
+[15:25:28] [main/INFO]: Found 1 jigsaws and 7 pools in pokecube:structures/village_nether.json
+[15:25:28] [main/INFO]: Found 1 jigsaws and 12 pools in pokecube_legends:structures/village_ocean.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_plains.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_savanna.json
+[15:25:28] [main/INFO]: Found 1 jigsaws and 11 pools in pokecube:structures/village_sky.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_snowy.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_swamp.json
+[15:25:28] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_taiga.json
+[15:25:28] [main/INFO]: Found 1 jigsaws and 6 pools in pokecube_legends:structures/village_ultraspace.json
+[15:25:28] [main/INFO]: Found 3 jigsaws and 9 pools in pokecube_legends:structures/villian_lairs.json
+[15:25:28] [main/INFO]: Found 21 jigsaws and 43 pools in pokecube_legends:structures/worldgen.json
+[15:25:28] [main/INFO]: Loaded 240 pools and 90 jigsaws for pokecube
+[15:25:28] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/grow]' to registry
+[15:25:28] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/trees]' to registry
+[15:25:28] [main/WARN]: No Berry tree database found for pokecube
+[15:25:28] [main/INFO]: Loaded thut_wearables config file thut_wearables/thut_wearables-common.toml
+[15:25:28] [main/INFO]: Reading thut_wearables/thut_wearables-common.toml
+[15:25:28] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
+[15:25:28] [main/INFO]: Loaded pokecube_legends config file pokecube/pokecube_legends-common.toml
+[15:25:28] [main/INFO]: Reading pokecube/pokecube_legends-common.toml
+[15:25:28] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
+[15:25:28] [main/INFO]: Loaded pokecube config file pokecube/pokecube-common.toml
+[15:25:28] [main/INFO]: Reading pokecube/pokecube-common.toml
+[15:25:28] [main/INFO]: Set chaseDistance to 16
+[15:25:28] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
+[15:25:28] [main/INFO]: Loaded thutcore config file thutcore/thutcore-common.toml
+[15:25:28] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
+[15:25:28] [main/INFO]: Reading thutcore/thutcore-common.toml
+[15:25:28] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
+[15:25:28] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
+[15:25:28] [main/INFO]: Loaded pokecube_adventures config file pokecube/pokecube_adventures-common.toml
+[15:25:28] [main/INFO]: Reading pokecube/pokecube_adventures-common.toml
+[15:25:28] [main/INFO]: Set trainersTradeMobs to false
+[15:25:28] [Thread-0/INFO]: Reading pokecube/pokecube_adventures-common.toml
+[15:25:28] [Thread-0/INFO]: Reading pokecube/pokecube_adventures-common.toml
+[15:25:28] [modloading-worker-0/INFO]: Hello from Common Proxy setup!
+[15:25:28] [modloading-worker-0/INFO]: Setup
+[15:25:29] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/configured_structure_feature / pokecube_mobs:berry_trees/grow]' to registry
+[15:25:29] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15:25:31] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 39.1.2 Target: null
+[15:25:31] [main/WARN]: Mod 'pokecube' took 2.209 s to run a deferred task.
+[15:25:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:25:34] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[15:25:38] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2344!/assets/.mcassetsroot' uses unexpected schema
+[15:25:38] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2344!/data/.mcassetsroot' uses unexpected schema
+[15:25:38] [main/INFO]: Registering Commands
+[15:25:38] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:25:38] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:25:38] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:25:38] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:25:38] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, confirm] with inputs: [words_with_underscores, word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, target] with inputs: [word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, clean] with inputs: [words_with_underscores, word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, exit] with inputs: [words_with_underscores, word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, target] with inputs: [word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, clean] with inputs: [words_with_underscores, word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, exit] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, confirm] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, clean] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, exit] with inputs: [words_with_underscores, word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, confirm] with inputs: [words_with_underscores, word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, target] with inputs: [word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokemake, mob, player] and [pokemake, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokemake, mob, args] and [pokemake, mob, player] with inputs: [words with spaces, "and symbols", word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, player] and [pokemakerand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, args] and [pokemakerand, mode, player] with inputs: [words with spaces, "and symbols", word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokerecall, all] and [pokerecall, name] with inputs: [all]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokerecall, sitting] and [pokerecall, name] with inputs: [sitting]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokerecall, staying] and [pokerecall, name] with inputs: [staying]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokeegg, mob, player] and [pokeegg, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokeegg, mob, args] and [pokeegg, mob, player] with inputs: [words with spaces, "and symbols", word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, player] and [pokeeggrand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, args] and [pokeeggrand, mode, player] with inputs: [words with spaces, "and symbols", word]
+[15:25:38] [main/WARN]: Ambiguity between arguments [pcedit, pos] and [pcedit, target] with inputs: [0 0 0]
+[15:25:38] [main/INFO]: Reloading ResourceManager: Default, pokecube-aio-1.18.1-3.16.1.jar, forge-1.18.1-39.1.2-universal.jar, AI-Improvements-1.18.2-0.5.0.jar, lazydfu-1.0-1.18+.jar, ConfigurableSpawnChunks-1.18.x-1.0.3.jar, Multiplayer-Server-Pause-1.18-Forge-1.1.0.jar
+[15:25:42] [Worker-Main-17/INFO]: Loaded 10 recipes
+[15:25:44] [Worker-Main-17/INFO]: Loaded 4305 advancements
+[15:25:47] [Worker-Main-17/ERROR]: Unfilled value baseXP for MissingNo!
+[15:25:47] [Worker-Main-17/ERROR]: Unfilled value catchRate for MissingNo!
+[15:25:47] [Worker-Main-17/ERROR]: Unfilled value baseHappiness for MissingNo!
+[15:25:47] [Worker-Main-17/ERROR]: Unfilled value evolutionMode for MissingNo!
+[15:25:47] [Worker-Main-17/ERROR]: Unfilled value sexeRatio for MissingNo!
+[15:25:47] [Worker-Main-17/ERROR]: Unfilled value mass for MissingNo!
+[15:25:56] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[15:25:56] [Server thread/INFO]: Loading properties
+[15:25:56] [Server thread/INFO]: Default game type: SPECTATOR
+[15:25:56] [Server thread/INFO]: Generating keypair
+[15:25:56] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20309
+[15:25:56] [Server thread/INFO]: Using epoll channel type
+[15:25:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:25:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:25:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:25:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:25:56] [Server thread/INFO]: Loaded thutcrafts config file thutcrafts-server.toml
+[15:25:56] [Server thread/INFO]: Reading thutcrafts-server.toml
+[15:25:56] [Thread-0/INFO]: Reading thutcrafts-server.toml
+[15:25:56] [Server thread/INFO]: Loaded pokecube config file pokecube-server.toml
+[15:25:56] [Server thread/INFO]: Reading pokecube-server.toml
+[15:25:56] [Thread-0/INFO]: Reading thutcrafts-server.toml
+[15:25:56] [Thread-0/INFO]: Reading pokecube-server.toml
+[15:25:56] [Server thread/INFO]: Loaded thut_bling config file thut_bling-server.toml
+[15:25:56] [Server thread/INFO]: Reading thut_bling-server.toml
+[15:25:56] [Server thread/INFO]: Loaded pokecube_adventures config file pokecube_adventures-server.toml
+[15:25:56] [Thread-0/INFO]: Reading pokecube-server.toml
+[15:25:56] [Server thread/INFO]: Reading pokecube_adventures-server.toml
+[15:25:56] [Server thread/INFO]: Set bagsHoldEverything to true
+[15:25:56] [Thread-0/INFO]: Reading pokecube_adventures-server.toml
+[15:25:56] [Thread-0/INFO]: Reading pokecube_adventures-server.toml
+[15:25:56] [Server thread/INFO]: Found 9 classes in package pokecube.adventures.utils.trade_presets
+[15:25:56] [Server thread/ERROR]: No preset found for all_not_caves
+[15:25:56] [Server thread/ERROR]: No preset found for all_not_caves
+[15:25:56] [Server thread/INFO]: Preparing level "world"
+[15:25:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:25:57] [Server thread/INFO]: [ConfigurableSpawnChunks] ChunkDistance: 5
+[15:25:57] [Worker-Main-38/INFO]: Preparing spawn area: 0%
+[15:25:57] [Worker-Main-39/INFO]: Preparing spawn area: 0%
+[15:25:58] [Worker-Main-39/INFO]: Preparing spawn area: 0%
+[15:25:58] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[15:26:00] [Worker-Main-36/INFO]: Preparing spawn area: 0%
+[15:26:00] [Worker-Main-36/INFO]: Preparing spawn area: 0%
+[15:26:00] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[15:26:00] [Worker-Main-35/INFO]: Preparing spawn area: 0%
+[15:26:01] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:26:01] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:26:02] [Worker-Main-39/INFO]: Preparing spawn area: 0%
+[15:26:02] [Worker-Main-28/INFO]: Preparing spawn area: 0%
+[15:26:03] [Worker-Main-34/INFO]: Preparing spawn area: 0%
+[15:26:03] [Worker-Main-28/INFO]: Preparing spawn area: 4%
+[15:26:04] [Worker-Main-7/INFO]: Preparing spawn area: 16%
+[15:26:04] [Worker-Main-20/INFO]: Preparing spawn area: 37%
+[15:26:05] [Worker-Main-7/INFO]: Preparing spawn area: 43%
+[15:26:05] [Worker-Main-16/INFO]: Preparing spawn area: 43%
+[15:26:06] [Worker-Main-39/INFO]: Preparing spawn area: 59%
+[15:26:07] [Server thread/INFO]: [ConfigurableSpawnChunks] Generated: 81 Chunks
+[15:26:07] [Server thread/INFO]: Time elapsed: 10398 ms
+[15:26:07] [Server thread/INFO]: Done (10.998s)! For help, type "help"
+[15:26:07] [Server thread/INFO]: Starting GS4 status listener
+[15:26:07] [Server thread/INFO]: Thread Query Listener started
+[15:26:07] [Query Listener #1/INFO]: Query running on 0.0.0.0:20309
+[15:26:07] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[15:26:07] [Server thread/INFO]: Found 10 classes in package pokecube.legends.conditions.custom
+[15:26:07] [Server thread/INFO]: Registered 9 Legendary Conditions.
+[15:26:07] [Server thread/INFO]: Server Starting
+[15:26:07] [Server thread/INFO]: Saving and pausing game...
+[15:26:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:26:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:26:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:26:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:26:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:26:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:26:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:33:19] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3eb5966e
+[15:33:19] [Server thread/INFO]: DRD[/125.82.13.206:19804] logged in with entity id 32 at (983.732868689238, 60.0, 1201.4234299050727)
+[15:33:19] [Server thread/INFO]: DRD joined the game
+[15:33:19] [Server thread/INFO]: Server unpaused.
+[15:33:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3341ms or 66 ticks behind
+[15:33:43] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@598cebc1
+[15:33:45] [Server thread/INFO]: Server paused.
+[15:33:45] [Server thread/INFO]: Saving and pausing game...
+[15:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:33:46] [Server thread/INFO]: Server unpaused.
+[15:37:25] [Server thread/INFO]: DRD has made the advancement [Defeat a Oricorio]
+[15:39:50] [Server thread/INFO]: Server paused.
+[15:39:50] [Server thread/INFO]: Saving and pausing game...
+[15:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:40:32] [Server thread/INFO]: Server unpaused.
+[15:41:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2302ms or 46 ticks behind
+[15:43:57] [Server thread/INFO]: Server paused.
+[15:43:57] [Server thread/INFO]: Saving and pausing game...
+[15:43:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:43:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:43:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:43:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:43:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:43:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:43:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:43:57] [Server thread/INFO]: Server unpaused.
+[15:46:43] [Server thread/INFO]: Server paused.
+[15:46:43] [Server thread/INFO]: Saving and pausing game...
+[15:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:46:51] [Server thread/INFO]: Server unpaused.
+[15:46:56] [Server thread/INFO]: Server paused.
+[15:46:56] [Server thread/INFO]: Saving and pausing game...
+[15:46:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:46:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:46:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:46:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:46:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:46:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:46:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:47:02] [Server thread/INFO]: Server unpaused.
+[15:47:20] [Server thread/INFO]: Server paused.
+[15:47:20] [Server thread/INFO]: Saving and pausing game...
+[15:47:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:47:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:47:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:47:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:47:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:47:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:47:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:47:27] [Server thread/INFO]: Server unpaused.
+[15:47:35] [Server thread/INFO]: DRD fell out of the world
+[15:47:50] [Server thread/INFO]: DRD fell out of the world
+[15:48:41] [Server thread/INFO]: Server paused.
+[15:48:41] [Server thread/INFO]: Saving and pausing game...
+[15:48:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:48:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:48:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:48:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:48:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:48:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:48:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:49:02] [Server thread/INFO]: Server unpaused.
+[15:49:45] [Server thread/INFO]: Server paused.
+[15:49:45] [Server thread/INFO]: Saving and pausing game...
+[15:49:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:49:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:49:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:49:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:49:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:49:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:49:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:50:01] [Server thread/INFO]: Server unpaused.
+[15:50:02] [Server thread/INFO]: Server paused.
+[15:50:02] [Server thread/INFO]: Saving and pausing game...
+[15:50:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:50:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:50:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:50:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:50:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:50:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:50:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:50:08] [Server thread/INFO]: Server unpaused.
+[15:50:40] [Server thread/INFO]: Server paused.
+[15:50:40] [Server thread/INFO]: Saving and pausing game...
+[15:50:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:50:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:50:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:50:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:50:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:50:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:50:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:50:54] [Server thread/INFO]: Server unpaused.
+[15:50:55] [Server thread/INFO]: Server paused.
+[15:50:55] [Server thread/INFO]: Saving and pausing game...
+[15:50:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:50:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:50:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:50:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:50:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:50:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:50:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:50:55] [Server thread/INFO]: Server unpaused.
+[15:50:56] [Server thread/INFO]: Server paused.
+[15:50:56] [Server thread/INFO]: Saving and pausing game...
+[15:50:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:50:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:50:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:50:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:50:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:50:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:50:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:51:00] [Server thread/INFO]: Server unpaused.
+[15:54:05] [Server thread/INFO]: Server paused.
+[15:54:05] [Server thread/INFO]: Saving and pausing game...
+[15:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:54:08] [Server thread/INFO]: Server unpaused.
+[15:54:26] [Server thread/INFO]: Server paused.
+[15:54:26] [Server thread/INFO]: Saving and pausing game...
+[15:54:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:54:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:54:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:54:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:54:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:54:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:54:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:55:20] [Server thread/INFO]: Server unpaused.
+[15:55:24] [Server thread/INFO]: Server paused.
+[15:55:24] [Server thread/INFO]: Saving and pausing game...
+[15:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:55:49] [Server thread/INFO]: Server unpaused.
+[15:55:53] [Server thread/INFO]: Server paused.
+[15:55:53] [Server thread/INFO]: Saving and pausing game...
+[15:55:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:55:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:55:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:55:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:55:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:55:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:55:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:56:05] [Server thread/INFO]: Server unpaused.
+[15:56:23] [Server thread/INFO]: Server paused.
+[15:56:23] [Server thread/INFO]: Saving and pausing game...
+[15:56:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:56:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:56:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:56:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:56:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:56:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:56:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:56:34] [Server thread/INFO]: Server unpaused.
+[15:56:42] [Server thread/INFO]: Server paused.
+[15:56:42] [Server thread/INFO]: Saving and pausing game...
+[15:56:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:56:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:56:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:56:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:56:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:56:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:56:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[15:57:11] [Server thread/INFO]: Server unpaused.
+[15:59:58] [Server thread/INFO]: Server paused.
+[15:59:58] [Server thread/INFO]: Saving and pausing game...
+[15:59:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:59:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:59:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:59:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[15:59:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[15:59:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[15:59:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:00:06] [Server thread/INFO]: Server unpaused.
+[16:00:25] [Server thread/INFO]: Server paused.
+[16:00:25] [Server thread/INFO]: Saving and pausing game...
+[16:00:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:00:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:00:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:00:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:00:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:00:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:00:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:00:30] [Server thread/INFO]: Server unpaused.
+[16:00:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2129ms or 42 ticks behind
+[16:00:56] [Server thread/INFO]: Server paused.
+[16:00:56] [Server thread/INFO]: Saving and pausing game...
+[16:00:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:00:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:00:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:00:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:00:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:00:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:00:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:01:00] [Server thread/INFO]: Server unpaused.
+[16:01:04] [Server thread/INFO]: Server paused.
+[16:01:04] [Server thread/INFO]: Saving and pausing game...
+[16:01:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:01:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:01:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:01:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:01:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:01:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:01:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:01:14] [Server thread/INFO]: Server unpaused.
+[16:01:24] [Server thread/INFO]: Server paused.
+[16:01:24] [Server thread/INFO]: Saving and pausing game...
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:01:27] [Server thread/INFO]: Server unpaused.
+[16:01:38] [Server thread/INFO]: Server paused.
+[16:01:38] [Server thread/INFO]: Saving and pausing game...
+[16:01:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:01:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:01:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:01:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:01:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:01:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:01:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:01:41] [Server thread/INFO]: Server unpaused.
+[16:01:42] [Server thread/INFO]: Server paused.
+[16:01:42] [Server thread/INFO]: Saving and pausing game...
+[16:01:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:01:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:01:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:01:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:01:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:01:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:01:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:01:43] [Server thread/INFO]: Server unpaused.
+[16:01:52] [Server thread/INFO]: Server paused.
+[16:01:52] [Server thread/INFO]: Saving and pausing game...
+[16:01:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:01:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:01:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:01:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:01:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:01:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:01:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:01:56] [Server thread/INFO]: Server unpaused.
+[16:02:04] [Server thread/INFO]: Server paused.
+[16:02:04] [Server thread/INFO]: Saving and pausing game...
+[16:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:02:11] [Server thread/INFO]: Server unpaused.
+[16:02:31] [Server thread/INFO]: Server paused.
+[16:02:31] [Server thread/INFO]: Saving and pausing game...
+[16:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:02:39] [Server thread/INFO]: Server unpaused.
+[16:02:51] [Server thread/INFO]: Server paused.
+[16:02:51] [Server thread/INFO]: Saving and pausing game...
+[16:02:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:02:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:02:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:02:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:02:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:02:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:02:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:02:54] [Server thread/INFO]: Server unpaused.
+[16:02:54] [Server thread/INFO]: Server paused.
+[16:02:54] [Server thread/INFO]: Saving and pausing game...
+[16:02:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:02:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:02:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:02:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:02:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:02:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:02:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:02:55] [Server thread/INFO]: Server unpaused.
+[16:05:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[16:06:15] [Server thread/INFO]: Villager TrainerNpc['Trainer'/3, l='ServerLevel[新的世界]', x=-317.38, y=70.00, z=579.30] died, message: 'RoughNeck Ed was struck by lightning'
+[16:06:15] [Server thread/INFO]: Villager TrainerNpc['Trainer'/2, l='ServerLevel[新的世界]', x=-317.57, y=70.00, z=580.44] died, message: 'Rocket Employee Joyce was struck by lightning'
+[16:06:15] [Server thread/INFO]: Villager TrainerNpc['Trainer'/4, l='ServerLevel[新的世界]', x=-316.41, y=70.00, z=580.55] died, message: 'Picknicker Brooke was struck by lightning whilst fighting DRD'
+[16:09:57] [Server thread/INFO]: Server paused.
+[16:09:57] [Server thread/INFO]: Saving and pausing game...
+[16:09:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:09:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:09:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:09:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:09:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:09:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:09:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:09:57] [Server thread/INFO]: Server unpaused.
+[16:11:21] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@220e70bf
+[16:14:44] [Server thread/INFO]: Server paused.
+[16:14:44] [Server thread/INFO]: Saving and pausing game...
+[16:14:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:14:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:14:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:14:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:14:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:14:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:14:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:14:44] [Server thread/INFO]: Server unpaused.
+[16:27:14] [Server thread/INFO]: Villager Villager['Villager'/1175214, l='ServerLevel[新的世界]', x=255.54, y=62.69, z=1063.51] died, message: 'Villager was slain by DRD'
+[16:27:47] [Server thread/INFO]: DRD has completed the challenge [Serious Dedication]
+[16:31:07] [Server thread/INFO]: <DRD> s
+[16:33:15] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@72eaf780
+[16:35:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
+[16:36:55] [Server thread/INFO]: DRD fell out of the world
+[16:38:04] [Server thread/INFO]: Server paused.
+[16:38:04] [Server thread/INFO]: Saving and pausing game...
+[16:38:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:38:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:38:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:38:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:38:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:38:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:38:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:38:05] [Server thread/INFO]: Server unpaused.
+[16:38:05] [Server thread/INFO]: Server paused.
+[16:38:05] [Server thread/INFO]: Saving and pausing game...
+[16:38:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:38:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:38:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:38:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:38:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:38:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:38:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:38:06] [Server thread/INFO]: Server unpaused.
+[16:38:18] [Server thread/INFO]: DRD has made the advancement [Defeat a Marill]
+[16:40:15] [Server thread/INFO]: Server paused.
+[16:40:15] [Server thread/INFO]: Saving and pausing game...
+[16:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:40:15] [Server thread/INFO]: Server unpaused.
+[16:40:18] [Server thread/INFO]: DRD has made the advancement [Defeat a Sewaddle]
+[16:40:21] [Server thread/INFO]: Server paused.
+[16:40:21] [Server thread/INFO]: Saving and pausing game...
+[16:40:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:40:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:40:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:40:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:40:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:40:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:40:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:40:22] [Server thread/INFO]: Server unpaused.
+[16:40:24] [Server thread/INFO]: Server paused.
+[16:40:24] [Server thread/INFO]: Saving and pausing game...
+[16:40:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:40:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:40:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:40:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:40:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:40:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:40:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:40:24] [Server thread/INFO]: Server unpaused.
+[16:40:29] [Server thread/INFO]: Server paused.
+[16:40:29] [Server thread/INFO]: Saving and pausing game...
+[16:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:40:29] [Server thread/INFO]: Server unpaused.
+[16:40:31] [Server thread/INFO]: Server paused.
+[16:40:31] [Server thread/INFO]: Saving and pausing game...
+[16:40:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:40:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:40:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:40:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:40:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:40:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:40:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:40:31] [Server thread/INFO]: Server unpaused.
+[16:41:23] [Server thread/INFO]: Server paused.
+[16:41:23] [Server thread/INFO]: Saving and pausing game...
+[16:41:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:41:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:41:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:41:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:41:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:41:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:41:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:41:25] [Server thread/INFO]: Server unpaused.
+[16:43:49] [Server thread/INFO]: DRD has made the advancement [Catch a Gardevoir]
+[16:45:01] [Server thread/INFO]: DRD fell out of the world
+[16:45:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2256ms or 45 ticks behind
+[16:45:15] [Server thread/INFO]: Server paused.
+[16:45:15] [Server thread/INFO]: Saving and pausing game...
+[16:45:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:45:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:45:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:45:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:45:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:45:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:45:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:45:16] [Server thread/INFO]: Server unpaused.
+[16:45:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2178ms or 43 ticks behind
+[16:49:03] [Server thread/INFO]: DRD has made the advancement [Defeat a Venomoth]
+[16:49:36] [Server thread/INFO]: DRD has made the advancement [Defeat a Muk]
+[16:49:43] [Server thread/INFO]: Server paused.
+[16:49:43] [Server thread/INFO]: Saving and pausing game...
+[16:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:49:44] [Server thread/INFO]: Server unpaused.
+[16:52:09] [Server thread/INFO]: Server paused.
+[16:52:09] [Server thread/INFO]: Saving and pausing game...
+[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:52:09] [Server thread/INFO]: Server unpaused.
+[16:52:12] [Server thread/INFO]: Server paused.
+[16:52:12] [Server thread/INFO]: Saving and pausing game...
+[16:52:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:52:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:52:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:52:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:52:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:52:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:52:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:52:12] [Server thread/INFO]: Server unpaused.
+[16:52:17] [Server thread/INFO]: Server paused.
+[16:52:17] [Server thread/INFO]: Saving and pausing game...
+[16:52:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:52:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:52:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:52:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:52:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:52:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:52:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:52:17] [Server thread/INFO]: Server unpaused.
+[16:54:23] [Server thread/INFO]: Server paused.
+[16:54:23] [Server thread/INFO]: Saving and pausing game...
+[16:54:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:54:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:54:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:54:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:54:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:54:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:54:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:54:23] [Server thread/INFO]: Server unpaused.
+[16:56:30] [Server thread/INFO]: DRD tried to swim in lava
+[16:56:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2555ms or 51 ticks behind
+[16:58:00] [Server thread/INFO]: Server paused.
+[16:58:00] [Server thread/INFO]: Saving and pausing game...
+[16:58:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:58:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:58:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:58:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:58:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:58:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:58:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:58:01] [Server thread/INFO]: Server unpaused.
+[16:58:03] [Server thread/INFO]: DRD has made the advancement [Defeat a Fletchinder]
+[16:59:31] [Server thread/INFO]: Server paused.
+[16:59:31] [Server thread/INFO]: Saving and pausing game...
+[16:59:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[16:59:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[16:59:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[16:59:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[16:59:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[16:59:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[16:59:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[16:59:32] [Server thread/INFO]: Server unpaused.
+[17:06:23] [Server thread/INFO]: DRD has made the advancement [Catch a Gyarados]
+[17:07:44] [Worker-Main-35/INFO]: 3 iterations of build for: pokecube_legends:fungal_rocks/loose
+[17:07:44] [Worker-Main-57/INFO]: 6 iterations of build for: pokecube_legends:giant_mushrooms
+[17:07:44] [Worker-Main-57/INFO]: 6 iterations of build for: pokecube_legends:giant_mushrooms
+[17:07:44] [Worker-Main-57/INFO]: 6 iterations of build for: pokecube_legends:giant_mushrooms
+[17:07:46] [Server thread/INFO]: DRD fell out of the world
+[17:07:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4701ms or 94 ticks behind
+[17:08:58] [Server thread/INFO]: DRD has made the advancement [Defeat a Farfetch'd]
+[17:09:24] [Server thread/INFO]: DRD has made the advancement [Defeat a Miltank]
+[17:10:42] [Server thread/INFO]: Villager Villager['Villager'/1258557, l='ServerLevel[新的世界]', x=255.70, y=63.00, z=1063.70] died, message: 'Villager was slain by DRD'
+[17:11:20] [Server thread/INFO]: DRD has made the advancement [Defeat a Chansey]
+[17:12:58] [Server thread/INFO]: Server paused.
+[17:12:58] [Server thread/INFO]: Saving and pausing game...
+[17:12:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[17:12:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[17:12:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[17:12:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[17:12:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[17:12:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[17:12:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[17:12:59] [Server thread/INFO]: DRD lost connection: Disconnected
+[17:12:59] [Server thread/INFO]: DRD left the game
+[17:13:06] [Server thread/INFO]: Stopping the server
+[17:13:06] [Server thread/INFO]: Stopping server
+[17:13:06] [Server thread/INFO]: Saving players
+[17:13:06] [Server thread/INFO]: Saving worlds
+[17:13:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[17:13:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[17:13:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[17:13:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
+[17:13:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
+[17:13:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
+[17:13:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
+[17:13:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:13:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:13:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:13:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (secret_base): All chunks are saved
+[17:13:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
+[17:13:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (distorted_world): All chunks are saved
+[17:13:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (ultraspace): All chunks are saved
+[17:13:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:13:07] [Server thread/INFO]: Thread Query Listener stopped
