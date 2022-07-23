@@ -58,7 +58,16 @@ No preset found for all_not_caves
 No preset found for all_not_caves
 Registered 9 Legendary Conditions.
 Server Starting
+Trainer Spawn Tick took 54.330887ms
+Handled spawn for nurse{"guard":{"time":"day","roam":0},"type":"healer"}, BlockPos{x=1046, y=63, z=-209}
+Handled spawn for trader{"guard":{"time":"day","roam":0},"type":"aether"}, BlockPos{x=1074, y=63, z=-187}
+Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=1459, y=70, z=-200}
+6 iterations of build for: pokecube:village/plains_small
+2 iterations of build for: pokecube_legends:giant_mushrooms
+2 iterations of build for: pokecube:scattered/ruins_loose
+Undefined evo mode for {}, setting to "2"
+2 iterations of build for: pokecube_legends:fungal_rocks/loose
 3 iterations of build for: pokecube_legends:fungal_rocks/loose
-6 iterations of build for: pokecube_legends:giant_mushrooms
-6 iterations of build for: pokecube_legends:giant_mushrooms
-6 iterations of build for: pokecube_legends:giant_mushrooms
+3 iterations of build for: pokecube_legends:fungal_rocks/loose
+3 iterations of build for: pokecube_legends:giant_mushrooms
+Trainer Spawn Tick took 81.002801ms

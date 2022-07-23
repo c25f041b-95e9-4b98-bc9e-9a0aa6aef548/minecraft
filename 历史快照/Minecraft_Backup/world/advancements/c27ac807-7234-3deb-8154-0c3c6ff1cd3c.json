@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_yungoos": {
     "criteria": {
       "kill_yungoos": "2022-07-19 00:09:33 +0800"
@@ -38,6 +44,12 @@
   "pokecube_mobs:kill/kill_blitzle": {
     "criteria": {
       "kill_blitzle": "2022-07-21 22:28:26 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_zygarde_50": {
+    "criteria": {
+      "kill_zygarde_50": "2022-07-23 22:40:15 +0800"
     },
     "done": true
   },
@@ -119,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_geodude_alola": {
     "criteria": {
       "kill_geodude_alola": "2022-07-19 14:21:29 +0800"
@@ -176,6 +194,12 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs": {
     "criteria": {
       "has_polished_granite": "2022-07-22 20:03:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -275,6 +299,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_nidoranm": {
+    "criteria": {
+      "kill_nidoranm": "2022-07-23 21:07:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2022-07-18 23:59:49 +0800"
@@ -323,6 +353,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_magneton": {
+    "criteria": {
+      "kill_magneton": "2022-07-23 22:16:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/polished_blackstone_button": {
     "criteria": {
       "has_polished_blackstone": "2022-07-21 21:08:25 +0800"
@@ -356,6 +392,12 @@
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2022-07-19 14:17:27 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_piloswine": {
+    "criteria": {
+      "kill_piloswine": "2022-07-23 20:59:04 +0800"
     },
     "done": true
   },
@@ -395,6 +437,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_sliggoo": {
+    "criteria": {
+      "kill_sliggoo": "2022-07-23 22:17:00 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2022-07-21 21:07:09 +0800"
@@ -422,6 +470,12 @@
   "pokecube_mobs:kill/kill_castform": {
     "criteria": {
       "kill_castform": "2022-07-19 00:09:38 +0800"
+    },
+    "done": true
+  },
+  "pokecube_adventures:trainers/get_dragon_badge": {
+    "criteria": {
+      "get_badge": "2022-07-23 22:40:35 +0800"
     },
     "done": true
   },
@@ -503,6 +557,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:capture/catch_phione": {
+    "criteria": {
+      "catch_phione": "2022-07-23 22:26:13 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_skuntank": {
     "criteria": {
       "kill_skuntank": "2022-07-19 00:02:24 +0800"
@@ -554,6 +614,12 @@
   "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
       "has_basalt": "2022-07-21 21:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -650,6 +716,12 @@
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2022-07-21 19:49:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -842,6 +914,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2022-07-19 11:07:25 +0800",
+      "minecraft:guardian": "2022-07-23 22:24:38 +0800",
       "minecraft:spider": "2022-07-19 11:04:20 +0800",
       "minecraft:creeper": "2022-07-19 00:03:05 +0800",
       "minecraft:enderman": "2022-07-20 23:08:42 +0800",
@@ -914,6 +987,12 @@
   "minecraft:recipes/decorations/pink_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-07-19 22:16:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -1073,6 +1152,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2022-07-18 23:27:10 +0800"
@@ -1151,6 +1236,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:hatch/hatch_meowth_alola": {
+    "criteria": {
+      "hatch_meowth_alola": "2022-07-23 20:31:21 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2022-07-19 10:33:51 +0800"
@@ -1187,6 +1278,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_noibat": {
+    "criteria": {
+      "kill_noibat": "2022-07-23 22:40:35 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2022-07-19 10:43:10 +0800"
@@ -1196,6 +1293,12 @@
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-07-19 10:31:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -1220,6 +1323,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
     "criteria": {
       "has_polished_blackstone": "2022-07-21 21:08:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2022-07-23 18:44:00 +0800"
     },
     "done": true
   },
@@ -1316,6 +1425,12 @@
   "pokecube_mobs:capture/catch_gyarados": {
     "criteria": {
       "catch_gyarados": "2022-07-23 17:06:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -1433,6 +1548,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2022-07-23 21:55:00 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_taillow": {
     "criteria": {
       "kill_taillow": "2022-07-19 11:15:30 +0800"
@@ -1529,6 +1650,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_muk_alola": {
+    "criteria": {
+      "kill_muk_alola": "2022-07-23 22:16:18 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_mareep": {
     "criteria": {
       "kill_mareep": "2022-07-19 11:03:44 +0800"
@@ -1538,6 +1665,12 @@
   "minecraft:recipes/decorations/orange_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2022-07-19 22:16:48 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_clamperl": {
+    "criteria": {
+      "kill_clamperl": "2022-07-23 22:37:36 +0800"
     },
     "done": true
   },
@@ -1655,6 +1788,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2022-07-23 22:19:51 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_starly": {
     "criteria": {
       "kill_starly": "2022-07-19 00:18:46 +0800"
@@ -1682,6 +1821,12 @@
   "pokecube_mobs:kill/kill_burmy": {
     "criteria": {
       "kill_burmy": "2022-07-20 23:21:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
+    "criteria": {
+      "has_nether_brick_slab": "2022-07-23 18:33:15 +0800"
     },
     "done": true
   },
@@ -1781,6 +1926,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_zygarde_10": {
+    "criteria": {
+      "kill_zygarde_10": "2022-07-23 22:40:19 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_pachirisu": {
     "criteria": {
       "kill_pachirisu": "2022-07-18 23:56:54 +0800"
@@ -1810,15 +1961,20 @@
       "minecraft:snowy_slopes": "2022-07-21 14:28:44 +0800",
       "minecraft:old_growth_pine_taiga": "2022-07-19 14:15:31 +0800",
       "minecraft:taiga": "2022-07-18 22:37:34 +0800",
+      "minecraft:deep_ocean": "2022-07-23 21:33:48 +0800",
       "minecraft:birch_forest": "2022-07-19 11:02:13 +0800",
       "minecraft:beach": "2022-07-19 21:54:45 +0800",
       "minecraft:river": "2022-07-18 22:37:59 +0800",
+      "minecraft:lukewarm_ocean": "2022-07-23 21:37:32 +0800",
       "minecraft:stony_shore": "2022-07-19 21:31:00 +0800",
+      "minecraft:snowy_plains": "2022-07-23 20:49:47 +0800",
       "minecraft:dripstone_caves": "2022-07-19 14:17:12 +0800",
       "minecraft:cold_ocean": "2022-07-21 20:26:12 +0800",
       "minecraft:forest": "2022-07-18 23:29:13 +0800",
       "minecraft:lush_caves": "2022-07-19 14:17:00 +0800",
+      "minecraft:ice_spikes": "2022-07-23 21:00:16 +0800",
       "minecraft:ocean": "2022-07-19 21:55:24 +0800",
+      "minecraft:deep_lukewarm_ocean": "2022-07-23 21:36:32 +0800",
       "minecraft:old_growth_birch_forest": "2022-07-18 23:27:13 +0800",
       "minecraft:meadow": "2022-07-19 21:28:59 +0800",
       "minecraft:plains": "2022-07-18 23:28:17 +0800"
@@ -1963,6 +2119,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2022-07-19 10:34:05 +0800"
@@ -1984,6 +2146,12 @@
   "pokecube_mobs:capture/catch_raboot": {
     "criteria": {
       "catch_raboot": "2022-07-18 23:57:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -2041,6 +2209,12 @@
     },
     "done": true
   },
+  "pokecube_legends:manaphy": {
+    "criteria": {
+      "catch_phione": "2022-07-23 22:26:13 +0800"
+    },
+    "done": false
+  },
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2022-07-19 11:09:11 +0800"
@@ -2074,6 +2248,12 @@
   "pokecube_mobs:kill/kill_ralts": {
     "criteria": {
       "kill_ralts": "2022-07-19 00:04:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2022-07-23 22:19:51 +0800"
     },
     "done": true
   },
@@ -2335,6 +2515,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2022-07-23 22:19:51 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2022-07-18 23:27:10 +0800"
@@ -2425,6 +2611,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2022-07-23 22:42:42 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_magikarp": {
     "criteria": {
       "kill_magikarp": "2022-07-19 11:09:07 +0800"
@@ -2440,6 +2632,12 @@
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2022-07-21 22:16:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -2557,6 +2755,7 @@
       "chicken": "2022-07-19 10:12:32 +0800",
       "cooked_mutton": "2022-07-20 20:20:17 +0800",
       "cooked_beef": "2022-07-19 21:56:53 +0800",
+      "baked_potato": "2022-07-23 23:08:56 +0800",
       "tropical_fish": "2022-07-19 17:11:20 +0800",
       "apple": "2022-07-19 00:04:03 +0800",
       "cooked_cod": "2022-07-19 22:14:37 +0800",
@@ -3042,6 +3241,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:capture/catch_nidoranm": {
+    "criteria": {
+      "catch_nidoranm": "2022-07-23 21:51:08 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_furret": {
     "criteria": {
       "kill_furret": "2022-07-21 16:12:54 +0800"
@@ -3051,6 +3256,12 @@
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
     "criteria": {
       "has_polished_blackstone": "2022-07-21 21:08:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -3270,6 +3481,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_drifblim": {
     "criteria": {
       "kill_drifblim": "2022-07-19 22:15:29 +0800"
@@ -3285,6 +3502,12 @@
   "pokecube_mobs:kill/kill_persian": {
     "criteria": {
       "kill_persian": "2022-07-22 20:46:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -3365,6 +3588,12 @@
       "kill_wishiwashi": "2022-07-19 10:35:10 +0800"
     },
     "done": false
+  },
+  "pokecube_adventures:trainers/defeat_leader": {
+    "criteria": {
+      "beat_leader": "2022-07-23 22:40:35 +0800"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
@@ -3504,6 +3733,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2022-07-21 16:11:56 +0800"
@@ -3585,6 +3820,12 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2022-07-19 10:31:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
@@ -3810,6 +4051,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_toxtricity_amped": {
+    "criteria": {
+      "kill_toxtricity_amped": "2022-07-23 21:57:24 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2022-07-19 22:16:48 +0800"
@@ -3903,6 +4150,12 @@
   "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_allium": "2022-07-21 22:27:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2022-07-23 20:35:08 +0800"
     },
     "done": true
   },
@@ -4116,6 +4369,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_staryu": {
+    "criteria": {
+      "kill_staryu": "2022-07-23 22:37:24 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:capture/catch_deerling": {
     "criteria": {
       "catch_deerling": "2022-07-19 11:07:04 +0800"
@@ -4167,6 +4426,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
     "criteria": {
       "has_mossy_cobblestone": "2022-07-21 15:21:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-07-23 22:56:14 +0800"
     },
     "done": true
   },
