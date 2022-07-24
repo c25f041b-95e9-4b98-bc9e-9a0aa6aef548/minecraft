@@ -1,0 +1,66 @@
+No Max Move For Type ???, when allocating for expandingforce
+No Max Move For Type ???, when allocating for expandingforce
+No Max Move For Type ???, when allocating for thunderouskick
+No Max Move For Type ???, when allocating for thunderouskick
+No Max Move For Type ???, when allocating for expandingforce
+No Max Move For Type ???, when allocating for expandingforce
+No Max Move For Type ???, when allocating for thunderouskick
+No Max Move For Type ???, when allocating for thunderouskick
+Trying to replace oricorio with oricorio_baile as base for oricorio_baile
+Trying to replace oricorio with oricorio_baile as base for oricorio_pau
+Trying to replace oricorio with oricorio_baile as base for oricorio_pom-pom
+Trying to replace oricorio with oricorio_baile as base for oricorio_sensu
+Loaded 906 by number, and 1153 by formes from databases.
+Trying to replace calyrex with glastrier as base for calyrex_ice_rider
+Trying to replace calyrex with spectrier as base for calyrex_shadow_rider
+Found Worldgen Databases: [pokecube_mobs:structures/berry_trees.json, pokecube_legends:structures/decoration_distortic.json, pokecube_legends:structures/decoration_overworld.json, pokecube_legends:structures/decoration_ultraspace.json, pokecube_legends:structures/raid_spots.json, pokecube:structures/ruins.json, pokecube_legends:structures/temples_regi.json, pokecube_legends:structures/temples_unown.json, pokecube:structures/village_badlands.json, pokecube:structures/village_beach.json, pokecube:structures/village_cave.json, pokecube:structures/village_common.json, pokecube:structures/village_dark_forest.json, pokecube:structures/village_deep.json, pokecube:structures/village_desert.json, pokecube:structures/village_end.json, pokecube:structures/village_high_sky.json, pokecube:structures/village_hills.json, pokecube:structures/village_jungle.json, pokecube:structures/village_nether.json, pokecube_legends:structures/village_ocean.json, pokecube:structures/village_plains.json, pokecube:structures/village_savanna.json, pokecube:structures/village_sky.json, pokecube:structures/village_snowy.json, pokecube:structures/village_swamp.json, pokecube:structures/village_taiga.json, pokecube_legends:structures/village_ultraspace.json, pokecube_legends:structures/villian_lairs.json, pokecube_legends:structures/worldgen.json]
+Found 1 jigsaws and 2 pools in pokecube_mobs:structures/berry_trees.json
+Found 3 jigsaws and 3 pools in pokecube_legends:structures/decoration_distortic.json
+Found 1 jigsaws and 1 pools in pokecube_legends:structures/decoration_overworld.json
+Found 17 jigsaws and 17 pools in pokecube_legends:structures/decoration_ultraspace.json
+Found 3 jigsaws and 3 pools in pokecube_legends:structures/raid_spots.json
+Found 2 jigsaws and 3 pools in pokecube:structures/ruins.json
+Found 6 jigsaws and 6 pools in pokecube_legends:structures/temples_regi.json
+Found 3 jigsaws and 2 pools in pokecube_legends:structures/temples_unown.json
+Found 2 jigsaws and 13 pools in pokecube:structures/village_badlands.json
+Found 2 jigsaws and 7 pools in pokecube:structures/village_beach.json
+Found 1 jigsaws and 10 pools in pokecube:structures/village_cave.json
+Found 0 jigsaws and 1 pools in pokecube:structures/village_common.json
+Found 2 jigsaws and 8 pools in pokecube:structures/village_dark_forest.json
+Found 1 jigsaws and 5 pools in pokecube:structures/village_deep.json
+Found 2 jigsaws and 8 pools in pokecube:structures/village_desert.json
+Found 1 jigsaws and 4 pools in pokecube:structures/village_end.json
+Found 1 jigsaws and 5 pools in pokecube:structures/village_high_sky.json
+Found 2 jigsaws and 8 pools in pokecube:structures/village_hills.json
+Found 2 jigsaws and 7 pools in pokecube:structures/village_jungle.json
+Found 1 jigsaws and 7 pools in pokecube:structures/village_nether.json
+Found 1 jigsaws and 12 pools in pokecube_legends:structures/village_ocean.json
+Found 2 jigsaws and 8 pools in pokecube:structures/village_plains.json
+Found 2 jigsaws and 8 pools in pokecube:structures/village_savanna.json
+Found 1 jigsaws and 11 pools in pokecube:structures/village_sky.json
+Found 2 jigsaws and 8 pools in pokecube:structures/village_snowy.json
+Found 2 jigsaws and 7 pools in pokecube:structures/village_swamp.json
+Found 2 jigsaws and 8 pools in pokecube:structures/village_taiga.json
+Found 1 jigsaws and 6 pools in pokecube_legends:structures/village_ultraspace.json
+Found 3 jigsaws and 9 pools in pokecube_legends:structures/villian_lairs.json
+Found 21 jigsaws and 43 pools in pokecube_legends:structures/worldgen.json
+Loaded 240 pools and 90 jigsaws for pokecube
+No Berry tree database found for pokecube
+Hello from Common Proxy setup!
+Registering Commands
+Unfilled value baseXP for MissingNo!
+Unfilled value catchRate for MissingNo!
+Unfilled value baseHappiness for MissingNo!
+Unfilled value evolutionMode for MissingNo!
+Unfilled value sexeRatio for MissingNo!
+Unfilled value mass for MissingNo!
+No preset found for all_not_caves
+No preset found for all_not_caves
+Registered 9 Legendary Conditions.
+Server Starting
+Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=346, y=-12, z=1617}
+Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=286, y=157, z=1611}
+6 iterations of build for: pokecube:village/taiga_small
+Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=429, y=67, z=1638}
+Undefined evo mode for {}, setting to "2"
+Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=1030, y=112, z=899}

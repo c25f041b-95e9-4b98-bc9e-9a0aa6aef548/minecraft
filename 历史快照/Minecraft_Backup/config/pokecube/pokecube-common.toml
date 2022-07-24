@@ -317,7 +317,7 @@
 	# This is a cooldown between the pokemob deciding to attack a player, and the pokemob actually doing so, this gives some warning when you are about to be attacked. [Default: 100]
 	pokemobagressticks = 100
 	# If true, idle AI for pokemobs will slow down as server load increases. [Default: false]
-	doLoadBalancing = true
+	doLoadBalancing = false
 	# If true, hungry lithovores will eat rocks to cobble/gravel. [Default: true]
 	pokemobsEatRocks = true
 
