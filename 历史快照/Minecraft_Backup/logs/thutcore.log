@@ -10,24 +10,21 @@ Reading thut_wearables/thut_wearables-common.toml
 Loaded pokecube_legends config file pokecube/pokecube_legends-common.toml
 Reading pokecube/pokecube_legends-common.toml
 Reading thut_wearables/thut_wearables-common.toml
-Reading pokecube/pokecube_legends-common.toml
 Loaded thutcore config file thutcore/thutcore-common.toml
 Reading thutcore/thutcore-common.toml
-Reading pokecube/pokecube_legends-common.toml
 Reading thutcore/thutcore-common.toml
 Reading thutcore/thutcore-common.toml
 Loaded pokecube_adventures config file pokecube/pokecube_adventures-common.toml
 Reading pokecube/pokecube_adventures-common.toml
 Set trainersTradeMobs to false
 Reading pokecube/pokecube_adventures-common.toml
+Reading pokecube/pokecube_adventures-common.toml
 Loaded pokecube config file pokecube/pokecube-common.toml
 Reading pokecube/pokecube-common.toml
-Reading pokecube/pokecube_adventures-common.toml
 Set defaultFireActions to false
 Set chaseDistance to 12
 Set msgAboutProfessor to true
 Set tameGatherDistance to 12
-Set doLoadBalancing to true
 Set guiOnLogin to true
 Reading pokecube/pokecube-common.toml
 Reading pokecube/pokecube-common.toml
@@ -37,7 +34,6 @@ Reading thut_bling-server.toml
 Reading thut_bling-server.toml
 Loaded thutcrafts config file thutcrafts-server.toml
 Reading thutcrafts-server.toml
-Reading thut_bling-server.toml
 Reading thutcrafts-server.toml
 Loaded pokecube_adventures config file pokecube_adventures-server.toml
 Reading pokecube_adventures-server.toml
