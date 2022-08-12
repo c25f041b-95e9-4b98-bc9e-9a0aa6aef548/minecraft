@@ -239,9 +239,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_smelting_deepslate_coal_ore": {
+    "criteria": {
+      "has_deepslate_coal_ore": "2022-08-12 19:49:49 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_fletchling": {
     "criteria": {
       "kill_fletchling": "2022-07-19 11:03:23 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_greedent": {
+    "criteria": {
+      "kill_greedent": "2022-07-29 14:23:30 +0800"
     },
     "done": true
   },
@@ -635,6 +647,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2022-08-12 19:50:30 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
     "criteria": {
       "has_white_dye": "2022-07-19 23:12:39 +0800"
@@ -839,6 +857,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:hatch/hatch_cutiefly": {
+    "criteria": {
+      "hatch_cutiefly": "2022-07-29 12:51:22 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_gyarados": {
     "criteria": {
       "kill_gyarados": "2022-07-22 20:48:59 +0800"
@@ -971,6 +995,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2022-08-12 19:46:20 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2022-07-20 20:27:08 +0800"
@@ -1064,6 +1094,12 @@
   "pokecube_mobs:kill/kill_pachirisu": {
     "criteria": {
       "kill_pachirisu": "2022-07-18 23:56:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2022-07-29 14:20:34 +0800"
     },
     "done": true
   },
@@ -1184,6 +1220,12 @@
   "pokecube_mobs:kill/kill_binacle": {
     "criteria": {
       "kill_binacle": "2022-07-21 15:53:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2022-08-12 19:47:42 +0800"
     },
     "done": true
   },
@@ -1465,6 +1507,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:hatch/hatch_starly": {
+    "criteria": {
+      "hatch_starly": "2022-07-29 14:15:32 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2022-07-19 17:05:47 +0800"
@@ -1507,6 +1555,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2022-08-12 19:51:23 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2022-07-20 21:03:42 +0800"
@@ -1534,6 +1588,12 @@
   "pokecube_mobs:kill/kill_nidorina": {
     "criteria": {
       "kill_nidorina": "2022-07-26 19:02:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2022-08-12 19:47:42 +0800"
     },
     "done": true
   },
@@ -1897,6 +1957,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2022-08-12 19:50:29 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bowl": {
     "criteria": {
       "has_brown_mushroom": "2022-07-19 16:58:46 +0800"
@@ -2158,6 +2224,12 @@
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_terracotta": "2022-07-25 21:24:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_deepslate_coal_ore": {
+    "criteria": {
+      "has_deepslate_coal_ore": "2022-08-12 19:49:49 +0800"
     },
     "done": true
   },
@@ -2551,6 +2623,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_bewear": {
+    "criteria": {
+      "kill_bewear": "2022-07-29 14:24:26 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_yungoos": {
     "criteria": {
       "kill_yungoos": "2022-07-19 00:09:33 +0800"
@@ -2695,6 +2773,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2022-08-12 19:52:22 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2022-07-18 23:27:10 +0800"
@@ -2752,6 +2836,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2022-07-21 20:02:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2022-07-29 14:27:35 +0800"
     },
     "done": true
   },
@@ -2929,6 +3019,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2022-08-12 19:48:34 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_candle": {
     "criteria": {
       "has_white_dye": "2022-07-19 23:12:39 +0800"
@@ -3076,6 +3172,7 @@
       "minecraft:spider": "2022-07-19 11:04:20 +0800",
       "minecraft:creeper": "2022-07-19 00:03:05 +0800",
       "minecraft:zombified_piglin": "2022-07-24 19:48:51 +0800",
+      "minecraft:witch": "2022-07-29 14:21:29 +0800",
       "minecraft:wither_skeleton": "2022-07-27 19:13:15 +0800",
       "minecraft:cave_spider": "2022-07-24 20:18:46 +0800",
       "minecraft:piglin": "2022-07-24 19:49:29 +0800",
@@ -3085,6 +3182,12 @@
       "minecraft:zombie_villager": "2022-07-19 16:54:54 +0800"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2022-07-29 14:20:34 +0800"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
@@ -3218,6 +3321,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2022-08-12 19:49:48 +0800"
+    },
+    "done": true
+  },
   "pokecube_mobs:kill/kill_emolga": {
     "criteria": {
       "kill_emolga": "2022-07-19 00:19:43 +0800"
@@ -3284,9 +3393,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2022-08-12 19:50:29 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
     "criteria": {
       "has_polished_blackstone": "2022-07-21 21:08:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2022-08-12 19:11:58 +0800"
     },
     "done": true
   },
@@ -3713,6 +3834,7 @@
       "minecraft:snowy_plains": "2022-07-23 20:49:47 +0800",
       "minecraft:dripstone_caves": "2022-07-19 14:17:12 +0800",
       "minecraft:snowy_taiga": "2022-07-24 14:34:16 +0800",
+      "minecraft:grove": "2022-08-12 20:48:43 +0800",
       "minecraft:jagged_peaks": "2022-07-24 00:04:39 +0800",
       "minecraft:cold_ocean": "2022-07-21 20:26:12 +0800",
       "minecraft:forest": "2022-07-18 23:29:13 +0800",
@@ -3921,6 +4043,12 @@
   "pokecube_mobs:kill/kill_blipbug": {
     "criteria": {
       "kill_blipbug": "2022-07-19 00:20:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2022-07-29 14:20:34 +0800"
     },
     "done": true
   },
@@ -4146,6 +4274,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2022-08-12 19:46:20 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_brown_mushroom": "2022-07-19 16:58:46 +0800"
@@ -4181,6 +4315,7 @@
       "cooked_porkchop": "2022-07-20 20:30:21 +0800",
       "chicken": "2022-07-19 10:12:32 +0800",
       "cooked_mutton": "2022-07-20 20:20:17 +0800",
+      "sweet_berries": "2022-08-12 20:53:03 +0800",
       "cooked_beef": "2022-07-19 21:56:53 +0800",
       "baked_potato": "2022-07-23 23:08:56 +0800",
       "tropical_fish": "2022-07-19 17:11:20 +0800",
@@ -4543,6 +4678,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_combee": {
+    "criteria": {
+      "kill_combee": "2022-07-29 14:27:33 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2022-07-21 22:16:56 +0800"
@@ -4657,6 +4798,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2022-08-12 19:49:48 +0800"
+    },
+    "done": true
+  },
   "minecraft:nether/find_fortress": {
     "criteria": {
       "fortress": "2022-07-24 20:35:24 +0800"
@@ -4696,6 +4843,12 @@
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2022-07-21 16:11:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2022-08-12 19:11:58 +0800"
     },
     "done": true
   },
@@ -4819,6 +4972,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2022-08-12 19:11:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
       "has_basalt": "2022-07-21 21:04:01 +0800"
@@ -4933,6 +5092,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2022-08-12 19:48:34 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2022-07-19 10:18:15 +0800"
@@ -4993,6 +5158,12 @@
     },
     "done": true
   },
+  "pokecube_mobs:kill/kill_oranguru": {
+    "criteria": {
+      "kill_oranguru": "2022-07-29 14:23:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2022-07-18 22:38:12 +0800"
@@ -5050,6 +5221,24 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2022-07-28 20:47:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2022-07-29 14:27:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2022-08-12 19:50:30 +0800"
+    },
+    "done": true
+  },
+  "pokecube_mobs:kill/kill_ribombee": {
+    "criteria": {
+      "kill_ribombee": "2022-07-29 14:28:11 +0800"
     },
     "done": true
   },
