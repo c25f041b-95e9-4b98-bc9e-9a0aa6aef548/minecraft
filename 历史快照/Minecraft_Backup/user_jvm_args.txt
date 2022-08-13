@@ -1,1 +1,1 @@
--Xmx6144M -Xms128M
+-Xmx8192M -Xms128M

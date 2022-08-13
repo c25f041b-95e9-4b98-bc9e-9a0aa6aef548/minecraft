@@ -1,492 +1,537 @@
-[19:32:41] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 39.1.2, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407]
-[19:32:41] [main/INFO]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 18.0.1.1 by BellSoft
-[19:32:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/container/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2319!/ Service=ModLauncher Env=SERVER
-[19:32:42] [main/INFO]: Found mod file AI-Improvements-1.18.2-0.5.0.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:32:42] [main/INFO]: Found mod file ConfigurableSpawnChunks-1.18.x-1.0.3.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:32:42] [main/INFO]: Found mod file ferritecore-4.0.0-forge.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:32:42] [main/INFO]: Found mod file lazydfu-1.0-1.18+.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:32:42] [main/INFO]: Found mod file Multiplayer-Server-Pause-1.18-Forge-1.1.0.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:32:42] [main/INFO]: Found mod file pokecube-aio-1.18.1-3.16.1.jar of type MOD with locator {mods folder locator at /home/container/mods}
-[19:32:42] [main/INFO]: Found mod file fmlcore-1.18.1-39.1.2.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5707c1cb
-[19:32:42] [main/INFO]: Found mod file javafmllanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5707c1cb
-[19:32:42] [main/INFO]: Found mod file mclanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5707c1cb
-[19:32:42] [main/INFO]: Found mod file server-1.18.1-20211210.034407-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5707c1cb
-[19:32:42] [main/INFO]: Found mod file forge-1.18.1-39.1.2-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5707c1cb
-[19:32:47] [main/INFO]: Compatibility level set to JAVA_17
-[19:32:47] [main/INFO]: Launching target 'forgeserver' with arguments []
-[19:32:56] [main/INFO]: Lazy DFU
-[19:33:01] [modloading-worker-0/INFO]: Forge mod loading, version 39.1.2, for MC 1.18.1 with MCP 20211210.034407
-[19:33:01] [modloading-worker-0/INFO]: MinecraftForge v39.1.2 Initialized
-[19:33:01] [modloading-worker-0/INFO]: [ConfigurableSpawnChunks] Let us rain some doom down upon the heads of our doomed enemies.
-[19:33:21] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[19:33:21] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[19:33:21] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[19:33:21] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[19:33:22] [main/INFO]: Found 1 classes in package pokecube.core.moves.implementations
-[19:33:22] [main/INFO]: Found 28 classes in package pokecube.legends.init
-[19:33:22] [main/INFO]: Found 71 classes in package pokecube.mobs.moves
-[19:33:23] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[19:33:23] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
-[19:33:23] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[19:33:23] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
-[19:33:23] [main/INFO]: Found 10 classes in package pokecube.core.moves.animations
-[19:33:29] [main/INFO]: Found 246 classes in package pokecube.mobs.abilities
-[19:33:29] [main/INFO]: Found 2 classes in package pokecube.core.database.abilities
-[19:33:30] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_baile
-[19:33:30] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pau
-[19:33:30] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pom-pom
-[19:33:30] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_sensu
-[19:33:30] [main/INFO]: Loaded 906 by number, and 1153 by formes from databases.
-[19:33:31] [main/ERROR]: Trying to replace calyrex with glastrier as base for calyrex_ice_rider
-[19:33:31] [main/ERROR]: Trying to replace calyrex with spectrier as base for calyrex_shadow_rider
-[19:33:32] [main/INFO]: Found Worldgen Databases: [pokecube_mobs:structures/berry_trees.json, pokecube_legends:structures/decoration_distortic.json, pokecube_legends:structures/decoration_overworld.json, pokecube_legends:structures/decoration_ultraspace.json, pokecube_legends:structures/raid_spots.json, pokecube:structures/ruins.json, pokecube_legends:structures/temples_regi.json, pokecube_legends:structures/temples_unown.json, pokecube:structures/village_badlands.json, pokecube:structures/village_beach.json, pokecube:structures/village_cave.json, pokecube:structures/village_common.json, pokecube:structures/village_dark_forest.json, pokecube:structures/village_deep.json, pokecube:structures/village_desert.json, pokecube:structures/village_end.json, pokecube:structures/village_high_sky.json, pokecube:structures/village_hills.json, pokecube:structures/village_jungle.json, pokecube:structures/village_nether.json, pokecube_legends:structures/village_ocean.json, pokecube:structures/village_plains.json, pokecube:structures/village_savanna.json, pokecube:structures/village_sky.json, pokecube:structures/village_snowy.json, pokecube:structures/village_swamp.json, pokecube:structures/village_taiga.json, pokecube_legends:structures/village_ultraspace.json, pokecube_legends:structures/villian_lairs.json, pokecube_legends:structures/worldgen.json]
-[19:33:32] [main/INFO]: Found 1 jigsaws and 2 pools in pokecube_mobs:structures/berry_trees.json
-[19:33:32] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/decoration_distortic.json
-[19:33:32] [main/INFO]: Found 1 jigsaws and 1 pools in pokecube_legends:structures/decoration_overworld.json
-[19:33:32] [main/INFO]: Found 17 jigsaws and 17 pools in pokecube_legends:structures/decoration_ultraspace.json
-[19:33:32] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/raid_spots.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 3 pools in pokecube:structures/ruins.json
-[19:33:32] [main/INFO]: Found 6 jigsaws and 6 pools in pokecube_legends:structures/temples_regi.json
-[19:33:32] [main/INFO]: Found 3 jigsaws and 2 pools in pokecube_legends:structures/temples_unown.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 13 pools in pokecube:structures/village_badlands.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_beach.json
-[19:33:32] [main/INFO]: Found 1 jigsaws and 10 pools in pokecube:structures/village_cave.json
-[19:33:32] [main/INFO]: Found 0 jigsaws and 1 pools in pokecube:structures/village_common.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_dark_forest.json
-[19:33:32] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_deep.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_desert.json
-[19:33:32] [main/INFO]: Found 1 jigsaws and 4 pools in pokecube:structures/village_end.json
-[19:33:32] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_high_sky.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_hills.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_jungle.json
-[19:33:32] [main/INFO]: Found 1 jigsaws and 7 pools in pokecube:structures/village_nether.json
-[19:33:32] [main/INFO]: Found 1 jigsaws and 12 pools in pokecube_legends:structures/village_ocean.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_plains.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_savanna.json
-[19:33:32] [main/INFO]: Found 1 jigsaws and 11 pools in pokecube:structures/village_sky.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_snowy.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_swamp.json
-[19:33:32] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_taiga.json
-[19:33:32] [main/INFO]: Found 1 jigsaws and 6 pools in pokecube_legends:structures/village_ultraspace.json
-[19:33:32] [main/INFO]: Found 3 jigsaws and 9 pools in pokecube_legends:structures/villian_lairs.json
-[19:33:32] [main/INFO]: Found 21 jigsaws and 43 pools in pokecube_legends:structures/worldgen.json
-[19:33:32] [main/INFO]: Loaded 240 pools and 90 jigsaws for pokecube
-[19:33:32] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/grow]' to registry
-[19:33:32] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/trees]' to registry
-[19:33:32] [main/WARN]: No Berry tree database found for pokecube
-[19:33:33] [main/INFO]: Loaded thut_wearables config file thut_wearables/thut_wearables-common.toml
-[19:33:33] [main/INFO]: Reading thut_wearables/thut_wearables-common.toml
-[19:33:33] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
-[19:33:33] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
-[19:33:33] [main/INFO]: Loaded pokecube_legends config file pokecube/pokecube_legends-common.toml
-[19:33:33] [main/INFO]: Reading pokecube/pokecube_legends-common.toml
-[19:33:33] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
-[19:33:33] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
-[19:33:33] [main/INFO]: Loaded thutcore config file thutcore/thutcore-common.toml
-[19:33:33] [main/INFO]: Reading thutcore/thutcore-common.toml
-[19:33:33] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
-[19:33:33] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
-[19:33:33] [main/INFO]: Loaded pokecube config file pokecube/pokecube-common.toml
-[19:33:33] [main/INFO]: Reading pokecube/pokecube-common.toml
-[19:33:33] [main/INFO]: Set defaultFireActions to false
-[19:33:33] [main/INFO]: Set chaseDistance to 12
-[19:33:33] [main/INFO]: Set msgAboutProfessor to true
-[19:33:33] [main/INFO]: Set tameGatherDistance to 12
-[19:33:33] [main/INFO]: Set guiOnLogin to true
-[19:33:33] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
-[19:33:33] [main/INFO]: Loaded pokecube_adventures config file pokecube/pokecube_adventures-common.toml
-[19:33:33] [main/INFO]: Reading pokecube/pokecube_adventures-common.toml
-[19:33:33] [main/INFO]: Set trainersTradeMobs to false
-[19:33:33] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
-[19:33:33] [modloading-worker-0/INFO]: Hello from Common Proxy setup!
-[19:33:33] [modloading-worker-0/INFO]: Setup
-[19:33:33] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/configured_structure_feature / pokecube_mobs:berry_trees/grow]' to registry
-[19:33:33] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19:33:35] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 39.1.2 Target: null
-[19:33:36] [main/WARN]: Mod 'pokecube' took 2.618 s to run a deferred task.
-[19:33:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:33:39] [main/INFO]: Injecting existing registry data into this CLIENT instance
-[19:33:43] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2345!/assets/.mcassetsroot' uses unexpected schema
-[19:33:43] [main/WARN]: Assets URL 'union:/home/container/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2345!/data/.mcassetsroot' uses unexpected schema
-[19:33:44] [main/INFO]: Registering Commands
-[19:33:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:33:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:33:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:33:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:33:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, confirm] with inputs: [words_with_underscores, word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, target] with inputs: [word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, clean] with inputs: [words_with_underscores, word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, exit] with inputs: [words_with_underscores, word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, target] with inputs: [word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, clean] with inputs: [words_with_underscores, word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, exit] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, confirm] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, clean] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, exit] with inputs: [words_with_underscores, word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, confirm] with inputs: [words_with_underscores, word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, target] with inputs: [word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokemake, mob, player] and [pokemake, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokemake, mob, args] and [pokemake, mob, player] with inputs: [words with spaces, "and symbols", word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, player] and [pokemakerand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, args] and [pokemakerand, mode, player] with inputs: [words with spaces, "and symbols", word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokerecall, all] and [pokerecall, name] with inputs: [all]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokerecall, sitting] and [pokerecall, name] with inputs: [sitting]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokerecall, staying] and [pokerecall, name] with inputs: [staying]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokeegg, mob, player] and [pokeegg, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokeegg, mob, args] and [pokeegg, mob, player] with inputs: [words with spaces, "and symbols", word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, player] and [pokeeggrand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, args] and [pokeeggrand, mode, player] with inputs: [words with spaces, "and symbols", word]
-[19:33:44] [main/WARN]: Ambiguity between arguments [pcedit, pos] and [pcedit, target] with inputs: [0 0 0]
-[19:33:44] [main/INFO]: Reloading ResourceManager: Default, pokecube-aio-1.18.1-3.16.1.jar, forge-1.18.1-39.1.2-universal.jar, AI-Improvements-1.18.2-0.5.0.jar, lazydfu-1.0-1.18+.jar, ConfigurableSpawnChunks-1.18.x-1.0.3.jar, Multiplayer-Server-Pause-1.18-Forge-1.1.0.jar, ferritecore-4.0.0-forge.jar
-[19:33:49] [Worker-Main-17/INFO]: Loaded 10 recipes
-[19:33:52] [Worker-Main-17/INFO]: Loaded 4305 advancements
-[19:33:55] [Worker-Main-17/ERROR]: Unfilled value baseXP for MissingNo!
-[19:33:55] [Worker-Main-17/ERROR]: Unfilled value catchRate for MissingNo!
-[19:33:55] [Worker-Main-17/ERROR]: Unfilled value baseHappiness for MissingNo!
-[19:33:55] [Worker-Main-17/ERROR]: Unfilled value evolutionMode for MissingNo!
-[19:33:55] [Worker-Main-17/ERROR]: Unfilled value sexeRatio for MissingNo!
-[19:33:55] [Worker-Main-17/ERROR]: Unfilled value mass for MissingNo!
-[19:34:03] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[19:34:03] [Server thread/INFO]: Loading properties
-[19:34:03] [Server thread/INFO]: Default game type: SPECTATOR
-[19:34:03] [Server thread/INFO]: Generating keypair
-[19:34:04] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20309
-[19:34:04] [Server thread/INFO]: Using epoll channel type
-[19:34:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:34:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:34:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:34:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:34:04] [Server thread/INFO]: Loaded thut_bling config file thut_bling-server.toml
-[19:34:04] [Server thread/INFO]: Reading thut_bling-server.toml
-[19:34:04] [Server thread/INFO]: Loaded thutcrafts config file thutcrafts-server.toml
-[19:34:04] [Server thread/INFO]: Reading thutcrafts-server.toml
-[19:34:04] [Server thread/INFO]: Loaded pokecube config file pokecube-server.toml
-[19:34:04] [Server thread/INFO]: Reading pokecube-server.toml
-[19:34:04] [Thread-0/INFO]: Reading thutcrafts-server.toml
-[19:34:04] [Server thread/INFO]: Loaded pokecube_adventures config file pokecube_adventures-server.toml
-[19:34:04] [Server thread/INFO]: Reading pokecube_adventures-server.toml
-[19:34:04] [Server thread/INFO]: Set bagsHoldEverything to true
-[19:34:04] [Server thread/INFO]: Found 9 classes in package pokecube.adventures.utils.trade_presets
-[19:34:04] [Server thread/ERROR]: No preset found for all_not_caves
-[19:34:04] [Server thread/ERROR]: No preset found for all_not_caves
-[19:34:04] [Server thread/INFO]: Preparing level "world"
-[19:34:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:34:05] [Server thread/INFO]: [ConfigurableSpawnChunks] ChunkDistance: 5
-[19:34:05] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[19:34:06] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[19:34:08] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[19:34:08] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[19:34:08] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[19:34:08] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[19:34:08] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[19:34:08] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[19:34:09] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[19:34:09] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[19:34:10] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[19:34:10] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[19:34:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:34:11] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[19:34:12] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[19:34:12] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[19:34:13] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[19:34:15] [Worker-Main-3/INFO]: Preparing spawn area: 1%
-[19:34:15] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[19:34:15] [Worker-Main-14/INFO]: Preparing spawn area: 1%
-[19:34:15] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[19:34:15] [Worker-Main-14/INFO]: Preparing spawn area: 5%
-[19:34:16] [Worker-Main-9/INFO]: Preparing spawn area: 9%
-[19:34:16] [Worker-Main-7/INFO]: Preparing spawn area: 12%
-[19:34:17] [Worker-Main-18/INFO]: Preparing spawn area: 21%
-[19:34:17] [Worker-Main-16/INFO]: Preparing spawn area: 21%
-[19:34:18] [Worker-Main-15/INFO]: Preparing spawn area: 28%
-[19:34:18] [Worker-Main-2/INFO]: Preparing spawn area: 62%
-[19:34:19] [Server thread/INFO]: [ConfigurableSpawnChunks] Generated: 81 Chunks
-[19:34:20] [Server thread/INFO]: Time elapsed: 15557 ms
-[19:34:20] [Server thread/INFO]: Done (16.333s)! For help, type "help"
-[19:34:20] [Server thread/INFO]: Starting GS4 status listener
-[19:34:20] [Server thread/INFO]: Thread Query Listener started
-[19:34:20] [Query Listener #1/INFO]: Query running on 0.0.0.0:20309
-[19:34:20] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
-[19:34:21] [Server thread/INFO]: Found 10 classes in package pokecube.legends.conditions.custom
-[19:34:21] [Server thread/INFO]: Registered 9 Legendary Conditions.
-[19:34:21] [Server thread/INFO]: Server Starting
-[19:34:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[19:34:26] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@42937162
-[19:34:27] [Server thread/INFO]: DRD[/125.82.8.83:24756] logged in with entity id 3 at (11.029532497879666, 257.0, 1.5871961062357616)
-[19:34:27] [Server thread/INFO]: DRD joined the game
-[19:34:53] [Server thread/INFO]: DRD fell out of the world
-[19:35:06] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
-[19:35:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34727ms or 694 ticks behind
-[19:35:52] [Server thread/WARN]: Trainer dojo 22.421243ms 
-[19:35:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[19:37:53] [Server thread/INFO]: Villager NpcMob['entity.pokecube.npc.pokecube_adventures.healer'/1, l='ServerLevel[新的世界]', x=-318.31, y=74.88, z=600.46] died, message: 'Nurse Quinn fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager NpcMob['entity.pokecube.npc.pokecube_adventures.professor'/2, l='ServerLevel[新的世界]', x=-321.45, y=74.00, z=597.65] died, message: 'Professor Cedar fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Farmer'/4, l='ServerLevel[新的世界]', x=288.20, y=62.94, z=1065.50] died, message: 'Farmer fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Farmer'/5, l='ServerLevel[新的世界]', x=289.01, y=62.94, z=1066.10] died, message: 'Farmer fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Farmer'/6, l='ServerLevel[新的世界]', x=289.65, y=62.94, z=1067.65] died, message: 'Farmer fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Armorer'/9, l='ServerLevel[新的世界]', x=240.50, y=54.00, z=1052.70] died, message: 'Armorer fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Shepherd'/16, l='ServerLevel[新的世界]', x=235.43, y=54.00, z=1060.54] died, message: 'Shepherd fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Toolsmith'/20, l='ServerLevel[新的世界]', x=234.43, y=54.00, z=1055.50] died, message: 'Toolsmith fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Leatherworker'/21, l='ServerLevel[新的世界]', x=234.49, y=54.00, z=1053.49] died, message: 'Leatherworker fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Mason'/22, l='ServerLevel[新的世界]', x=238.51, y=54.00, z=1052.49] died, message: 'Mason fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Farmer'/23, l='ServerLevel[新的世界]', x=239.60, y=54.00, z=1054.49] died, message: 'Farmer fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Villager'/30, l='ServerLevel[新的世界]', x=255.49, y=63.00, z=1063.51] died, message: 'Villager fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Farmer'/34, l='ServerLevel[新的世界]', x=257.46, y=62.94, z=1063.55] died, message: 'Farmer fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Farmer'/35, l='ServerLevel[新的世界]', x=259.55, y=62.94, z=1063.55] died, message: 'Farmer fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Farmer'/36, l='ServerLevel[新的世界]', x=272.75, y=62.94, z=1058.79] died, message: 'Farmer fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager TrainerNpc['Trainer'/37, l='ServerLevel[新的世界]', x=964.45, y=69.00, z=1190.61] died, message: 'Psychic Dana fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager NpcMob['entity.pokecube.npc.pokecube_adventures.healer'/38, l='ServerLevel[新的世界]', x=987.45, y=64.00, z=1199.80] died, message: 'Nurse Tanya fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager NpcMob['entity.pokecube.npc.pokecube_adventures.trader'/39, l='ServerLevel[新的世界]', x=985.30, y=64.00, z=1199.83] died, message: 'Merchant Wade fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Leatherworker'/40, l='ServerLevel[新的世界]', x=997.93, y=63.00, z=1203.85] died, message: 'Leatherworker fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Leatherworker'/41, l='ServerLevel[新的世界]', x=992.09, y=64.00, z=1202.49] died, message: 'Leatherworker fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Leatherworker'/42, l='ServerLevel[新的世界]', x=1001.49, y=63.00, z=1196.03] died, message: 'Leatherworker fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager Villager['Villager'/43, l='ServerLevel[新的世界]', x=1004.32, y=62.94, z=1197.66] died, message: 'Villager fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager TrainerNpc['Trainer'/44, l='ServerLevel[新的世界]', x=997.50, y=70.00, z=1223.50] died, message: 'Beauty Edna fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager TrainerNpc['Trainer'/45, l='ServerLevel[新的世界]', x=1110.57, y=88.94, z=1499.39] died, message: 'Youngster Sidney fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager NpcMob['entity.pokecube.npc.pokecube_adventures.healer'/46, l='ServerLevel[新的世界]', x=1104.17, y=93.00, z=1489.38] died, message: 'Nurse Gina fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager NpcMob['entity.pokecube.npc.pokecube_adventures.trader'/47, l='ServerLevel[新的世界]', x=1104.15, y=93.00, z=1489.51] died, message: 'Merchant Albert fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager TrainerNpc['Trainer'/64, l='ServerLevel[新的世界]', x=989.52, y=63.00, z=1177.05] died, message: 'Lass Bridget fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager LeaderNpc['entity.pokecube_adventures.leader.nitwit'/68, l='ServerLevel[新的世界]', x=1015.57, y=63.00, z=1171.93] died, message: 'Hiker Philip fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager TrainerNpc['Trainer'/69, l='ServerLevel[新的世界]', x=1020.33, y=81.94, z=1240.50] died, message: 'Scientist Al fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager TrainerNpc['Trainer'/71, l='ServerLevel[新的世界]', x=1079.42, y=96.00, z=1520.59] died, message: 'Rocker Benjamin fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager TrainerNpc['Trainer'/72, l='ServerLevel[新的世界]', x=1126.66, y=87.00, z=1532.44] died, message: 'Rocket Employee Jimmy fell out of the world'
-[19:37:53] [Server thread/INFO]: Villager TrainerNpc['Trainer'/19962, l='ServerLevel[新的世界]', x=203.46, y=-3.44, z=-5.27] died, message: 'RoughNeck Sidney fell out of the world'
-[19:38:28] [Server thread/INFO]: Villager TrainerNpc['Trainer'/32677, l='ServerLevel[新的世界]', x=144.50, y=104.00, z=91.50] died, message: 'Will fell out of the world'
-[19:38:28] [Server thread/INFO]: Villager TrainerNpc['Trainer'/32678, l='ServerLevel[新的世界]', x=158.50, y=110.00, z=91.50] died, message: 'Karen fell out of the world'
-[19:38:28] [Server thread/INFO]: Villager TrainerNpc['Trainer'/32679, l='ServerLevel[新的世界]', x=144.50, y=104.00, z=91.50] died, message: 'Bruno fell out of the world'
-[19:38:28] [Server thread/INFO]: Villager TrainerNpc['Trainer'/32680, l='ServerLevel[新的世界]', x=158.50, y=110.00, z=91.50] died, message: 'Kahili fell out of the world'
-[19:38:28] [Server thread/INFO]: Villager TrainerNpc['Trainer'/32681, l='ServerLevel[新的世界]', x=144.50, y=116.00, z=91.50] died, message: 'Wikstrom fell out of the world'
-[19:38:28] [Server thread/INFO]: Villager TrainerNpc['Trainer'/32682, l='ServerLevel[新的世界]', x=158.50, y=122.00, z=91.50] died, message: 'Dev. Thutmose fell out of the world'
-[19:38:28] [Server thread/INFO]: Villager TrainerNpc['Trainer'/32683, l='ServerLevel[新的世界]', x=144.50, y=116.00, z=91.50] died, message: 'Aaron fell out of the world'
-[19:38:28] [Server thread/INFO]: Villager TrainerNpc['Trainer'/32684, l='ServerLevel[新的世界]', x=158.50, y=122.00, z=91.50] died, message: 'Wallace fell out of the world'
-[19:38:42] [Server thread/INFO]: Villager TrainerNpc['Trainer'/39826, l='ServerLevel[新的世界]', x=220.30, y=-5.00, z=-6.58] died, message: 'Dojo Student Jimmy fell out of the world'
-[19:38:58] [Server thread/INFO]: Villager TrainerNpc['Trainer'/46484, l='ServerLevel[新的世界]', x=247.00, y=-5.00, z=-17.99] died, message: 'Engineer Gordon fell out of the world'
-[19:38:58] [Server thread/INFO]: Villager TrainerNpc['Trainer'/46609, l='ServerLevel[新的世界]', x=244.30, y=-3.80, z=-9.14] died, message: 'Scientist Erik fell out of the world'
-[19:39:59] [Worker-Main-5/INFO]: 2 iterations of build for: pokecube_legends:fungal_rocks/loose
-[19:40:01] [Server thread/WARN]: DRD moved too quickly! -4.082915795736817,0.0,9.273354403997395
-[19:40:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4633ms or 92 ticks behind
-[19:46:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[19:53:00] [Server thread/INFO]: DRD lost connection: Disconnected
-[19:53:00] [Server thread/INFO]: DRD left the game
-[19:53:04] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@169c34f1
-[19:53:04] [Server thread/INFO]: DRD[/125.82.8.83:24448] logged in with entity id 134763 at (4.12785346065778, 258.0, 2.734943495482172)
-[19:53:04] [Server thread/INFO]: DRD joined the game
-[19:53:04] [Server thread/INFO]: DRD fell out of the world
-[19:53:05] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/134763, l='ServerLevel[新的世界]', x=4.13, y=258.00, z=2.73, removed=KILLED]'
-[19:53:05] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/134763, l='ServerLevel[新的世界]', x=4.13, y=258.00, z=2.73, removed=KILLED]'
-[19:53:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[19:53:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5597ms or 111 ticks behind
-[19:53:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5394ms or 107 ticks behind
-[19:54:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10376ms or 207 ticks behind
-[19:54:22] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@18ce77a8
-[19:54:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7543ms or 150 ticks behind
-[19:55:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6583ms or 131 ticks behind
-[19:55:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8468ms or 169 ticks behind
-[19:55:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10195ms or 203 ticks behind
-[19:56:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8965ms or 179 ticks behind
-[19:56:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8351ms or 167 ticks behind
-[19:57:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8296ms or 165 ticks behind
-[19:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11293ms or 225 ticks behind
-[19:57:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7466ms or 149 ticks behind
-[19:58:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7824ms or 156 ticks behind
-[19:58:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7808ms or 156 ticks behind
-[19:59:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8407ms or 168 ticks behind
-[19:59:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7540ms or 150 ticks behind
-[19:59:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7836ms or 156 ticks behind
-[20:00:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7501ms or 150 ticks behind
-[20:00:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4964ms or 99 ticks behind
-[20:00:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6511ms or 130 ticks behind
-[20:01:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6622ms or 132 ticks behind
-[20:01:13] [Server thread/ERROR]: Undefined evo mode for {}, setting to "2"
-[20:01:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6989ms or 139 ticks behind
-[20:01:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7531ms or 150 ticks behind
-[20:02:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11717ms or 234 ticks behind
-[20:02:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7156ms or 143 ticks behind
-[20:03:01] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
-[20:03:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6232ms or 124 ticks behind
-[20:07:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[20:08:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6743ms or 134 ticks behind
-[20:08:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10101ms or 202 ticks behind
-[20:08:30] [Server thread/INFO]: DRD lost connection: Disconnected
-[20:08:30] [Server thread/INFO]: DRD left the game
-[20:08:33] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5648dccc
-[20:08:33] [Server thread/INFO]: DRD[/125.82.8.83:24107] logged in with entity id 379382 at (-95.16455357145662, 87.0, -119.00967887270771)
-[20:08:33] [Server thread/INFO]: DRD joined the game
-[20:08:33] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
-[20:08:39] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
-[20:08:43] [Server thread/INFO]: DRD fell out of the world
-[20:08:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7582ms or 151 ticks behind
-[20:09:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6785ms or 135 ticks behind
-[20:09:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7379ms or 147 ticks behind
-[20:10:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8149ms or 162 ticks behind
-[20:10:21] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
-[20:10:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6727ms or 134 ticks behind
-[20:10:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7460ms or 149 ticks behind
-[20:11:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8162ms or 163 ticks behind
-[20:11:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7561ms or 151 ticks behind
-[20:11:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8020ms or 160 ticks behind
-[20:13:08] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@56c0dcb9
-[20:19:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[20:19:40] [Server thread/INFO]: Named entity Giant['kaboom'/473239, l='ServerLevel[新的世界]', x=11.64, y=258.00, z=3.20] died: kaboom was struck by lightning
-[20:19:49] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/473310, l='ServerLevel[新的世界]', x=2.83, y=257.99, z=14.39] died: kaboom was struck by lightning
-[20:20:31] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/473285, l='ServerLevel[新的世界]', x=4.54, y=257.00, z=15.55] died: kaboom was struck by lightning
-[20:20:40] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/473319, l='ServerLevel[新的世界]', x=4.93, y=257.00, z=4.54] died: kaboom was struck by lightning
-[20:21:49] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/473886, l='ServerLevel[新的世界]', x=1.50, y=258.00, z=1.50] died: kaboom was struck by lightning
-[20:22:32] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/473889, l='ServerLevel[新的世界]', x=10.15, y=257.00, z=1.69] died: kaboom blew up
-[20:23:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[20:23:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8131ms or 162 ticks behind
-[20:23:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2662ms or 53 ticks behind
-[20:23:56] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/479128, l='ServerLevel[新的世界]', x=2.50, y=257.00, z=13.50] died: kaboom blew up
-[20:25:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
-[20:25:28] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/479613, l='ServerLevel[新的世界]', x=-38.50, y=101.95, z=1.50] died: kaboom blew up
-[20:25:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9055ms or 181 ticks behind
-[20:26:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4645ms or 92 ticks behind
-[20:28:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[20:29:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8099ms or 161 ticks behind
-[20:29:16] [Server thread/INFO]: Villager Villager['kaboom'/494271, l='ServerLevel[新的世界]', x=-5.50, y=65.00, z=-39.50] was struck by lightning LightningBolt['Lightning Bolt'/503097, l='ServerLevel[新的世界]', x=-5.50, y=65.00, z=-39.50].
-[20:29:16] [Server thread/INFO]: Named entity Witch['kaboom'/503124, l='ServerLevel[新的世界]', x=-5.50, y=65.00, z=-39.50] died: kaboom blew up
-[20:29:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7157ms or 143 ticks behind
-[20:30:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[20:30:19] [Server thread/INFO]: DRD fell out of the world
-[20:30:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5659ms or 113 ticks behind
-[20:31:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[20:31:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[20:32:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[20:32:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[20:33:00] [Server thread/INFO]: DRD lost connection: Disconnected
-[20:33:00] [Server thread/INFO]: DRD left the game
-[20:33:03] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@534515fd
-[20:33:03] [Server thread/INFO]: DRD[/125.82.8.83:25106] logged in with entity id 515427 at (3799.9371670809423, 161.0, 2556.4035010206685)
-[20:33:03] [Server thread/INFO]: DRD joined the game
-[20:33:04] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
-[20:33:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[20:33:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2197ms or 43 ticks behind
-[20:33:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3959ms or 79 ticks behind
-[20:33:57] [Server thread/INFO]: DRD fell from a high place
-[20:34:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6558ms or 131 ticks behind
-[20:34:30] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
-[20:34:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6350ms or 127 ticks behind
-[20:34:51] [Server thread/INFO]: DRD fell out of the world
-[20:34:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
-[20:35:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4917ms or 98 ticks behind
-[20:35:26] [Server thread/INFO]: Villager Villager['Villager'/543919, l='ServerLevel[新的世界]', x=3800.70, y=104.00, z=2560.30] died, message: 'Villager hit the ground too hard'
-[20:35:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4975ms or 99 ticks behind
-[20:35:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4543ms or 90 ticks behind
-[20:36:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5244ms or 104 ticks behind
-[20:36:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5907ms or 118 ticks behind
-[20:36:51] [Server thread/INFO]: DRD lost connection: Disconnected
-[20:36:51] [Server thread/INFO]: DRD left the game
-[20:36:54] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@748f5d29
-[20:36:54] [Server thread/INFO]: DRD[/125.82.8.83:25499] logged in with entity id 545702 at (3800.699999988079, 135.1541637358467, 2560.6264704055325)
-[20:36:54] [Server thread/INFO]: DRD joined the game
-[20:36:54] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
-[20:37:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[20:37:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8753ms or 175 ticks behind
-[20:37:27] [Server thread/INFO]: Villager Villager['Villager'/545176, l='ServerLevel[新的世界]', x=3802.34, y=161.00, z=2560.00] died, message: 'Villager was slain by DRD'
-[20:37:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6952ms or 139 ticks behind
-[20:38:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6478ms or 129 ticks behind
-[20:38:26] [Server thread/INFO]: Named entity Skeleton['kaboom'/562993, l='ServerLevel[新的世界]', x=1066.14, y=89.17, z=1470.27] died: kaboom blew up
-[20:38:26] [Server thread/INFO]: DRD blew up
-[20:38:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7410ms or 148 ticks behind
-[20:38:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7366ms or 147 ticks behind
-[20:39:03] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
-[20:39:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5898ms or 117 ticks behind
-[20:39:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2661ms or 53 ticks behind
-[20:39:31] [Server thread/INFO]: Named entity Creeper['kaboom'/589307, l='ServerLevel[新的世界]', x=11.50, y=66.92, z=-62.50] died: kaboom blew up
-[20:39:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4419ms or 88 ticks behind
-[20:40:06] [Server thread/INFO]: Named entity Creeper['kaboom'/592903, l='ServerLevel[新的世界]', x=-49.01, y=72.41, z=42.01] died: kaboom was struck by lightning
-[20:40:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5630ms or 112 ticks behind
-[20:40:15] [Server thread/INFO]: Named entity Creeper['kaboom'/592904, l='ServerLevel[新的世界]', x=-50.21, y=69.95, z=52.48] died: kaboom was struck by lightning
-[20:40:29] [Server thread/INFO]: Named entity Zombie['kaboom'/593735, l='ServerLevel[新的世界]', x=-86.90, y=74.28, z=49.89] died: kaboom blew up
-[20:40:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8356ms or 167 ticks behind
-[20:40:41] [Server thread/INFO]: Named entity Creeper['kaboom'/593732, l='ServerLevel[新的世界]', x=-71.49, y=70.96, z=52.92] died: kaboom was struck by lightning
-[20:40:54] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/602731, l='ServerLevel[新的世界]', x=-88.51, y=71.96, z=57.01] died: kaboom blew up
-[20:40:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9780ms or 195 ticks behind
-[20:41:06] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/602732, l='ServerLevel[新的世界]', x=-69.59, y=149.30, z=59.61] died: kaboom was struck by lightning
-[20:41:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10157ms or 203 ticks behind
-[20:41:32] [Server thread/INFO]: Named entity Creeper['kaboom'/593733, l='ServerLevel[新的世界]', x=-62.52, y=70.96, z=62.52] died: kaboom was struck by lightning
-[20:41:39] [Worker-Main-27/INFO]: 6 iterations of build for: pokecube_legends:taiga_rocks/loose
-[20:41:43] [Server thread/WARN]: DRD moved too quickly! 8.430094722322224,2.3172313761388637,-6.232809134760226
-[20:41:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14163ms or 283 ticks behind
-[20:42:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3787ms or 75 ticks behind
-[20:42:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4860ms or 97 ticks behind
-[20:42:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[20:42:56] [Server thread/INFO]: Named entity Skeleton['kaboom'/634512, l='ServerLevel[新的世界]', x=-24.50, y=-1.08, z=-0.50] died: kaboom blew up
-[20:43:04] [Server thread/INFO]: Named entity Creeper['kaboom'/635603, l='ServerLevel[新的世界]', x=-21.51, y=6.48, z=-8.75] died: kaboom blew up
-[20:43:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8830ms or 176 ticks behind
-[20:43:34] [Server thread/INFO]: Named entity Creeper['kaboom'/634514, l='ServerLevel[新的世界]', x=-31.49, y=4.00, z=-7.59] died: kaboom blew up
-[20:43:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7114ms or 142 ticks behind
-[20:43:44] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/649065, l='ServerLevel[新的世界]', x=-29.40, y=14.00, z=3.30] died: kaboom blew up
-[20:43:48] [Server thread/INFO]: Named entity Skeleton['kaboom'/634511, l='ServerLevel[新的世界]', x=-25.45, y=0.01, z=13.50] died: kaboom was struck by lightning
-[20:43:57] [Server thread/INFO]: Named entity Zombie['kaboom'/635726, l='ServerLevel[新的世界]', x=-37.66, y=10.05, z=12.50] died: kaboom blew up
-[20:44:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8361ms or 167 ticks behind
-[20:44:06] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/649064, l='ServerLevel[新的世界]', x=-29.32, y=6.00, z=13.36] died: kaboom was struck by lightning
-[20:44:14] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/649907, l='ServerLevel[新的世界]', x=-39.60, y=-0.23, z=6.31] died: kaboom blew up
-[20:44:17] [Server thread/INFO]: Named entity Zombie['kaboom'/635499, l='ServerLevel[新的世界]', x=-45.15, y=3.05, z=0.53] died: kaboom was struck by lightning
-[20:44:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9146ms or 182 ticks behind
-[20:44:25] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/649906, l='ServerLevel[新的世界]', x=-42.74, y=4.56, z=17.87] died: kaboom blew up
-[20:44:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7009ms or 140 ticks behind
-[20:45:44] [Server thread/INFO]: DRD lost connection: Disconnected
-[20:45:44] [Server thread/INFO]: DRD left the game
-[20:45:46] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@77b46929
-[20:45:47] [Server thread/INFO]: DRD[/125.82.8.83:24375] logged in with entity id 672331 at (1.0900720420356684, 257.0, 8.930057978283982)
-[20:45:47] [Server thread/INFO]: DRD joined the game
-[20:45:47] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
-[20:45:47] [Server thread/INFO]: DRD fell out of the world
-[20:45:48] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/672331, l='ServerLevel[新的世界]', x=1.09, y=257.00, z=8.93, removed=KILLED]'
-[20:45:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[20:46:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6011ms or 120 ticks behind
-[20:46:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3541ms or 70 ticks behind
-[20:46:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8217ms or 164 ticks behind
-[20:47:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9524ms or 190 ticks behind
-[20:47:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10293ms or 205 ticks behind
-[20:48:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9809ms or 196 ticks behind
-[20:48:22] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/694569, l='ServerLevel[新的世界]', x=943.30, y=161.74, z=1552.83] died: kaboom was struck by lightning
-[20:48:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8867ms or 177 ticks behind
-[20:48:36] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/694726, l='ServerLevel[新的世界]', x=937.61, y=152.19, z=1564.22] died: kaboom was struck by lightning
-[20:49:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9782ms or 195 ticks behind
-[20:49:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9223ms or 184 ticks behind
-[20:49:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10397ms or 207 ticks behind
-[20:50:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9575ms or 191 ticks behind
-[20:50:35] [Server thread/INFO]: DRD blew up
-[20:50:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10397ms or 207 ticks behind
-[20:51:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8238ms or 164 ticks behind
-[20:51:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9552ms or 191 ticks behind
-[20:51:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9149ms or 182 ticks behind
-[20:52:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9959ms or 199 ticks behind
-[20:52:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10986ms or 219 ticks behind
-[20:53:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13191ms or 263 ticks behind
-[20:53:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13029ms or 260 ticks behind
-[20:54:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13496ms or 269 ticks behind
-[20:54:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13867ms or 277 ticks behind
-[20:55:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11793ms or 235 ticks behind
-[20:55:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12915ms or 258 ticks behind
-[20:55:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13175ms or 263 ticks behind
-[20:56:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9169ms or 183 ticks behind
-[20:56:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9515ms or 190 ticks behind
-[20:57:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10126ms or 202 ticks behind
-[20:57:25] [Server thread/WARN]: DRD moved wrongly!
-[20:57:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10330ms or 206 ticks behind
-[20:57:49] [Server thread/INFO]: DRD lost connection: Disconnected
-[20:57:49] [Server thread/INFO]: DRD left the game
-[20:57:54] [Server thread/INFO]: Stopping the server
-[20:57:54] [Server thread/INFO]: Stopping server
-[20:57:54] [Server thread/INFO]: Saving players
-[20:57:54] [Server thread/INFO]: Saving worlds
-[20:57:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[20:58:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[20:58:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[20:58:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube:secret_base
-[20:58:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_world:overworld
-[20:58:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:distorted_world
-[20:58:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/pokecube_legends:ultraspace
-[20:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (secret_base): All chunks are saved
-[20:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
-[20:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (distorted_world): All chunks are saved
-[20:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (ultraspace): All chunks are saved
-[20:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:58:09] [Server thread/INFO]: Thread Query Listener stopped
+[17:29:41] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 39.1.2, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407]
+[17:29:41] [main/INFO]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 18.0.2-ea by Private Build
+[17:29:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/drdzy01/MinecraftLocalServer/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2319!/ Service=ModLauncher Env=SERVER
+[17:29:41] [main/INFO]: Found mod file AI-Improvements-1.18.2-0.5.0.jar of type MOD with locator {mods folder locator at /home/drdzy01/MinecraftLocalServer/mods}
+[17:29:41] [main/INFO]: Found mod file ConfigurableSpawnChunks-1.18.x-1.0.3.jar of type MOD with locator {mods folder locator at /home/drdzy01/MinecraftLocalServer/mods}
+[17:29:41] [main/INFO]: Found mod file ferritecore-4.0.0-forge.jar of type MOD with locator {mods folder locator at /home/drdzy01/MinecraftLocalServer/mods}
+[17:29:41] [main/INFO]: Found mod file lazydfu-1.0-1.18+.jar of type MOD with locator {mods folder locator at /home/drdzy01/MinecraftLocalServer/mods}
+[17:29:41] [main/INFO]: Found mod file Multiplayer-Server-Pause-1.18-Forge-1.1.0.jar of type MOD with locator {mods folder locator at /home/drdzy01/MinecraftLocalServer/mods}
+[17:29:41] [main/INFO]: Found mod file pokecube-aio-1.18.1-3.16.1.jar of type MOD with locator {mods folder locator at /home/drdzy01/MinecraftLocalServer/mods}
+[17:29:41] [main/INFO]: Found mod file fmlcore-1.18.1-39.1.2.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@58c34bb3
+[17:29:41] [main/INFO]: Found mod file javafmllanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@58c34bb3
+[17:29:41] [main/INFO]: Found mod file mclanguage-1.18.1-39.1.2.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@58c34bb3
+[17:29:41] [main/INFO]: Found mod file server-1.18.1-20211210.034407-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@58c34bb3
+[17:29:41] [main/INFO]: Found mod file forge-1.18.1-39.1.2-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@58c34bb3
+[17:29:42] [main/INFO]: Compatibility level set to JAVA_17
+[17:29:42] [main/INFO]: Launching target 'forgeserver' with arguments []
+[17:29:44] [main/INFO]: Lazy DFU
+[17:29:45] [modloading-worker-0/INFO]: Forge mod loading, version 39.1.2, for MC 1.18.1 with MCP 20211210.034407
+[17:29:45] [modloading-worker-0/INFO]: MinecraftForge v39.1.2 Initialized
+[17:29:46] [modloading-worker-0/INFO]: [ConfigurableSpawnChunks] Let us rain some doom down upon the heads of our doomed enemies.
+[17:29:51] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[17:29:51] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[17:29:51] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[17:29:51] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[17:29:52] [main/INFO]: Found 1 classes in package pokecube.core.moves.implementations
+[17:29:52] [main/INFO]: Found 28 classes in package pokecube.legends.init
+[17:29:52] [main/INFO]: Found 71 classes in package pokecube.mobs.moves
+[17:29:52] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[17:29:52] [main/WARN]: No Max Move For Type ???, when allocating for expandingforce
+[17:29:52] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[17:29:52] [main/WARN]: No Max Move For Type ???, when allocating for thunderouskick
+[17:29:52] [main/INFO]: Found 10 classes in package pokecube.core.moves.animations
+[17:29:54] [main/INFO]: Found 246 classes in package pokecube.mobs.abilities
+[17:29:54] [main/INFO]: Found 2 classes in package pokecube.core.database.abilities
+[17:29:55] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_baile
+[17:29:55] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pau
+[17:29:55] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_pom-pom
+[17:29:55] [main/ERROR]: Trying to replace oricorio with oricorio_baile as base for oricorio_sensu
+[17:29:55] [main/INFO]: Loaded 906 by number, and 1153 by formes from databases.
+[17:29:55] [main/ERROR]: Trying to replace calyrex with glastrier as base for calyrex_ice_rider
+[17:29:55] [main/ERROR]: Trying to replace calyrex with spectrier as base for calyrex_shadow_rider
+[17:29:55] [main/INFO]: Found Worldgen Databases: [pokecube_mobs:structures/berry_trees.json, pokecube_legends:structures/decoration_distortic.json, pokecube_legends:structures/decoration_overworld.json, pokecube_legends:structures/decoration_ultraspace.json, pokecube_legends:structures/raid_spots.json, pokecube:structures/ruins.json, pokecube_legends:structures/temples_regi.json, pokecube_legends:structures/temples_unown.json, pokecube:structures/village_badlands.json, pokecube:structures/village_beach.json, pokecube:structures/village_cave.json, pokecube:structures/village_common.json, pokecube:structures/village_dark_forest.json, pokecube:structures/village_deep.json, pokecube:structures/village_desert.json, pokecube:structures/village_end.json, pokecube:structures/village_high_sky.json, pokecube:structures/village_hills.json, pokecube:structures/village_jungle.json, pokecube:structures/village_nether.json, pokecube_legends:structures/village_ocean.json, pokecube:structures/village_plains.json, pokecube:structures/village_savanna.json, pokecube:structures/village_sky.json, pokecube:structures/village_snowy.json, pokecube:structures/village_swamp.json, pokecube:structures/village_taiga.json, pokecube_legends:structures/village_ultraspace.json, pokecube_legends:structures/villian_lairs.json, pokecube_legends:structures/worldgen.json]
+[17:29:55] [main/INFO]: Found 1 jigsaws and 2 pools in pokecube_mobs:structures/berry_trees.json
+[17:29:55] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/decoration_distortic.json
+[17:29:55] [main/INFO]: Found 1 jigsaws and 1 pools in pokecube_legends:structures/decoration_overworld.json
+[17:29:55] [main/INFO]: Found 17 jigsaws and 17 pools in pokecube_legends:structures/decoration_ultraspace.json
+[17:29:55] [main/INFO]: Found 3 jigsaws and 3 pools in pokecube_legends:structures/raid_spots.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 3 pools in pokecube:structures/ruins.json
+[17:29:55] [main/INFO]: Found 6 jigsaws and 6 pools in pokecube_legends:structures/temples_regi.json
+[17:29:55] [main/INFO]: Found 3 jigsaws and 2 pools in pokecube_legends:structures/temples_unown.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 13 pools in pokecube:structures/village_badlands.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_beach.json
+[17:29:55] [main/INFO]: Found 1 jigsaws and 10 pools in pokecube:structures/village_cave.json
+[17:29:55] [main/INFO]: Found 0 jigsaws and 1 pools in pokecube:structures/village_common.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_dark_forest.json
+[17:29:55] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_deep.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_desert.json
+[17:29:55] [main/INFO]: Found 1 jigsaws and 4 pools in pokecube:structures/village_end.json
+[17:29:55] [main/INFO]: Found 1 jigsaws and 5 pools in pokecube:structures/village_high_sky.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_hills.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_jungle.json
+[17:29:55] [main/INFO]: Found 1 jigsaws and 7 pools in pokecube:structures/village_nether.json
+[17:29:55] [main/INFO]: Found 1 jigsaws and 12 pools in pokecube_legends:structures/village_ocean.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_plains.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_savanna.json
+[17:29:55] [main/INFO]: Found 1 jigsaws and 11 pools in pokecube:structures/village_sky.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_snowy.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 7 pools in pokecube:structures/village_swamp.json
+[17:29:55] [main/INFO]: Found 2 jigsaws and 8 pools in pokecube:structures/village_taiga.json
+[17:29:55] [main/INFO]: Found 1 jigsaws and 6 pools in pokecube_legends:structures/village_ultraspace.json
+[17:29:55] [main/INFO]: Found 3 jigsaws and 9 pools in pokecube_legends:structures/villian_lairs.json
+[17:29:55] [main/INFO]: Found 21 jigsaws and 43 pools in pokecube_legends:structures/worldgen.json
+[17:29:55] [main/INFO]: Loaded 240 pools and 90 jigsaws for pokecube
+[17:29:55] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/grow]' to registry
+[17:29:55] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / pokecube_mobs:berry_trees/trees]' to registry
+[17:29:55] [main/WARN]: No Berry tree database found for pokecube
+[17:29:55] [main/INFO]: Loaded thut_wearables config file thut_wearables/thut_wearables-common.toml
+[17:29:55] [main/INFO]: Reading thut_wearables/thut_wearables-common.toml
+[17:29:55] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
+[17:29:55] [Thread-0/INFO]: Reading thut_wearables/thut_wearables-common.toml
+[17:29:55] [main/INFO]: Loaded pokecube_legends config file pokecube/pokecube_legends-common.toml
+[17:29:55] [main/INFO]: Reading pokecube/pokecube_legends-common.toml
+[17:29:55] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
+[17:29:55] [main/INFO]: Loaded thutcore config file thutcore/thutcore-common.toml
+[17:29:55] [main/INFO]: Reading thutcore/thutcore-common.toml
+[17:29:55] [Thread-0/INFO]: Reading pokecube/pokecube_legends-common.toml
+[17:29:55] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
+[17:29:55] [Thread-0/INFO]: Reading thutcore/thutcore-common.toml
+[17:29:55] [main/INFO]: Loaded pokecube_adventures config file pokecube/pokecube_adventures-common.toml
+[17:29:55] [main/INFO]: Reading pokecube/pokecube_adventures-common.toml
+[17:29:55] [main/INFO]: Set trainersTradeMobs to false
+[17:29:55] [Thread-0/INFO]: Reading pokecube/pokecube_adventures-common.toml
+[17:29:55] [Thread-0/INFO]: Reading pokecube/pokecube_adventures-common.toml
+[17:29:55] [main/INFO]: Loaded pokecube config file pokecube/pokecube-common.toml
+[17:29:55] [main/INFO]: Reading pokecube/pokecube-common.toml
+[17:29:55] [main/INFO]: Set defaultFireActions to false
+[17:29:55] [main/INFO]: Set chaseDistance to 12
+[17:29:55] [main/INFO]: Set msgAboutProfessor to true
+[17:29:55] [main/INFO]: Set tameGatherDistance to 12
+[17:29:55] [main/INFO]: Set guiOnLogin to true
+[17:29:55] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
+[17:29:55] [modloading-worker-0/INFO]: Hello from Common Proxy setup!
+[17:29:55] [modloading-worker-0/INFO]: Setup
+[17:29:55] [Thread-0/INFO]: Reading pokecube/pokecube-common.toml
+[17:29:55] [main/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/configured_structure_feature / pokecube_mobs:berry_trees/grow]' to registry
+[17:29:56] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17:29:57] [main/WARN]: Mod 'pokecube' took 1.045 s to run a deferred task.
+[17:29:57] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 39.1.2 Target: null
+[17:29:58] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:29:58] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[17:29:59] [main/WARN]: Assets URL 'union:/home/drdzy01/MinecraftLocalServer/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2345!/assets/.mcassetsroot' uses unexpected schema
+[17:29:59] [main/WARN]: Assets URL 'union:/home/drdzy01/MinecraftLocalServer/libraries/net/minecraft/server/1.18.1-20211210.034407/server-1.18.1-20211210.034407-srg.jar%2345!/data/.mcassetsroot' uses unexpected schema
+[17:29:59] [main/INFO]: Registering Commands
+[17:29:59] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:29:59] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:29:59] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:29:59] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:29:59] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, confirm] with inputs: [words_with_underscores, word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, target] with inputs: [word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, exit] and [pokebase, clean] with inputs: [words_with_underscores, word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, exit] with inputs: [words_with_underscores, word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, target] with inputs: [word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, confirm] and [pokebase, clean] with inputs: [words_with_underscores, word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, exit] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, confirm] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, target] and [pokebase, clean] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, exit] with inputs: [words_with_underscores, word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, confirm] with inputs: [words_with_underscores, word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokebase, clean] and [pokebase, target] with inputs: [word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokemake, mob, player] and [pokemake, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokemake, mob, args] and [pokemake, mob, player] with inputs: [words with spaces, "and symbols", word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, player] and [pokemakerand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokemakerand, mode, args] and [pokemakerand, mode, player] with inputs: [words with spaces, "and symbols", word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokerecall, all] and [pokerecall, name] with inputs: [all]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokerecall, sitting] and [pokerecall, name] with inputs: [sitting]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokerecall, staying] and [pokerecall, name] with inputs: [staying]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokeegg, mob, player] and [pokeegg, mob, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokeegg, mob, args] and [pokeegg, mob, player] with inputs: [words with spaces, "and symbols", word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, player] and [pokeeggrand, mode, args] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pokeeggrand, mode, args] and [pokeeggrand, mode, player] with inputs: [words with spaces, "and symbols", word]
+[17:29:59] [main/WARN]: Ambiguity between arguments [pcedit, pos] and [pcedit, target] with inputs: [0 0 0]
+[17:29:59] [main/INFO]: Reloading ResourceManager: Default, pokecube-aio-1.18.1-3.16.1.jar, forge-1.18.1-39.1.2-universal.jar, AI-Improvements-1.18.2-0.5.0.jar, lazydfu-1.0-1.18+.jar, ConfigurableSpawnChunks-1.18.x-1.0.3.jar, Multiplayer-Server-Pause-1.18-Forge-1.1.0.jar, ferritecore-4.0.0-forge.jar
+[17:30:01] [Worker-Main-4/INFO]: Loaded 10 recipes
+[17:30:02] [Worker-Main-4/INFO]: Loaded 4305 advancements
+[17:30:03] [Worker-Main-4/ERROR]: Unfilled value baseXP for MissingNo!
+[17:30:03] [Worker-Main-4/ERROR]: Unfilled value catchRate for MissingNo!
+[17:30:03] [Worker-Main-4/ERROR]: Unfilled value baseHappiness for MissingNo!
+[17:30:03] [Worker-Main-4/ERROR]: Unfilled value evolutionMode for MissingNo!
+[17:30:03] [Worker-Main-4/ERROR]: Unfilled value sexeRatio for MissingNo!
+[17:30:03] [Worker-Main-4/ERROR]: Unfilled value mass for MissingNo!
+[17:30:07] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[17:30:07] [Server thread/INFO]: Loading properties
+[17:30:07] [Server thread/INFO]: Default game type: SPECTATOR
+[17:30:07] [Server thread/INFO]: Generating keypair
+[17:30:07] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20309
+[17:30:07] [Server thread/INFO]: Using epoll channel type
+[17:30:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:30:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:30:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:30:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:30:07] [Server thread/INFO]: Loaded thut_bling config file thut_bling-server.toml
+[17:30:07] [Server thread/INFO]: Reading thut_bling-server.toml
+[17:30:07] [Thread-0/INFO]: Reading thut_bling-server.toml
+[17:30:07] [Server thread/INFO]: Loaded thutcrafts config file thutcrafts-server.toml
+[17:30:07] [Server thread/INFO]: Reading thutcrafts-server.toml
+[17:30:07] [Thread-0/INFO]: Reading thut_bling-server.toml
+[17:30:07] [Thread-0/INFO]: Reading thutcrafts-server.toml
+[17:30:07] [Thread-0/INFO]: Reading thutcrafts-server.toml
+[17:30:07] [Server thread/INFO]: Loaded pokecube_adventures config file pokecube_adventures-server.toml
+[17:30:07] [Server thread/INFO]: Reading pokecube_adventures-server.toml
+[17:30:07] [Server thread/INFO]: Set bagsHoldEverything to true
+[17:30:07] [Thread-0/INFO]: Reading pokecube_adventures-server.toml
+[17:30:07] [Server thread/INFO]: Loaded pokecube config file pokecube-server.toml
+[17:30:07] [Server thread/INFO]: Reading pokecube-server.toml
+[17:30:07] [Thread-0/INFO]: Reading pokecube_adventures-server.toml
+[17:30:07] [Thread-0/INFO]: Reading pokecube-server.toml
+[17:30:07] [Thread-0/INFO]: Reading pokecube-server.toml
+[17:30:08] [Server thread/INFO]: Found 9 classes in package pokecube.adventures.utils.trade_presets
+[17:30:08] [Server thread/ERROR]: No preset found for all_not_caves
+[17:30:08] [Server thread/ERROR]: No preset found for all_not_caves
+[17:30:08] [Server thread/INFO]: Preparing level "world"
+[17:30:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:30:08] [Server thread/INFO]: [ConfigurableSpawnChunks] ChunkDistance: 5
+[17:30:08] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:30:08] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:30:09] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[17:30:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:30:10] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:30:10] [Worker-Main-8/INFO]: Preparing spawn area: 7%
+[17:30:11] [Worker-Main-11/INFO]: Preparing spawn area: 8%
+[17:30:11] [Worker-Main-8/INFO]: Preparing spawn area: 9%
+[17:30:12] [Worker-Main-4/INFO]: Preparing spawn area: 33%
+[17:30:12] [Server thread/INFO]: [ConfigurableSpawnChunks] Generated: 81 Chunks
+[17:30:13] [Server thread/INFO]: Time elapsed: 4927 ms
+[17:30:13] [Server thread/INFO]: Done (5.176s)! For help, type "help"
+[17:30:13] [Server thread/INFO]: Starting GS4 status listener
+[17:30:13] [Server thread/INFO]: Thread Query Listener started
+[17:30:13] [Query Listener #1/INFO]: Query running on 0.0.0.0:20309
+[17:30:13] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[17:30:13] [Server thread/INFO]: Found 10 classes in package pokecube.legends.conditions.custom
+[17:30:13] [Server thread/INFO]: Registered 9 Legendary Conditions.
+[17:30:13] [Server thread/INFO]: Server Starting
+[17:30:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[17:33:06] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1845acd4
+[17:33:06] [Server thread/INFO]: DRD[/127.0.0.1:51136] logged in with entity id 241 at (257.95530255967793, 145.0, 1607.586928202651)
+[17:33:06] [Server thread/INFO]: DRD joined the game
+[17:33:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4022ms or 80 ticks behind
+[17:33:10] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
+[17:33:32] [Server thread/WARN]: DRD moved too quickly! 8.941609133402096,-0.20326439933131724,4.806272195490237
+[17:33:34] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@21b9d8ab
+[17:33:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10688ms or 213 ticks behind
+[17:33:49] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4a9bcc56
+[17:34:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[17:35:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2087ms or 41 ticks behind
+[17:38:44] [Server thread/INFO]: DRD fell out of the world
+[17:38:46] [Server thread/WARN]: DRD moved too quickly! 146.5901247380536,94.0,-750.0581420820558
+[17:40:34] [Server thread/ERROR]: Undefined evo mode for {}, setting to "2"
+[17:45:26] [Server thread/INFO]: Added tag 'vvtz6br9my7terat' to DRD
+[17:45:26] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:46:24] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
+[17:46:24] [Server thread/INFO]: DRD fell out of the world
+[17:46:25] [Server thread/WARN]: DRD moved too quickly! 231.970952236736,-204.0,1051.8902205614945
+[17:46:29] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
+[17:46:53] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
+[17:47:15] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:15] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:15] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:15] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:15] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:15] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:15] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:15] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:15] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:16] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:17] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:18] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:19] [Server thread/INFO]: [DRD] 超级权限将 DRD 指定为创造模式
+[17:47:22] [Server thread/WARN]: DRD moved too quickly! -236.64532344888434,236.0,-1059.7790401366651
+[17:48:17] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
+[17:48:17] [Server thread/INFO]: DRD fell out of the world
+[17:48:22] [Server thread/WARN]: DRD moved too quickly! 241.00128695458753,-204.0,1052.3122415588691
+[17:48:49] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
+[17:50:34] [Server thread/INFO]: DRD fell out of the world
+[17:50:41] [Server thread/WARN]: DRD moved too quickly! 234.5289916139007,-204.0,1054.9118248204845
+[17:50:53] [Server thread/WARN]: DRD moved too quickly! -243.7912805939643,246.0,-1058.5811551865845
+[17:50:55] [Server thread/INFO]: DRD fell from a high place
+[17:50:56] [Server thread/INFO]: Skipping update from removed player 'ServerPlayer['DRD'/241, l='ServerLevel[新的世界]', x=0.50, y=258.00, z=0.50, removed=KILLED]'
+[17:50:56] [Server thread/WARN]: DRD moved too quickly! 245.0,-204.0,1055.0
+[17:51:28] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
+[17:51:39] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
+[17:51:43] [Server thread/INFO]: [DRD] 很抱歉 DRD ，需要超级权限才可以指定游戏模式
+[17:53:13] [Server thread/INFO]: Named entity WitherBoss['kaboom'/463276, l='ServerLevel[新的世界]', x=-281.82, y=154.85, z=-111.90] died: kaboom blew up
+[17:53:13] [Server thread/WARN]: DRD moved too quickly! -2.4702637163197494,0.0,10.828746358406324
+[17:55:26] [Server thread/INFO]: DRD fell out of the world
+[17:55:27] [Server thread/WARN]: DRD moved too quickly! 236.77938909155904,-204.0,1055.000627825728
+[17:55:51] [Server thread/WARN]: DRD moved too quickly! -3809.676489479634,139.0,-2550.5807987608055
+[17:57:32] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/464794, l='ServerLevel[新的世界]', x=3.67, y=257.60, z=6.71] died: kaboom was struck by lightning
+[17:58:14] [Server thread/INFO]: Villager Villager['Armorer'/1, l='ServerLevel[新的世界]', x=240.50, y=54.00, z=1052.50] died, message: 'Armorer fell out of the world'
+[17:58:14] [Server thread/INFO]: Villager Villager['Toolsmith'/2, l='ServerLevel[新的世界]', x=234.42, y=54.00, z=1055.53] died, message: 'Toolsmith fell out of the world'
+[17:58:14] [Server thread/INFO]: Villager Villager['Leatherworker'/3, l='ServerLevel[新的世界]', x=234.43, y=54.00, z=1053.70] died, message: 'Leatherworker fell out of the world'
+[17:58:14] [Server thread/INFO]: Villager Villager['Mason'/4, l='ServerLevel[新的世界]', x=238.50, y=54.00, z=1052.50] died, message: 'Mason fell out of the world'
+[17:58:14] [Server thread/INFO]: Villager Villager['Farmer'/5, l='ServerLevel[新的世界]', x=239.70, y=54.00, z=1054.69] died, message: 'Farmer fell out of the world'
+[18:00:03] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/476266, l='ServerLevel[新的世界]', x=3.50, y=258.00, z=2.80] died: kaboom was struck by lightning
+[18:00:53] [Server thread/WARN]: DRD moved too quickly! 34.80000001192093,236.0,-21.80000001192093
+[18:02:06] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/482691, l='ServerLevel[新的世界]', x=-4.50, y=259.00, z=0.95] died: kaboom was struck by lightning
+[18:05:14] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483061, l='ServerLevel[新的世界]', x=5.17, y=257.13, z=8.21] died: kaboom was struck by lightning
+[18:05:56] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483055, l='ServerLevel[新的世界]', x=2.28, y=257.00, z=4.41] died: kaboom was struck by lightning
+[18:06:07] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483062, l='ServerLevel[新的世界]', x=8.09, y=257.13, z=14.56] died: kaboom was struck by lightning
+[18:06:56] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483063, l='ServerLevel[新的世界]', x=10.48, y=257.00, z=2.53] died: kaboom was struck by lightning
+[18:07:10] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483634, l='ServerLevel[新的世界]', x=15.18, y=257.00, z=0.50] died: kaboom was struck by lightning
+[18:10:43] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483926, l='ServerLevel[新的世界]', x=14.28, y=257.00, z=5.30] died: kaboom was struck by lightning
+[18:11:24] [Server thread/INFO]: DRD has made the advancement [Hatch a Rattata]
+[18:11:55] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483927, l='ServerLevel[新的世界]', x=3.47, y=257.13, z=11.12] died: kaboom was struck by lightning
+[18:11:56] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483940, l='ServerLevel[新的世界]', x=3.84, y=257.00, z=8.16] died: kaboom was struck by lightning
+[18:11:57] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/484078, l='ServerLevel[新的世界]', x=0.47, y=258.00, z=0.56] died: kaboom was struck by lightning
+[18:14:05] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483952, l='ServerLevel[新的世界]', x=8.20, y=258.00, z=3.40] died: kaboom was struck by lightning
+[18:14:07] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/483950, l='ServerLevel[新的世界]', x=14.25, y=257.00, z=4.41] died: kaboom was struck by lightning
+[18:14:11] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/484076, l='ServerLevel[新的世界]', x=8.58, y=258.00, z=0.50] died: kaboom was struck by lightning
+[18:16:17] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/484704, l='ServerLevel[新的世界]', x=13.60, y=257.13, z=15.50] died: kaboom was struck by lightning
+[18:17:41] [Worker-Main-36/INFO]: Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=-319, y=-3, z=-268}
+[18:18:31] [Server thread/WARN]: DRD moved too quickly! 8.436448882455096,0.0030112737319853977,-7.772868720034047
+[18:18:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3111ms or 62 ticks behind
+[18:18:34] [Server thread/WARN]: DRD moved too quickly! 2.587024254160724,0.0,-10.407117789112789
+[18:20:38] [Server thread/WARN]: DRD moved too quickly! -1.745753323278791,0.0,-11.733664320194158
+[18:21:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[18:21:45] [Worker-Main-5/INFO]: Handled spawn for nurse{"guard":{"time":"day","roam":0}}, BlockPos{x=235, y=155, z=-528}
+[18:21:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4866ms or 97 ticks behind
+[18:22:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2543ms or 50 ticks behind
+[18:22:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[18:22:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2843ms or 56 ticks behind
+[18:23:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3669ms or 73 ticks behind
+[18:23:25] [Server thread/INFO]: Villager TrainerNpc['kaboom'/490086, l='ServerLevel[新的世界]', x=144.49, y=63.00, z=-387.24] died, message: 'Rocket Employee Shannon was struck by lightning'
+[18:23:25] [Server thread/INFO]: Named entity TrainerNpc['kaboom'/490086, l='ServerLevel[新的世界]', x=144.49, y=63.00, z=-387.24] died: Rocket Employee Shannon was struck by lightning
+[18:23:52] [Server thread/INFO]: DRD has made the advancement [Spooky Scary Skeleton]
+[18:24:04] [Server thread/INFO]: DRD has made the advancement [Withering Heights]
+[18:24:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[18:24:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2212ms or 44 ticks behind
+[18:24:56] [Server thread/INFO]: Named entity WitherBoss['kaboom'/513031, l='ServerLevel[新的世界]', x=147.45, y=62.00, z=-382.22] died: kaboom was struck by lightning
+[18:25:14] [Server thread/WARN]: DRD moved too quickly! 0.0,-10.728126108483252,0.0
+[18:25:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[18:25:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2556ms or 51 ticks behind
+[18:26:04] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/521448, l='ServerLevel[新的世界]', x=-35.50, y=69.00, z=-7.50] died: kaboom blew up
+[18:26:09] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/521496, l='ServerLevel[新的世界]', x=-33.30, y=104.72, z=-3.07] died: kaboom blew up
+[18:26:11] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/521450, l='ServerLevel[新的世界]', x=-36.05, y=66.00, z=-9.86] died: kaboom blew up
+[18:27:00] [Server thread/INFO]: Named entity WitherBoss['kaboom'/532228, l='ServerLevel[新的世界]', x=-83.50, y=343.24, z=4.50] died: kaboom blew up
+[18:27:44] [Server thread/INFO]: Named entity WitherBoss['kaboom'/538083, l='ServerLevel[新的世界]', x=-139.50, y=371.61, z=-66.50] died: kaboom blew up
+[18:28:21] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/543734, l='ServerLevel[新的世界]', x=-129.50, y=60.22, z=92.50] died: kaboom blew up
+[18:28:46] [Server thread/INFO]: Named entity WitherBoss['kaboom'/550574, l='ServerLevel[新的世界]', x=-140.50, y=324.07, z=51.50] died: kaboom blew up
+[18:29:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[18:29:29] [Server thread/INFO]: Named entity EnderDragon['kaboom'/556168, l='ServerLevel[新的世界]', x=-2.92, y=1386.69, z=-13.47] died: kaboom blew up
+[18:30:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[18:30:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2257ms or 45 ticks behind
+[18:30:58] [Worker-Main-8/INFO]: 6 iterations of build for: pokecube:village/plains_small
+[18:31:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[18:31:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2467ms or 49 ticks behind
+[18:32:26] [Server thread/INFO]: Villager Villager['Villager'/570819, l='ServerLevel[新的世界]', x=5.10, y=257.00, z=4.88] died, message: 'Villager fell out of the world'
+[18:38:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[18:38:23] [Server thread/WARN]: DRD moved too quickly! -5.202190265464637,0.0,9.229243251609418
+[18:38:30] [Server thread/WARN]: DRD moved too quickly! -2.765774062029351,-9.517480804323924,1.5384836290823358
+[18:39:02] [Server thread/WARN]: DRD moved too quickly! 9.432128785855298,3.788724590614379,-3.2162184608979913
+[18:39:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 39494ms or 789 ticks behind
+[18:42:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2186ms or 43 ticks behind
+[18:43:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2175ms or 43 ticks behind
+[18:43:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2440ms or 48 ticks behind
+[18:44:35] [Server thread/WARN]: DRD moved too quickly! 0.006583181028420704,-18.248176833112254,0.056225947948949084
+[18:44:38] [Server thread/WARN]: DRD moved too quickly! 1.883762490072245,-9.575910486441003,4.417126271111995
+[18:44:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2308ms or 46 ticks behind
+[18:44:44] [Server thread/WARN]: DRD moved too quickly! -4.369993007679628,0.0,9.505273322606925
+[18:44:47] [Server thread/WARN]: DRD moved too quickly! -3.0245324961558264,0.0,9.674438101980094
+[18:44:55] [Server thread/WARN]: DRD moved too quickly! -1.2116366598915995,0.0,9.936481428189367
+[18:44:58] [Server thread/WARN]: DRD moved too quickly! -0.016836553787122455,0.0,10.131310279214901
+[18:45:06] [Server thread/WARN]: DRD moved too quickly! 0.0,-10.018645238200918,0.0
+[18:45:08] [Server thread/WARN]: DRD moved too quickly! 1.340425655975615,-10.806526110009145,1.4764056342708263
+[18:45:13] [Server thread/WARN]: DRD moved too quickly! 0.0,-10.692908965440552,0.8880073524994483
+[18:45:17] [Server thread/WARN]: DRD moved too quickly! 0.24759505159753759,-10.806526110009145,-0.1289434653268664
+[18:45:23] [Server thread/INFO]: DRD has made the advancement [Hatch a Grimer]
+[18:45:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29336ms or 586 ticks behind
+[18:46:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[18:47:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[18:47:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3979ms or 79 ticks behind
+[18:47:43] [Server thread/WARN]: DRD moved too quickly! -8.474903232875818,2.606169918779784,-7.55326838168844
+[18:48:09] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/582210, l='ServerLevel[新的世界]', x=2.74, y=258.00, z=4.02] died: kaboom blew up
+[18:53:32] [Server thread/INFO]: Named entity Skeleton['kaboom'/590199, l='ServerLevel[新的世界]', x=-53.50, y=67.00, z=10.50] died: kaboom blew up
+[18:53:40] [Server thread/INFO]: Named entity Skeleton['kaboom'/590200, l='ServerLevel[新的世界]', x=-70.46, y=67.00, z=17.47] died: kaboom blew up
+[18:54:00] [Server thread/INFO]: Named entity EnderMan['kaboom'/590265, l='ServerLevel[新的世界]', x=-2.76, y=65.00, z=-53.99] died: kaboom blew up
+[18:54:03] [Server thread/INFO]: Named entity Creeper['kaboom'/590266, l='ServerLevel[新的世界]', x=0.16, y=68.00, z=-63.06] died: kaboom blew up
+[18:54:08] [Server thread/INFO]: Named entity Zombie['kaboom'/590173, l='ServerLevel[新的世界]', x=4.42, y=71.00, z=-79.38] died: kaboom blew up
+[18:54:22] [Server thread/INFO]: Named entity Creeper['kaboom'/590171, l='ServerLevel[新的世界]', x=27.07, y=64.00, z=-28.50] died: kaboom blew up
+[18:54:24] [Server thread/INFO]: Named entity Skeleton['kaboom'/598534, l='ServerLevel[新的世界]', x=19.95, y=65.00, z=-31.14] died: kaboom blew up
+[18:54:25] [Server thread/INFO]: Named entity Skeleton['kaboom'/596696, l='ServerLevel[新的世界]', x=15.01, y=66.00, z=-27.10] died: kaboom blew up
+[18:54:28] [Server thread/INFO]: Named entity Creeper['kaboom'/590172, l='ServerLevel[新的世界]', x=32.83, y=63.00, z=-31.68] died: kaboom blew up
+[18:54:31] [Server thread/INFO]: Named entity Skeleton['kaboom'/594663, l='ServerLevel[新的世界]', x=29.55, y=64.00, z=-46.50] died: kaboom blew up
+[18:54:36] [Server thread/WARN]: DRD moved too quickly! -21.481653237832866,223.49714542083828,28.749437997824284
+[19:00:37] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/605153, l='ServerLevel[新的世界]', x=12.12, y=258.00, z=3.95] died: kaboom blew up
+[19:00:46] [Server thread/INFO]: Named entity GenericPokemob['kaboom'/605307, l='ServerLevel[新的世界]', x=3.44, y=259.00, z=3.47] died: kaboom blew up
+[19:03:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[19:04:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8562ms or 171 ticks behind
+[19:04:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10930ms or 218 ticks behind
+[19:05:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14904ms or 298 ticks behind
+[19:05:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11303ms or 226 ticks behind
+[19:05:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4927ms or 98 ticks behind
+[19:06:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9466ms or 189 ticks behind
+[19:06:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12611ms or 252 ticks behind
+[19:08:07] [Server thread/ERROR]: Exception caught during firing event: Java heap space
+	Index: 36
+	Listeners:
+		0: NORMAL
+		1: ASM: pokecube.legends.PokecubeLegends@24c73ab5 onItemCapabilityAttach(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		2: ASM: thut.wearables.ThutWearables@4efd64c3 onEntityCapabilityAttach(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		3: ASM: thut.wearables.ThutWearables@4efd64c3 onItemCapabilityAttach(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		4: ASM: class thut.api.terrain.TerrainManager onCapabilityAttach(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		5: ASM: class thut.api.terrain.TerrainManager onCapabilityAttach(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		6: ASM: class pokecube.adventures.items.bag.BagItem attachCaps(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		7: ASM: class pokecube.adventures.items.Linker attachCaps(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		8: ASM: class pokecube.adventures.utils.EnergyHandler onTileCapabilityAttach(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		9: ASM: class pokecube.adventures.utils.InventoryHandler onTileCapabilityAttach(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		10: ASM: class pokecube.adventures.blocks.BlockEventHandler attachCaps(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		11: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@478cd640
+		12: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@585518dd
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@7da91d52
+		14: ASM: class pokecube.mobs.MiscItemHelper registerCapabilities(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@3381ff52
+		16: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@121e11b4
+		17: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@62fd60da
+		18: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@570bb25a
+		19: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@6b4cac86
+		20: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@9bd83ea
+		21: ASM: class thut.core.common.ThutCore$MobEvents onMobCapabilityAttach(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		22: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@4fc9b7
+		23: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@adc3286
+		24: LOW
+		25: ASM: class pokecube.adventures.utils.EnergyHandler onEntityCapabilityAttach(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		26: LOWEST
+		27: ASM: class thut.api.OwnableCaps attachMobs(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		28: ASM: class thut.api.OwnableCaps attachMobs(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		29: ASM: class thut.api.OwnableCaps attachTEs(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		30: ASM: class thut.api.OwnableCaps attachMobs(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		31: ASM: class thut.api.OwnableCaps attachTEs(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		32: ASM: class thut.api.OwnableCaps attachTEs(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		33: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@4fa87c7
+		34: ASM: pokecube.legends.handlers.ForgeEventHandlers@7d0a53b5 capabilityEntities(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V
+		35: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@61bdf661
+		36: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@1fc19990
+		37: net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420@7462c0ec
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.HashSet.<init>(HashSet.java:107)
+	at TRANSFORMER/forge@39.1.2/net.minecraftforge.common.util.LazyOptional.<init>(LazyOptional.java:51)
+	at TRANSFORMER/forge@39.1.2/net.minecraftforge.common.util.LazyOptional.of(LazyOptional.java:67)
+	at TRANSFORMER/pokecube@3.16.1/thut.api.AnimatedCaps$Impl.<init>(AnimatedCaps.java:23)
+	at TRANSFORMER/pokecube@3.16.1/thut.api.AnimatedCaps.attachMobs(AnimatedCaps.java:47)
+	at TRANSFORMER/pokecube@3.16.1/thut.api.AnimatedCaps$$Lambda$5263/0x00000008018068f8.accept(Unknown Source)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420.invoke(Unknown Source)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus$$Lambda$3684/0x000000080154e218.invoke(Unknown Source)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at TRANSFORMER/forge@39.1.2/net.minecraftforge.event.ForgeEventFactory.gatherCapabilities(ForgeEventFactory.java:576)
+	at TRANSFORMER/forge@39.1.2/net.minecraftforge.event.ForgeEventFactory.gatherCapabilities(ForgeEventFactory.java:570)
+	at TRANSFORMER/forge@39.1.2/net.minecraftforge.common.capabilities.CapabilityProvider.doGatherCapabilities(CapabilityProvider.java:73)
+	at TRANSFORMER/forge@39.1.2/net.minecraftforge.common.capabilities.CapabilityProvider.gatherCapabilities(CapabilityProvider.java:68)
+	at TRANSFORMER/forge@39.1.2/net.minecraftforge.common.capabilities.CapabilityProvider.gatherCapabilities(CapabilityProvider.java:52)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.world.entity.Entity.<init>(Entity.java:254)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.world.entity.LightningBolt.<init>(LightningBolt.java:45)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.world.entity.EntityType$$Lambda$2123/0x0000000801318208.m_20721_(Unknown Source)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.world.entity.EntityType.m_20615_(EntityType.java:458)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.world.entity.EntityType.m_185996_(EntityType.java:468)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.world.entity.EntityType$$Lambda$7713/0x0000000801c5e728.apply(Unknown Source)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.world.entity.EntityType.m_20642_(EntityType.java:467)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.world.entity.EntityType.m_20669_(EntityType.java:550)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.world.entity.EntityType.m_20645_(EntityType.java:506)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.server.commands.SummonCommand.m_138820_(SummonCommand.java:65)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.server.commands.SummonCommand.m_138829_(SummonCommand.java:45)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.server.commands.SummonCommand$$Lambda$6352/0x000000080198da70.run(Unknown Source)
+	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
+	at TRANSFORMER/minecraft@1.18.1/net.minecraft.commands.Commands.m_82117_(Commands.java:230)
+
+[19:08:08] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.ReportedException: Executing command block
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:872) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:328) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:808) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:668) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:258) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.util.HashSet.<init>(HashSet.java:107) ~[?:?]
+	at net.minecraftforge.common.util.LazyOptional.<init>(LazyOptional.java:51) ~[forge-1.18.1-39.1.2-universal.jar%2349!/:?]
+	at net.minecraftforge.common.util.LazyOptional.of(LazyOptional.java:67) ~[forge-1.18.1-39.1.2-universal.jar%2349!/:?]
+	at thut.api.AnimatedCaps$Impl.<init>(AnimatedCaps.java:23) ~[pokecube-aio-1.18.1-3.16.1.jar%2343!/:3.16.1]
+	at thut.api.AnimatedCaps.attachMobs(AnimatedCaps.java:47) ~[pokecube-aio-1.18.1-3.16.1.jar%2343!/:3.16.1]
+	at thut.api.AnimatedCaps$$Lambda$5263/0x00000008018068f8.accept(Unknown Source) ~[?:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$3685/0x000000080154e420.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$3684/0x000000080154e218.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.gatherCapabilities(ForgeEventFactory.java:576) ~[forge-1.18.1-39.1.2-universal.jar%2349!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.gatherCapabilities(ForgeEventFactory.java:570) ~[forge-1.18.1-39.1.2-universal.jar%2349!/:?]
+	at net.minecraftforge.common.capabilities.CapabilityProvider.doGatherCapabilities(CapabilityProvider.java:73) ~[forge-1.18.1-39.1.2-universal.jar%2349!/:?]
+	at net.minecraftforge.common.capabilities.CapabilityProvider.gatherCapabilities(CapabilityProvider.java:68) ~[forge-1.18.1-39.1.2-universal.jar%2349!/:?]
+	at net.minecraftforge.common.capabilities.CapabilityProvider.gatherCapabilities(CapabilityProvider.java:52) ~[forge-1.18.1-39.1.2-universal.jar%2349!/:?]
+	at net.minecraft.world.entity.Entity.<init>(Entity.java:254) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.world.entity.LightningBolt.<init>(LightningBolt.java:45) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.world.entity.EntityType$$Lambda$2123/0x0000000801318208.m_20721_(Unknown Source) ~[?:?]
+	at net.minecraft.world.entity.EntityType.m_20615_(EntityType.java:458) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.world.entity.EntityType.m_185996_(EntityType.java:468) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.world.entity.EntityType$$Lambda$7713/0x0000000801c5e728.apply(Unknown Source) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.world.entity.EntityType.m_20642_(EntityType.java:467) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.world.entity.EntityType.m_20669_(EntityType.java:550) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.world.entity.EntityType.m_20645_(EntityType.java:506) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.server.commands.SummonCommand.m_138820_(SummonCommand.java:65) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.server.commands.SummonCommand.m_138829_(SummonCommand.java:45) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
+	at net.minecraft.server.commands.SummonCommand$$Lambda$6352/0x000000080198da70.run(Unknown Source) ~[?:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263) ~[brigadier-1.0.18.jar%2328!/:?]
+	at net.minecraft.commands.Commands.m_82117_(Commands.java:230) ~[server-1.18.1-20211210.034407-srg.jar%2345!/:?]
