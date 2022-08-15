@@ -117,11 +117,11 @@
 #Allows toggling some gameplay aspects
 [abilities]
 	#Defines if players can break their legs
-	brokenLegsEnabled = true
+	brokenLegsEnabled = false
 	#Defines if players can bleed
-	bleedingEnabled = true
+	bleedingEnabled = false
 	#Defines if players can be infected
-	infectionEnabled = true
+	infectionEnabled = false
 
 [explosives]
 	#Enables the usage of Pipe Bomb
