@@ -1,239 +1,545 @@
-[158月2022 17:09:04.683] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.1.52, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[158月2022 17:09:04.686] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 18.0.2-ea by Private Build
-[158月2022 17:09:04.788] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/drdzy01/MinecraftLocalServer/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
-[158月2022 17:09:06.581] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[158月2022 17:09:06.595] [main/ERROR] [mixin/]: Mixin config craftingdead.mixins.json does not specify "minVersion" property
-[158月2022 17:09:06.637] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[158月2022 17:09:06.646] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[158月2022 17:09:11.800] [modloading-worker-0/WARN] [APTweaks(Core)/]: ⚠️ The log level for APTweaks(Core) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
-[158月2022 17:09:11.801] [modloading-worker-0/WARN] [APTweaks(Core)/]: Adjusting log level for APTweaks(Core) from ALL to INFO, for performance reasons!
-[158月2022 17:09:11.802] [modloading-worker-0/WARN] [APTweaks(Gamerules)/]: ⚠️ The log level for APTweaks(Gamerules) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
-[158月2022 17:09:11.802] [modloading-worker-0/WARN] [APTweaks(Gamerules)/]: Adjusting log level for APTweaks(Gamerules) from ALL to INFO, for performance reasons!
-[158月2022 17:09:11.803] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Gamerules) from ALL to INFO
-[158月2022 17:09:11.801] [modloading-worker-0/WARN] [APTweaks(Spawn)/]: ⚠️ The log level for APTweaks(Spawn) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
-[158月2022 17:09:11.803] [modloading-worker-0/WARN] [APTweaks(Spawn)/]: Adjusting log level for APTweaks(Spawn) from ALL to INFO, for performance reasons!
-[158月2022 17:09:11.804] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Spawn) from ALL to INFO
-[158月2022 17:09:11.805] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Core) from ALL to INFO
-[158月2022 17:09:11.811] [modloading-worker-0/WARN] [APTweaks(Items)/]: ⚠️ The log level for APTweaks(Items) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
-[158月2022 17:09:11.814] [modloading-worker-0/WARN] [APTweaks(Items)/]: Adjusting log level for APTweaks(Items) from ALL to INFO, for performance reasons!
-[158月2022 17:09:11.817] [modloading-worker-0/INFO] [APTweaks(Core)/]: Register Adaptive Performance Tweaks: Core common config ...
-[158月2022 17:09:11.815] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Items) from ALL to INFO
-[158月2022 17:09:11.820] [modloading-worker-0/INFO] [APTweaks(Gamerules)/]: Registering Adaptive Performance Tweaks: Gamerules common config ...
-[158月2022 17:09:11.826] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn common config ...
-[158月2022 17:09:11.830] [modloading-worker-0/INFO] [APTweaks(Items)/]: Registering Adaptive Performance Tweaks: Items common config ...
-[158月2022 17:09:11.856] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Alex's Mobs spawn config ...
-[158月2022 17:09:11.859] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Aquaculture 2 spawn config ...
-[158月2022 17:09:11.860] [modloading-worker-0/WARN] [APTweaks(Player)/]: ⚠️ The log level for APTweaks(Player) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
-[158月2022 17:09:11.860] [modloading-worker-0/WARN] [APTweaks(Player)/]: Adjusting log level for APTweaks(Player) from ALL to INFO, for performance reasons!
-[158月2022 17:09:11.860] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Player) from ALL to INFO
-[158月2022 17:09:11.863] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn custom spawn config ...
-[158月2022 17:09:11.865] [modloading-worker-0/INFO] [APTweaks(Player)/]: Registering Adaptive Performance Tweaks: Player common config ...
-[158月2022 17:09:11.882] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Mekanism Additions spawn config ...
-[158月2022 17:09:11.887] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Minecraft Spawn config ...
-[158月2022 17:09:11.890] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Quark spawn config ...
-[158月2022 17:09:11.893] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Tinkers Construct spawn config ...
-[158月2022 17:09:11.898] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Untamed Wilds spawn config ...
-[158月2022 17:09:11.993] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.52, for MC 1.18.2 with MCP 20220404.173914
-[158月2022 17:09:11.994] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.52 Initialized
-[158月2022 17:09:12.100] [modloading-worker-0/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
-[158月2022 17:09:12.721] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod tconstruct.
-[158月2022 17:09:12.721] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
-[158月2022 17:09:12.722] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
-[158月2022 17:09:12.722] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod curios.
-[158月2022 17:09:16.302] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `domum_ornamentum` for name `architects_cutter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
-[158月2022 17:09:16.596] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-[158月2022 17:09:16.597] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-[158月2022 17:09:17.575] [modloading-worker-0/INFO] [com.craftingdead.core.CraftingDead/]: Starting Crafting Dead, version 1.7.6-alpha
-[158月2022 17:09:17.577] [modloading-worker-0/INFO] [com.dynamic_view.DynView/]: Zooming chunks initiated!
-[158月2022 17:09:17.581] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
-[158月2022 17:09:17.708] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
-[158月2022 17:09:18.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[158月2022 17:09:18.295] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
-[158月2022 17:09:20.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.52 Target: 40.1.73
-[158月2022 17:09:20.146] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.17.x/update.json
-[158月2022 17:09:25.188] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[158月2022 17:09:29.738] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/drdzy01/MinecraftLocalServer/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2361!/assets/.mcassetsroot' uses unexpected schema
-[158月2022 17:09:29.738] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/drdzy01/MinecraftLocalServer/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2361!/data/.mcassetsroot' uses unexpected schema
-[158月2022 17:09:35.149] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpTimeoutException: request timed out
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:569) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:131) ~[fmlcore-1.18.2-40.1.52.jar%2362!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:169) ~[fmlcore-1.18.2-40.1.52.jar%2362!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.18.2-40.1.52.jar%2362!/:?]
-[158月2022 17:09:36.193] [main/INFO] [APTweaks(Gamerules)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Gamerules ...
-[158月2022 17:09:36.200] [main/INFO] [APTweaks(Items)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Items ...
-[158月2022 17:09:36.202] [main/INFO] [APTweaks(Player)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Player ...
-[158月2022 17:09:36.203] [main/INFO] [APTweaks(Core)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Core ...
-[158月2022 17:09:36.208] [main/INFO] [APTweaks(Spawn)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Spawn ...
-[158月2022 17:09:36.456] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[158月2022 17:09:36.458] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[158月2022 17:09:36.462] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[158月2022 17:09:36.463] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[158月2022 17:09:36.474] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[158月2022 17:09:36.477] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [structurize, scan, pos1, pos2, anchor_pos] and [structurize, scan, pos1, pos2, player] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
-[158月2022 17:09:36.480] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[158月2022 17:09:36.482] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[158月2022 17:09:36.502] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[158月2022 17:09:36.504] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[158月2022 17:09:41.295] [Worker-Main-14/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
-[158月2022 17:09:42.209] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3016 advancements
-[158月2022 17:09:42.211] [Worker-Main-14/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
-[158月2022 17:09:42.214] [Worker-Main-14/INFO] [minecolonies/]: Loaded 131 recipes for 15 crafters
-[158月2022 17:09:42.214] [Worker-Main-14/INFO] [minecolonies/]: Beginning load of research for University.
-[158月2022 17:09:42.221] [Worker-Main-14/INFO] [minecolonies/]: Loaded 190 recipes for 4 research branches
-[158月2022 17:09:44.865] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
-[158月2022 17:09:44.865] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[158月2022 17:09:44.866] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[158月2022 17:09:44.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[158月2022 17:09:44.964] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 0.0.0.0:20309
-[158月2022 17:09:44.983] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[158月2022 17:09:45.050] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[158月2022 17:09:45.050] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[158月2022 17:09:45.050] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[158月2022 17:09:45.050] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[158月2022 17:09:45.075] [Thread-0/WARN] [minecolonies.requestsystem/]: Updated logging config. RS Debug logging enabled: false
-[158月2022 17:09:45.077] [Thread-0/WARN] [minecolonies.requestsystem/]: Updated logging config. RS Debug logging enabled: false
-[158月2022 17:09:45.080] [Server thread/WARN] [APTweaks(Gamerules)/]: WARNING: The recommended value for minEntityCramming with MineColonies is min. 16 instead of 5!
-[158月2022 17:09:45.080] [Server thread/INFO] [APTweaks(Gamerules)/]: The minEntityCramming will be automatically set to 16!
-[158月2022 17:09:45.081] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Game difficult factors EASY: 0.75, NORMAL: 1.0, PEACEFUL: 1.0 and HARD: 2.0
-[158月2022 17:09:45.081] [Server thread/INFO] [APTweaks(Items)/]: Max number of Items allowed per world: 128 / per type: 32
-[158月2022 17:09:45.081] [Server thread/INFO] [APTweaks(Items)/]: Enable clustering of items with a radius of 3 blocks.
-[158月2022 17:09:45.082] [Server thread/INFO] [APTweaks(Items)/]: Enable clustering of Experience Orbs with a radius of 4 blocks.
-[158月2022 17:09:45.082] [Server thread/INFO] [APTweaks(Spawn)/]: Clearing spawn rates calculation ...
-[158月2022 17:09:45.082] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable passive mobs spawn rate control for minecraft and 1 mobs with maxPerPlayer:3 and maxPerWorld:12 ...
-[158月2022 17:09:45.082] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable neutral mobs spawn rate control for minecraft and 25 mobs with maxPerPlayer:8 and maxPerWorld:32 ...
-[158月2022 17:09:45.082] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable hostile mobs spawn rate control for minecraft and 33 mobs with maxPerPlayer:8 and maxPerWorld:32 ...
-[158月2022 17:09:45.083] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable passive mobs spawn rate control for minecraft and 5 mobs with maxPerPlayer:4 and maxPerWorld:16 ...
-[158月2022 17:09:45.083] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable neutral mobs spawn rate control for minecraft and 2 mobs with maxPerPlayer:4 and maxPerWorld:16 ...
-[158月2022 17:09:45.083] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable hostile mobs spawn rate control for minecraft and 3 mobs with maxPerPlayer:12 and maxPerWorld:48 ...
-[158月2022 17:09:45.083] [Server thread/INFO] [APTweaks(Spawn)/]: Added 69 player spawn rules, 69 world spawn rules and 0 special spawn rules.
-[158月2022 17:09:45.093] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "CraftingDead"
-[158月2022 17:09:45.256] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Game difficulty is set to HARD with a 2.0 factor.
-[158月2022 17:09:45.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[158月2022 17:09:45.959] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[158月2022 17:09:45.962] [Worker-Main-18/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[158月2022 17:09:46.258] [Worker-Main-22/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[158月2022 17:09:46.834] [Worker-Main-22/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[158月2022 17:09:47.259] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[158月2022 17:09:47.758] [Worker-Main-18/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[158月2022 17:09:48.258] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[158月2022 17:09:48.759] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[158月2022 17:09:49.275] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[158月2022 17:09:49.931] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[158月2022 17:09:49.934] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4677 ms
-[158月2022 17:09:49.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.876s)! For help, type "help"
-[158月2022 17:09:49.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
-[158月2022 17:09:49.942] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener started
-[158月2022 17:09:49.942] [Query Listener #1/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4/]: Query running on 0.0.0.0:25565
-[158月2022 17:09:49.967] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[158月2022 17:09:49.967] [Server thread/INFO] [APTweaks(Gamerules)/]: Gamerules will be optimized with an 30 sec delay between updates.
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Gamerules)/]: Random Tick Speed will be optimized between 1 and 3
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Gamerules)/]: Max Entity Cramming will be optimized between 16 and 24
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Gamerules)/]: Patrol spawning will be automatically disabled during very high server load!
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Gamerules)/]: Raids will be automatically disabled during very high server load!
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Gamerules)/]: Insomnia (phantoms spawn) will be automatically disabled during very high server load!
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Gamerules)/]: Trader spawning will be automatically disabled during very high server load!
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Max number of remote players is set to 114514
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Spawn)/]: [APTweaks:Spawn] Spawn allow list: []
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Spawn)/]: [APTweaks:Spawn] Spawn deny list: []
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Spawn)/]: [APTweaks:Spawn] Ignore dimension list: [minecraft:the_end]
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Spawn)/]: [APTweaks:Spawn] ✓ Enable limiter and block randomly every 10 mob from spawning ...
-[158月2022 17:09:49.968] [Server thread/INFO] [APTweaks(Player)/]: Player will be protected during login for max. of 90 secs.
-[158月2022 17:09:49.980] [Server thread/INFO] [APTweaks(Core)/]: Found dimension minecraft:overworld
-[158月2022 17:09:49.980] [Server thread/INFO] [APTweaks(Core)/]: Found dimension minecraft:the_end
-[158月2022 17:09:49.980] [Server thread/INFO] [APTweaks(Core)/]: Found dimension lostcities:lostcity
-[158月2022 17:09:49.980] [Server thread/INFO] [APTweaks(Core)/]: Found dimension minecraft:the_nether
-[158月2022 17:09:49.980] [Server thread/INFO] [APTweaks(Core)/]: Found dimension twilightforest:twilight_forest
-[158月2022 17:09:49.982] [Server thread/INFO] [structurize/]: Trying jar discover: assets/structurize
-[158月2022 17:09:49.984] [Server thread/INFO] [structurize/]: Trying jar discover: assets/minecolonies
-[158月2022 17:09:50.625] [Server thread/INFO] [structurize/]: Load additional huts or decorations from ./structurize/schematics
-[158月2022 17:09:50.626] [Server thread/INFO] [structurize/]: Load cached schematic from ./structurize/cache
-[158月2022 17:09:50.626] [Server thread/INFO] [structurize/]: Load cached schematic from ./structurize/cache
-[158月2022 17:09:50.728] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 18
-[158月2022 17:09:50.728] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 21 26
-[158月2022 17:09:50.729] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
-[158月2022 17:09:50.734] [Server thread/INFO] [minecolonies/]: Finished discovering food 45 60
-[158月2022 17:09:50.736] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 325
-[158月2022 17:09:50.736] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 160
-[158月2022 17:09:50.737] [Server thread/INFO] [minecolonies/]: Finished discovering lucky oreBlocks 175
-[158月2022 17:09:50.737] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
-[158月2022 17:09:50.737] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
-[158月2022 17:09:51.782] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from NORMAL (avg. 50.0) to VERY_LOW (avg. 16.346553802490234)
-[158月2022 17:09:52.788] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:overworld changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 7.045951769999999)
-[158月2022 17:09:52.788] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:the_end changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.05894529)
-[158月2022 17:09:52.788] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for lostcities:lostcity changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.03085316)
-[158月2022 17:09:52.789] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:the_nether changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.025577759999999998)
-[158月2022 17:09:52.789] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for twilightforest:twilight_forest changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.02615555)
-[158月2022 17:11:20.836] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7e7a2ef7
-[158月2022 17:11:20.848] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/127.0.0.1:48118] logged in with entity id 148 at (-184.07908643833767, 64.0, -684.4724101997507)
-[158月2022 17:11:20.890] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
-[158月2022 17:11:20.949] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/148, l='ServerLevel[CraftingDead]', x=-184.08, y=64.00, z=-684.47] logged in and will be protected for 90 secs.
-[158月2022 17:11:20.950] [Server thread/INFO] [structurize/]: New Server UUID cd86e5b8-d17d-4dfe-b031-0bed37379b57
-[158月2022 17:11:25.032] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 4 secs.
-[158月2022 17:11:25.032] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
-[158月2022 17:11:50.738] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 8ms increasing chunk view distance to: 5
-[158月2022 17:12:20.738] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 5ms increasing simulation distance to: 4
-[158月2022 17:14:39.089] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD was shot by Skeleton
-[158月2022 17:14:45.048] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
-[158月2022 17:14:50.191] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Teleported DRD to -199.502765, 300.000000, -760.642680]
-[158月2022 17:14:50.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,228.21648908567636,0.0
-[158月2022 17:14:50.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,228.21648908567636,0.0
-[158月2022 17:15:23.334] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
-[158月2022 17:16:38.953] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Survival Mode]
-[158月2022 17:16:39.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD fell from a high place
-[158月2022 17:19:50.000] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Removed 1103 items from player DRD]
-[158月2022 17:19:51.852] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
-[158月2022 17:28:41.589] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Gave 1 [Command Block] to DRD]
-[158月2022 17:29:45.324] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Teleported DRD to -173.401283, 300.000000, -780.634628]
-[158月2022 17:30:01.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
-[158月2022 17:31:21.940] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
-[158月2022 17:31:21.940] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
-[158月2022 17:33:00.346] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@fa78453
-[158月2022 17:33:00.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/127.0.0.1:48122] logged in with entity id 68159 at (-74.25377448297725, 66.0, -923.1515287558818)
-[158月2022 17:33:00.358] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
-[158月2022 17:33:00.369] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/68159, l='ServerLevel[CraftingDead]', x=-74.25, y=66.00, z=-923.15] logged in and will be protected for 90 secs.
-[158月2022 17:33:04.732] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 4 secs.
-[158月2022 17:33:04.732] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
-[158月2022 17:33:37.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
-[158月2022 17:34:24.051] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Teleported DRD to -203.405877, 300.000000, -765.991578]
-[158月2022 17:34:24.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,201.2230668980107,0.0
-[158月2022 17:34:24.073] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,201.2230668980107,0.0
-[158月2022 17:35:21.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set the world spawn point to -192, 71, -769 [0.0]]
-[158月2022 17:35:27.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Teleported DRD to -191.515306, 300.000000, -768.488230]
-[158月2022 17:35:27.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,229.0,0.0
-[158月2022 17:35:44.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
-[158月2022 17:35:44.385] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
-[158月2022 17:35:44.385] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
-[158月2022 17:35:51.392] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3eefb46d
-[158月2022 17:35:51.398] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/127.0.0.1:48126] logged in with entity id 73057 at (-202.91525174142004, 302.0, -770.0739678080974)
-[158月2022 17:35:51.405] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
-[158月2022 17:35:51.421] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/73057, l='ServerLevel[CraftingDead]', x=-202.92, y=302.00, z=-770.07] logged in and will be protected for 90 secs.
-[158月2022 17:35:56.932] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 5 secs.
-[158月2022 17:35:56.932] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
-[158月2022 17:36:01.944] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD fell from a high place
-[158月2022 17:36:03.212] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 15.244739152537846,-6.5,1.890079505285371
-[158月2022 17:39:02.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD was slain by Weak Zombie
-[158月2022 17:39:03.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! -73.19973322587842,36.875,20.19915870490297
-[158月2022 17:39:14.389] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD fell out of the world
-[158月2022 17:39:14.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Killed DRD]
-[158月2022 17:39:15.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 12.568005883279312,-16.0,5.199999988079071
-[158月2022 17:42:19.938] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
-[158月2022 17:42:19.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
-[158月2022 17:42:28.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[158月2022 17:42:28.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[158月2022 17:42:28.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[158月2022 17:42:28.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[158月2022 17:42:30.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/minecraft:overworld
-[158月2022 17:42:30.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/minecraft:the_end
-[158月2022 17:42:30.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/lostcities:lostcity
-[158月2022 17:42:30.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/minecraft:the_nether
-[158月2022 17:42:30.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/twilightforest:twilight_forest
-[158月2022 17:42:30.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (CraftingDead): All chunks are saved
-[158月2022 17:42:30.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[158月2022 17:42:30.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
-[158月2022 17:42:30.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[158月2022 17:42:30.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[158月2022 17:42:30.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[158月2022 17:42:30.663] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener stopped
+[168月2022 19:08:31.577] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.1.52, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[168月2022 19:08:31.581] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 18.0.2-ea by Private Build
+[168月2022 19:08:31.720] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/drdzy01/MinecraftLocalServer/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[168月2022 19:08:33.651] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[168月2022 19:08:33.667] [main/ERROR] [mixin/]: Mixin config craftingdead.mixins.json does not specify "minVersion" property
+[168月2022 19:08:33.702] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[168月2022 19:08:33.708] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[168月2022 19:08:38.762] [modloading-worker-0/WARN] [APTweaks(Core)/]: ⚠️ The log level for APTweaks(Core) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
+[168月2022 19:08:38.763] [modloading-worker-0/WARN] [APTweaks(Core)/]: Adjusting log level for APTweaks(Core) from ALL to INFO, for performance reasons!
+[168月2022 19:08:38.763] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Core) from ALL to INFO
+[168月2022 19:08:38.766] [modloading-worker-0/WARN] [APTweaks(Spawn)/]: ⚠️ The log level for APTweaks(Spawn) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
+[168月2022 19:08:38.766] [modloading-worker-0/WARN] [APTweaks(Spawn)/]: Adjusting log level for APTweaks(Spawn) from ALL to INFO, for performance reasons!
+[168月2022 19:08:38.766] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Spawn) from ALL to INFO
+[168月2022 19:08:38.777] [modloading-worker-0/INFO] [APTweaks(Core)/]: Register Adaptive Performance Tweaks: Core common config ...
+[168月2022 19:08:38.780] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn common config ...
+[168月2022 19:08:38.808] [modloading-worker-0/WARN] [APTweaks(Gamerules)/]: ⚠️ The log level for APTweaks(Gamerules) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
+[168月2022 19:08:38.809] [modloading-worker-0/WARN] [APTweaks(Gamerules)/]: Adjusting log level for APTweaks(Gamerules) from ALL to INFO, for performance reasons!
+[168月2022 19:08:38.809] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Gamerules) from ALL to INFO
+[168月2022 19:08:38.814] [modloading-worker-0/INFO] [APTweaks(Gamerules)/]: Registering Adaptive Performance Tweaks: Gamerules common config ...
+[168月2022 19:08:38.820] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Alex's Mobs spawn config ...
+[168月2022 19:08:38.823] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Aquaculture 2 spawn config ...
+[168月2022 19:08:38.825] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn custom spawn config ...
+[168月2022 19:08:38.828] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Mekanism Additions spawn config ...
+[168月2022 19:08:38.832] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Minecraft Spawn config ...
+[168月2022 19:08:38.838] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Quark spawn config ...
+[168月2022 19:08:38.841] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Tinkers Construct spawn config ...
+[168月2022 19:08:38.845] [modloading-worker-0/INFO] [APTweaks(Spawn)/]: Registering Adaptive Performance Tweaks: Spawn Untamed Wilds spawn config ...
+[168月2022 19:08:38.852] [modloading-worker-0/WARN] [APTweaks(Player)/]: ⚠️ The log level for APTweaks(Player) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
+[168月2022 19:08:38.852] [modloading-worker-0/WARN] [APTweaks(Player)/]: Adjusting log level for APTweaks(Player) from ALL to INFO, for performance reasons!
+[168月2022 19:08:38.852] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Player) from ALL to INFO
+[168月2022 19:08:38.875] [modloading-worker-0/WARN] [APTweaks(Items)/]: ⚠️ The log level for APTweaks(Items) is set to ALL, this will log all debug information and will cause performance issues. This is expected on an developer environment or for testing but not on a production environment!
+[168月2022 19:08:38.875] [modloading-worker-0/WARN] [APTweaks(Items)/]: Adjusting log level for APTweaks(Items) from ALL to INFO, for performance reasons!
+[168月2022 19:08:38.876] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Items) from ALL to INFO
+[168月2022 19:08:38.880] [modloading-worker-0/INFO] [APTweaks(Items)/]: Registering Adaptive Performance Tweaks: Items common config ...
+[168月2022 19:08:38.883] [modloading-worker-0/INFO] [APTweaks(Player)/]: Registering Adaptive Performance Tweaks: Player common config ...
+[168月2022 19:08:38.999] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.52, for MC 1.18.2 with MCP 20220404.173914
+[168月2022 19:08:38.999] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.52 Initialized
+[168月2022 19:08:39.292] [modloading-worker-0/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[168月2022 19:08:40.243] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod tconstruct.
+[168月2022 19:08:40.244] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
+[168月2022 19:08:40.244] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
+[168月2022 19:08:40.245] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod curios.
+[168月2022 19:08:43.768] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `domum_ornamentum` for name `architects_cutter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[168月2022 19:08:44.108] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[168月2022 19:08:44.109] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[168月2022 19:08:44.847] [modloading-worker-0/INFO] [com.dynamic_view.DynView/]: Zooming chunks initiated!
+[168月2022 19:08:44.847] [modloading-worker-0/INFO] [com.craftingdead.core.CraftingDead/]: Starting Crafting Dead, version 1.7.6-alpha
+[168月2022 19:08:44.848] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[168月2022 19:08:44.915] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[168月2022 19:08:45.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[168月2022 19:08:45.634] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
+[168月2022 19:08:47.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.52 Target: 40.1.73
+[168月2022 19:08:47.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.17.x/update.json
+[168月2022 19:08:49.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.1.1102 Target: null
+[168月2022 19:08:51.795] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[168月2022 19:08:55.968] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/drdzy01/MinecraftLocalServer/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2361!/assets/.mcassetsroot' uses unexpected schema
+[168月2022 19:08:55.968] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/drdzy01/MinecraftLocalServer/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2361!/data/.mcassetsroot' uses unexpected schema
+[168月2022 19:09:02.189] [main/INFO] [APTweaks(Gamerules)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Gamerules ...
+[168月2022 19:09:02.191] [main/INFO] [APTweaks(Core)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Core ...
+[168月2022 19:09:02.195] [main/INFO] [APTweaks(Spawn)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Spawn ...
+[168月2022 19:09:02.214] [main/INFO] [APTweaks(Player)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Player ...
+[168月2022 19:09:02.215] [main/INFO] [APTweaks(Items)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Items ...
+[168月2022 19:09:02.363] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[168月2022 19:09:02.379] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[168月2022 19:09:02.384] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[168月2022 19:09:02.386] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[168月2022 19:09:02.387] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[168月2022 19:09:02.390] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [structurize, scan, pos1, pos2, anchor_pos] and [structurize, scan, pos1, pos2, player] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
+[168月2022 19:09:02.392] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[168月2022 19:09:02.394] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[168月2022 19:09:02.396] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[168月2022 19:09:02.397] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[168月2022 19:09:07.020] [Worker-Main-15/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
+[168月2022 19:09:07.948] [Worker-Main-15/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3016 advancements
+[168月2022 19:09:07.950] [Worker-Main-15/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[168月2022 19:09:07.953] [Worker-Main-15/INFO] [minecolonies/]: Loaded 131 recipes for 15 crafters
+[168月2022 19:09:07.954] [Worker-Main-15/INFO] [minecolonies/]: Beginning load of research for University.
+[168月2022 19:09:07.961] [Worker-Main-15/INFO] [minecolonies/]: Loaded 190 recipes for 4 research branches
+[168月2022 19:09:10.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
+[168月2022 19:09:10.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[168月2022 19:09:10.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[168月2022 19:09:10.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[168月2022 19:09:10.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 0.0.0.0:10000
+[168月2022 19:09:10.649] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[168月2022 19:09:10.717] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[168月2022 19:09:10.718] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[168月2022 19:09:10.718] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[168月2022 19:09:10.718] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[168月2022 19:09:10.745] [Thread-0/WARN] [minecolonies.requestsystem/]: Updated logging config. RS Debug logging enabled: false
+[168月2022 19:09:10.749] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Game difficult factors EASY: 0.75, NORMAL: 1.0, PEACEFUL: 1.0 and HARD: 2.0
+[168月2022 19:09:10.750] [Server thread/WARN] [APTweaks(Gamerules)/]: WARNING: The recommended value for minEntityCramming with MineColonies is min. 16 instead of 5!
+[168月2022 19:09:10.750] [Server thread/INFO] [APTweaks(Gamerules)/]: The minEntityCramming will be automatically set to 16!
+[168月2022 19:09:10.750] [Server thread/INFO] [APTweaks(Spawn)/]: Clearing spawn rates calculation ...
+[168月2022 19:09:10.750] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable passive mobs spawn rate control for minecraft and 1 mobs with maxPerPlayer:3 and maxPerWorld:12 ...
+[168月2022 19:09:10.750] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable neutral mobs spawn rate control for minecraft and 25 mobs with maxPerPlayer:8 and maxPerWorld:32 ...
+[168月2022 19:09:10.750] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable hostile mobs spawn rate control for minecraft and 33 mobs with maxPerPlayer:8 and maxPerWorld:32 ...
+[168月2022 19:09:10.751] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable passive mobs spawn rate control for minecraft and 5 mobs with maxPerPlayer:4 and maxPerWorld:16 ...
+[168月2022 19:09:10.751] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable neutral mobs spawn rate control for minecraft and 2 mobs with maxPerPlayer:4 and maxPerWorld:16 ...
+[168月2022 19:09:10.751] [Server thread/INFO] [APTweaks(Spawn)/]: ✓ Enable hostile mobs spawn rate control for minecraft and 3 mobs with maxPerPlayer:12 and maxPerWorld:48 ...
+[168月2022 19:09:10.751] [Server thread/INFO] [APTweaks(Spawn)/]: Added 69 player spawn rules, 69 world spawn rules and 0 special spawn rules.
+[168月2022 19:09:10.751] [Server thread/INFO] [APTweaks(Items)/]: Max number of Items allowed per world: 128 / per type: 32
+[168月2022 19:09:10.751] [Server thread/INFO] [APTweaks(Items)/]: Enable clustering of items with a radius of 3 blocks.
+[168月2022 19:09:10.752] [Server thread/INFO] [APTweaks(Items)/]: Enable clustering of Experience Orbs with a radius of 4 blocks.
+[168月2022 19:09:10.765] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "CraftingDead"
+[168月2022 19:09:10.961] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Game difficulty is set to HARD with a 2.0 factor.
+[168月2022 19:09:10.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[168月2022 19:09:11.653] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[168月2022 19:09:11.661] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[168月2022 19:09:11.963] [Worker-Main-18/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[168月2022 19:09:12.463] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[168月2022 19:09:12.963] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[168月2022 19:09:13.463] [Worker-Main-22/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[168月2022 19:09:13.963] [Worker-Main-21/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[168月2022 19:09:14.464] [Worker-Main-22/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[168月2022 19:09:14.963] [Worker-Main-20/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[168月2022 19:09:15.512] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[168月2022 19:09:15.515] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4553 ms
+[168月2022 19:09:15.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.789s)! For help, type "help"
+[168月2022 19:09:15.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
+[168月2022 19:09:15.519] [Server thread/WARN] [net.minecraft.server.rcon.thread.QueryThreadGs4/]: Invalid query port 0 found in server.properties (queries disabled)
+[168月2022 19:09:15.551] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[168月2022 19:09:15.551] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Max number of remote players is set to 114514
+[168月2022 19:09:15.551] [Server thread/INFO] [APTweaks(Spawn)/]: [APTweaks:Spawn] Spawn allow list: []
+[168月2022 19:09:15.551] [Server thread/INFO] [APTweaks(Spawn)/]: [APTweaks:Spawn] Spawn deny list: []
+[168月2022 19:09:15.552] [Server thread/INFO] [APTweaks(Spawn)/]: [APTweaks:Spawn] Ignore dimension list: [minecraft:the_end]
+[168月2022 19:09:15.552] [Server thread/INFO] [APTweaks(Spawn)/]: [APTweaks:Spawn] ✓ Enable limiter and block randomly every 10 mob from spawning ...
+[168月2022 19:09:15.552] [Server thread/INFO] [APTweaks(Gamerules)/]: Gamerules will be optimized with an 30 sec delay between updates.
+[168月2022 19:09:15.552] [Server thread/INFO] [APTweaks(Gamerules)/]: Random Tick Speed will be optimized between 1 and 3
+[168月2022 19:09:15.552] [Server thread/INFO] [APTweaks(Gamerules)/]: Max Entity Cramming will be optimized between 16 and 24
+[168月2022 19:09:15.552] [Server thread/INFO] [APTweaks(Gamerules)/]: Patrol spawning will be automatically disabled during very high server load!
+[168月2022 19:09:15.552] [Server thread/INFO] [APTweaks(Gamerules)/]: Raids will be automatically disabled during very high server load!
+[168月2022 19:09:15.552] [Server thread/INFO] [APTweaks(Gamerules)/]: Insomnia (phantoms spawn) will be automatically disabled during very high server load!
+[168月2022 19:09:15.552] [Server thread/INFO] [APTweaks(Gamerules)/]: Trader spawning will be automatically disabled during very high server load!
+[168月2022 19:09:15.553] [Server thread/INFO] [APTweaks(Player)/]: Player will be protected during login for max. of 90 secs.
+[168月2022 19:09:15.566] [Server thread/INFO] [APTweaks(Core)/]: Found dimension minecraft:overworld
+[168月2022 19:09:15.566] [Server thread/INFO] [APTweaks(Core)/]: Found dimension minecraft:the_nether
+[168月2022 19:09:15.566] [Server thread/INFO] [APTweaks(Core)/]: Found dimension twilightforest:twilight_forest
+[168月2022 19:09:15.566] [Server thread/INFO] [APTweaks(Core)/]: Found dimension lostcities:lostcity
+[168月2022 19:09:15.566] [Server thread/INFO] [APTweaks(Core)/]: Found dimension minecraft:the_end
+[168月2022 19:09:15.569] [Server thread/INFO] [structurize/]: Trying jar discover: assets/structurize
+[168月2022 19:09:15.572] [Server thread/INFO] [structurize/]: Trying jar discover: assets/minecolonies
+[168月2022 19:09:16.832] [Server thread/INFO] [structurize/]: Load additional huts or decorations from ./structurize/schematics
+[168月2022 19:09:16.832] [Server thread/INFO] [structurize/]: Load cached schematic from ./structurize/cache
+[168月2022 19:09:16.834] [Server thread/INFO] [structurize/]: Load cached schematic from ./structurize/cache
+[168月2022 19:09:16.903] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 18
+[168月2022 19:09:16.903] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 21 26
+[168月2022 19:09:16.903] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
+[168月2022 19:09:16.910] [Server thread/INFO] [minecolonies/]: Finished discovering food 45 60
+[168月2022 19:09:16.914] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 325
+[168月2022 19:09:16.915] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 160
+[168月2022 19:09:16.915] [Server thread/INFO] [minecolonies/]: Finished discovering lucky oreBlocks 175
+[168月2022 19:09:16.915] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[168月2022 19:09:16.916] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
+[168月2022 19:09:17.971] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from NORMAL (avg. 50.0) to VERY_LOW (avg. 14.070184707641602)
+[168月2022 19:09:18.972] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:overworld changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 7.5759601100000005)
+[168月2022 19:09:18.972] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:the_nether changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.0536397)
+[168月2022 19:09:18.972] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for twilightforest:twilight_forest changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.03060862)
+[168月2022 19:09:18.972] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for lostcities:lostcity changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.02815312)
+[168月2022 19:09:18.972] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:the_end changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.04254716)
+[168月2022 19:13:08.824] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@11a4f8e2
+[168月2022 19:13:08.846] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/127.0.0.1:47680] logged in with entity id 145 at (-123.18677831042133, 71.5625, -792.360405848049)
+[168月2022 19:13:08.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 19:13:09.050] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/145, l='ServerLevel[CraftingDead]', x=-123.19, y=71.56, z=-792.36] logged in and will be protected for 90 secs.
+[168月2022 19:13:09.051] [Server thread/INFO] [structurize/]: New Server UUID 1fafbef5-b042-45f7-a2f5-ee4524d58102
+[168月2022 19:13:16.771] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 7 secs.
+[168月2022 19:13:16.771] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 19:13:16.930] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 7ms increasing chunk view distance to: 5
+[168月2022 19:13:46.928] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 5ms increasing simulation distance to: 4
+[168月2022 19:13:49.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 19:13:52.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 19:13:54.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Removed 723 items from player DRD]
+[168月2022 19:21:59.286] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 3240 blocks]
+[168月2022 19:23:42.126] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 51 blocks]
+[168月2022 19:26:07.467] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 180 blocks]
+[168月2022 19:29:27.428] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 225 blocks]
+[168月2022 19:29:38.437] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 450 blocks]
+[168月2022 19:33:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 19:46:45.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 516 blocks]
+[168月2022 19:51:38.126] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 19:51:38.127] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 19:53:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 20:12:09.236] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2676b580
+[168月2022 20:12:09.257] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/127.0.0.1:47686] logged in with entity id 146748 at (-132.22170887515267, 63.0, -745.4588432791168)
+[168月2022 20:12:09.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 20:12:09.293] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/146748, l='ServerLevel[CraftingDead]', x=-132.22, y=63.00, z=-745.46] logged in and will be protected for 90 secs.
+[168月2022 20:12:17.121] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 7 secs.
+[168月2022 20:12:17.121] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 20:12:39.038] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 20:14:09.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 20:29:11.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 3315 blocks]
+[168月2022 20:29:41.770] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 4400 blocks]
+[168月2022 20:33:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 20:38:49.034] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 111 blocks]
+[168月2022 20:43:38.026] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 20:43:38.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 20:44:08.337] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7254c58e
+[168月2022 20:44:08.351] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49270] logged in with entity id 233563 at (-126.58482080871266, 63.0, -730.3582904481148)
+[168月2022 20:44:08.360] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 20:44:08.379] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/233563, l='ServerLevel[CraftingDead]', x=-126.58, y=63.00, z=-730.36] logged in and will be protected for 90 secs.
+[168月2022 20:44:13.871] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 5 secs.
+[168月2022 20:44:13.871] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 20:44:14.478] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 20:44:14.478] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 20:44:34.534] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1e5049c2
+[168月2022 20:44:34.545] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49274] logged in with entity id 234021 at (-124.87273098336978, 63.0, -727.6037082171035)
+[168月2022 20:44:34.555] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 20:44:34.575] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/234021, l='ServerLevel[CraftingDead]', x=-124.87, y=63.00, z=-727.60] logged in and will be protected for 90 secs.
+[168月2022 20:46:06.621] [Server thread/WARN] [APTweaks(Player)/]: User validation for DRD timed out after 90 secs.
+[168月2022 20:46:06.621] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 20:46:48.461] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 20:47:12.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Teleported DRD to -186.604922, 300.000000, -772.248863]
+[168月2022 20:53:47.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 21:00:26.011] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:00:26.012] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.012] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.012] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:00:26.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:00:26.014] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.014] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.014] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.015] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.015] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:00:26.015] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.015] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:00:26.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:00:26.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:00:26.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:00:26.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:00:26.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:00:26.018] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.610] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Chicken: Killed Chicken]
+[168月2022 21:06:46.611] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Pig: Killed Pig]
+[168月2022 21:06:46.611] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Wolf: Killed Wolf]
+[168月2022 21:06:46.611] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Pig: Killed Pig]
+[168月2022 21:06:46.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Chicken: Killed Chicken]
+[168月2022 21:06:46.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Wolf: Killed Wolf]
+[168月2022 21:06:46.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cow: Killed Cow]
+[168月2022 21:06:46.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sheep: Killed Sheep]
+[168月2022 21:06:46.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Pig: Killed Pig]
+[168月2022 21:06:46.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Wolf: Killed Wolf]
+[168月2022 21:06:46.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Squid: Killed Squid]
+[168月2022 21:06:46.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Squid: Killed Squid]
+[168月2022 21:06:46.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Dolphin: Killed Dolphin]
+[168月2022 21:06:46.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Squid: Killed Squid]
+[168月2022 21:06:46.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Squid: Killed Squid]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Wolf: Killed Wolf]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.618] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD fell out of the world
+[168月2022 21:06:46.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Killed DRD]
+[168月2022 21:06:46.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Super Glue: Killed Super Glue]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Combat BDU Helmet: Killed Combat BDU Helmet]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Military Grade Hazmat Clothing: Killed Military Grade Hazmat Clothing]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Stick: Killed Stick]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Spetsnaz Clothing: Killed Spetsnaz Clothing]
+[168月2022 21:06:46.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Military Grade Hazmat Clothing: Killed Military Grade Hazmat Clothing]
+[168月2022 21:06:46.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Red Dusk Clothing: Killed Red Dusk Clothing]
+[168月2022 21:06:46.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Doctor Clothing: Killed Doctor Clothing]
+[168月2022 21:06:46.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Deadpool Clothing: Killed Deadpool Clothing]
+[168月2022 21:06:46.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Arrow: Killed Arrow]
+[168月2022 21:06:46.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bone: Killed Bone]
+[168月2022 21:06:46.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Rotten Flesh: Killed Rotten Flesh]
+[168月2022 21:06:46.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Rotten Flesh: Killed Rotten Flesh]
+[168月2022 21:06:46.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Pufferfish: Killed Pufferfish]
+[168月2022 21:06:46.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tropical Fish: Killed Tropical Fish]
+[168月2022 21:06:46.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cod: Killed Cod]
+[168月2022 21:06:46.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Arrow: Killed Arrow]
+[168月2022 21:06:46.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tank Zombie: Killed Tank Zombie]
+[168月2022 21:06:46.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Pufferfish: Killed Pufferfish]
+[168月2022 21:06:46.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tropical Fish: Killed Tropical Fish]
+[168月2022 21:06:46.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tropical Fish: Killed Tropical Fish]
+[168月2022 21:06:46.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tropical Fish: Killed Tropical Fish]
+[168月2022 21:06:46.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Pufferfish: Killed Pufferfish]
+[168月2022 21:06:46.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Pufferfish: Killed Pufferfish]
+[168月2022 21:06:46.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tank Zombie: Killed Tank Zombie]
+[168月2022 21:06:46.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bone: Killed Bone]
+[168月2022 21:06:46.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Arrow: Killed Arrow]
+[168月2022 21:06:46.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bone: Killed Bone]
+[168月2022 21:06:46.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bone: Killed Bone]
+[168月2022 21:06:46.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Rotten Flesh: Killed Rotten Flesh]
+[168月2022 21:06:46.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Arrow: Killed Arrow]
+[168月2022 21:06:46.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bone: Killed Bone]
+[168月2022 21:06:46.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cod: Killed Cod]
+[168月2022 21:06:46.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Egg: Killed Egg]
+[168月2022 21:06:46.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Arrow: Killed Arrow]
+[168月2022 21:06:46.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tank Zombie: Killed Tank Zombie]
+[168月2022 21:06:46.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tank Zombie: Killed Tank Zombie]
+[168月2022 21:06:46.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tank Zombie: Killed Tank Zombie]
+[168月2022 21:06:46.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Arrow: Killed Arrow]
+[168月2022 21:06:46.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Weak Zombie: Killed Weak Zombie]
+[168月2022 21:06:46.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Rotten Flesh: Killed Rotten Flesh]
+[168月2022 21:06:46.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cod: Killed Cod]
+[168月2022 21:06:46.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tropical Fish: Killed Tropical Fish]
+[168月2022 21:06:46.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tank Zombie: Killed Tank Zombie]
+[168月2022 21:06:46.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cod: Killed Cod]
+[168月2022 21:06:46.640] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cod: Killed Cod]
+[168月2022 21:06:46.640] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cod: Killed Cod]
+[168月2022 21:06:46.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cod: Killed Cod]
+[168月2022 21:06:46.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cod: Killed Cod]
+[168月2022 21:06:46.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tank Zombie: Killed Tank Zombie]
+[168月2022 21:06:46.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Bat: Killed Bat]
+[168月2022 21:06:46.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tank Zombie: Killed Tank Zombie]
+[168月2022 21:06:46.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Gunpowder: Killed Gunpowder]
+[168月2022 21:06:46.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tropical Fish: Killed Tropical Fish]
+[168月2022 21:06:46.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tropical Fish: Killed Tropical Fish]
+[168月2022 21:06:46.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Fast Zombie: Killed Fast Zombie]
+[168月2022 21:06:46.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [String: Killed String]
+[168月2022 21:06:46.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tropical Fish: Killed Tropical Fish]
+[168月2022 21:06:46.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Advanced Zombie: Killed Advanced Zombie]
+[168月2022 21:06:46.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Arrow: Killed Arrow]
+[168月2022 21:08:31.725] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Teleported DRD to -202.286449, 300.000000, -754.584593]
+[168月2022 21:08:31.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,216.09806290536005,0.0
+[168月2022 21:08:31.744] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,216.09806290536005,0.0
+[168月2022 21:08:31.761] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,216.09806290536005,0.0
+[168月2022 21:09:48.670] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Killed 57 entities]
+[168月2022 21:09:53.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Killed 51 entities]
+[168月2022 21:09:58.049] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Killed 50 entities]
+[168月2022 21:10:07.005] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Killed 51 entities]
+[168月2022 21:10:37.548] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Teleported DRD to -201.625867, 300.000000, -737.310370]
+[168月2022 21:10:37.559] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,93.01845455926895,0.0
+[168月2022 21:12:40.676] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Removed tag 'player' from DRD]
+[168月2022 21:12:51.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD fell out of the world
+[168月2022 21:12:53.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD fell out of the world
+[168月2022 21:13:10.472] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Added tag 'zombie' to DRD
+[168月2022 21:13:24.176] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Teleported DRD to -199.632881, 300.000000, -758.637844]
+[168月2022 21:13:24.193] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,214.2975083447476,0.0
+[168月2022 21:13:24.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,214.2975083447476,0.0
+[168月2022 21:13:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 21:13:52.989] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Removed tag 'player' from DRD]
+[168月2022 21:13:54.721] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD fell out of the world
+[168月2022 21:13:57.677] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD fell out of the world
+[168月2022 21:14:05.522] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Added tag 'player' to DRD
+[168月2022 21:14:15.358] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Teleported DRD to -184.880495, 300.000000, -764.946238]
+[168月2022 21:14:15.366] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD moved too quickly! 0.0,218.8013293233271,0.0
+[168月2022 21:16:14.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Removed tag 'player' from DRD]
+[168月2022 21:16:23.510] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Removed tag 'zombie' from DRD]
+[168月2022 21:18:14.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Removed tag 'zombie' from DRD]
+[168月2022 21:19:12.194] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/255142, l='ServerLevel[CraftingDead]', x=-199.50, y=301.00, z=-769.50] died, message: 'Villager fell out of the world'
+[168月2022 21:19:13.722] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/255143, l='ServerLevel[CraftingDead]', x=-199.50, y=301.00, z=-769.50] died, message: 'Villager fell out of the world'
+[168月2022 21:31:51.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD has made the advancement [Shadow Sense]
+[168月2022 21:33:47.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 21:44:55.077] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD has made the advancement [Hot Stuff]
+[168月2022 21:53:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 22:13:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 22:15:50.237] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully filled 1165 blocks]
+[168月2022 22:33:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 22:39:08.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Successfully cloned 175 blocks]
+[168月2022 22:46:01.825] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 22:46:01.825] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 22:47:09.178] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7b226754
+[168月2022 22:47:09.185] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49278] logged in with entity id 378391 at (-132.5675169979373, 63.0, -742.2671234904456)
+[168月2022 22:47:09.193] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 22:47:09.220] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/378391, l='ServerLevel[CraftingDead]', x=-132.57, y=63.00, z=-742.27] logged in and will be protected for 90 secs.
+[168月2022 22:47:15.921] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 6 secs.
+[168月2022 22:47:15.921] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 22:47:22.424] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 22:47:22.424] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 22:48:22.330] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7ba488df
+[168月2022 22:48:22.335] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49282] logged in with entity id 378687 at (-128.4072154959677, 63.0, -738.9563820426141)
+[168月2022 22:48:22.340] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 22:48:22.375] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/378687, l='ServerLevel[CraftingDead]', x=-128.41, y=63.00, z=-738.96] logged in and will be protected for 90 secs.
+[168月2022 22:48:33.606] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 22:48:35.871] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 13 secs.
+[168月2022 22:48:35.871] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 22:49:07.874] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 22:49:07.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 22:50:06.229] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5f97fae1
+[168月2022 22:50:06.236] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49288] logged in with entity id 379750 at (-129.2520442049731, 63.0, -742.4105611517526)
+[168月2022 22:50:06.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 22:50:06.270] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/379750, l='ServerLevel[CraftingDead]', x=-129.25, y=63.00, z=-742.41] logged in and will be protected for 90 secs.
+[168月2022 22:50:12.221] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 5 secs.
+[168月2022 22:50:12.221] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 22:50:17.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 22:50:33.874] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 22:50:33.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 22:51:39.226] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@9b47ef2
+[168月2022 22:51:39.230] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49292] logged in with entity id 380397 at (-130.2469645678379, 63.0, -741.1309093400006)
+[168月2022 22:51:39.235] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 22:51:39.269] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/380397, l='ServerLevel[CraftingDead]', x=-130.25, y=63.00, z=-741.13] logged in and will be protected for 90 secs.
+[168月2022 22:51:46.521] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 7 secs.
+[168月2022 22:51:46.521] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 22:51:48.037] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 22:52:47.124] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 22:52:47.124] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 22:53:45.078] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1f0907dd
+[168月2022 22:53:45.085] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49296] logged in with entity id 381473 at (-131.25011654794264, 63.0, -741.1983319796273)
+[168月2022 22:53:45.092] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 22:53:45.114] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/381473, l='ServerLevel[CraftingDead]', x=-131.25, y=63.00, z=-741.20] logged in and will be protected for 90 secs.
+[168月2022 22:53:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 22:53:51.571] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 6 secs.
+[168月2022 22:53:51.571] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 22:53:51.682] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 22:56:46.725] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 22:56:46.725] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 22:58:03.830] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5aff4abe
+[168月2022 22:58:03.836] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49300] logged in with entity id 384701 at (-131.2626326982566, 63.0, -742.9610618896029)
+[168月2022 22:58:03.843] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 22:58:03.872] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/384701, l='ServerLevel[CraftingDead]', x=-131.26, y=63.00, z=-742.96] logged in and will be protected for 90 secs.
+[168月2022 22:58:09.871] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 5 secs.
+[168月2022 22:58:09.871] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 22:58:14.462] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 22:59:56.824] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 22:59:56.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 23:01:16.730] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@32360212
+[168月2022 23:01:16.736] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49304] logged in with entity id 386169 at (-124.23841116723237, 70.63425930967615, -741.8371157459359)
+[168月2022 23:01:16.743] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 23:01:16.772] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/386169, l='ServerLevel[CraftingDead]', x=-124.24, y=70.63, z=-741.84] logged in and will be protected for 90 secs.
+[168月2022 23:01:22.571] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 5 secs.
+[168月2022 23:01:22.571] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 23:01:24.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 23:13:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 23:26:16.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Removed 9 items from player DRD]
+[168月2022 23:26:18.176] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 23:26:18.176] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 23:26:25.628] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@30bba76b
+[168月2022 23:26:25.631] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DRD[/[0:0:0:0:0:0:0:1%0]:49308] logged in with entity id 402761 at (-135.6004250163014, 64.0, -743.4350946699075)
+[168月2022 23:26:25.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD joined the game
+[168月2022 23:26:25.655] [Server thread/INFO] [APTweaks(Player)/]: Player DRD ServerPlayer['DRD'/402761, l='ServerLevel[CraftingDead]', x=-135.60, y=64.00, z=-743.44] logged in and will be protected for 90 secs.
+[168月2022 23:26:31.371] [Server thread/INFO] [APTweaks(Player)/]: Protected Player DRD was successful validated after 5 secs.
+[168月2022 23:26:31.371] [Server thread/INFO] [APTweaks(Player)/]: Removing player protection from player DRD!
+[168月2022 23:27:16.143] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DRD: Set own game mode to Creative Mode]
+[168月2022 23:33:47.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@] Bullets have arrived !
+[168月2022 23:36:53.974] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DRD lost connection: Disconnected
+[168月2022 23:36:53.974] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DRD left the game
+[168月2022 23:37:01.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[168月2022 23:37:01.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[168月2022 23:37:01.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[168月2022 23:37:02.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/minecraft:overworld
+[168月2022 23:37:02.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/minecraft:the_nether
+[168月2022 23:37:02.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/twilightforest:twilight_forest
+[168月2022 23:37:02.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/lostcities:lostcity
+[168月2022 23:37:02.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CraftingDead]'/minecraft:the_end
+[168月2022 23:37:02.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (CraftingDead): All chunks are saved
+[168月2022 23:37:02.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[168月2022 23:37:02.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[168月2022 23:37:02.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[168月2022 23:37:02.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[168月2022 23:37:02.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
