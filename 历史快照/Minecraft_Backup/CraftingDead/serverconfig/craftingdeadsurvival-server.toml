@@ -112,7 +112,7 @@
 		#Range: 0.0 ~ 5.0
 		zombieAttackKnockback = 0.0
 		#If disabled, all zombies will not drop any loot
-		zombieDeathLootEnabled = true
+		zombieDeathLootEnabled = false
 
 #Allows toggling some gameplay aspects
 [abilities]
