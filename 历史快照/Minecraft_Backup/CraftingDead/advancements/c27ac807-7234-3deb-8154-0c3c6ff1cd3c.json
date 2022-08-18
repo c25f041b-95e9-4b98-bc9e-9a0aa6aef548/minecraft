@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2022-08-18 19:59:54 +0800"
+    },
+    "done": true
+  },
   "create:wrench_goggles": {
     "criteria": {
       "0": "2022-08-14 13:41:54 +0800",
@@ -783,6 +789,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2022-07-14 13:38:47 +0800",
+      "minecraft:zombified_piglin": "2022-08-18 20:07:38 +0800",
       "minecraft:witch": "2022-08-18 11:33:49 +0800",
       "minecraft:zombie": "2022-08-14 22:09:30 +0800",
       "minecraft:drowned": "2022-08-17 16:42:23 +0800",
@@ -859,6 +866,12 @@
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2022-08-17 21:52:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2022-08-18 21:00:58 +0800"
     },
     "done": true
   },
@@ -1150,6 +1163,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2022-08-18 16:27:36 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2022-07-14 15:02:29 +0800"
@@ -1159,6 +1178,12 @@
   "create:recipes/create.palettes/cut_asurine_bricks_from_asurine_stonecutting": {
     "criteria": {
       "has_asurine": "2022-07-14 13:23:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2022-08-18 16:27:35 +0800"
     },
     "done": true
   },
@@ -1645,6 +1670,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2022-08-18 20:13:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_brick_wall": {
     "criteria": {
       "has_deepslate_bricks": "2022-08-16 20:26:04 +0800"
@@ -1663,9 +1694,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2022-08-18 21:00:13 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-08-14 11:28:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2022-08-18 19:59:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2022-08-18 21:00:29 +0800"
     },
     "done": true
   },
@@ -1960,6 +2009,12 @@
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2022-08-18 10:51:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2022-08-18 19:59:54 +0800"
     },
     "done": true
   },
@@ -2261,6 +2316,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2022-08-18 11:29:25 +0800"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/minecolonies/blockhutcowboy": {
+    "criteria": {
+      "has_items": "2022-08-18 16:45:53 +0800"
     },
     "done": true
   },
@@ -3236,6 +3297,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2022-08-18 19:59:54 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2022-08-17 16:50:42 +0800"
@@ -3377,6 +3444,12 @@
   "create:recipes/create.base/crafting/appliances/crafting_blueprint": {
     "criteria": {
       "has_item": "2022-08-14 21:53:23 +0800"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/minecolonies/blockhutflorist": {
+    "criteria": {
+      "has_items": "2022-08-18 16:27:36 +0800"
     },
     "done": true
   },
