@@ -7,7 +7,7 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: 服务器已关机，一般来讲是因为此时服主在备份数据……
+  shutdown-message: Server closed
   minimum-api: none
 spawn-limits:
   monsters: 70
@@ -18,7 +18,7 @@ spawn-limits:
   axolotls: 5
   ambient: 15
 chunk-gc:
-  period-in-ticks: 200
+  period-in-ticks: 600
 ticks-per:
   animal-spawns: 400
   monster-spawns: 1
@@ -27,5 +27,5 @@ ticks-per:
   water-underground-creature-spawns: 1
   axolotl-spawns: 1
   ambient-spawns: 1
-  autosave: 3000
+  autosave: 6000
 aliases: now-in-commands.yml
