@@ -1,17 +1,5 @@
 [
   {
-    "uuid": "69ed61c8-1778-4574-9a86-8e1f81bf1a69",
-    "name": "Linzeux",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "ab78a5a6-dec9-4cc7-a079-1d1ffdf11de8",
-    "name": "DrD",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "c27ac807-7234-3deb-8154-0c3c6ff1cd3c",
     "name": "DRD",
     "level": 4,

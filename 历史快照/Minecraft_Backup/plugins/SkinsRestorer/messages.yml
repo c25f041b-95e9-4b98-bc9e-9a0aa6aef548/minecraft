@@ -67,3 +67,7 @@ CUSTOM_HELP_IF_ENABLED: |2-
       &2/skin update &7-&f Updates your skin.
       &2/skin clear &7-&f Clears your skin.
 HELP_HELP_COMMAND: ' [help]'
+HELP_SKIN_SEARCH: Search up a skin that you want
+SYNTAX_SKINSEARCH: ' <search>'
+COMMAND_SERVER_NOT_ALLOWED_MESSAGE: '&4Error&8: &cCommands have been disabled for the server %server%.'
+SKIN_SEARCH_MESSAGE: "&2You can find skins matching \"&a%SearchString%&2\" here: \n&ahttps://namemc.com/minecraft-skins/tag/%SearchString% \n\n&2If no skins are found, you can always find some skins at https://namemc.com/minecraft-skins/tag \nYou can set the skin using the skin link:\n /skin https://namemc.com/skin/"
