@@ -12,16 +12,13 @@
 
 settings:
   debug: false
-  sample-count: 12
-  bungeecord: false
-  player-shuffle: 0
-  user-cache-size: 1000
   save-user-cache-on-stop-only: false
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
+  bungeecord: false
+  sample-count: 12
+  player-shuffle: 0
+  user-cache-size: 1000
   netty-threads: 4
   attribute:
     maxHealth:
@@ -32,35 +29,33 @@ settings:
       max: 2048.0
   log-villager-deaths: true
   log-named-deaths: true
-messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
-advancements:
-  disable-saving: false
-  disabled:
-  - minecraft:story/disabled
-players:
-  disable-saving: false
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
 commands:
+  log: true
+  tab-complete: 0
+  send-namespaced: true
+  silent-commandblock-console: false
   spam-exclusions:
   - /skill
-  silent-commandblock-console: false
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-  log: true
-  tab-complete: 0
-  send-namespaced: true
+players:
+  disable-saving: false
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
-    verbose: false
+    mob-spawn-range: 8
+    nerf-spawner-mobs: false
+    zombie-aggressive-towards-villager: true
+    arrow-despawn-rate: 1200
+    trident-despawn-rate: 1200
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
     merge-radius:
       exp: 3.0
       item: 2.5
@@ -117,11 +112,12 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
+    dragon-death-sound-radius: 0
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
-    dragon-death-sound-radius: 0
+    hopper-can-load-chunks: false
     seed-village: 10387312
     seed-desert: 14357617
     seed-igloo: 14357618
@@ -137,6 +133,9 @@ world-settings:
     seed-mansion: 10387319
     seed-fossil: 14357921
     seed-portal: 34222645
+    seed-ancientcity: 20083232
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
     seed-stronghold: default
     hunger:
       jump-walk-exhaustion: 0.05
@@ -150,19 +149,24 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    end-portal-sound-radius: 0
     item-despawn-rate: 6000
     view-distance: default
     simulation-distance: default
     thunder-chance: 100000
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
-    arrow-despawn-rate: 1200
-    trident-despawn-rate: 1200
-    hanging-tick-frequency: 100
-    zombie-aggressive-towards-villager: true
-    nerf-spawner-mobs: false
-    mob-spawn-range: 8
-    end-portal-sound-radius: 0
+    verbose: false
+messages:
+  restart: Server is restarting
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
 config-version: 12
 stats:
   disable-saving: false
