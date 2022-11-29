@@ -1,192 +1,316 @@
-[22:32:47] [ServerMain/INFO]: Building unoptimized datafixer
-[22:32:50] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:32:56] [ServerMain/INFO]: Loaded 7 recipes
-[22:33:02] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[22:33:02] [Server thread/INFO]: Loading properties
-[22:33:02] [Server thread/INFO]: This server is running Paper version git-Paper-296 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: f1583fc)
-[22:33:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:33:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:33:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[22:33:04] [Server thread/INFO]: Default game type: SPECTATOR
-[22:33:04] [Server thread/INFO]: Generating keypair
-[22:33:04] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20031
-[22:33:04] [Server thread/INFO]: Using epoll channel type
-[22:33:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:33:04] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[22:33:06] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[22:33:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:33:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:33:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:33:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:33:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:33:06] [Server thread/INFO]: Preparing level "中世纪"
-[22:33:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[22:33:09] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
-[22:33:10] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[22:33:10] [Server thread/INFO]: Starting GS4 status listener
-[22:33:11] [Server thread/INFO]: Thread Query Listener started
-[22:33:11] [Query Listener #1/INFO]: Query running on 0.0.0.0:20031
-[22:33:11] [Server thread/INFO]: Running delayed init tasks
-[22:33:11] [Server thread/INFO]: Done (9.199s)! For help, type "help"
-[22:33:11] [Server thread/INFO]: Timings Reset
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[22:33:13] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[22:33:15] [User Authenticator #0/INFO]: UUID of player White_cat is 480d15f4-5f53-32ff-9986-8789d4489a7c
-[22:33:20] [Server thread/INFO]: White_cat joined the game
-[22:33:20] [Server thread/INFO]: White_cat[/183.200.78.0:26439] logged in with entity id 1 at ([中世纪]-351.3017578125, 69.8500000178814, -70.8857421875)
-[22:33:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5056ms or 101 ticks behind
-[22:33:37] [User Authenticator #0/INFO]: UUID of player __B1ank___ is 717b9ef3-fa87-32a9-8fa7-5ec32ebad6b4
-[22:33:37] [Server thread/INFO]: __B1ank___ joined the game
-[22:33:37] [Server thread/INFO]: __B1ank___[/106.91.69.183:4963] logged in with entity id 425 at ([中世纪]-351.3231643096594, 69.0, -60.90356737820528)
-[22:33:42] [User Authenticator #0/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
-[22:33:44] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
-[22:33:44] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.102.204:16167] logged in with entity id 428 at ([中世纪]1000003.3711594918, 101.42117219457486, 1000016.0008744015)
-[22:34:18] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> open
-[22:34:21] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> doo
-[22:34:22] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> r
-[22:34:30] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> i
-[22:34:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33648ms or 672 ticks behind
-[22:34:33] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> want
-[22:34:37] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> fuck
-[22:34:39] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> you
-[22:35:00] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:35:05] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:35:07] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:35:08] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:35:10] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:35:15] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:35:17] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:35:20] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:35:25] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:35:27] [Server thread/WARN]: __B1ank___ moved wrongly!
-[22:35:36] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> QJQ
-[22:36:07] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> pjq
-[22:36:20] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:36:24] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:36:27] [Server thread/INFO]: White_cat issued server command: /aaa
-[22:36:28] [Server thread/INFO]: White_cat issued server command: /aaa
-[22:36:38] [Server thread/INFO]: White_cat issued server command: /
-[22:36:39] [Server thread/INFO]: White_cat issued server command: /
-[22:36:43] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:36:43] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:36:44] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:36:44] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:36:50] [Async Chat Thread - #0/INFO]: [Not Secure] <White_cat> door
-[22:37:47] [Server thread/INFO]: BunnyBunnyBunny6 has made the advancement [Ol' Betsy]
-[22:38:00] [Server thread/WARN]: Horse (vehicle of White_cat) moved wrongly! 0.26651536606531323
-[22:38:00] [Server thread/WARN]: Horse (vehicle of White_cat) moved wrongly! 0.6828371319039306
-[22:38:19] [Server thread/WARN]: Horse (vehicle of White_cat) moved wrongly! 0.3212718082774586
-[22:38:47] [Async Chat Thread - #2/INFO]: [Not Secure] <White_cat> door
-[22:38:48] [Async Chat Thread - #2/INFO]: [Not Secure] <White_cat> door
-[22:39:24] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:26] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:26] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:26] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:26] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:40] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:40] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:40] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:41] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:41] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:45] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:49] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:52] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:52] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:52] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:39:52] [Async Chat Thread - #3/INFO]: [Not Secure] <White_cat> door
-[22:47:18] [Server thread/WARN]: Horse (vehicle of White_cat) moved wrongly! 0.3718989775964303
-[22:47:18] [Server thread/WARN]: Horse (vehicle of White_cat) moved wrongly! 0.5
-[22:47:25] [Server thread/WARN]: Horse (vehicle of White_cat) moved wrongly! 0.2944529446075421
-[22:47:25] [Server thread/WARN]: Horse (vehicle of White_cat) moved wrongly! 0.8466354318406388
-[22:47:26] [Server thread/WARN]: Horse (vehicle of White_cat) moved wrongly! 0.3390999914273607
-[22:47:26] [Server thread/WARN]: Horse (vehicle of White_cat) moved wrongly! 0.5
-[22:47:53] [Server thread/INFO]: White_cat was slain by __B1ank___
-[22:49:40] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /kill
-[22:49:40] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
-[22:49:42] [Async Chat Thread - #4/INFO]: [Not Secure] <White_cat> door
-[22:49:45] [Async Chat Thread - #4/INFO]: [Not Secure] <White_cat> 6
-[22:49:49] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp 1000002 100 1000002
-[22:50:11] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard objectives remove deadCount
-[22:50:16] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /kill
-[22:50:16] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
-[22:50:19] [Async Chat Thread - #4/INFO]: [Not Secure] <White_cat> 6
-[22:50:25] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp 1000002 100 1000002
-[22:51:07] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /kill
-[22:51:07] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
-[22:51:11] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp 1000002 100 1000002
-[22:53:01] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival
-[22:53:07] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
-[22:54:26] [Server thread/INFO]: White_cat fell from a high place
-[22:54:28] [Async Chat Thread - #6/INFO]: [Not Secure] <White_cat> 6
-[22:56:41] [Server thread/INFO]: White_cat lost connection: Disconnected
-[22:56:41] [Server thread/INFO]: White_cat left the game
-[22:57:36] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /kill
-[22:57:36] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
-[23:05:44] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival
-[23:05:46] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /deop BunnyBunnyBunny6
-[23:12:34] [Server thread/WARN]: __B1ank___ moved wrongly!
-[23:17:50] [Server thread/INFO]: Made BunnyBunnyBunny6 a server operator
-[23:18:03] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp 1000002 100 1000002
-[23:18:08] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
-[23:18:16] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp __B1ank___
-[23:18:26] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give BunnyBunnyBunny6 minecraft:command_block
-[23:19:03] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /kill
-[23:19:03] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
-[23:19:30] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp -219 71.00 -213
-[23:19:39] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp __B1ank___
-[23:20:23] [Async Chat Thread - #8/INFO]: [Not Secure] <BunnyBunnyBunny6> tp -352 67 -75
-[23:20:26] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp -352 67 -75
-[23:20:35] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp -352 68 -75
-[23:20:45] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /kill
-[23:20:45] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
-[23:21:09] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
-[23:21:19] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
-[23:21:56] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
-[23:22:15] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
-[23:22:24] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 remove Admin
-[23:22:28] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /deop BunnyBunnyBunny6
-[23:24:34] [Server thread/INFO]: __B1ank___ lost connection: Disconnected
-[23:24:34] [Server thread/INFO]: __B1ank___ left the game
-[23:25:06] [Server thread/INFO]: Made BunnyBunnyBunny6 a server operator
-[23:25:15] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add Admin
-[23:25:18] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
-[23:26:13] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 remove Admin
-[23:26:16] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /deop BunnyBunnyBunny6
-[23:39:12] [Server thread/INFO]: Named entity EntityCow['牛牛'/369, uuid='67c0e8ad-e1bd-4a44-8648-c55c0b9c8a74', l='ServerLevel[中世纪]', x=-215.58, y=70.00, z=-199.46, cpos=[-14, -13], tl=542832, v=true] died: 牛牛 was slain by BunnyBunnyBunny6
-[23:40:35] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
-[23:40:35] [Server thread/INFO]: BunnyBunnyBunny6 left the game
-[23:40:43] [Server thread/INFO]: Stopping the server
-[23:40:43] [Server thread/INFO]: Stopping server
-[23:40:43] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
-[23:40:43] [Server thread/INFO]: Saving players
-[23:40:43] [Server thread/INFO]: Saving worlds
-[23:40:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[中世纪]'/minecraft:overworld
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '中世纪'
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '中世纪'
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '中世纪'
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Saved 14 block chunks, 131 entity chunks, 0 poi chunks in world '中世纪' in 0.16s
-[23:40:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (中世纪): All chunks are saved
-[23:40:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[中世纪_nether]'/minecraft:the_nether
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '中世纪_nether'
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '中世纪_nether'
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '中世纪_nether'
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world '中世纪_nether' in 0.00s
-[23:40:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:40:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[中世纪_the_end]'/minecraft:the_end
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '中世纪_the_end'
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '中世纪_the_end'
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '中世纪_the_end'
-[23:40:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world '中世纪_the_end' in 0.00s
-[23:40:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:40:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:40:43] [Server thread/INFO]: Flushing Chunk IO
-[23:40:43] [Server thread/INFO]: Closing Thread Pool
-[23:40:43] [Server thread/INFO]: Closing Server
+[00:13:04] [Server thread/INFO]: Ceobe_Official tried to swim in lava
+[01:11:49] [Async Chat Thread - #188/INFO]: [Not Secure] <Ceobe_Official> w
+[01:57:24] [Server thread/INFO]: Ceobe_Official lost connection: Disconnected
+[01:57:24] [Server thread/INFO]: Ceobe_Official left the game
+[10:30:29] [User Authenticator #18/INFO]: UUID of player __B1ank___ is 717b9ef3-fa87-32a9-8fa7-5ec32ebad6b4
+[10:30:29] [Server thread/INFO]: __B1ank___ joined the game
+[10:30:29] [Server thread/INFO]: __B1ank___[/106.91.69.183:3134] logged in with entity id 332570 at ([中世纪]-292.44646150714743, 73.0, -116.75956649103482)
+[10:44:34] [User Authenticator #19/INFO]: UUID of player Ceobe_Official is 9757b52e-c04a-3dd7-9d94-b093b4f7d873
+[10:44:34] [Server thread/INFO]: Ceobe_Official joined the game
+[10:44:34] [Server thread/INFO]: Ceobe_Official[/123.174.46.73:16373] logged in with entity id 338660 at ([中世纪]-138.71488391008043, 66.375, -57.584122166185324)
+[10:54:56] [Server thread/WARN]: Horse (vehicle of Ceobe_Official) moved wrongly! 0.28801704488229357
+[11:17:14] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 0.5172619623564003
+[11:17:17] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 0.5530297465351168
+[11:17:17] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 1.1507830461447952
+[11:17:18] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 0.4450037715894837
+[11:17:18] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 1.0519091456245633
+[11:18:35] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 0.4883467015145584
+[11:18:43] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 0.28872120059092765
+[11:18:43] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 0.7195130668264369
+[11:19:24] [User Authenticator #20/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
+[11:19:24] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
+[11:19:24] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.102.204:15832] logged in with entity id 357613 at ([中世纪]-121.74224871136327, 76.0, -182.75733875327808)
+[11:19:49] [Server thread/INFO]: Ceobe_Official was shot by Skeleton
+[11:20:11] [Async Chat Thread - #190/INFO]: [Not Secure] <Ceobe_Official> 日内瓦我的金苹果刚嗑完
+[11:20:19] [Async Chat Thread - #190/INFO]: [Not Secure] <__B1ank___> can o
+[11:20:22] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag __B1ank___ add Admin
+[11:20:33] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag __B1ank___ add Admin
+[11:20:36] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[11:20:46] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add Admin
+[11:20:48] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[11:21:40] [Async Chat Thread - #192/INFO]: [Not Secure] <BunnyBunnyBunny6> 说话
+[11:21:49] [Async Chat Thread - #192/INFO]: [Not Secure] <__B1ank___> huan lv bao shi
+[11:21:52] [Async Chat Thread - #192/INFO]: [Not Secure] <__B1ank___> x9
+[11:21:59] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[11:21:59] [Async Chat Thread - #192/INFO]: [Not Secure] <__B1ank___> box
+[11:22:11] [Async Chat Thread - #192/INFO]: [Not Secure] <__B1ank___> tie ye yiqi
+[11:22:18] [Async Chat Thread - #192/INFO]: [Not Secure] <__B1ank___> suan yi ge lv bao shi
+[11:23:03] [Async Chat Thread - #192/INFO]: [Not Secure] <BunnyBunnyBunny6> 我去金库给你拿
+[11:23:15] [Async Chat Thread - #192/INFO]: [Not Secure] <__B1ank___> bu yong
+[11:23:18] [Async Chat Thread - #192/INFO]: [Not Secure] <__B1ank___> di shang you
+[11:23:28] [Async Chat Thread - #192/INFO]: [Not Secure] <BunnyBunnyBunny6> 那是我的
+[11:24:20] [Async Chat Thread - #192/INFO]: [Not Secure] <__B1ank___> where are my houes
+[11:24:25] [Async Chat Thread - #192/INFO]: [Not Secure] <__B1ank___> hourse
+[11:25:11] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 0.31830662832609846
+[11:25:35] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag __B1ank___ remove Admin
+[11:25:46] [Async Chat Thread - #194/INFO]: [Not Secure] <BunnyBunnyBunny6> wtf
+[11:25:53] [Server thread/INFO]: __B1ank___ fell out of the world
+[11:26:02] [Async Chat Thread - #194/INFO]: [Not Secure] <__B1ank___> danmang
+[11:26:37] [Async Chat Thread - #194/INFO]: [Not Secure] <BunnyBunnyBunny6> 闯入禁地了
+[11:27:17] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag @a remove Admin
+[11:30:27] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add Admin
+[11:30:29] [Server thread/WARN]: Horse (vehicle of __B1ank___) moved wrongly! 0.4598117259756407
+[11:30:30] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[11:35:05] [Server thread/INFO]: [Not Secure] [@] pass2
+[11:35:05] [Server thread/INFO]: [Not Secure] [@] pass1
+[11:35:07] [Server thread/INFO]: [Not Secure] [@] pass1
+[11:35:07] [Server thread/INFO]: [Not Secure] [@] pass2
+[11:35:10] [Server thread/INFO]: [Not Secure] [@] pass2
+[11:35:29] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp 1000002 100 1000002
+[11:39:21] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players set @a eCoin 114514
+[11:39:29] [Async Chat Thread - #198/INFO]: [Not Secure] <Ceobe_Official> ?
+[11:39:33] [Async Chat Thread - #198/INFO]: [Not Secure] <Ceobe_Official> 114514
+[11:39:42] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /kill
+[11:39:42] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
+[11:41:38] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset @a eCoin
+[11:43:08] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset @a eCoin
+[11:45:25] [Async Chat Thread - #201/INFO]: [Not Secure] <Ceobe_Official> 我测这房子里咋全是怪
+[11:45:39] [Async Chat Thread - #201/INFO]: [Not Secure] <__B1ank___> mei shi
+[11:45:42] [Async Chat Thread - #201/INFO]: [Not Secure] <__B1ank___> quan sha le
+[11:46:02] [Server thread/INFO]: Ceobe_Official was slain by Zombie
+[11:46:06] [Async Chat Thread - #201/INFO]: [Not Secure] <Ceobe_Official> .
+[11:46:07] [Async Chat Thread - #201/INFO]: [Not Secure] <__B1ank___> cao
+[11:46:29] [Async Chat Thread - #201/INFO]: [Not Secure] <Ceobe_Official> 他奶奶滴
+[11:48:47] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset @a eCoin
+[11:49:00] [Async Chat Thread - #203/INFO]: [Not Secure] <__B1ank___> shei you hei yaoshi
+[11:50:50] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag @a remove Admin
+[11:51:21] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tell __B1ank___ 来交易所
+[11:51:26] [Async Chat Thread - #205/INFO]: [Not Secure] <__B1ank___> tp
+[11:51:37] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp __B1ank___ BunnyBunnyBunny6
+[11:53:04] [Async Chat Thread - #207/INFO]: [Not Secure] <__B1ank___> 6
+[11:53:22] [Async Chat Thread - #207/INFO]: [Not Secure] <__B1ank___> bu yao si wang ji shu
+[11:53:29] [Async Chat Thread - #207/INFO]: [Not Secure] <__B1ank___> zhi yao cun kuan yu e
+[11:53:29] [Async Chat Thread - #207/INFO]: [Not Secure] <BunnyBunnyBunny6> ok
+[11:53:36] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add Admin
+[11:53:40] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[11:53:46] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp 1000002 100 1000002
+[11:54:09] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag @a remove Admin
+[11:54:09] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
+[11:56:07] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add Admin
+[11:56:10] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[11:56:15] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp 1000002 100 1000002
+[11:57:11] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag @a remove Admin
+[11:57:11] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
+[11:58:56] [Async Chat Thread - #209/INFO]: [Not Secure] <Ceobe_Official> 这里有好多蘑菇
+[11:59:28] [Async Chat Thread - #209/INFO]: [Not Secure] <__B1ank___> xian zai bu yong le
+[11:59:31] [Async Chat Thread - #209/INFO]: [Not Secure] <__B1ank___> ke yi mai
+[11:59:37] [Async Chat Thread - #209/INFO]: [Not Secure] <Ceobe_Official> oo
+[12:03:19] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
+[12:03:19] [Server thread/INFO]: BunnyBunnyBunny6 left the game
+[12:23:04] [Async Chat Thread - #211/INFO]: [Not Secure] <__B1ank___> zao hao le
+[12:24:58] [Server thread/INFO]: __B1ank___ lost connection: Disconnected
+[12:24:58] [Server thread/INFO]: __B1ank___ left the game
+[12:42:17] [User Authenticator #21/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
+[12:42:18] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
+[12:42:18] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.102.204:16378] logged in with entity id 388027 at ([中世纪]-200.73812143059814, 70.0, -222.4117462594187)
+[12:43:05] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add Admin
+[12:43:08] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[12:47:20] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give @p minecraft:paper{display:{Name:"[{\"text\":\"地契\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"text\":\"-222 70 -207\\nBunnyBunnyBunny6\",\"bold\":false,\"italic\":false,\"underlined
+[12:49:36] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give BunnyBunnyBunny6 minecraft:command_block
+[12:53:07] [User Authenticator #22/INFO]: UUID of player __B1ank___ is 717b9ef3-fa87-32a9-8fa7-5ec32ebad6b4
+[12:53:07] [Server thread/INFO]: __B1ank___ joined the game
+[12:53:07] [Server thread/INFO]: __B1ank___[/106.91.69.183:4347] logged in with entity id 390637 at ([中世纪]-314.8856155824868, 73.0, -151.45693779749948)
+[12:57:55] [Async Chat Thread - #213/INFO]: [Not Secure] <BunnyBunnyBunny6> 你QQ掉了
+[12:58:09] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[13:02:53] [Async Chat Thread - #215/INFO]: [Not Secure] <Ceobe_Official> 这个地狱是啥情况）
+[13:03:04] [Server thread/INFO]: Ceobe_Official was slain by Hoglin
+[13:05:47] [Server thread/INFO]: Ceobe_Official fell out of the world
+[13:07:02] [Server thread/INFO]: Ceobe_Official fell from a high place
+[13:08:30] [Async Chat Thread - #217/INFO]: [Not Secure] <Ceobe_Official> 我要跑到极地开比特币矿场
+[13:09:14] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[13:10:36] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 公共账户 eCoin 0
+[13:11:18] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give BunnyBunnyBunny6 minecraft:command_block
+[13:14:22] [Async Chat Thread - #219/INFO]: [Not Secure] <Ceobe_Official> 这么整突然想到等价交换那个模组了
+[13:14:33] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset 公共账户 eCoin
+[13:14:55] [Async Chat Thread - #219/INFO]: [Not Secure] <Ceobe_Official> emmmm
+[13:15:00] [Async Chat Thread - #219/INFO]: [Not Secure] <Ceobe_Official> 差不多
+[13:15:14] [Async Chat Thread - #219/INFO]: [Not Secure] <Ceobe_Official> 反正可以开大型比特币农场）
+[13:15:31] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[13:15:37] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[13:17:42] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[13:17:55] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[13:22:16] [Async Chat Thread - #221/INFO]: [Not Secure] <Ceobe_Official> 整抽卡，十绿抽一次，随机抽取物品碎片
+[13:26:55] [Server thread/WARN]: Horse (vehicle of BunnyBunnyBunny6) moved wrongly! 0.5083461869413384
+[13:26:55] [Server thread/WARN]: Horse (vehicle of BunnyBunnyBunny6) moved wrongly! 1.1100859147575761
+[13:28:26] [Server thread/INFO]: __B1ank___ fell out of the world
+[13:28:26] [Server thread/INFO]: Ceobe_Official fell out of the world
+[13:28:37] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[13:28:40] [Async Chat Thread - #223/INFO]: [Not Secure] <Ceobe_Official> 有点好奇）
+[13:29:27] [Async Chat Thread - #223/INFO]: [Not Secure] <__B1ank___> -320 72 -147
+[13:29:52] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[13:31:24] [Async Chat Thread - #225/INFO]: [Not Secure] <Ceobe_Official> 2
+[13:31:30] [Async Chat Thread - #225/INFO]: [Not Secure] <Ceobe_Official> 我迷路了
+[13:31:39] [Async Chat Thread - #225/INFO]: [Not Secure] <Ceobe_Official> 着地下那个
+[13:31:52] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag @a remove Admin
+[13:31:53] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
+[13:31:57] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp -205.51 80.00 -29.61
+[13:32:04] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
+[13:37:34] [Async Chat Thread - #227/INFO]: [Not Secure] <Ceobe_Official> 两个房子的地址都要写嘛
+[13:38:11] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[13:38:17] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add Admin
+[13:38:19] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[13:38:33] [Async Chat Thread - #227/INFO]: [Not Secure] <Ceobe_Official> prpr
+[13:40:38] [Async Chat Thread - #229/INFO]: [Not Secure] <Ceobe_Official> -125 65 -58
+[13:41:25] [Async Chat Thread - #229/INFO]: [Not Secure] <Ceobe_Official> 别，我要买烤土豆
+[13:41:39] [Server thread/INFO]: BunnyBunnyBunny6 has made the advancement [Ice Bucket Challenge]
+[13:41:53] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[13:42:11] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[13:43:09] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[13:43:51] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[13:44:20] [Async Chat Thread - #231/INFO]: [Not Secure] <Ceobe_Official> 石英）
+[13:44:37] [Async Chat Thread - #231/INFO]: [Not Secure] <Ceobe_Official> 海晶灯也可以把
+[13:45:10] [Async Chat Thread - #231/INFO]: [Not Secure] <Ceobe_Official> 要不整个粘土换建筑材料（挨打
+[13:46:25] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give BunnyBunnyBunny6 minecraft:amethyst_shard
+[13:46:33] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give BunnyBunnyBunny6 minecraft:amethyst_block
+[13:47:00] [Async Chat Thread - #233/INFO]: [Not Secure] <Ceobe_Official> 下届合金可以挖到来着
+[13:47:19] [Async Chat Thread - #233/INFO]: [Not Secure] <Ceobe_Official> 挖远古残骸
+[13:48:48] [Async Chat Thread - #235/INFO]: [Not Secure] <Ceobe_Official> 把母岩全挖了
+[13:48:59] [Async Chat Thread - #235/INFO]: [Not Secure] <Ceobe_Official> 生紫水晶的）
+[13:49:07] [Async Chat Thread - #235/INFO]: [Not Secure] <Ceobe_Official> 挖了就长不出来了
+[13:49:26] [Async Chat Thread - #235/INFO]: [Not Secure] <Ceobe_Official> 母岩不能被挖
+[13:49:35] [Async Chat Thread - #235/INFO]: [Not Secure] <Ceobe_Official> 嗯
+[13:52:44] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[13:53:53] [Server thread/INFO]: Ceobe_Official has made the advancement [Ice Bucket Challenge]
+[13:58:37] [Async Chat Thread - #237/INFO]: [Not Secure] <Ceobe_Official> 我记得能
+[14:05:39] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[14:05:42] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp __B1ank___
+[14:06:00] [Async Chat Thread - #239/INFO]: [Not Secure] <Ceobe_Official> -226 40 -84
+[14:06:18] [Async Chat Thread - #239/INFO]: [Not Secure] <Ceobe_Official> 这怎么有浮空小麦
+[14:08:01] [Async Chat Thread - #241/INFO]: [Not Secure] <Ceobe_Official> ?
+[14:08:07] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players remove 公共账户 eCoin
+[14:08:14] [Async Chat Thread - #241/INFO]: [Not Secure] <Ceobe_Official> 怪东西
+[14:08:22] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset 公共账户 eCoin
+[14:08:33] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 国库 eCoin 160
+[14:09:46] [Async Chat Thread - #243/INFO]: [Not Secure] <Ceobe_Official> 买不起力
+[14:10:41] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players set __B1ank___ eCoin 2457
+[14:11:02] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players set BunnyBunnyBunny6 eCoin 2610
+[14:11:22] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players set 国库 eCoin 1440
+[14:11:39] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players set Ceobe_Official eCoin 333
+[14:14:39] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[14:15:46] [Async Chat Thread - #245/INFO]: [Not Secure] <Ceobe_Official> 我也要开矿场，回家创业当老板
+[14:16:43] [Async Chat Thread - #245/INFO]: [Not Secure] <Ceobe_Official> 矿老板震怒
+[14:18:58] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[14:20:07] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[14:27:01] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[14:28:52] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 服务器基准值 eCoin 0
+[14:30:01] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 服务器基准值 eCoin 100
+[14:30:29] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 服务器基准值 eCoin 100
+[14:31:27] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[14:40:33] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[14:42:12] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[14:44:25] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[14:44:59] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give BunnyBunnyBunny6 minecraft:command_block
+[14:45:54] [Async Chat Thread - #247/INFO]: [Not Secure] <Ceobe_Official> 高科技
+[14:46:55] [Async Chat Thread - #249/INFO]: [Not Secure] <Ceobe_Official> 卡在里面了）
+[14:52:41] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 钻石块 price 81
+[14:54:49] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 金块 price 27
+[14:55:04] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 铁块 price 9
+[14:55:41] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players get 铁块 price
+[14:56:32] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 原木 price 1
+[14:57:22] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 石头 price 1
+[14:57:47] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 玻璃 price 1
+[14:58:07] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 红石块 price 9
+[14:58:38] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 煤炭块 price 9
+[15:05:36] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players get 红石块 price
+[15:05:46] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players get 煤炭块 price
+[15:06:46] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[15:07:50] [Server thread/WARN]: __B1ank___ moved wrongly!
+[15:08:13] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[15:09:36] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[15:11:27] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add coin price 1
+[15:13:34] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[15:14:14] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset 服务器基准值 eCoin
+[15:15:10] [Server thread/INFO]: __B1ank___ lost connection: Disconnected
+[15:15:10] [Server thread/INFO]: __B1ank___ left the game
+[15:15:39] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
+[15:17:52] [User Authenticator #23/INFO]: UUID of player Ya_Shautra is 2c8d5b5b-1f1f-3c57-8666-67ed6dcacbc3
+[15:17:52] [Server thread/INFO]: Ya_Shautra joined the game
+[15:17:52] [Server thread/INFO]: Ya_Shautra[/117.114.8.148:31188] logged in with entity id 438588 at ([中世纪]-147.5, 71.0, -163.5)
+[15:18:03] [User Authenticator #23/INFO]: UUID of player __B1ank___ is 717b9ef3-fa87-32a9-8fa7-5ec32ebad6b4
+[15:18:03] [Server thread/INFO]: __B1ank___ joined the game
+[15:18:03] [Server thread/INFO]: __B1ank___[/106.91.69.183:5033] logged in with entity id 438606 at ([中世纪]-310.3029364060441, 63.5, -136.8951472644246)
+[15:24:01] [Server thread/INFO]: Ya_Shautra has made the advancement [Stone Age]
+[15:24:55] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give Ya_Shautra minecraft:emerald_block 10
+[15:26:49] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag Ya_Shautra add Admin
+[15:26:59] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag __B1ank___ add Admin
+[15:27:02] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode spectator @a
+[15:27:59] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp Ya_Shautra
+[15:28:27] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:28:49] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:30:30] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:30:58] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:31:48] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:32:18] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:32:54] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:33:42] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:34:27] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:34:53] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:36:25] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give __B1ank___ minecraft:emerald_block 9
+[15:36:35] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give __B1ank___ minecraft:emerald_block 9
+[15:36:43] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /clear __B1ank___ minecraft:emerald_block 9
+[15:36:46] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:38:22] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:38:45] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:39:25] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp @a[tag=Admin] Ya_Shautra
+[15:39:35] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag @a remove Admin
+[15:40:00] [User Authenticator #24/INFO]: UUID of player White_cat is 480d15f4-5f53-32ff-9986-8789d4489a7c
+[15:40:00] [Server thread/INFO]: White_cat joined the game
+[15:40:00] [Server thread/INFO]: White_cat[/183.200.78.0:26250] logged in with entity id 442904 at ([中世纪]-121.26818076392752, 71.0, -179.87243861358576)
+[15:41:39] [Server thread/INFO]: Ya_Shautra has made the advancement [We Need to Go Deeper]
+[15:41:58] [Server thread/INFO]: Ya_Shautra was slain by Piglin
+[15:42:01] [Async Chat Thread - #251/INFO]: [Not Secure] <White_cat> 6
+[15:44:52] [Server thread/INFO]: BunnyBunnyBunny6 fell from a high place
+[15:44:54] [Async Chat Thread - #253/INFO]: [Not Secure] <White_cat> 6
+[15:45:06] [Server thread/INFO]: White_cat was impaled on a stalagmite
+[15:45:10] [Async Chat Thread - #253/INFO]: [Not Secure] <White_cat> ?
+[15:45:59] [Server thread/INFO]: Ya_Shautra tried to swim in lava
+[15:47:02] [Async Chat Thread - #255/INFO]: [Not Secure] <White_cat> 6
+[15:48:40] [Async Chat Thread - #257/INFO]: [Not Secure] <White_cat> 不忘初心
+[15:48:44] [Server thread/INFO]: __B1ank___ drowned
+[15:49:51] [Async Chat Thread - #259/INFO]: [Not Secure] <White_cat> 这世界绿宝石是不是绝种了
+[15:50:01] [Async Chat Thread - #259/INFO]: [Not Secure] <White_cat> 我从来没见过
+[15:50:10] [Async Chat Thread - #259/INFO]: [Not Secure] <White_cat> 我透视就没见过
+[15:51:02] [Async Chat Thread - #259/INFO]: [Not Secure] <White_cat> 我 可以借你
+[15:51:16] [Async Chat Thread - #259/INFO]: [Not Secure] <White_cat> 利息3就行
+[15:51:51] [Async Chat Thread - #259/INFO]: [Not Secure] <White_cat> 我绿宝石还没换
+[15:52:06] [Async Chat Thread - #259/INFO]: [Not Secure] <White_cat> 膨胀的那个
+[15:53:38] [Server thread/INFO]: BunnyBunnyBunny6 tried to swim in lava to escape Blaze
+[15:53:41] [Async Chat Thread - #261/INFO]: [Not Secure] <White_cat> 6
+[15:53:58] [Async Chat Thread - #261/INFO]: [Not Secure] <White_cat> 我去找
+[15:54:27] [Async Chat Thread - #261/INFO]: [Not Secure] <White_cat> yes
+[15:56:18] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 卧槽
+[15:56:26] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 我看见了
+[15:56:35] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 一堆绿宝石块
+[15:57:14] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 好6
+[15:58:12] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 6
+[15:58:14] [Server thread/INFO]: White_cat fell out of the world
+[15:58:14] [Server thread/INFO]: Ya_Shautra fell out of the world
+[15:58:14] [Server thread/INFO]: __B1ank___ fell out of the world
+[15:58:14] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
+[15:58:18] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 666
+[15:58:35] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 可以挖他国库
+[15:59:01] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 6
+[15:59:06] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 饕餮是吧
+[15:59:09] [Server thread/INFO]: BunnyBunnyBunny6 fell out of the world
+[15:59:09] [Server thread/INFO]: Ya_Shautra fell out of the world
+[15:59:45] [Server thread/INFO]: White_cat issued server command: /tell BunnyBunnyBunny6 把我tp到卤蛋那里,我去看看他在干嘛
+[15:59:57] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tp White_cat Ceobe_Official
+[16:00:04] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> cao
+[16:00:11] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 绝
+[16:00:34] [Server thread/INFO]: Ya_Shautra fell out of the world
+[16:00:57] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 半夜偷偷去
+[16:01:16] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> 借1还3
+[16:01:19] [Async Chat Thread - #263/INFO]: [Not Secure] <White_cat> qaq
+[16:02:32] [Async Chat Thread - #265/INFO]: [Not Secure] <White_cat> 下届 合金怎么买不了
+[16:02:50] [Async Chat Thread - #265/INFO]: [Not Secure] <White_cat> 3day
+[16:03:34] [Async Chat Thread - #265/INFO]: [Not Secure] <White_cat> 不忘初心
+[16:03:37] [Async Chat Thread - #265/INFO]: [Not Secure] <White_cat> 哈哈哈哈哈哈
+[16:05:33] [Server thread/INFO]: White_cat lost connection: Disconnected
+[16:05:33] [Server thread/INFO]: White_cat left the game
+[16:06:37] [Server thread/INFO]: BunnyBunnyBunny6 was slain by __B1ank___
+[16:06:46] [Server thread/INFO]: __B1ank___ was slain by Ya_Shautra using [挚爱]
+[16:12:09] [Server thread/INFO]: Ya_Shautra lost connection: Disconnected
+[16:12:09] [Server thread/INFO]: Ya_Shautra left the game
+[16:17:36] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
+[16:17:36] [Server thread/INFO]: BunnyBunnyBunny6 left the game
+[16:20:41] [Server thread/INFO]: There are 2 of a max of 114514 players online: Ceobe_Official, __B1ank___
