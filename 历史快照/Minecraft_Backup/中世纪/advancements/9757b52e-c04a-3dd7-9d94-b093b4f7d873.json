@@ -161,6 +161,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2022-12-06 01:03:31 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2022-12-02 21:36:25 +0800"
@@ -655,8 +661,10 @@
       "minecraft:creeper": "2022-11-28 14:41:32 +0800",
       "minecraft:phantom": "2022-11-29 13:00:05 +0800",
       "minecraft:witch": "2022-12-02 19:39:02 +0800",
+      "minecraft:husk": "2022-12-06 01:16:46 +0800",
       "minecraft:piglin": "2022-12-04 01:14:38 +0800",
-      "minecraft:zombie": "2022-11-28 14:03:08 +0800"
+      "minecraft:zombie": "2022-11-28 14:03:08 +0800",
+      "minecraft:drowned": "2022-12-06 00:54:22 +0800"
     },
     "done": false
   },
@@ -729,6 +737,12 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2022-11-29 01:50:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2022-12-06 01:03:31 +0800"
     },
     "done": true
   },
@@ -1152,6 +1166,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2022-12-06 01:07:24 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2022-11-28 19:15:04 +0800"
@@ -1260,8 +1280,10 @@
       "minecraft:savanna_plateau": "2022-11-28 18:58:56 +0800",
       "minecraft:beach": "2022-11-28 19:04:39 +0800",
       "minecraft:dark_forest": "2022-11-28 13:59:58 +0800",
+      "minecraft:mangrove_swamp": "2022-12-06 01:07:24 +0800",
       "minecraft:sparse_jungle": "2022-12-04 10:23:55 +0800",
       "minecraft:river": "2022-11-28 13:52:20 +0800",
+      "minecraft:lukewarm_ocean": "2022-12-06 01:17:18 +0800",
       "minecraft:snowy_plains": "2022-11-28 17:09:14 +0800",
       "minecraft:stony_shore": "2022-11-28 17:22:13 +0800",
       "minecraft:snowy_taiga": "2022-11-28 17:11:01 +0800",
@@ -1270,6 +1292,7 @@
       "minecraft:forest": "2022-11-28 13:52:28 +0800",
       "minecraft:deep_cold_ocean": "2022-11-28 17:04:43 +0800",
       "minecraft:frozen_ocean": "2022-11-28 17:06:45 +0800",
+      "minecraft:desert": "2022-12-06 00:50:39 +0800",
       "minecraft:deep_frozen_ocean": "2022-11-28 17:07:23 +0800",
       "minecraft:ocean": "2022-11-28 17:20:00 +0800",
       "minecraft:snowy_beach": "2022-11-28 17:08:34 +0800",
@@ -1814,11 +1837,13 @@
       "baked_potato": "2022-11-29 01:31:57 +0800",
       "spider_eye": "2022-11-29 13:54:27 +0800",
       "mutton": "2022-11-28 15:05:19 +0800",
+      "pufferfish": "2022-12-05 22:42:01 +0800",
       "bread": "2022-11-29 01:03:20 +0800",
       "golden_apple": "2022-11-29 11:19:49 +0800",
       "rotten_flesh": "2022-11-28 14:03:31 +0800",
       "cookie": "2022-12-02 00:34:47 +0800",
       "glow_berries": "2022-12-01 22:44:45 +0800",
+      "cod": "2022-12-05 22:43:13 +0800",
       "cooked_salmon": "2022-11-28 13:58:00 +0800"
     },
     "done": false
@@ -2737,6 +2762,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2022-12-05 22:41:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2022-11-28 16:50:08 +0800"
@@ -2905,6 +2936,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2022-12-08 15:22:43 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2022-11-28 19:27:04 +0800"
@@ -2980,6 +3017,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2022-11-28 16:15:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2022-12-06 01:03:31 +0800"
     },
     "done": true
   },
