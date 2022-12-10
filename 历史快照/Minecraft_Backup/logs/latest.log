@@ -1,118 +1,169 @@
-[17:16:03] [ServerMain/INFO]: Building unoptimized datafixer
-[17:16:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:16:14] [ServerMain/INFO]: Loaded 7 recipes
-[17:16:19] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[17:16:19] [Server thread/INFO]: Loading properties
-[17:16:19] [Server thread/INFO]: This server is running Paper version git-Paper-296 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: f1583fc)
-[17:16:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:16:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:16:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:16:21] [Server thread/INFO]: Default game type: SPECTATOR
-[17:16:21] [Server thread/INFO]: Generating keypair
-[17:16:21] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:20031
-[17:16:21] [Server thread/INFO]: Using epoll channel type
-[17:16:21] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:16:21] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:16:23] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[17:16:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:16:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:16:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:16:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:16:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:16:23] [Server thread/INFO]: Preparing level "中世纪"
-[17:16:26] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[17:16:27] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
-[17:16:27] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[17:16:28] [Server thread/INFO]: Starting GS4 status listener
-[17:16:28] [Server thread/INFO]: Thread Query Listener started
-[17:16:28] [Query Listener #1/INFO]: Query running on 0.0.0.0:20031
-[17:16:28] [Server thread/ERROR]: Couldn't load server icon
-java.lang.IllegalStateException: Must be 64 pixels wide
-	at org.apache.commons.lang3.Validate.validState(Validate.java:816) ~[commons-lang3-3.12.0.jar:3.12.0]
-	at net.minecraft.server.MinecraftServer.lambda$updateStatusIcon$7(MinecraftServer.java:1355) ~[paper-1.19.2.jar:git-Paper-296]
-	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
-	at net.minecraft.server.MinecraftServer.updateStatusIcon(MinecraftServer.java:1351) ~[paper-1.19.2.jar:git-Paper-296]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1109) ~[paper-1.19.2.jar:git-Paper-296]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-296]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[17:16:28] [Server thread/INFO]: Running delayed init tasks
-[17:16:28] [Server thread/INFO]: Done (9.614s)! For help, type "help"
-[17:16:28] [Server thread/INFO]: Timings Reset
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[17:16:30] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[18:54:36] [Server thread/INFO]: There are 0 of a max of 114514 players online: 
-[19:50:52] [User Authenticator #0/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
-[19:50:56] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
-[19:50:56] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.103.172:1818] logged in with entity id 1 at ([中世纪]-264.98750001192093, 71.0, -169.74592151831212)
-[19:51:07] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 加入了游戏，身份是：普通玩家
-[19:51:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6692ms or 133 ticks behind
-[19:51:44] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add vvtz6br9my7terat
-[19:52:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19905ms or 398 ticks behind
-[19:52:04] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add vvtz6br9my7terat
-[19:52:06] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
-[19:53:59] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
-[19:54:03] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
-[19:55:26] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 购买了一注彩票
-[19:56:31] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players get 3200 price
-[19:56:34] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
-[19:57:23] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode survival @a
-[19:57:43] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players get 32 price
-[19:57:58] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players get 1000
-[19:58:01] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players get 1000 price
-[19:59:19] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag @e remove vvtz6br9my7terat
-[20:01:44] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：5
-[20:01:45] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：4
-[20:01:46] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：3
-[20:01:47] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：2
-[20:01:48] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：1
-[20:01:50] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 是奖金得主！奖金将会自动到账
-[20:05:16] [Server thread/INFO]: BunnyBunnyBunny6 has completed the challenge [Cover Me in Debris]
-[20:09:43] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset BunnyBunnyBunny6 eth_miner
-[20:09:45] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset BunnyBunnyBunny6 eth_miner10
-[20:09:47] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset BunnyBunnyBunny6 eth_miner100
-[20:09:49] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players reset BunnyBunnyBunny6 eth_miner_display
-[20:13:08] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
-[20:14:03] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
-[20:14:03] [Server thread/INFO]: BunnyBunnyBunny6 left the game
-[20:14:06] [User Authenticator #1/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
-[20:14:07] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
-[20:14:07] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.103.172:2176] logged in with entity id 8037 at ([中世纪]-145.38074737897435, 71.0, -167.86069100734474)
-[20:14:07] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 加入了游戏，身份是：普通玩家
-[20:17:21] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
-[20:17:21] [Server thread/INFO]: BunnyBunnyBunny6 left the game
-[20:18:59] [Server thread/INFO]: There are 0 of a max of 114514 players online: 
-[20:19:01] [Server thread/INFO]: Stopping the server
-[20:19:01] [Server thread/INFO]: Stopping server
-[20:19:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
-[20:19:01] [Server thread/INFO]: Saving players
-[20:19:01] [Server thread/INFO]: Saving worlds
-[20:19:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[中世纪]'/minecraft:overworld
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '中世纪'
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '中世纪'
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '中世纪'
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Saved 34 block chunks, 223 entity chunks, 0 poi chunks in world '中世纪' in 0.37s
-[20:19:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (中世纪): All chunks are saved
-[20:19:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[中世纪_nether]'/minecraft:the_nether
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '中世纪_nether'
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '中世纪_nether'
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '中世纪_nether'
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world '中世纪_nether' in 0.00s
-[20:19:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:19:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[中世纪_the_end]'/minecraft:the_end
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '中世纪_the_end'
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '中世纪_the_end'
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '中世纪_the_end'
-[20:19:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world '中世纪_the_end' in 0.00s
-[20:19:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:19:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:19:01] [Server thread/INFO]: Flushing Chunk IO
-[20:19:01] [Server thread/INFO]: Closing Thread Pool
-[20:19:01] [Server thread/INFO]: Closing Server
+[00:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[00:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[00:55:13] [User Authenticator #2/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
+[00:55:13] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
+[00:55:13] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.103.172:1440] logged in with entity id 11759 at ([中世纪]-127.78043215658298, 77.5, -179.51992598745417)
+[00:55:13] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 加入了游戏，身份是：普通玩家
+[00:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[00:57:30] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
+[00:57:30] [Server thread/INFO]: BunnyBunnyBunny6 left the game
+[01:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[01:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[01:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[02:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[02:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[02:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[03:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[03:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[03:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[04:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[04:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[04:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[05:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[05:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[05:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[06:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[06:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[06:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[07:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[07:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[07:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[08:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[08:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[08:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[09:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[09:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[09:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[10:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[10:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[10:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[11:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[11:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[11:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[12:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[12:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[12:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[13:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[13:35:01] [User Authenticator #3/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
+[13:35:01] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
+[13:35:01] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.103.172:2600] logged in with entity id 14234 at ([中世纪]-198.2328215745634, 70.0, -217.2809855741841)
+[13:35:01] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 加入了游戏，身份是：普通玩家
+[13:35:27] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
+[13:35:27] [Server thread/INFO]: BunnyBunnyBunny6 left the game
+[13:35:54] [User Authenticator #3/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
+[13:35:54] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
+[13:35:54] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.103.172:2868] logged in with entity id 14342 at ([中世纪]-198.2328215745634, 70.0, -217.2809855741841)
+[13:35:54] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 加入了游戏，身份是：普通玩家
+[13:36:48] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
+[13:36:48] [Server thread/INFO]: BunnyBunnyBunny6 left the game
+[13:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[13:37:55] [User Authenticator #4/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
+[13:37:56] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
+[13:37:56] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.103.172:1587] logged in with entity id 14522 at ([中世纪]-198.2328215745634, 70.0, -217.2809855741841)
+[13:37:56] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 加入了游戏，身份是：普通玩家
+[13:39:03] [Server thread/INFO]: Added tag 'vvtz6br9my7terat' to BunnyBunnyBunny6
+[13:39:10] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[13:44:40] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -283 64 -168 -289 59 -168 minecraft:quartz_bricks
+[13:44:58] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -283 64 -164 -288 59 -164 minecraft:quartz_bricks
+[13:45:14] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -290 62 -167 -294 57 -158 air
+[13:46:36] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -289 58 -167 -295 57 -158 minecraft:quartz_bricks
+[13:48:46] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -288 62 -163 -279 57 -149 air
+[13:50:41] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -294 63 -164 -289 63 -158 minecraft:chiseled_quartz_block
+[13:50:57] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -295 62 -164 -295 58 -157 minecraft:chiseled_quartz_block
+[13:53:46] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -294 62 -157 -286 57 -147 air
+[13:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[13:56:58] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] 彩票购买失败，余额不足
+[14:04:02] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -295 57 -156 -295 62 -145 minecraft:chiseled_quartz_block
+[14:04:43] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：5
+[14:04:44] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：4
+[14:04:45] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：3
+[14:04:46] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：2
+[14:04:47] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：1
+[14:04:49] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 是奖金得主！奖金将会自动到账
+[14:05:03] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -278 56 -164 -293 53 -142 minecraft:chiseled_quartz_block
+[14:05:18] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -278 56 -164 -293 53 -142 minecraft:quartz_bricks
+[14:06:47] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -279 63 -163 -294 63 -142 minecraft:chiseled_quartz_block
+[14:10:04] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /fill -278 62 -149 -278 57 -160 minecraft:chiseled_quartz_block
+[14:10:49] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /kill @e[tag=mob]
+[14:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[14:16:58] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 购买了一注彩票
+[14:24:43] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：5
+[14:24:44] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：4
+[14:24:45] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：3
+[14:24:46] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：2
+[14:24:47] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：1
+[14:24:49] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 是奖金得主！奖金将会自动到账
+[14:24:58] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /give BunnyBunnyBunny6 minecraft:command_block
+[14:34:28] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players add 基督天主皇家赌场 eCoin 0
+[14:36:43] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard objectives remove casino
+[14:36:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[14:36:58] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 购买了一注彩票
+[14:41:09] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /scoreboard players get 100 price
+[14:44:43] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：5
+[14:44:44] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：4
+[14:44:45] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：3
+[14:44:46] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：2
+[14:44:47] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：1
+[14:44:49] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 是奖金得主！奖金将会自动到账
+[14:56:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[14:56:58] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 购买了一注彩票
+[15:04:43] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：5
+[15:04:44] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：4
+[15:04:45] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：3
+[15:04:46] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：2
+[15:04:47] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：1
+[15:04:49] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 是奖金得主！奖金将会自动到账
+[15:14:22] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add outCasini
+[15:14:27] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 add outCasino
+[15:14:31] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag @a remove outCasini
+[15:16:08] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag @a remove inCasino
+[15:16:58] [Server thread/INFO]: [Not Secure] [@] 彩票购买时间到！现在交易所开始出售彩票
+[15:16:58] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 购买了一注彩票
+[15:17:13] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /tag BunnyBunnyBunny6 remove outCasino
+[15:19:26] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /particle minecraft:glow
+[15:19:31] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /particle minecraft:glow -254.28 72.27 -155.00
+[15:19:33] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /particle minecraft:glow -254.28 72.27 -155.00
+[15:19:46] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /particle minecraft:glow_squid_ink -254.28 72.27 -155.00
+[15:24:43] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：5
+[15:24:44] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：4
+[15:24:45] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：3
+[15:24:46] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：2
+[15:24:47] [Server thread/INFO]: [Not Secure] [@] 开奖倒计时：1
+[15:24:49] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 是奖金得主！奖金将会自动到账
+[15:28:35] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
+[15:28:35] [Server thread/INFO]: BunnyBunnyBunny6 left the game
+[15:28:39] [User Authenticator #5/INFO]: UUID of player BunnyBunnyBunny6 is 3e18a9e8-7361-33cb-abd1-0684c0ca389b
+[15:28:39] [Server thread/INFO]: BunnyBunnyBunny6 joined the game
+[15:28:39] [Server thread/INFO]: BunnyBunnyBunny6[/125.86.103.172:2415] logged in with entity id 49577 at ([中世纪]-274.8371160645499, 66.0, -160.93495586261585)
+[15:28:39] [Server thread/INFO]: [Not Secure] [BunnyBunnyBunny6] BunnyBunnyBunny6 加入了游戏，身份是：超级管理员
+[15:28:49] [Server thread/INFO]: BunnyBunnyBunny6 issued server command: /gamemode creative
+[15:32:28] [Server thread/INFO]: BunnyBunnyBunny6 lost connection: Disconnected
+[15:32:28] [Server thread/INFO]: BunnyBunnyBunny6 left the game
+[15:33:05] [Server thread/INFO]: There are 0 of a max of 114514 players online: 
+[15:34:32] [Server thread/INFO]: Stopping the server
+[15:34:32] [Server thread/INFO]: Stopping server
+[15:34:32] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[15:34:32] [Server thread/INFO]: Saving players
+[15:34:32] [Server thread/INFO]: Saving worlds
+[15:34:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[中世纪]'/minecraft:overworld
+[15:34:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '中世纪'
+[15:34:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '中世纪'
+[15:34:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '中世纪'
+[15:34:33] [Server thread/INFO]: [ChunkHolderManager] Saved 38 block chunks, 228 entity chunks, 0 poi chunks in world '中世纪' in 0.32s
+[15:34:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (中世纪): All chunks are saved
+[15:34:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[中世纪_nether]'/minecraft:the_nether
+[15:34:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '中世纪_nether'
+[15:34:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '中世纪_nether'
+[15:34:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '中世纪_nether'
+[15:34:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world '中世纪_nether' in 0.00s
+[15:34:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:34:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[中世纪_the_end]'/minecraft:the_end
+[15:34:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '中世纪_the_end'
+[15:34:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '中世纪_the_end'
+[15:34:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '中世纪_the_end'
+[15:34:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world '中世纪_the_end' in 0.00s
+[15:34:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:34:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:34:33] [Server thread/INFO]: Flushing Chunk IO
+[15:34:33] [Server thread/INFO]: Closing Thread Pool
+[15:34:33] [Server thread/INFO]: Closing Server
