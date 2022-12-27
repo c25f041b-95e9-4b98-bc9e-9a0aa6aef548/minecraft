@@ -712,6 +712,7 @@
       "minecraft:pillager": "2022-12-02 20:10:57 +0800",
       "minecraft:blaze": "2022-12-03 19:20:51 +0800",
       "minecraft:skeleton": "2022-12-02 20:56:57 +0800",
+      "minecraft:ghast": "2022-12-19 23:50:53 +0800",
       "minecraft:hoglin": "2022-12-03 14:34:45 +0800",
       "minecraft:vindicator": "2022-12-03 13:28:44 +0800",
       "minecraft:magma_cube": "2022-12-03 19:31:39 +0800",
@@ -3176,6 +3177,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2022-12-04 13:36:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2022-12-19 23:53:13 +0800"
     },
     "done": true
   },
