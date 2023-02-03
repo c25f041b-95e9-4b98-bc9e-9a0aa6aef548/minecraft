@@ -1,0 +1,1255 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MixinLoaderForge ([[valkyrien-skies-1.1.7-all]].jar)
+Contact their authors BEFORE contacting forge
+
+// There are four lights!
+
+Time: 23-2-3 下午3:18
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 60.00 seconds (should be max 0.05)
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap.containsKey(Long2ObjectOpenHashMap.java:469)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73149_a(ChunkProviderServer.java:320)
+	at net.minecraft.world.WorldServer.func_175680_a(WorldServer.java:351)
+	at net.minecraft.world.World.func_175668_a(World.java:240)
+	at net.minecraft.world.World.func_175667_e(World.java:235)
+	at net.minecraft.world.World.func_191504_a(World.java:1310)
+	at net.minecraft.world.World.func_184144_a(World.java:1365)
+	at net.minecraft.entity.Entity.func_70091_d(Entity.java:721)
+	at net.minecraft.entity.EntityLivingBase.func_191986_a(EntityLivingBase.java:1958)
+	at net.minecraft.entity.player.EntityPlayer.func_191986_a(EntityPlayer.java:1819)
+	at net.minecraft.entity.EntityLivingBase.func_70636_d(EntityLivingBase.java:2393)
+	at net.minecraft.entity.player.EntityPlayer.func_70636_d(EntityPlayer.java:513)
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179)
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234)
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382)
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap.containsKey(Long2ObjectOpenHashMap.java:469)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73149_a(ChunkProviderServer.java:320)
+	at net.minecraft.world.WorldServer.func_175680_a(WorldServer.java:351)
+	at net.minecraft.world.World.func_175668_a(World.java:240)
+	at net.minecraft.world.World.func_175667_e(World.java:235)
+	at net.minecraft.world.World.func_191504_a(World.java:1310)
+	at net.minecraft.world.World.func_184144_a(World.java:1365)
+	at net.minecraft.entity.Entity.func_70091_d(Entity.java:721)
+	at net.minecraft.entity.EntityLivingBase.func_191986_a(EntityLivingBase.java:1958)
+	at net.minecraft.entity.player.EntityPlayer.func_191986_a(EntityPlayer.java:1819)
+	at net.minecraft.entity.EntityLivingBase.func_70636_d(EntityLivingBase.java:2393)
+	at net.minecraft.entity.player.EntityPlayer.func_70636_d(EntityPlayer.java:513)
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179)
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234)
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382)
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+
+-- Thread Dump --
+Details:
+	Threads: "Netty Epoll Server IO #10" Id=166 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #9" Id=165 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #8" Id=164 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #7" Id=163 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-48" Id=162 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-47" Id=161 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-46" Id=160 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-45" Id=159 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-44" Id=158 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-43" Id=157 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-42" Id=156 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-41" Id=155 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-40" Id=154 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-39" Id=153 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-38" Id=152 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-37" Id=151 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-36" Id=150 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-35" Id=149 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-34" Id=148 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-33" Id=147 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-32" Id=146 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-31" Id=145 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-30" Id=144 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-29" Id=143 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-28" Id=142 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-27" Id=141 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-26" Id=140 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-25" Id=139 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-24" Id=138 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-23" Id=137 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-22" Id=136 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-21" Id=135 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-20" Id=134 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-19" Id=133 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-18" Id=132 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ForkJoinPool-1-worker-42" Id=131 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-49" Id=130 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-56" Id=129 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-63" Id=128 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-6" Id=127 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-13" Id=126 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-34" Id=124 RUNNABLE
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-20" Id=125 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-41" Id=123 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-27" Id=122 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-48" Id=121 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ic2-poolthread-17" Id=120 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-16" Id=119 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-15" Id=118 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-14" Id=117 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-13" Id=116 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-12" Id=115 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-11" Id=114 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-10" Id=113 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-9" Id=112 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ForkJoinPool-1-worker-55" Id=111 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ic2-poolthread-8" Id=110 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-7" Id=109 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-6" Id=108 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-5" Id=107 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-4" Id=106 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-3" Id=105 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ic2-poolthread-2" Id=104 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #6" Id=103 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #5" Id=102 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #4" Id=101 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #3" Id=100 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ForkJoinPool-1-worker-12" Id=97 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-19" Id=96 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-26" Id=95 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-40" Id=93 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-47" Id=92 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-54" Id=91 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-61" Id=90 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-11" Id=88 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-18" Id=87 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-25" Id=86 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-53" Id=82 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-32" Id=85 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-39" Id=84 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-38" Id=75 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-46" Id=83 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-24" Id=77 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-17" Id=78 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-3" Id=80 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-58" Id=63 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-51" Id=64 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-10" Id=79 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-31" Id=76 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-59" Id=72 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-2" Id=71 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-8" Id=61 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-9" Id=70 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-30" Id=67 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-44" Id=65 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-22" Id=59 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-15" Id=60 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-29" Id=58 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-43" Id=56 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"ForkJoinPool-1-worker-50" Id=55 RUNNABLE
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updateCollisionCacheSequential(WorldPhysicsCollider.java:568)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.lambda$updatePotentialCollisionCache$0(WorldPhysicsCollider.java:510)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider$$Lambda$270/1205684515.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	...
+
+
+"ForkJoinPool-1-worker-57" Id=54 WAITING on java.util.concurrent.ForkJoinPool@38b9bf26
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@38b9bf26
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+
+"Chunk I/O Executor Thread-1" Id=53 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3c862ce9
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3c862ce9
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #2" Id=52 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"threadDeathWatcher-2-1" Id=51 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at io.netty.util.ThreadDeathWatcher$Watcher.run(ThreadDeathWatcher.java:152)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #1" Id=50 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"File IO Thread" Id=49 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.world.storage.ThreadedFileIOBase.func_75736_b(SourceFile:51)
+	at net.minecraft.world.storage.ThreadedFileIOBase.run(SourceFile:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Server Watchdog" Id=48 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:496)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:484)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:45)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Query Listener #1" Id=47 RUNNABLE
+	at java.net.PlainDatagramSocketImpl.peekData(Native Method)
+	-  locked java.net.PlainDatagramSocketImpl@7984b51d
+	at java.net.DatagramSocket.receive(DatagramSocket.java:753)
+	-  locked java.net.DatagramPacket@3d02673b
+	-  locked java.net.DatagramSocket@2a181e4e
+	at net.minecraft.network.rcon.RConThreadQuery.run(SourceFile:269)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Thread-3" Id=44 WAITING on java.util.concurrent.ForkJoinTask$AdaptedRunnableAction@4837af32
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinTask$AdaptedRunnableAction@4837af32
+	at java.util.concurrent.ForkJoinTask.externalAwaitDone(ForkJoinTask.java:334)
+	at java.util.concurrent.ForkJoinTask.doJoin(ForkJoinTask.java:391)
+	at java.util.concurrent.ForkJoinTask.join(ForkJoinTask.java:719)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.updatePotentialCollisionCache(WorldPhysicsCollider.java:516)
+	at org.valkyrienskies.mod.common.collision.WorldPhysicsCollider.tickUpdatingTheCollisionCache(WorldPhysicsCollider.java:90)
+	at org.valkyrienskies.mod.common.util.multithreaded.VSWorldPhysicsLoop.tickThePhysicsAndCollision(VSWorldPhysicsLoop.java:203)
+	at org.valkyrienskies.mod.common.util.multithreaded.VSWorldPhysicsLoop.physicsTick(VSWorldPhysicsLoop.java:155)
+	...
+
+
+"ic2-poolthread-1" Id=43 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@367e4799
+	at java.lang.Object.wait(Object.java:502)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #0" Id=42 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"DestroyJavaVM" Id=32 RUNNABLE
+
+
+"Server console handler" Id=31 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	-  locked java.io.BufferedInputStream@455b23b9
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@19ab4a52
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	...
+
+
+"Server thread" Id=29 RUNNABLE
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap.containsKey(Long2ObjectOpenHashMap.java:469)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73149_a(ChunkProviderServer.java:320)
+	at net.minecraft.world.WorldServer.func_175680_a(WorldServer.java:351)
+	at net.minecraft.world.World.func_175668_a(World.java:240)
+	at net.minecraft.world.World.func_175667_e(World.java:235)
+	at net.minecraft.world.World.func_191504_a(World.java:1310)
+	at net.minecraft.world.World.func_184144_a(World.java:1365)
+	at net.minecraft.entity.Entity.func_70091_d(Entity.java:721)
+	...
+
+
+"Server Infinisleeper" Id=28 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:82)
+
+
+"Snooper Timer" Id=27 TIMED_WAITING on java.util.TaskQueue@4205ba19
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@4205ba19
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@5e5f0f0b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@5e5f0f0b
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:188)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@1de53748
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@1de53748
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:62)
+	at java.lang.Thread.run(Thread.java:750)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 5.4.0-136-generic
+	Java Version: 1.8.0_362, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Azul Systems, Inc.
+	Memory: 823522568 bytes (785 MB) / 1840775168 bytes (1755 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 2 total; -Xms128M -Xmx4096M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID             | Version       | Source                              | Signature                                |
+	|:------ |:-------------- |:------------- |:----------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft      | 1.12.2        | minecraft.jar                       | None                                     |
+	| LCHIJA | mcp            | 9.42          | minecraft.jar                       | None                                     |
+	| LCHIJA | FML            | 8.0.99.99     | server.jar                          | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge          | 14.23.5.2860  | server.jar                          | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | valkyrienskies | 1.1.7         | [[valkyrien-skies-1.1.7-all]].jar   | None                                     |
+	| LCHIJA | ic2            | 2.8.222-ex112 | industrialcraft-2-2.8.222-ex112.jar | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LCHIJA | vs_world       | 1.12.2-1.0.0  | vs-world-1.12.2-1.0.0.jar           | None                                     |
+	| LCHIJA | vs_control     | 1.12.2-1.1.1  | vs-control-1.12.2-1.1.1.jar         | None                                     |
+
+	Loaded coremods (and transformers): 
+MixinLoaderForge ([[valkyrien-skies-1.1.7-all]].jar)
+  
+	Profiler Position: N/A (disabled)
+	Player Count: 2 / 20; [EntityPlayerMP['BunnyBunnyBunny6'/178, l='world', x=605.65, y=76.95, z=-1268.59], EntityPlayerMP['__B1ank___'/86825, l='world', x=582.91, y=66.56, z=-1300.68]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

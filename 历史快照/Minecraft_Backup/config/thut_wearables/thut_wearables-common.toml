@@ -1,9 +1,0 @@
-
-[client]
-	# Position of the Wearables button. [Default: [27, 9]]
-	buttonPos = [27, 9]
-	# Render blacklist for wearables.
-	renderBlacklist = []
-	# Enables the Wearables button. [Default: true]
-	hasButton = true
-

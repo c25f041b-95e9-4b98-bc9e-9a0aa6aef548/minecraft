@@ -1,5 +1,0 @@
-
-[machine]
-	# Displays additional tooltips in the genetics blocks. [Default: true]
-	expandedDNATooltips = true
-
