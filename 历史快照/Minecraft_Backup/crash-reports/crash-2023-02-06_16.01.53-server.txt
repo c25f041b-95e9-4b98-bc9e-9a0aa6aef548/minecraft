@@ -1,0 +1,59 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MixinLoaderForge ([[valkyrien-skies-1.1.7-all]].jar)
+Contact their authors BEFORE contacting forge
+
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 23-2-6 下午4:01
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need any: have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod zombieawareness (Zombie Awareness) requires [coroutil]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 5.4.0-136-generic
+	Java Version: 1.8.0_333, BellSoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), BellSoft
+	Memory: 192962680 bytes (184 MB) / 646971392 bytes (617 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 2 total; -Xms128M -Xmx4096M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 11 mods loaded, 11 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID              | Version        | Source                              | Signature                                |
+	|:----- |:--------------- |:-------------- |:----------------------------------- |:---------------------------------------- |
+	| L     | minecraft       | 1.12.2         | minecraft.jar                       | None                                     |
+	| L     | mcp             | 9.42           | minecraft.jar                       | None                                     |
+	| L     | FML             | 8.0.99.99      | server.jar                          | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge           | 14.23.5.2860   | server.jar                          | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | valkyrienskies  | 1.1.7          | [[valkyrien-skies-1.1.7-all]].jar   | None                                     |
+	| L     | atlaslib        | 1.1.5a         | Atlas-Lib-1.12.2-1.1.5a.jar         | None                                     |
+	| L     | ic2             | 2.8.222-ex112  | industrialcraft-2-2.8.222-ex112.jar | None                                     |
+	| L     | hordes          | 1.1.5          | The-Hordes-1.12.2-1.1.5a.jar        | None                                     |
+	| L     | vs_control      | 1.12.2-1.1.1   | vs-control-1.12.2-1.1.1.jar         | None                                     |
+	| L     | vs_world        | 1.12.2-1.0.0   | vs-world-1.12.2-1.0.0.jar           | None                                     |
+	| L     | zombieawareness | 1.12.1-1.11.16 | zombieawareness-1.12.1-1.11.16.jar  | None                                     |
+
+	Loaded coremods (and transformers): 
+MixinLoaderForge ([[valkyrien-skies-1.1.7-all]].jar)
+  
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
