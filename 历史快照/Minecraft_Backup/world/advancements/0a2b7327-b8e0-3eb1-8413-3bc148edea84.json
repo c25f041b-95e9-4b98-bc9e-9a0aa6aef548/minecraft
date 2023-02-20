@@ -1,0 +1,32 @@
+{
+  "exoticbirds:eb/root": {
+    "criteria": {
+      "trigger_1": "2023-02-20 16:13:01 +0800"
+    },
+    "done": true
+  },
+  "mod_lavacow:mod_lavacow/root": {
+    "criteria": {
+      "tick": "2023-02-20 16:13:03 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "wasteland": "2023-02-20 16:13:01 +0800"
+    },
+    "done": false
+  },
+  "cfm:root": {
+    "criteria": {
+      "tick": "2023-02-20 16:13:03 +0800"
+    },
+    "done": true
+  },
+  "cfm:install": {
+    "criteria": {
+      "tick": "2023-02-20 16:13:03 +0800"
+    },
+    "done": true
+  }
+}
